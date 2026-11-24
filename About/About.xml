@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>cultist</name>
+  <name>Cultist — 密教模拟器扩展</name>
   <author>linyuye</author>
   <packageId>linyuye.cultist</packageId>
   <supportedVersions>
@@ -15,5 +15,20 @@
   <loadAfter>
     <li>Ludeon.RimWorld.Ideology</li>
   </loadAfter>
-  <description>A RimWorld expansion about forbidden studies, secret societies, and journeys through dreams.</description>
+  <description>将《密教模拟器》的九大相性、漫宿入梦地图、密教结社、防剿局清剿与大小胜飞升线融入环世界 1.7（需 Ideology DLC）。
+A RimWorld 1.7 (Ideology) expansion inspired by Cultist Simulator: nine Aspects, interactive Mansus dream map, secret societies, Suppression Bureau raids, and Long / Apostle victories.
+
+• 九大相性教团与 1–7 阶秘传书籍、古语研读与赞助人委托
+  Nine Aspect societies, Tier 1–7 Lore books, ancient languages, and patron commissions.
+• 漫宿交互入梦地图（林地至孔雀门）与三选一翻牌探索
+  Interactive Mansus dream map (Wood to Peacock Door) with 3-card draw exploration.
+• 9 大相性服饰与 7 把差异化武器（2 把近战 + 5 把远程秘传武器）
+  Nine Aspect apparel sets and 7 differentiated weapons (2 melee + 5 ranged occult weapons).
+• 高阶门徒专属技能与随机词条、5 种总部圣所特质、长生者小胜 &amp; 使徒大胜结局
+  Exalted disciple abilities &amp; random traits, 5 HQ sanctuary traits, Long Minor &amp; Apostle Major Victories.
+
+作者的话：本 Mod 是我借助 Gemini 与 ChatGPT 用一晚上加一白天制作出来的，难免存在不足；因没有专职美术，美术素材来自原游戏《密教模拟器》与 AIGC 生图工具，对其他 Mod 的兼容也难以一一保证。本项目按 MIT 协议开源，欢迎游玩并反馈 Bug，我会不时更新，也欢迎到 GitHub 提 Issue 与 PR！
+Author's Note: Built in a single night and day with Gemini and ChatGPT, so rough edges and mod-compatibility quirks may exist. Visual assets come from Cultist Simulator and AIGC tools. Open-sourced under the MIT License—feedback, bug reports, issues, and PRs on GitHub are warmly welcome!
+
+GitHub: https://github.com/linyuye/RimWorld-Cultist</description>
 </ModMetaData>
