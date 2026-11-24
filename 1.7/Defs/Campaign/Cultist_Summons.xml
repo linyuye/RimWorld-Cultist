@@ -62,7 +62,7 @@
     <race>Cultist_Race_Hint</race>
     <combatPower>95</combatPower>
     <lifeStages>
-      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_lanternc_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.35</drawSize></bodyGraphicData></li>
+      <li><bodyGraphicData><texPath>Cultist/Summons/Hint</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.5</drawSize></bodyGraphicData></li>
     </lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
@@ -96,7 +96,7 @@
     <race>Cultist_Race_Caligine</race>
     <combatPower>110</combatPower>
     <lifeStages>
-      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_forgec_winter</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.4</drawSize></bodyGraphicData></li>
+      <li><bodyGraphicData><texPath>Cultist/Summons/Caligine</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li>
     </lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
@@ -130,7 +130,7 @@
     <race>Cultist_Race_Percussigant</race>
     <combatPower>160</combatPower>
     <lifeStages>
-      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_heartc_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li>
+      <li><bodyGraphicData><texPath>Cultist/Summons/Percussigant</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.65</drawSize></bodyGraphicData></li>
     </lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
@@ -164,7 +164,7 @@
     <race>Cultist_Race_MaidInMirror</race>
     <combatPower>190</combatPower>
     <lifeStages>
-      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_winterd_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.45</drawSize></bodyGraphicData></li>
+      <li><bodyGraphicData><texPath>Cultist/Summons/MaidInMirror</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li>
     </lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
@@ -198,7 +198,7 @@
     <race>Cultist_Race_KingCrucible</race>
     <combatPower>280</combatPower>
     <lifeStages>
-      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_forgee_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.65</drawSize></bodyGraphicData></li>
+      <li><bodyGraphicData><texPath>Cultist/Summons/KingCrucible</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.8</drawSize></bodyGraphicData></li>
     </lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
@@ -233,7 +233,7 @@
     <race>Cultist_Race_Teresa</race>
     <combatPower>200</combatPower>
     <lifeStages>
-      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_lanterne_secret</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li>
+      <li><bodyGraphicData><texPath>Cultist/Summons/Teresa</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li>
     </lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
@@ -265,7 +265,7 @@
     <label>Shattered Risen</label>
     <race>Cultist_Race_ShatteredRisen</race>
     <combatPower>70</combatPower>
-    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_wintera_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.3</drawSize></bodyGraphicData></li></lifeStages>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Summons/ShatteredRisen</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.45</drawSize></bodyGraphicData></li></lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
     <defName>Cultist_Summon_ShatteredRisen</defName>
@@ -295,7 +295,7 @@
     <label>Burgeoning Risen</label>
     <race>Cultist_Race_BurgeoningRisen</race>
     <combatPower>70</combatPower>
-    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_wintera_moth</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.3</drawSize></bodyGraphicData></li></lifeStages>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Summons/BurgeoningRisen</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.45</drawSize></bodyGraphicData></li></lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
     <defName>Cultist_Summon_BurgeoningRisen</defName>
@@ -325,7 +325,7 @@
     <label>Voiceless Dead</label>
     <race>Cultist_Race_VoicelessDead</race>
     <combatPower>105</combatPower>
-    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_winterb_heart</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.4</drawSize></bodyGraphicData></li></lifeStages>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Summons/VoicelessDead</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li></lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
     <defName>Cultist_Summon_VoicelessDead</defName>
@@ -355,7 +355,7 @@
     <label>Raw Prophet</label>
     <race>Cultist_Race_RawProphet</race>
     <combatPower>135</combatPower>
-    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_grailc_moth</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.45</drawSize></bodyGraphicData></li></lifeStages>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Summons/RawProphet</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.6</drawSize></bodyGraphicData></li></lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
     <defName>Cultist_Summon_RawProphet</defName>
@@ -385,7 +385,7 @@
     <label>Ezeem, the Second Thirstly</label>
     <race>Cultist_Race_Ezeem</race>
     <combatPower>275</combatPower>
-    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_graile_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.65</drawSize></bodyGraphicData></li></lifeStages>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Summons/Ezeem</texPath><graphicClass>Graphic_Multi</graphicClass><drawSize>1.85</drawSize></bodyGraphicData></li></lifeStages>
   </PawnKindDef>
   <Cultist.SummonSpiritDef>
     <defName>Cultist_Summon_Ezeem</defName>
