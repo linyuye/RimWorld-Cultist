@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Cultist_VaultChest.label>封印的秘藏铁匣</Cultist_VaultChest.label>
-  <Cultist_VaultChest.description>留存在密教遗迹深处圣室中的厚重秘藏箱。开启后可获得典籍所指引的目标相性密传，以及斯宾特里亚古币与各类遗迹物资。</Cultist_VaultChest.description>
+  <Cultist_VaultChest.label>秘藏铁匣</Cultist_VaultChest.label>
+  <Cultist_VaultChest.description>密教遗迹里的封印铁匣，藏有秘传、古币和物资。</Cultist_VaultChest.description>
 </LanguageData>

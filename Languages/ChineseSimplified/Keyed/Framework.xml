@@ -45,7 +45,7 @@
 
   <Cultist.Book.AlreadyRead>已研读</Cultist.Book.AlreadyRead>
   <Cultist.Book.TeachesLang>研读后习得古语：{0}</Cultist.Book.TeachesLang>
-  <Cultist.Book.RevealsSite>研读后揭示 {0} 级隐秘探索地点</Cultist.Book.RevealsSite>
+  <Cultist.Book.RevealsSite>研读可找到 {0} 阶密教遗迹。</Cultist.Book.RevealsSite>
   <Cultist.Book.ReadOption>研读《{0}》</Cultist.Book.ReadOption>
   <Cultist.Book.NeedLangOption>研读《{0}》：需掌握{1}</Cultist.Book.NeedLangOption>
   <Cultist.Book.FinishedReading>{0} 完成了对《{1}》的研读。</Cultist.Book.FinishedReading>

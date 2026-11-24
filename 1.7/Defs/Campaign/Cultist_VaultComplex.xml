@@ -3,8 +3,8 @@
   <!-- ==================== SITE PART & GENSTEP ==================== -->
   <SitePartDef>
     <defName>Cultist_OccultVault</defName>
-    <label>occult ruin complex</label>
-    <description>An ancient fog-shrouded occult complex uncovered from forbidden texts. Guarded by Suppression Bureau agents and unbound spirits; its inner sanctum holds a sealed vault chest.</description>
+    <label>occult ruin</label>
+    <description>Suppression Bureau agents and unbound spirits occupy the ruins. A sealed vault chest lies in the inner sanctum.</description>
     <workerClass>SitePartWorker_AncientComplex</workerClass>
     <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/AncientComplex</expandingIconTexture>
@@ -35,8 +35,8 @@
 
   <ThingDef ParentName="BuildingBase">
     <defName>Cultist_VaultChest</defName>
-    <label>sealed occult vault chest</label>
-    <description>A heavy warded strongbox left inside an occult ruin sanctum. Opening it yields the hidden Aspect Lore recorded in the deciphered text along with Spintriae and salvaged supplies.</description>
+    <label>vault chest</label>
+    <description>A sealed strongbox holding lore, spintriae, and salvaged supplies.</description>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientSecurityCrate</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -168,23 +168,23 @@
     <roomDefs>
       <Cultist_Room_VaultSanctum>
         <weight>1</weight>
-        <countRange>1~1</countRange>
+        <countRange>0~1</countRange>
       </Cultist_Room_VaultSanctum>
       <Cultist_Room_ArchiveLibrary>
         <weight>2</weight>
-        <countRange>1~2</countRange>
+        <countRange>0~2</countRange>
       </Cultist_Room_ArchiveLibrary>
       <Cultist_Room_RitualHall>
         <weight>2</weight>
-        <countRange>1~2</countRange>
+        <countRange>0~2</countRange>
       </Cultist_Room_RitualHall>
       <Cultist_Room_BureauOutpost>
         <weight>2</weight>
-        <countRange>1~2</countRange>
+        <countRange>0~2</countRange>
       </Cultist_Room_BureauOutpost>
       <Cultist_Room_RelicStorage>
         <weight>1.8</weight>
-        <countRange>1~2</countRange>
+        <countRange>0~2</countRange>
       </Cultist_Room_RelicStorage>
       <Cultist_Room_Courtyard>
         <weight>1.4</weight>

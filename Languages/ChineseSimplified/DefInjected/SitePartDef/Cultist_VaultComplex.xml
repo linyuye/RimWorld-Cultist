@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Cultist_OccultVault.label>密教古建筑群遗迹</Cultist_OccultVault.label>
-  <Cultist_OccultVault.description>从禁书残页中破译出坐标的古老秘教建筑群，内部笼罩在战争迷雾中，盘踞着防剿局守卫与失控灵体，深处秘室藏有封印的秘藏铁匣。</Cultist_OccultVault.description>
+  <Cultist_OccultVault.label>密教遗迹</Cultist_OccultVault.label>
+  <Cultist_OccultVault.description>防剿局和失控灵体盘踞在这座遗迹里。深处的圣室藏有一只秘藏铁匣。</Cultist_OccultVault.description>
   <Cultist_OccultVault.approachOrderString>探索 {0}</Cultist_OccultVault.approachOrderString>
-  <Cultist_OccultVault.approachingReportString>正在前往探索 {0}。</Cultist_OccultVault.approachingReportString>
+  <Cultist_OccultVault.approachingReportString>前往 {0}。</Cultist_OccultVault.approachingReportString>
 </LanguageData>

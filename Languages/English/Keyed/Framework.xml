@@ -45,7 +45,7 @@
 
   <Cultist.Book.AlreadyRead>Already studied</Cultist.Book.AlreadyRead>
   <Cultist.Book.TeachesLang>Reading teaches: {0}</Cultist.Book.TeachesLang>
-  <Cultist.Book.RevealsSite>Reading reveals a Tier {0} occult site</Cultist.Book.RevealsSite>
+  <Cultist.Book.RevealsSite>Reading reveals a tier {0} occult ruin.</Cultist.Book.RevealsSite>
   <Cultist.Book.ReadOption>Study {0}</Cultist.Book.ReadOption>
   <Cultist.Book.NeedLangOption>Study {0}: requires {1}</Cultist.Book.NeedLangOption>
   <Cultist.Book.FinishedReading>{0} finished studying {1}.</Cultist.Book.FinishedReading>

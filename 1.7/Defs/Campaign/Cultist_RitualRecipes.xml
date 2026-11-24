@@ -3,9 +3,9 @@
   <RecipeDef>
     <defName>Cultist_CompileLore2</defName>
     <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
-    <label>upgrade any Tier 1 lore to Tier 2</label>
-    <description>Combine two Tier 1 lore books of the same aspect with cloth and active matching Influence (strength 2+) to compile a Tier 2 lore book of that aspect.</description>
-    <jobString>Compile a sketch of the inner sky.</jobString>
+    <label>compile tier 2 lore</label>
+    <description>Requires two tier 1 books of the same aspect, 30 cloth, and a matching influence of strength 2 or higher.</description>
+    <jobString>Compiling tier 2 lore.</jobString>
     <workAmount>760</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
     <workSkill>Intellectual</workSkill>
@@ -47,18 +47,13 @@
         <requiredInfluence>2</requiredInfluence>
       </li>
     </modExtensions>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore3</defName>
     <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
-    <label>upgrade any Tier 2 lore to Tier 3</label>
-    <description>Combine two Tier 2 lore books of the same aspect with cloth and active matching Influence (strength 2+) to compile a Tier 3 lore book of that aspect.</description>
-    <jobString>Compile verses on cold light.</jobString>
+    <label>compile tier 3 lore</label>
+    <description>Requires two tier 2 books of the same aspect, 40 cloth, and a matching influence of strength 2 or higher.</description>
+    <jobString>Compiling tier 3 lore.</jobString>
     <workAmount>940</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
     <workSkill>Intellectual</workSkill>
@@ -100,18 +95,13 @@
         <requiredInfluence>2</requiredInfluence>
       </li>
     </modExtensions>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore4</defName>
     <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
-    <label>upgrade any Tier 3 lore to Tier 4</label>
-    <description>Combine two Tier 3 lore books of the same aspect with cloth and active matching Influence (strength 4+) to compile a Tier 4 lore book of that aspect.</description>
-    <jobString>Compile the lit threshold.</jobString>
+    <label>compile tier 4 lore</label>
+    <description>Requires two tier 3 books of the same aspect, 50 cloth, and a matching influence of strength 4 or higher.</description>
+    <jobString>Compiling tier 4 lore.</jobString>
     <workAmount>1120</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
     <workSkill>Intellectual</workSkill>
@@ -153,18 +143,13 @@
         <requiredInfluence>4</requiredInfluence>
       </li>
     </modExtensions>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore5</defName>
     <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
-    <label>upgrade any Tier 4 lore to Tier 5</label>
-    <description>Combine two Tier 4 lore books of the same aspect with cloth and active matching Influence (strength 6+) to compile a Tier 5 lore book of that aspect.</description>
-    <jobString>Compile a treatise on gathered rays.</jobString>
+    <label>compile tier 5 lore</label>
+    <description>Requires two tier 4 books of the same aspect, 60 cloth, and a matching influence of strength 6 or higher.</description>
+    <jobString>Compiling tier 5 lore.</jobString>
     <workAmount>1300</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
     <workSkill>Intellectual</workSkill>
@@ -206,18 +191,13 @@
         <requiredInfluence>6</requiredInfluence>
       </li>
     </modExtensions>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore6</defName>
     <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
-    <label>upgrade any Tier 5 lore to Tier 6</label>
-    <description>Combine two Tier 5 lore books of the same aspect with cloth and active matching Influence (strength 8+) to compile a Tier 6 lore book of that aspect.</description>
-    <jobString>Compile the ascent ledger.</jobString>
+    <label>compile tier 6 lore</label>
+    <description>Requires two tier 5 books of the same aspect, 70 cloth, and a matching influence of strength 8 or higher.</description>
+    <jobString>Compiling tier 6 lore.</jobString>
     <workAmount>1480</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
     <workSkill>Intellectual</workSkill>
@@ -259,18 +239,13 @@
         <requiredInfluence>8</requiredInfluence>
       </li>
     </modExtensions>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore7</defName>
     <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
-    <label>upgrade any Tier 6 lore to Tier 7</label>
-    <description>Combine two Tier 6 lore books of the same aspect with cloth and active matching Influence (strength 10+) to compile a Tier 7 lore book of that aspect.</description>
-    <jobString>Compile the last key of illumination.</jobString>
+    <label>compile tier 7 lore</label>
+    <description>Requires two tier 6 books of the same aspect, 80 cloth, and a matching influence of strength 10 or higher.</description>
+    <jobString>Compiling tier 7 lore.</jobString>
     <workAmount>1660</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
     <workSkill>Intellectual</workSkill>
@@ -312,11 +287,6 @@
         <requiredInfluence>10</requiredInfluence>
       </li>
     </modExtensions>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_RiteTool1Prepare</defName>
@@ -627,11 +597,6 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_Subvert_LanternToForge</defName>
@@ -690,11 +655,6 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_Subvert_ForgeToEdge</defName>
@@ -753,11 +713,6 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_Subvert_EdgeToWinter</defName>
@@ -816,11 +771,6 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_Subvert_WinterToHeart</defName>
@@ -879,11 +829,6 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_Subvert_HeartToGrail</defName>
@@ -942,11 +887,6 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_Subvert_GrailToMoth</defName>
@@ -1005,11 +945,6 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_Subvert_AnyToKnock</defName>
@@ -1166,10 +1101,5 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <thingDefs>
-        <li>Cloth</li>
-      </thingDefs>
-    </defaultIngredientFilter>
   </RecipeDef>
 </Defs>

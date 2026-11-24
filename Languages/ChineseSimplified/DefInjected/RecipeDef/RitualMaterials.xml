@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Cultist_CompileLore2.label>晋升任意 2 阶密传（需 2 级对应影响）</Cultist_CompileLore2.label>
-  <Cultist_CompileLore2.description>消耗 2 本同相性 1 阶密传、30 布料与 1 份 ≥2 级的对应相性影响，编纂出该相性的 2 阶密传。</Cultist_CompileLore2.description>
-  <Cultist_CompileLore2.jobString>正在晋升 2 阶密传。</Cultist_CompileLore2.jobString>
-  <Cultist_CompileLore3.label>晋升任意 3 阶密传（需 2 级对应影响）</Cultist_CompileLore3.label>
-  <Cultist_CompileLore3.description>消耗 2 本同相性 2 阶密传、40 布料与 1 份 ≥2 级的对应相性影响，编纂出该相性的 3 阶密传。</Cultist_CompileLore3.description>
-  <Cultist_CompileLore3.jobString>正在晋升 3 阶密传。</Cultist_CompileLore3.jobString>
-  <Cultist_CompileLore4.label>晋升任意 4 阶密传（需 4 级对应影响）</Cultist_CompileLore4.label>
-  <Cultist_CompileLore4.description>消耗 2 本同相性 3 阶密传、50 布料与 1 份 ≥4 级的对应相性影响，编纂出该相性的 4 阶密传。</Cultist_CompileLore4.description>
-  <Cultist_CompileLore4.jobString>正在晋升 4 阶密传。</Cultist_CompileLore4.jobString>
-  <Cultist_CompileLore5.label>晋升任意 5 阶密传（需 6 级对应影响）</Cultist_CompileLore5.label>
-  <Cultist_CompileLore5.description>消耗 2 本同相性 4 阶密传、60 布料与 1 份 ≥6 级的对应相性影响，编纂出该相性的 5 阶密传。</Cultist_CompileLore5.description>
-  <Cultist_CompileLore5.jobString>正在晋升 5 阶密传。</Cultist_CompileLore5.jobString>
-  <Cultist_CompileLore6.label>晋升任意 6 阶密传（需 8 级对应影响）</Cultist_CompileLore6.label>
-  <Cultist_CompileLore6.description>消耗 2 本同相性 5 阶密传、70 布料与 1 份 ≥8 级的对应相性影响，编纂出该相性的 6 阶密传。</Cultist_CompileLore6.description>
-  <Cultist_CompileLore6.jobString>正在晋升 6 阶密传。</Cultist_CompileLore6.jobString>
-  <Cultist_CompileLore7.label>晋升任意 7 阶密传（需 10 级对应影响）</Cultist_CompileLore7.label>
-  <Cultist_CompileLore7.description>消耗 2 本同相性 6 阶密传、80 布料与 1 份 ≥10 级的对应相性影响，编纂出该相性的 7 阶最高密传。</Cultist_CompileLore7.description>
-  <Cultist_CompileLore7.jobString>正在晋升 7 阶密传。</Cultist_CompileLore7.jobString>
+  <Cultist_CompileLore2.label>编纂 2 阶秘传</Cultist_CompileLore2.label>
+  <Cultist_CompileLore2.description>需要 2 本同相的 1 阶秘传、30 布料，以及至少 2 点匹配的影响。</Cultist_CompileLore2.description>
+  <Cultist_CompileLore2.jobString>正在编纂 2 阶秘传。</Cultist_CompileLore2.jobString>
+  <Cultist_CompileLore3.label>编纂 3 阶秘传</Cultist_CompileLore3.label>
+  <Cultist_CompileLore3.description>需要 2 本同相的 2 阶秘传、40 布料，以及至少 2 点匹配的影响。</Cultist_CompileLore3.description>
+  <Cultist_CompileLore3.jobString>正在编纂 3 阶秘传。</Cultist_CompileLore3.jobString>
+  <Cultist_CompileLore4.label>编纂 4 阶秘传</Cultist_CompileLore4.label>
+  <Cultist_CompileLore4.description>需要 2 本同相的 3 阶秘传、50 布料，以及至少 4 点匹配的影响。</Cultist_CompileLore4.description>
+  <Cultist_CompileLore4.jobString>正在编纂 4 阶秘传。</Cultist_CompileLore4.jobString>
+  <Cultist_CompileLore5.label>编纂 5 阶秘传</Cultist_CompileLore5.label>
+  <Cultist_CompileLore5.description>需要 2 本同相的 4 阶秘传、60 布料，以及至少 6 点匹配的影响。</Cultist_CompileLore5.description>
+  <Cultist_CompileLore5.jobString>正在编纂 5 阶秘传。</Cultist_CompileLore5.jobString>
+  <Cultist_CompileLore6.label>编纂 6 阶秘传</Cultist_CompileLore6.label>
+  <Cultist_CompileLore6.description>需要 2 本同相的 5 阶秘传、70 布料，以及至少 8 点匹配的影响。</Cultist_CompileLore6.description>
+  <Cultist_CompileLore6.jobString>正在编纂 6 阶秘传。</Cultist_CompileLore6.jobString>
+  <Cultist_CompileLore7.label>编纂 7 阶秘传</Cultist_CompileLore7.label>
+  <Cultist_CompileLore7.description>需要 2 本同相的 6 阶秘传、80 布料，以及至少 10 点匹配的影响。</Cultist_CompileLore7.description>
+  <Cultist_CompileLore7.jobString>正在编纂 7 阶秘传。</Cultist_CompileLore7.jobString>
   <Cultist_RiteTool1Prepare.label>制作裂损午之石</Cultist_RiteTool1Prepare.label>
   <Cultist_RiteTool1Prepare.description>制作裂损午之石。</Cultist_RiteTool1Prepare.description>
   <Cultist_RiteTool1Prepare.jobString>制作裂损午之石。</Cultist_RiteTool1Prepare.jobString>

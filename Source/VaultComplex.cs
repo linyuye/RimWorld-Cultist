@@ -82,20 +82,12 @@ public sealed partial class Campaign
         Find.WorldObjects.Add(site);
 
         string aspectLabel = ("Cultist.Aspect." + targetAspect).Translate();
-        Quest quest = CreateCampaignQuest(
+        CreateCampaignQuest(
             "Cultist.VaultSite.Title".Translate(clampedTier, bookLabel),
             "Cultist.VaultSite.Desc".Translate(bookLabel, aspectLabel, clampedTier),
             clampedTier,
             offered: false,
             target: site);
-        if (quest != null)
-            QuestUtility.SendLetterQuestAvailable(quest);
-
-        Find.LetterStack.ReceiveLetter(
-            "Cultist.VaultSite.Title".Translate(clampedTier, bookLabel),
-            "Cultist.VaultSite.Desc".Translate(bookLabel, aspectLabel, clampedTier),
-            LetterDefOf.PositiveEvent,
-            new LookTargets(site));
         return true;
     }
 }
@@ -205,6 +197,13 @@ public sealed class CompCultistVaultChest : ThingComp
         string aspectLabel = ("Cultist.Aspect." + targetAspect).Translate();
         Messages.Message("Cultist.VaultChest.OpenedMsg".Translate(pawn.LabelShortCap, aspectLabel, tier),
             new LookTargets(pos, map), MessageTypeDefOf.PositiveEvent);
+
+        foreach (Quest quest in Find.QuestManager.QuestsListForReading.Where(quest =>
+            quest.State == QuestState.Ongoing && quest.PartsListForReading
+                .OfType<CampaignQuestTarget>().Any(part => part.target == map.Parent)).ToArray())
+        {
+            quest.End(QuestEndOutcome.Success);
+        }
     }
 
     private static void DropResource(ThingDef def, int count, IntVec3 pos, Map map)
@@ -241,6 +240,7 @@ public sealed class GenStep_CultistVaultComplex : GenStep_AncientComplex
     internal static VaultSiteRecord CurrentVaultContext;
 
     public override int SeedPart => 1874291103;
+    protected override LayoutDef LayoutDef => DefDatabase<LayoutDef>.GetNamed("Cultist_OccultVaultLayout");
 
     public override void Generate(Map map, GenStepParams parms)
     {
@@ -266,8 +266,9 @@ public sealed class GenStep_CultistVaultComplex : GenStep_AncientComplex
             CellRect rect = CellRect.CenteredOn(map.Center, size, size);
             rect.ClipInsideMap(map);
 
-            LayoutDef layoutDef = DefDatabase<LayoutDef>.GetNamed("Cultist_OccultVaultLayout");
-            GenerateAndSpawn(rect, map, parms, layoutDef);
+            parms.sitePart.parms.ancientLayoutStructureSketch =
+                LayoutDef.Worker.GenerateStructureSketch(new StructureGenParams { size = new IntVec2(size, size) });
+            base.Generate(map, parms);
             EnsureVaultChestPlaced(map, rect, record);
         }
         finally
@@ -294,7 +295,7 @@ public sealed class GenStep_CultistVaultComplex : GenStep_AncientComplex
     internal static void SpawnVaultChestAt(Map map, IntVec3 cell, VaultSiteRecord record)
     {
         ThingDef chestDef = DefDatabase<ThingDef>.GetNamedSilentFail("Cultist_VaultChest");
-        if (chestDef == null || !cell.InBounds(map))
+        if (chestDef == null || !cell.InBounds(map) || map.listerThings.ThingsOfDef(chestDef).Count > 0)
             return;
         Thing chest = ThingMaker.MakeThing(chestDef);
         if (chest.TryGetComp<CompCultistVaultChest>() is { } comp && record != null)
@@ -319,8 +320,7 @@ public abstract class RoomContents_CultistBase : RoomContentsWorker
         ThingDef def = DefDatabase<ThingDef>.GetNamedSilentFail(defName);
         if (def == null)
             return;
-        if (def.MadeFromStuff && stuff == null)
-            stuff = GenStuff.DefaultStuffFor(def);
+        stuff = def.MadeFromStuff ? stuff ?? GenStuff.DefaultStuffFor(def) : null;
         if (!room.TryGetRandomCellInRoom(def, map, out IntVec3 cell, null, contractedBy: 1))
             return;
         Thing t = ThingMaker.MakeThing(def, stuff);
