@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_ReadJournal.reportString>正在研读 TargetA。</Cultist_ReadJournal.reportString>
+  <Cultist_EnterDream.reportString>正在准备入梦。</Cultist_EnterDream.reportString>
+  <Cultist_DiscussDoctrine.reportString>正在与 TargetA 讨论结社教义。</Cultist_DiscussDoctrine.reportString>
+  <Cultist_ReadOccultBook.reportString>正在研习 TargetA。</Cultist_ReadOccultBook.reportString>
+  <Cultist_PacifySpirit.reportString>正在安抚灵体 TargetA。</Cultist_PacifySpirit.reportString>
+</LanguageData>

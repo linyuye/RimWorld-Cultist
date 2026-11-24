@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.OfferTitle>无标记的货舱</Cultist.OfferTitle>
+  <Cultist.OfferBody>一艘受损的货舱仍在发送信号。货单上只有一本手记。等殖民地准备好，你可以呼叫货舱降落。</Cultist.OfferBody>
+  <Cultist.Accept>呼叫货舱降落</Cultist.Accept>
+  <Cultist.Later>稍后决定</Cultist.Later>
+  <Cultist.JournalArrived>手记正在运往殖民地。</Cultist.JournalArrived>
+  <Cultist.ChooseAspect>选择阅读者的个人性相。教会将遵循灯相。</Cultist.ChooseAspect>
+  <Cultist.Founded>{0}创立了灯相教会。</Cultist.Founded>
+  <Cultist.ChurchName>辉光之镜</Cultist.ChurchName>
+  <Cultist.ChurchDescription>一个研究异常光芒所留痕迹的社团。</Cultist.ChurchDescription>
+  <Cultist.DreamAction>进入梦境</Cultist.DreamAction>
+  <Cultist.ReadAction>研读手记</Cultist.ReadAction>
+  <Cultist.Unreachable>{0}（无法抵达或使用）</Cultist.Unreachable>
+  <Cultist.AutoOn>开启每夜自动入梦</Cultist.AutoOn>
+  <Cultist.AutoOff>关闭每夜自动入梦</Cultist.AutoOff>
+  <Cultist.DreamTitle>睡梦背后的天空</Cultist.DreamTitle>
+  <Cultist.Reward.Lore>带回一页秘传</Cultist.Reward.Lore>
+  <Cultist.Reward.Light>带回一缕光的印象</Cultist.Reward.Light>
+  <Cultist.Reward.Fascination>追随令人不安的微光</Cultist.Reward.Fascination>
+  <Cultist.Reward.Memory>带回一瞬追忆</Cultist.Reward.Memory>
+  <Cultist.Aspect.Lantern>灯</Cultist.Aspect.Lantern>
+  <Cultist.Aspect.Forge>铸</Cultist.Aspect.Forge>
+  <Cultist.Aspect.Edge>刃</Cultist.Aspect.Edge>
+  <Cultist.Aspect.Winter>冬</Cultist.Aspect.Winter>
+  <Cultist.Aspect.Heart>心</Cultist.Aspect.Heart>
+  <Cultist.Aspect.Grail>杯</Cultist.Aspect.Grail>
+  <Cultist.Aspect.Moth>蛾</Cultist.Aspect.Moth>
+  <Cultist.Aspect.Knock>启</Cultist.Aspect.Knock>
+  <Cultist.FascinationWarning>{0}已经难以忍受醒时世界的光亮。</Cultist.FascinationWarning>
+  <Cultist.FascinationCrisis>{0}即将失去与醒时世界的联系。请在六小时内到祭坛使用一瞬追忆或恐惧。</Cultist.FascinationCrisis>
+</LanguageData>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- HQ Foundry -->
+  <Cultist.HQ.Foundry>Foundry Sanctuary</Cultist.HQ.Foundry>
+
+  <!-- Bureau Dossier -->
+  <Cultist.Dossier.BurnOption>Burn dossier (−{0} notoriety)</Cultist.Dossier.BurnOption>
+  <Cultist.Dossier.DecodeOption>Decode archive coordinates</Cultist.Dossier.DecodeOption>
+  <Cultist.Dossier.Burned>{0} burned the Suppression Bureau dossier, reducing notoriety by {1}.</Cultist.Dossier.Burned>
+  <Cultist.Dossier.Decoded>{0} located a tier {1} archive.</Cultist.Dossier.Decoded>
+
+  <!-- Exalted Rank 3 Fixed Specialties & Random Traits -->
+  <Cultist.Exalted.Awakened>{0} became an exalted disciple and gained {1}. Awakened traits: {2}.</Cultist.Exalted.Awakened>
+  <Cultist.Exalted.TabSkill>Exalted Specialty: {0}</Cultist.Exalted.TabSkill>
+  <Cultist.Exalted.TabTraits>Awakened traits: {0}</Cultist.Exalted.TabTraits>
+  <Cultist.Exalted.CooldownLeft>Cooldown: {0}h remaining</Cultist.Exalted.CooldownLeft>
+  <Cultist.Exalted.MoltingTriggered>{0} burst into a cloud of blinding moth-smoke and slipped free!</Cultist.Exalted.MoltingTriggered>
+  <Cultist.Exalted.PhaseStep>Phase step</Cultist.Exalted.PhaseStep>
+  <Cultist.Exalted.PhaseStep.Desc>Step to a clear cell within 18 tiles, through walls and locked doors.</Cultist.Exalted.PhaseStep.Desc>
+  <Cultist.Exalted.PhaseInvalidCell>Select a standable tile within 18 cells.</Cultist.Exalted.PhaseInvalidCell>
+
+  <Cultist.ExaltedSkill.Lantern>Insight of Ways</Cultist.ExaltedSkill.Lantern>
+  <Cultist.ExaltedSkill.Lantern.Desc>Reveal one more card on the leader's next visit to the Mansus. Cooldown: 3 days.</Cultist.ExaltedSkill.Lantern.Desc>
+  <Cultist.ExaltedSkill.Forge>Furnace Reforge</Cultist.ExaltedSkill.Forge>
+  <Cultist.ExaltedSkill.Forge.Desc>Spend 10 steel to restore 60% of a weapon's or armor piece's maximum durability. Cooldown: 3 days.</Cultist.ExaltedSkill.Forge.Desc>
+  <Cultist.ExaltedSkill.Grail>Subtle Beguilement</Cultist.ExaltedSkill.Grail>
+  <Cultist.ExaltedSkill.Grail.Desc>Reduce a prisoner's resistance and will by 8 each. Certainty in another ideology falls by 25 percentage points. Cooldown: 3 days.</Cultist.ExaltedSkill.Grail.Desc>
+  <Cultist.ExaltedSkill.Edge>Lethal Resolve</Cultist.ExaltedSkill.Edge>
+  <Cultist.ExaltedSkill.Edge.Desc>Enter a 4-hour battle trance (+4 melee hit, +20% pain shock threshold, +10% move speed; 3d cooldown).</Cultist.ExaltedSkill.Edge.Desc>
+  <Cultist.ExaltedSkill.Winter>Pale Gaze</Cultist.ExaltedSkill.Winter>
+  <Cultist.ExaltedSkill.Winter.Desc>Chill a hostile living enemy within 12 cells for 30s (-30% move speed, -10% consciousness; 3d cooldown).</Cultist.ExaltedSkill.Winter.Desc>
+  <Cultist.ExaltedSkill.Heart>Unceasing Chorus</Cultist.ExaltedSkill.Heart>
+  <Cultist.ExaltedSkill.Heart.Desc>Colonists within 8 tiles regain 15% rest and gain +5 mood and +15% wound healing rate for 1 day. Cooldown: 3 days.</Cultist.ExaltedSkill.Heart.Desc>
+  <Cultist.ExaltedSkill.Moth>Woodland Shroud</Cultist.ExaltedSkill.Moth>
+  <Cultist.ExaltedSkill.Moth.Desc>Quietly erase trails of suspicion, reducing notoriety by 12 (3d cooldown).</Cultist.ExaltedSkill.Moth.Desc>
+  <Cultist.ExaltedSkill.Knock>Threshold Aperture</Cultist.ExaltedSkill.Knock>
+  <Cultist.ExaltedSkill.Knock.Desc>Use Phase step to cross walls and locked doors for half an hour. Cooldown: 3 days.</Cultist.ExaltedSkill.Knock.Desc>
+  <Cultist.ExaltedSkill.SecretHistories>Hidden Cartography</Cultist.ExaltedSkill.SecretHistories>
+  <Cultist.ExaltedSkill.SecretHistories.Desc>Reveal a tier 1–2 archive site. Cooldown: 3 days.</Cultist.ExaltedSkill.SecretHistories.Desc>
+
+  <Cultist.Exalted.LanternUsed>{0} illuminated the next Mansus crossing: 2 cards will appear face-up.</Cultist.Exalted.LanternUsed>
+  <Cultist.Exalted.NoDamagedGear>No damaged weapons or armor.</Cultist.Exalted.NoDamagedGear>
+  <Cultist.Exalted.NeedSteel>Need {0} accessible steel.</Cultist.Exalted.NeedSteel>
+  <Cultist.Exalted.ForgeUsed>{0} reforged {1} in the Forge's heat.</Cultist.Exalted.ForgeUsed>
+  <Cultist.Exalted.NoPrisoner>No prisoners to sway.</Cultist.Exalted.NoPrisoner>
+  <Cultist.Exalted.GrailUsed>{0} subtly eroded {1}'s resistance and certainty.</Cultist.Exalted.GrailUsed>
+  <Cultist.Exalted.EdgeUsed>{0} entered a razor-sharp Edge battle trance.</Cultist.Exalted.EdgeUsed>
+  <Cultist.Exalted.InvalidWinterTarget>Choose a living hostile target within 12 cells.</Cultist.Exalted.InvalidWinterTarget>
+  <Cultist.Exalted.WinterUsed>{0} froze {1} with a pale Winter gaze.</Cultist.Exalted.WinterUsed>
+  <Cultist.Exalted.HeartUsed>{0}'s unceasing rhythm lifted nearby colonists' spirits.</Cultist.Exalted.HeartUsed>
+  <Cultist.Exalted.MothUsed>{0} erased suspicious trails (-12 notoriety).</Cultist.Exalted.MothUsed>
+  <Cultist.Exalted.KnockUsed>{0} opened a Knock aperture and can phase through walls for half an hour.</Cultist.Exalted.KnockUsed>
+  <Cultist.Exalted.NoFreshCorpse>No fresh humanlike corpse within 10 cells.</Cultist.Exalted.NoFreshCorpse>
+  <Cultist.Exalted.GraveUsed>{0} whispered to the dead and raised a temporary Shattered Risen for 6 hours.</Cultist.Exalted.GraveUsed>
+
+  <Cultist.ExaltedTrait.PhaseWalker>Aperture Walker</Cultist.ExaltedTrait.PhaseWalker>
+  <Cultist.ExaltedTrait.PhaseWalker.Desc>Use Phase step to cross walls and locked doors for half an hour. Cooldown: 2 days.</Cultist.ExaltedTrait.PhaseWalker.Desc>
+  <Cultist.ExaltedTrait.MoltingMist>Molting Smoke</Cultist.ExaltedTrait.MoltingMist>
+  <Cultist.ExaltedTrait.AshenSkin>Ashen Skin</Cultist.ExaltedTrait.AshenSkin>
+  <Cultist.ExaltedTrait.PainFervor>Pain-Fed Edge</Cultist.ExaltedTrait.PainFervor>
+  <Cultist.ExaltedTrait.GraveyardWhisper>Graveyard Whisper</Cultist.ExaltedTrait.GraveyardWhisper>
+  <Cultist.ExaltedTrait.GraveyardWhisper.Desc>Active (3d CD): Raise a fresh humanlike corpse within 10 cells as an allied Shattered Risen for 6 hours (0 notoriety).</Cultist.ExaltedTrait.GraveyardWhisper.Desc>
+  <Cultist.ExaltedTrait.HoneyedTongue>Honeyed Tongue</Cultist.ExaltedTrait.HoneyedTongue>
+  <Cultist.ExaltedTrait.SleeplessVigil>Sleepless Vigil</Cultist.ExaltedTrait.SleeplessVigil>
+  <Cultist.ExaltedTrait.HourForesight>Hour's Foresight</Cultist.ExaltedTrait.HourForesight>
+  <Cultist.ExaltedTrait.PulseHemostasis>Pulsing Hemostasis</Cultist.ExaltedTrait.PulseHemostasis>
+  <Cultist.ExaltedTrait.NightEyes>Nocturnal Eyes</Cultist.ExaltedTrait.NightEyes>
+  <Cultist.ExaltedTrait.VoraciousGut>Voracious Iron Gut</Cultist.ExaltedTrait.VoraciousGut>
+  <Cultist.ExaltedTrait.BedrockMind>Bedrock Mind</Cultist.ExaltedTrait.BedrockMind>
+  <Cultist.ExaltedTrait.LoreSpeedReader>Occult Speed-Reader</Cultist.ExaltedTrait.LoreSpeedReader>
+  <Cultist.ExaltedTrait.LongStrider>Expedition Strider</Cultist.ExaltedTrait.LongStrider>
+  <Cultist.ExaltedTrait.SilentStep>Silent Shadow-Step</Cultist.ExaltedTrait.SilentStep>
+
+  <!-- Minor Victory Credits, Returned Keeper & Same-Save Re-Founding -->
+  <Cultist.Victory.LongSubtitle>Minor Victory — Ascended {0} Long ({1})</Cultist.Victory.LongSubtitle>
+  <Cultist.Victory.NameSubtitle>Major Victory — Ascended {0} Guardian Name ({1})</Cultist.Victory.NameSubtitle>
+  <Cultist.Victory.Credits>Inspired by Cultist Simulator by Weather Factory.</Cultist.Victory.Credits>
+  <Cultist.Victory.ContinueColony>Return to colony</Cultist.Victory.ContinueColony>
+
+  <Cultist.Altar.CalmWeather>Calm threshold weather (1 lore book, 15d CD)</Cultist.Altar.CalmWeather>
+  <Cultist.Returned.WeatherCalmed>{0} quieted the skies and dispelled abnormal weather over the settlement.</Cultist.Returned.WeatherCalmed>
+  <Cultist.Altar.SpawnRefoundJournal>Transcribe the Journal of the Unlit Sky</Cultist.Altar.SpawnRefoundJournal>
+  <Cultist.Refound.JournalSpawned>{0} transcribed the Journal of the Unlit Sky. Another colonist can read it to found a society.</Cultist.Refound.JournalSpawned>
+
+  <!-- Apostle Major Victory & Guardian Name -->
+  <Cultist.Apostle.Accept>Answer the apostle's call</Cultist.Apostle.Accept>
+  <Cultist.Apostle.OfferTitle>The Apostle's Call ({0})</Cultist.Apostle.OfferTitle>
+  <Cultist.Apostle.OfferBody>{0}, now a {1} Long, calls from beyond the Tricuspid Gate. Accept to welcome an apostle who inherits their skills and traits and takes charge of the society's Great Work.</Cultist.Apostle.OfferBody>
+  <Cultist.Apostle.Prefix.Lantern>Entheate </Cultist.Apostle.Prefix.Lantern>
+  <Cultist.Apostle.Prefix.Forge>Aestuant </Cultist.Apostle.Prefix.Forge>
+  <Cultist.Apostle.Prefix.Grail>Obsonate </Cultist.Apostle.Prefix.Grail>
+  <Cultist.Apostle.Joined>{0} has arrived to carry out {1}'s Great Work!</Cultist.Apostle.Joined>
+
+  <Cultist.Apostle.QuestTitle.Lantern>The Watchman's Pilgrimage</Cultist.Apostle.QuestTitle.Lantern>
+  <Cultist.Apostle.QuestDesc.Lantern>Help {0} ascend from Long to a Name of Lantern.\n\nRequirements at the altar:\n1. Tier 7 Lantern Lore book nearby\n2. Repaired Watchkeeper's Mirror nearby\n3. Lantern Influence ≥ 15 and at least 3 society members on the map\n4. Survive the 8-hour Tricuspid Grand Vigil.</Cultist.Apostle.QuestDesc.Lantern>
+  <Cultist.Apostle.QuestTitle.Forge>The Dawnbreaker</Cultist.Apostle.QuestTitle.Forge>
+  <Cultist.Apostle.QuestDesc.Forge>Help {0} ascend from Long to a Name of Forge.\n\nRequirements at the altar:\n1. Tier 7 Forge Lore book nearby\n2. Forged Dawnbreaker Core nearby\n3. Active summoned King Crucible OR (Forge Influence ≥ 10 inside a Foundry Sanctuary)\n4. Survive the 8-hour Dawnbreaker Grand Vigil.</Cultist.Apostle.QuestDesc.Forge>
+  <Cultist.Apostle.QuestTitle.Grail>The Vitulation</Cultist.Apostle.QuestTitle.Grail>
+  <Cultist.Apostle.QuestDesc.Grail>Help {0} ascend from Long to a Name of Grail.\n\nRequirements at the altar:\n1. Tier 7 Grail Lore book nearby\n2. Amethyst Vitulation Chalice nearby\n3. Active summoned Ezeem OR (Grail Influence ≥ 10 and an Exalted Rank 3 member on the map)\n4. Survive the 8-hour Endless Feast Grand Vigil.</Cultist.Apostle.QuestDesc.Grail>
+
+  <Cultist.Altar.ApostleGreatWork>Begin the Great Work</Cultist.Altar.ApostleGreatWork>
+  <Cultist.Apostle.NeedLore7>Place {0} within {1} cells of the altar.</Cultist.Apostle.NeedLore7>
+  <Cultist.Apostle.NeedMirror3>Place a repaired Watchkeeper's Mirror within {0} cells of the altar.</Cultist.Apostle.NeedMirror3>
+  <Cultist.Apostle.NeedInfluence>Requires at least {0} {1} influence.</Cultist.Apostle.NeedInfluence>
+  <Cultist.Apostle.NeedMembers>Requires at least {0} society members on the map.</Cultist.Apostle.NeedMembers>
+  <Cultist.Apostle.NeedRelic>Place {0} within {1} cells of the altar.</Cultist.Apostle.NeedRelic>
+  <Cultist.Apostle.NeedForgeSupport>Requires a summoned King Crucible, or Forge Influence ≥ 10 inside a Foundry Sanctuary.</Cultist.Apostle.NeedForgeSupport>
+  <Cultist.Apostle.NeedGrailSupport>Requires a summoned Ezeem, or Grail Influence ≥ 10 with a Rank 3 Exalted member.</Cultist.Apostle.NeedGrailSupport>
+
+  <Cultist.Apostle.RaidTitle>Final Convergence at the Gate</Cultist.Apostle.RaidTitle>
+  <Cultist.Apostle.RaidBody>The Suppression Bureau and rival Long seek to stop the Great Work. Defend the altar and apostle for 8 hours.</Cultist.Apostle.RaidBody>
+  <Cultist.Apostle.VigilStarted>The Great Work vigil has begun. Defend the altar and apostle for 8 hours.</Cultist.Apostle.VigilStarted>
+
+  <Cultist.Apostle.VictoryTitle.Lantern>Major Victory: A Name of the Watchman</Cultist.Apostle.VictoryTitle.Lantern>
+  <Cultist.Apostle.VictoryBody.Lantern>Through the Tricuspid Gate, {0} has shed the last mortal shadow and taken a seat among the Names of the Glory.\n\n{1} remains in the waking world as the Guardian Name's earthly envoy, and the colony may now invoke {0}'s favour directly at any altar.</Cultist.Apostle.VictoryBody.Lantern>
+  <Cultist.Apostle.VictoryTitle.Forge>Major Victory: A Name of the Forge</Cultist.Apostle.VictoryTitle.Forge>
+  <Cultist.Apostle.VictoryBody.Forge>The Dawnbreaker flared white-hot; {0} stepped into the Furnace of Days and emerged as an immortal Name of the Forge.\n\n{1} remains in the colony as the Guardian Name's earthly envoy, and the settlement may now invoke {0}'s favour at any altar.</Cultist.Apostle.VictoryBody.Forge>
+  <Cultist.Apostle.VictoryTitle.Grail>Major Victory: A Name of the Red Grail</Cultist.Apostle.VictoryTitle.Grail>
+  <Cultist.Apostle.VictoryBody.Grail>The final chalice overflowed; the Red Grail claimed {0} as an eternal Name of delight and hunger.\n\n{1} remains in the colony as the Guardian Name's earthly envoy, and the settlement may now invoke {0}'s favour at any altar.</Cultist.Apostle.VictoryBody.Grail>
+
+  <Cultist.Altar.GuardianAvatar>Summon {0}'s avatar (12 hours)</Cultist.Altar.GuardianAvatar>
+  <Cultist.Altar.GuardianBlessing>Seek {0}'s blessing</Cultist.Altar.GuardianBlessing>
+  <Cultist.Altar.GuardianCooldown>Favour available in {0} days</Cultist.Altar.GuardianCooldown>
+  <Cultist.Guardian.AvatarName>{0} Guardian Name · {1}</Cultist.Guardian.AvatarName>
+  <Cultist.Guardian.AvatarArrived>{0} has descended from the Mansus to defend the colony for 12 hours!</Cultist.Guardian.AvatarArrived>
+  <Cultist.Guardian.BlessingGranted>{0}'s radiant favour washed over the colony (+8 mood, +15% work speed for 5 days, +3 Spintria)!</Cultist.Guardian.BlessingGranted>
+</LanguageData>

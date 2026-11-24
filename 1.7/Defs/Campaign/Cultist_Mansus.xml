@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Centers are normalized from the upper left of MansusMap.png (2048 × 1152).
+       Diameters are in source image pixels. -->
+  <!-- Gate 0: The Wood -->
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Wood_0</defName>
+    <label>the dark wood</label>
+    <gate>0</gate>
+    <region>0</region>
+    <loreTier>1</loreTier>
+    <mapCoords>(0.739258, 0.844618)</mapCoords>
+    <rewards>
+      <li>Whisper</li>
+      <li>TornPage</li>
+      <li>Rumor</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Wood_1</defName>
+    <label>the well</label>
+    <gate>0</gate>
+    <region>1</region>
+    <loreTier>1</loreTier>
+    <mapCoords>(0.890137, 0.599826)</mapCoords>
+    <rewards>
+      <li>Appetite</li>
+      <li>Vitality</li>
+      <li>HiddenAccount</li>
+      <li>Rumor</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Wood_2</defName>
+    <label>the temple of the wheel</label>
+    <gate>0</gate>
+    <region>2</region>
+    <loreTier>1</loreTier>
+    <mapCoords>(0.948242, 0.702257)</mapCoords>
+    <mapDiameter>72</mapDiameter>
+    <rewards>
+      <li>FineCrack</li>
+      <li>Shiver</li>
+      <li>HiddenAccount</li>
+      <li>Rumor</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+
+  <!-- Gate 1: The White Door -->
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_White_0</defName>
+    <label>the white door</label>
+    <gate>1</gate>
+    <region>0</region>
+    <loreTier>1</loreTier>
+    <mapCoords>(0.392090, 0.718750)</mapCoords>
+    <rewards>
+      <li>FrozenAir</li>
+      <li>HiddenAccount</li>
+      <li>Restless</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_White_1</defName>
+    <label>lodge of the sage knight</label>
+    <gate>1</gate>
+    <region>1</region>
+    <loreTier>1</loreTier>
+    <mapCoords>(0.620605, 0.734375)</mapCoords>
+    <mapDiameter>140</mapDiameter>
+    <rewards>
+      <li>DoorSliver</li>
+      <li>LostHistory</li>
+      <li>Insight</li>
+      <li>MarginalNotes</li>
+      <li>Fascination</li>
+      <li>SealOfFavor</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_White_2</defName>
+    <label>the orchard of lights</label>
+    <gate>1</gate>
+    <region>2</region>
+    <loreTier>1</loreTier>
+    <mapCoords>(0.232422, 0.849826)</mapCoords>
+    <mapDiameter>124</mapDiameter>
+    <rewards>
+      <li>Light</li>
+      <li>Insight</li>
+      <li>Pulse</li>
+      <li>LostHistory</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+
+  <!-- Gate 2: The Stag Door -->
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Stag_0</defName>
+    <label>the stag door</label>
+    <gate>2</gate>
+    <region>0</region>
+    <loreTier>2</loreTier>
+    <mapCoords>(0.168457, 0.598958)</mapCoords>
+    <rewards>
+      <li>BrokenThreshold</li>
+      <li>LostHistory</li>
+      <li>ShakingHeat</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Stag_1</defName>
+    <label>the ascent of knives</label>
+    <gate>2</gate>
+    <region>1</region>
+    <loreTier>2</loreTier>
+    <mapCoords>(0.299805, 0.538194)</mapCoords>
+    <mapDiameter>146</mapDiameter>
+    <rewards>
+      <li>Anger</li>
+      <li>Hunger</li>
+      <li>BitterCold</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Stag_2</defName>
+    <label>the painted river</label>
+    <gate>2</gate>
+    <region>2</region>
+    <loreTier>2</loreTier>
+    <mapCoords>(0.299805, 0.684896)</mapCoords>
+    <mapDiameter>120</mapDiameter>
+    <rewards>
+      <li>Fascination</li>
+      <li>ForbiddenEpic</li>
+      <li>ScholarsNotes</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+
+  <!-- Gate 3: The Spider Door -->
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Spider_0</defName>
+    <label>the spider door</label>
+    <gate>3</gate>
+    <region>0</region>
+    <loreTier>2</loreTier>
+    <mapCoords>(0.628906, 0.536458)</mapCoords>
+    <rewards>
+      <li>Famine</li>
+      <li>Drumming</li>
+      <li>ForbiddenEpic</li>
+      <li>SealOfFavor</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Spider_1</defName>
+    <label>the malleary</label>
+    <gate>3</gate>
+    <region>1</region>
+    <loreTier>2</loreTier>
+    <mapCoords>(0.677246, 0.322917)</mapCoords>
+    <mapDiameter>114</mapDiameter>
+    <rewards>
+      <li>Furnace</li>
+      <li>Ambiguity</li>
+      <li>RedResidue</li>
+      <li>IntenseLight</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Spider_2</defName>
+    <label>the chamber of ways</label>
+    <gate>3</gate>
+    <region>2</region>
+    <loreTier>2</loreTier>
+    <mapCoords>(0.500977, 0.406250)</mapCoords>
+    <rewards>
+      <li>WrongDoor</li>
+      <li>IntenseLight</li>
+      <li>BitterCold</li>
+      <li>HeartRoar</li>
+      <li>FierceEdge</li>
+      <li>LostHistory</li>
+      <li>Fascination</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+
+  <!-- Gate 4: The Peacock Door -->
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Peacock_0</defName>
+    <label>the peacock door</label>
+    <gate>4</gate>
+    <region>0</region>
+    <loreTier>3</loreTier>
+    <mapCoords>(0.335449, 0.379340)</mapCoords>
+    <rewards>
+      <li>Ambiguity</li>
+      <li>BrilliantLight</li>
+      <li>Fascination</li>
+    </rewards>
+    <uniqueOnceReward>InterpreterNotes</uniqueOnceReward>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Peacock_1</defName>
+    <label>the red church</label>
+    <gate>4</gate>
+    <region>1</region>
+    <loreTier>3</loreTier>
+    <mapCoords>(0.391113, 0.470486)</mapCoords>
+    <mapDiameter>76</mapDiameter>
+    <rewards>
+      <li>RedBody</li>
+      <li>Nectar</li>
+      <li>WanderingMap</li>
+      <li>SealOfFavor</li>
+      <li>Fascination</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+  <Cultist.MansusPoolDef>
+    <defName>Cultist_Mansus_Peacock_2</defName>
+    <label>the worm museum</label>
+    <gate>4</gate>
+    <region>2</region>
+    <loreTier>3</loreTier>
+    <mapCoords>(0.217773, 0.312500)</mapCoords>
+    <rewards>
+      <li>FlawlessIce</li>
+      <li>WanderingMap</li>
+      <li>Fear</li>
+    </rewards>
+  </Cultist.MansusPoolDef>
+</Defs>

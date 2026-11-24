@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef Name="Cultist_RiteMaterialBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>true</alwaysHaulable>
+    <useHitPoints>true</useHitPoints>
+    <stackLimit>1</stackLimit>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+  </ThingDef>
+  <ThingDef Name="Cultist_LoreBase" ParentName="Cultist_RiteMaterialBase" Abstract="True">
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <comps>
+      <li Class="Cultist.InteractionProperties" />
+    </comps>
+  </ThingDef>
+  <ThingDef Name="Cultist_RiteToolBase" ParentName="Cultist_RiteMaterialBase" Abstract="True">
+    <graphicData>
+      <texPath>Cultist/Items/Tool_Noonstone</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore1Book</defName>
+    <label>notes on the watch</label>
+    <description>Tier 1 of the society’s collected Lantern lore. Studying it records the knowledge for the society. An altar rite can use the physical copy.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern1</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>120</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <loreTier>1</loreTier>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Cultist_LoreCat_Tier1</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore2Book</defName>
+    <label>a sketch of the inner sky</label>
+    <description>Tier 2 of the society’s collected Lantern lore. Studying it records the knowledge for the society. An altar rite can use the physical copy.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern2</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>165</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <loreTier>2</loreTier>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Cultist_LoreCat_Tier2</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore3Book</defName>
+    <label>verses on cold light</label>
+    <description>Tier 3 of the society’s collected Lantern lore. Studying it records the knowledge for the society. An altar rite can use the physical copy.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern3</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>210</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <loreTier>3</loreTier>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Cultist_LoreCat_Tier3</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore4Book</defName>
+    <label>the lit threshold</label>
+    <description>Tier 4 of the society’s collected Lantern lore. Studying it records the knowledge for the society. An altar rite can use the physical copy.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern4</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>255</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <loreTier>4</loreTier>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Cultist_LoreCat_Tier4</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore5Book</defName>
+    <label>a treatise on gathered rays</label>
+    <description>Tier 5 of the society’s collected Lantern lore. Studying it records the knowledge for the society. An altar rite can use the physical copy.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern5</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>300</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <loreTier>5</loreTier>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Cultist_LoreCat_Tier5</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore6Book</defName>
+    <label>the ascent ledger</label>
+    <description>Tier 6 of the society’s collected Lantern lore. Studying it records the knowledge for the society. An altar rite can use the physical copy.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern6</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>345</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <loreTier>6</loreTier>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Cultist_LoreCat_Tier6</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore7Book</defName>
+    <label>the last key of illumination</label>
+    <description>Tier 7 of the society’s collected Lantern lore. Studying it records the knowledge for the society. An altar rite can use the physical copy.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Lore_Lantern7</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>390</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <loreTier>7</loreTier>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Cultist_LoreCat_Tier7</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool1Cracked</defName>
+    <label>cracked noonstone</label>
+    <description>An incomplete lens assembly. Its fractures must be repaired before it can focus dreamlight.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Tool_Noonstone</texPath>
+      <color>(142,147,151)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>56</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool1Ready</defName>
+    <label>noonstone</label>
+    <description>A calibrated focal tool that contributes 4 Lantern to the vigil. The tool stays intact after the rite.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Tool_Noonstone</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>110</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <toolLight>4</toolLight>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool2Cracked</defName>
+    <label>cracked wayfarer's mirror</label>
+    <description>An incomplete lens assembly. Its fractures must be repaired before it can focus dreamlight.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Tool_WayfarerMirrorCracked</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>112</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool2Ready</defName>
+    <label>wayfarer's mirror</label>
+    <description>A calibrated focal tool that contributes 8 Lantern to the vigil. The tool stays intact after the rite.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Tool_WayfarerMirror</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>220</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <toolLight>8</toolLight>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool3Cracked</defName>
+    <label>cracked watchkeeper's mirror</label>
+    <description>An incomplete lens assembly. Its fractures must be repaired before it can focus dreamlight.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Tool_WatchmanMirrorCracked</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>168</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool3Ready</defName>
+    <label>watchkeeper's mirror</label>
+    <description>A calibrated focal tool that contributes 12 Lantern to the vigil. The tool stays intact after the rite.</description>
+    <graphicData>
+      <texPath>Cultist/Items/Tool_WatchmanMirror</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>330</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties">
+        <aspect>Lantern</aspect>
+        <toolLight>12</toolLight>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

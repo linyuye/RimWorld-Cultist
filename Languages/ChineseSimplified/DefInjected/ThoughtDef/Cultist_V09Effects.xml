@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Thought_LanternLight.stages.0.label>无情辉光</Cultist_Thought_LanternLight.stages.0.label>
+  <Cultist_Thought_LanternLight.stages.0.description>澄澈的光线照亮了阴影所掩盖的一切。</Cultist_Thought_LanternLight.stages.0.description>
+  <Cultist_Thought_LanternLight.stages.1.label>幽暗失明</Cultist_Thought_LanternLight.stages.1.label>
+  <Cultist_Thought_LanternLight.stages.1.description>身处昏暗之中令灯相求道者焦躁不安。</Cultist_Thought_LanternLight.stages.1.description>
+
+  <Cultist_Thought_ForgeCraft.stages.0.label>精工重铸</Cultist_Thought_ForgeCraft.stages.0.label>
+  <Cultist_Thought_ForgeCraft.stages.0.description>我穿戴着精良打造的装备，无愧于白日铸炉。</Cultist_Thought_ForgeCraft.stages.0.description>
+  <Cultist_Thought_ForgeCraft.stages.1.label>鄙弃残次</Cultist_Thought_ForgeCraft.stages.1.label>
+  <Cultist_Thought_ForgeCraft.stages.1.description>穿戴破损或劣质的器物是对铸炉的亵渎。</Cultist_Thought_ForgeCraft.stages.1.description>
+
+  <Cultist_Thought_GrailFeast.stages.0.label>赤杯圣宴</Cultist_Thought_GrailFeast.stages.0.label>
+  <Cultist_Thought_GrailFeast.stages.0.description>醇厚佳肴取悦了永恒饥渴的赤杯。</Cultist_Thought_GrailFeast.stages.0.description>
+  <Cultist_Thought_GrailFeast.stages.1.label>寡淡苦食</Cultist_Thought_GrailFeast.stages.1.label>
+  <Cultist_Thought_GrailFeast.stages.1.description>营养膏与生食令血杯教徒难以忍受。</Cultist_Thought_GrailFeast.stages.1.description>
+
+  <Cultist_Thought_EdgeTriumph.stages.0.label>试刃之喜</Cultist_Thought_EdgeTriumph.stages.0.label>
+  <Cultist_Thought_EdgeTriumph.stages.0.description>搏杀与胜利磨砺了我的锋芒。</Cultist_Thought_EdgeTriumph.stages.0.description>
+
+  <Cultist_Thought_EdgeRust.stages.0.label>锋刃蒙尘</Cultist_Thought_EdgeRust.stages.0.label>
+  <Cultist_Thought_EdgeRust.stages.0.description>已经太久没有在战斗中试刃了，令人焦躁。</Cultist_Thought_EdgeRust.stages.0.description>
+
+  <Cultist_Thought_HeartGrief.stages.0.label>悲悯共鸣</Cultist_Thought_HeartGrief.stages.0.label>
+  <Cultist_Thought_HeartGrief.stages.0.description>不息神庙为逝去的生命与残酷伤痛而悲恸。</Cultist_Thought_HeartGrief.stages.0.description>
+
+  <Cultist_Thought_MothNight.stages.0.label>暗夜振翅</Cultist_Thought_MothNight.stages.0.label>
+  <Cultist_Thought_MothNight.stages.0.description>夜幕降临，荒林的低语清晰可闻。</Cultist_Thought_MothNight.stages.0.description>
+
+  <Cultist_Thought_KnockWounds.stages.0.label>未启之身</Cultist_Thought_KnockWounds.stages.0.label>
+  <Cultist_Thought_KnockWounds.stages.0.description>我的躯体毫无伤疤与锁痕，仍被拒于门外。</Cultist_Thought_KnockWounds.stages.0.description>
+  <Cultist_Thought_KnockWounds.stages.1.label>祝圣伤疤锁（一重）</Cultist_Thought_KnockWounds.stages.1.label>
+  <Cultist_Thought_KnockWounds.stages.1.description>一道神圣伤疤锁开启了通往门限的缝隙。</Cultist_Thought_KnockWounds.stages.1.description>
+  <Cultist_Thought_KnockWounds.stages.2.label>祝圣伤疤锁（二重）</Cultist_Thought_KnockWounds.stages.2.label>
+  <Cultist_Thought_KnockWounds.stages.2.description>两道伤疤锁在血肉中回应着启之呼唤。</Cultist_Thought_KnockWounds.stages.2.description>
+  <Cultist_Thought_KnockWounds.stages.3.label>祝圣伤疤锁（三重）</Cultist_Thought_KnockWounds.stages.3.label>
+  <Cultist_Thought_KnockWounds.stages.3.description>三道伤疤锁令我更接近蚁母的启示。</Cultist_Thought_KnockWounds.stages.3.description>
+  <Cultist_Thought_KnockWounds.stages.4.label>祝圣伤疤锁（四重）</Cultist_Thought_KnockWounds.stages.4.label>
+  <Cultist_Thought_KnockWounds.stages.4.description>四道伤疤锁在每一扇门扉前共鸣。</Cultist_Thought_KnockWounds.stages.4.description>
+  <Cultist_Thought_KnockWounds.stages.5.label>祝圣伤疤锁（五重及以上）</Cultist_Thought_KnockWounds.stages.5.label>
+  <Cultist_Thought_KnockWounds.stages.5.description>我的血肉已化作一串通往漫宿的神圣钥匙。</Cultist_Thought_KnockWounds.stages.5.description>
+
+  <Cultist_Thought_HqLibraryClarity.stages.0.label>藏书室清明</Cultist_Thought_HqLibraryClarity.stages.0.label>
+  <Cultist_Thought_HqLibraryClarity.stages.0.description>在整洁有序的藏书圣殿中研读令我思绪澄明。</Cultist_Thought_HqLibraryClarity.stages.0.description>
+
+  <Cultist_Thought_HqSanctuaryRite.stages.0.label>庄严秘仪</Cultist_Thought_HqSanctuaryRite.stages.0.label>
+  <Cultist_Thought_HqSanctuaryRite.stages.0.description>我们在庄严华丽的圣所中完成了结社仪式。</Cultist_Thought_HqSanctuaryRite.stages.0.description>
+
+  <Cultist_Thought_HeartChorus.stages.0.label>不息鼓舞</Cultist_Thought_HeartChorus.stages.0.label>
+  <Cultist_Thought_HeartChorus.stages.0.description>心相崇高门徒的鼓点驱散了疲惫。</Cultist_Thought_HeartChorus.stages.0.description>
+
+  <Cultist_Thought_LongGrace.stages.0.label>长生者余荫</Cultist_Thought_LongGrace.stages.0.label>
+  <Cultist_Thought_LongGrace.stages.0.description>我们的前任教主已步入漫宿成为长生者，从高处注视着结社。</Cultist_Thought_LongGrace.stages.0.description>
+
+  <Cultist_Thought_GuardianBlessing.stages.0.label>守护具名者庇佑</Cultist_Thought_GuardianBlessing.stages.0.label>
+  <Cultist_Thought_GuardianBlessing.stages.0.description>殖民地的守护具名者回应了祈祷，令全员充满坚定信念。</Cultist_Thought_GuardianBlessing.stages.0.description>
+</LanguageData>

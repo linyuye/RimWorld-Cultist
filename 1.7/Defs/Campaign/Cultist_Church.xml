@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <MemeGroupDef>
+    <defName>Cultist_ChurchMemes</defName>
+    <drawOffset>(0.16, 0.23)</drawOffset>
+    <maxRows>1</maxRows>
+  </MemeGroupDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Lantern</defName>
+    <iconPath>Cultist/Icons/Aspect_Lantern</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Lantern</defName>
+    <label>lantern gold</label>
+    <color>(238, 206, 98)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_LanternMeme</defName>
+    <label>the Lantern</label>
+    <description>The society keeps a record of what it learns and submits every discovery to scrutiny.</description>
+    <iconPath>Cultist/Icons/Aspect_Lantern</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <generalRules>
+      <rulesStrings>
+        <li>memeConcept-&gt;evidence</li>
+        <li>memeConcept-&gt;illumination</li>
+        <li>memeAdjective-&gt;studious</li>
+        <li>memeAdjective-&gt;attentive</li>
+      </rulesStrings>
+    </generalRules>
+    <requireOne>
+      <li>
+        <li>Cultist_LanternDoctrine</li>
+      </li>
+      <li>
+        <li>Research_Normal</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_LanternPractice</defName>
+    <label>Lantern practice</label>
+    <iconPath>Cultist/Icons/Aspect_Lantern</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_LanternDoctrine</defName>
+    <issue>Cultist_LanternPractice</issue>
+    <label>keep a record of discoveries</label>
+    <description>The Watchman's light illuminates intellect (+10% research, +25% reading speed, +2 mood in bright light) yet chills mortal warmth (-10% social impact, +15% psychic sensitivity, -3 mood in darkness).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_LanternMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <ResearchSpeed>0.10</ResearchSpeed>
+      <ReadingSpeed>0.25</ReadingSpeed>
+      <SocialImpact>-0.10</SocialImpact>
+      <PsychicSensitivity>0.15</PsychicSensitivity>
+    </statOffsets>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Forge</defName>
+    <iconPath>Cultist/Icons/Aspect_Forge</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Forge</defName>
+    <label>forge ember</label>
+    <color>(232, 122, 54)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_ForgeMeme</defName>
+    <label>the Forge</label>
+    <description>The Unflinching Order venerates fire, transformation, and relentless craft. Nothing endures unchanged.</description>
+    <iconPath>Cultist/Icons/Aspect_Forge</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_ForgeDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_ForgePractice</defName>
+    <label>Forge practice</label>
+    <iconPath>Cultist/Icons/Aspect_Forge</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_ForgeDoctrine</defName>
+    <issue>Cultist_ForgePractice</issue>
+    <label>remake through fire</label>
+    <description>The Forge tempers matter (+10% general labor speed, +8C max comfy temp, +3 mood with Good+ gear) yet despises frailty (-15% animal taming, -4 mood when wearing poor or tattered gear).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_ForgeMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+      <ComfyTemperatureMax>8</ComfyTemperatureMax>
+      <TameAnimalChance>-0.15</TameAnimalChance>
+    </statOffsets>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Grail</defName>
+    <iconPath>Cultist/Icons/Aspect_Grail</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Grail</defName>
+    <label>grail crimson</label>
+    <color>(206, 56, 78)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_GrailMeme</defName>
+    <label>the Grail</label>
+    <description>The Order of the Bloody Cup honours hunger, delight, birth, and the sacred feast that never ends.</description>
+    <iconPath>Cultist/Icons/Aspect_Grail</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_GrailDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_GrailPractice</defName>
+    <label>Grail practice</label>
+    <iconPath>Cultist/Icons/Aspect_Grail</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_GrailDoctrine</defName>
+    <issue>Cultist_GrailPractice</issue>
+    <label>honour the thirst</label>
+    <description>The Bloody Cup exalts indulgence (+12% social impact, +10% negotiation, +4 mood from fine/lavish meals) yet deepens hunger (x1.15 hunger rate, x1.15 recreation fall, -4 mood from paste or raw food).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_GrailMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <SocialImpact>0.12</SocialImpact>
+      <NegotiationAbility>0.10</NegotiationAbility>
+    </statOffsets>
+    <statFactors>
+      <JoyFallRateFactor>1.15</JoyFallRateFactor>
+    </statFactors>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Edge</defName>
+    <iconPath>Cultist/Icons/Aspect_Edge</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Edge</defName>
+    <label>edge olive-steel</label>
+    <color>(186, 198, 78)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_EdgeMeme</defName>
+    <label>the Edge</label>
+    <description>The Church of the Bright Edge teaches that strength is proven only in struggle, rivalry, and decisive strikes.</description>
+    <iconPath>Cultist/Icons/Aspect_Edge</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_EdgeDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_EdgePractice</defName>
+    <label>Edge practice</label>
+    <iconPath>Cultist/Icons/Aspect_Edge</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_EdgeDoctrine</defName>
+    <issue>Cultist_EdgePractice</issue>
+    <label>sharpen through conflict</label>
+    <description>The Bright Edge hones warriors (+2 melee hit, +10% melee damage, +10% pain shock threshold, +4 mood after battle) yet breeds restlessness (-4 mood after 12 peaceful days, x1.5 social fights, -10% medical tend speed).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_EdgeMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <MeleeHitChance>2</MeleeHitChance>
+      <MeleeDamageFactor>0.10</MeleeDamageFactor>
+      <PainShockThreshold>0.10</PainShockThreshold>
+      <MedicalTendSpeed>-0.10</MedicalTendSpeed>
+    </statOffsets>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Winter</defName>
+    <iconPath>Cultist/Icons/Aspect_Winter</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Winter</defName>
+    <label>winter frost</label>
+    <color>(186, 214, 232)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_WinterMeme</defName>
+    <label>the Winter</label>
+    <description>The Children of Silence keep vigil over endings, frost, and the quiet dignity of what has passed.</description>
+    <iconPath>Cultist/Icons/Aspect_Winter</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_WinterDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_WinterPractice</defName>
+    <label>Winter practice</label>
+    <iconPath>Cultist/Icons/Aspect_Winter</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_WinterDoctrine</defName>
+    <issue>Cultist_WinterPractice</issue>
+    <label>keep the quiet vigil</label>
+    <description>The Children of Silence endure frost and death (-8C min comfy temp, -6% break threshold, ignores non-colonist corpses, -50% social fights) at the cost of warmth (-15% social impact, -5% trade price, no party joy).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_WinterMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+      <SocialImpact>-0.15</SocialImpact>
+      <TradePriceImprovement>-0.05</TradePriceImprovement>
+    </statOffsets>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Heart</defName>
+    <iconPath>Cultist/Icons/Aspect_Heart</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Heart</defName>
+    <label>heart rose</label>
+    <color>(224, 128, 134)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_HeartMeme</defName>
+    <label>the Heart</label>
+    <description>The Temple Unceasing preserves life, rhythm, and resilience against every curse and decay.</description>
+    <iconPath>Cultist/Icons/Aspect_Heart</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_HeartDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_HeartPractice</defName>
+    <label>Heart practice</label>
+    <iconPath>Cultist/Icons/Aspect_Heart</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_HeartDoctrine</defName>
+    <issue>Cultist_HeartPractice</issue>
+    <label>never cease the beat</label>
+    <description>The Temple Unceasing sustains life (+12% immunity gain, +10% tend quality, +10% rest effectiveness) yet grieves deeply (-5 mood from ally deaths, executions, or organ harvesting; x1.08 hunger rate).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_HeartMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <ImmunityGainSpeed>0.12</ImmunityGainSpeed>
+      <MedicalTendQuality>0.10</MedicalTendQuality>
+      <RestRateMultiplier>0.10</RestRateMultiplier>
+    </statOffsets>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Moth</defName>
+    <iconPath>Cultist/Icons/Aspect_Moth</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Moth</defName>
+    <label>moth parchment</label>
+    <color>(214, 198, 162)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_MothMeme</defName>
+    <label>the Moth</label>
+    <description>The Wildwood Club embraces yearning, shedding old skins, and the capricious wisdom of the Wood.</description>
+    <iconPath>Cultist/Icons/Aspect_Moth</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_MothDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_MothPractice</defName>
+    <label>Moth practice</label>
+    <iconPath>Cultist/Icons/Aspect_Moth</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_MothDoctrine</defName>
+    <issue>Cultist_MothPractice</issue>
+    <label>shed what binds</label>
+    <description>The Wildwood Club moves with nocturnal grace (+0.25 move speed, +8% melee dodge, +10% plant work, +3 mood at night) yet scatters focus (+5% break threshold, -8% surgery success).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_MothMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <MoveSpeed>0.25</MoveSpeed>
+      <MeleeDodgeChance>0.08</MeleeDodgeChance>
+      <PlantWorkSpeed>0.10</PlantWorkSpeed>
+      <MentalBreakThreshold>0.05</MentalBreakThreshold>
+      <MedicalSurgerySuccessChance>-0.08</MedicalSurgerySuccessChance>
+    </statOffsets>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_Knock</defName>
+    <iconPath>Cultist/Icons/Aspect_Knock</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_Knock</defName>
+    <label>knock violet</label>
+    <color>(178, 108, 224)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_KnockMeme</defName>
+    <label>the Knock</label>
+    <description>The Society of the Holy Wound venerates keys, thresholds, and sacred scars. Through seven Lock-Scars the faithful become the Door itself.</description>
+    <iconPath>Cultist/Icons/Aspect_Knock</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_KnockDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_KnockPractice</defName>
+    <label>Knock practice</label>
+    <iconPath>Cultist/Icons/Aspect_Knock</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_KnockDoctrine</defName>
+    <issue>Cultist_KnockPractice</issue>
+    <label>sanctify the wound</label>
+    <description>The Holy Wound opens every lock (+10% surgery success, +10% caravan speed, +1 to +5 mood from consecrated Lock-Scars) yet leaves flesh vulnerable (+8% incoming damage, -2 mood if unscarred).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_KnockMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <MedicalSurgerySuccessChance>0.10</MedicalSurgerySuccessChance>
+      <CaravanBonusSpeedFactor>0.10</CaravanBonusSpeedFactor>
+      <IncomingDamageFactor>0.08</IncomingDamageFactor>
+    </statOffsets>
+  </PreceptDef>
+  <IdeoIconDef>
+    <defName>Cultist_Icon_SecretHistories</defName>
+    <iconPath>Cultist/Icons/Aspect_SecretHistories</iconPath>
+  </IdeoIconDef>
+  <ColorDef>
+    <defName>Cultist_Color_SecretHistories</defName>
+    <label>secret histories plum</label>
+    <color>(214, 96, 178)</color>
+    <colorType>Ideo</colorType>
+  </ColorDef>
+  <MemeDef>
+    <defName>Cultist_SecretHistoriesMeme</defName>
+    <label>the Secret Histories</label>
+    <description>The Society of St Hydra studies the five Histories and their thousand demi-real branches. Any aspect serves, though none attain Exalted rank.</description>
+    <iconPath>Cultist/Icons/Aspect_SecretHistories</iconPath>
+    <groupDef>Cultist_ChurchMemes</groupDef>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <hiddenInChooseMemes>true</hiddenInChooseMemes>
+    <impact>1</impact>
+    <requireOne>
+      <li>
+        <li>Cultist_SecretHistoriesDoctrine</li>
+      </li>
+    </requireOne>
+  </MemeDef>
+  <IssueDef>
+    <defName>Cultist_SecretHistoriesPractice</defName>
+    <label>Secret Histories practice</label>
+    <iconPath>Cultist/Icons/Aspect_SecretHistories</iconPath>
+  </IssueDef>
+  <PreceptDef>
+    <defName>Cultist_SecretHistoriesDoctrine</defName>
+    <issue>Cultist_SecretHistoriesPractice</issue>
+    <label>record every branch</label>
+    <description>St Hydra traces every History (+15% caravan speed, +25% reading &amp;古语 deciphering speed, any-aspect rites) yet fractures orthodoxy (-20% conversion power, -40% natural notoriety decay).</description>
+    <impact>Medium</impact>
+    <visibleOnAddFloatMenu>false</visibleOnAddFloatMenu>
+    <requiredMemes>
+      <li>Cultist_SecretHistoriesMeme</li>
+    </requiredMemes>
+    <statOffsets>
+      <CaravanBonusSpeedFactor>0.15</CaravanBonusSpeedFactor>
+      <ReadingSpeed>0.25</ReadingSpeed>
+    </statOffsets>
+    <convertPowerFactor>0.80</convertPowerFactor>
+  </PreceptDef>
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Scar_Lantern.label>灯之伤疤锁</Cultist_Scar_Lantern.label>
+  <Cultist_Scar_Lantern.description>我为门关时，这道伤疤将在曙光下开启。研究速度 +10%。</Cultist_Scar_Lantern.description>
+  <Cultist_Scar_Forge.label>铸之伤疤锁</Cultist_Scar_Forge.label>
+  <Cultist_Scar_Forge.description>我为门关时，这道伤疤将为炙铁的触摸而开启。全局工作速度 +10%。</Cultist_Scar_Forge.description>
+  <Cultist_Scar_Edge.label>刃之伤疤锁</Cultist_Scar_Edge.label>
+  <Cultist_Scar_Edge.description>我为门关时，这道伤疤将在利刃的触摸下开启。近战伤害 +10%。</Cultist_Scar_Edge.description>
+  <Cultist_Scar_Winter.label>冬之伤疤锁</Cultist_Scar_Winter.label>
+  <Cultist_Scar_Winter.description>我为门关时，这道伤疤将在最后开启。最低适宜温度 -10°C。</Cultist_Scar_Winter.description>
+  <Cultist_Scar_Heart.label>心之伤疤锁</Cultist_Scar_Heart.label>
+  <Cultist_Scar_Heart.description>我为门关时，这道伤疤将在鼓响时开启。免疫获得速度 +12%。</Cultist_Scar_Heart.description>
+  <Cultist_Scar_Grail.label>杯之伤疤锁</Cultist_Scar_Grail.label>
+  <Cultist_Scar_Grail.description>我为门关时，这道伤疤将为热吻开启。社交影响 +12%。</Cultist_Scar_Grail.description>
+  <Cultist_Scar_Moth.label>蛾之伤疤锁</Cultist_Scar_Moth.label>
+  <Cultist_Scar_Moth.description>我为门关时，这道伤疤将对剪子起反应。移动速度 +0.25。</Cultist_Scar_Moth.description>
+  <Cultist_Scar_Knock.label>启之伤疤锁</Cultist_Scar_Knock.label>
+  <Cultist_Scar_Knock.description>神圣的门径伤疤，使灵体召唤反噬率降低 6%，并提升 10% 心灵敏感度。</Cultist_Scar_Knock.description>
+</LanguageData>

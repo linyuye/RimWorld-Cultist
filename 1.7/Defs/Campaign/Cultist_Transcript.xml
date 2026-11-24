@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>Cultist_SurveyTranscript</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <label>survey transcript</label>
+    <description>A trader's copy of the observatory's field notes. Several pages contain observations the society can put to use.</description>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>true</alwaysHaulable>
+    <useHitPoints>true</useHitPoints>
+    <stackLimit>1</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Book/Textbook/Textbook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(179,191,160)</color>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <thingCategories><li>Items</li></thingCategories>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <Flammability>1</Flammability>
+      <MarketValue>130</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="Cultist.InteractionProperties"><transcript>true</transcript></li>
+    </comps>
+  </ThingDef>
+</Defs>

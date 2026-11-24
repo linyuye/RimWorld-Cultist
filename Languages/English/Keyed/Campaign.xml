@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.OfferTitle>An unmarked capsule</Cultist.OfferTitle>
+  <Cultist.OfferBody>A damaged courier capsule is still transmitting. Its cargo log lists only a journal. You can request its descent whenever the colony is ready.</Cultist.OfferBody>
+  <Cultist.Accept>Bring down the capsule</Cultist.Accept>
+  <Cultist.Later>Decide later</Cultist.Later>
+  <Cultist.JournalArrived>The journal is on its way.</Cultist.JournalArrived>
+  <Cultist.ChooseAspect>Choose the reader's personal affinity. The society will follow the Lantern regardless of this choice.</Cultist.ChooseAspect>
+  <Cultist.Founded>{0} has founded the Lantern society.</Cultist.Founded>
+  <Cultist.ChurchName>Mirror of Glory</Cultist.ChurchName>
+  <Cultist.ChurchDescription>A society that studies the marks left by impossible light.</Cultist.ChurchDescription>
+  <Cultist.DreamAction>Enter the dream</Cultist.DreamAction>
+  <Cultist.ReadAction>Study the journal</Cultist.ReadAction>
+  <Cultist.Unreachable>{0} (cannot reach or reserve)</Cultist.Unreachable>
+  <Cultist.AutoOn>Enable nightly dreams</Cultist.AutoOn>
+  <Cultist.AutoOff>Disable nightly dreams</Cultist.AutoOff>
+  <Cultist.DreamTitle>The sky behind sleep</Cultist.DreamTitle>
+  <Cultist.Reward.Lore>Bring back a page of lore</Cultist.Reward.Lore>
+  <Cultist.Reward.Light>Carry an impression of light</Cultist.Reward.Light>
+  <Cultist.Reward.Fascination>Follow the unsettling glimmer</Cultist.Reward.Fascination>
+  <Cultist.Reward.Memory>Bring back a fleeting memory</Cultist.Reward.Memory>
+  <Cultist.Aspect.Lantern>Lantern</Cultist.Aspect.Lantern>
+  <Cultist.Aspect.Forge>Forge</Cultist.Aspect.Forge>
+  <Cultist.Aspect.Edge>Edge</Cultist.Aspect.Edge>
+  <Cultist.Aspect.Winter>Winter</Cultist.Aspect.Winter>
+  <Cultist.Aspect.Heart>Heart</Cultist.Aspect.Heart>
+  <Cultist.Aspect.Grail>Grail</Cultist.Aspect.Grail>
+  <Cultist.Aspect.Moth>Moth</Cultist.Aspect.Moth>
+  <Cultist.Aspect.Knock>Knock</Cultist.Aspect.Knock>
+  <Cultist.FascinationWarning>{0} can scarcely bear the brightness of the waking world.</Cultist.FascinationWarning>
+  <Cultist.FascinationCrisis>{0} is losing touch with the waking world. Use a memory or fear at an altar within six hours.</Cultist.FascinationCrisis>
+</LanguageData>

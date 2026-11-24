@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>Cultist</AssemblyName>
+    <RootNamespace>Cultist</RootNamespace>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>embedded</DebugType>
+    <OutputPath>../1.7/Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RimWorldDir Condition="'$(RimWorldDir)' == ''">$(MSBuildProjectDirectory)/../../..</RimWorldDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" HintPath="$(RimWorldDir)/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="UnityStubs" HintPath="$(RimWorldDir)/UnityStubs.dll" Private="false" />
+    <Reference Include="Waylith" HintPath="$(RimWorldDir)/Waylith.dll" Private="false" />
+  </ItemGroup>
+  <Target Name="CheckRimWorldReferences" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="'%(Reference.HintPath)' != '' And !Exists('%(Reference.HintPath)')" Text="Missing RimWorld 1.7 assembly: %(Reference.HintPath). Set RimWorldDir to the game directory." />
+  </Target>
+</Project>

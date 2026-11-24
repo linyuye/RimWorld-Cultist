@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_aladim</defName>
+    <label>Dr Ibn al-Adim</label>
+    <description>Dr Ibn al-Adim, called the Aleppine, has an interest in overlooked history. He has offered you a commission.</description>
+    <sourceId>aladim</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/aladim</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_aladimready</defName>
+    <label>Dr Ibn al-Adim</label>
+    <description>Dr Ibn al-Adim, called the Aleppine, has an interest in overlooked history. He could use your assistance.</description>
+    <sourceId>aladimready</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/aladimready</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bechet</defName>
+    <label>Mme Bechet</label>
+    <description>Mme Olympe Bechet edits the Kerisham Review, which publishes material too ghastly or thrilling for other literary magazines. She has offered you a commission.</description>
+    <sourceId>bechet</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/bechet</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bechetready</defName>
+    <label>Mme Bechet</label>
+    <description>Mme Olympe Bechet edits the Kerisham Review, which publishes material too ghastly or thrilling for other literary magazines. She could use your assistance.</description>
+    <sourceId>bechetready</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/bechetready</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_jannings</defName>
+    <label>Count Jannings</label>
+    <description>Count Gottlob Jannings represents a Continental confraternity of physicians and duellists. He has offered you a commission.</description>
+    <sourceId>jannings</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/jannings</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_janningsready</defName>
+    <label>Count Jannings</label>
+    <description>Count Gottlob Jannings represents a Continental confraternity of physicians and duellists. He could use your assistance.</description>
+    <sourceId>janningsready</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/janningsready</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_poppyready</defName>
+    <label>Poppy Lascelles</label>
+    <description>An amiable woman of property. She'd like to talk to you.</description>
+    <sourceId>poppyready</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/poppyready</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_poppy</defName>
+    <label>Poppy Lascelles</label>
+    <description>An amiable woman of property.</description>
+    <sourceId>poppy</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/poppy</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_poppycommissionready</defName>
+    <label>Poppy Lascelles</label>
+    <description>An amiable woman of property. She'd like your help with something.</description>
+    <sourceId>poppycommissionready</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/poppyready</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_poppycommission</defName>
+    <label>Poppy Lascelles</label>
+    <description>An amiable woman of property. She has offered you a commission.</description>
+    <sourceId>poppycommission</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/poppy</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sulochana</defName>
+    <label>Sulochana Amavasya</label>
+    <description>The laconic, energetic, bright-eyed, unblinking owner of the Ecdysis Club.</description>
+    <sourceId>sulochana</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/sulochana</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_echidna</defName>
+    <label>Mrs E.</label>
+    <description>The self-styled Mother of Monsters. A cheery, tubby woman in a green-grey garment like a baggy dirndl.</description>
+    <sourceId>echidna</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/echidna</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_marinette</defName>
+    <label>Marinette, 'Our Lady of Wires'</label>
+    <description>It reeks of rotten blood, and it clacks its jaw each time it speaks. Perhaps there is a woman, huddled beneath the cloth and the bones. Perhaps it's some puppeteer's trick.</description>
+    <sourceId>marinette</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/marinette</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_kleidouchos_enroute</defName>
+    <label>Frau Schlüssel is en route</label>
+    <description>Teresa Galmier's 'correspondent', Sulochana's 'sister', the holder of the Key of Days, is on her way here from Vienna. Perhaps I should meet her at the station.</description>
+    <sourceId>kleidouchos.enroute</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/kleidouchos.enroute</iconPath>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_kleidouchos</defName>
+    <label>Frau Schlüssel</label>
+    <description>A spry,forceful woman in severe black and white, tightly wrinkled. She is never observed to blink. A tiny black puppy peeps from her skirts.</description>
+    <sourceId>kleidouchos</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/kleidouchos</iconPath>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_naenia</defName>
+    <label>'Miss Naenia'</label>
+    <description>A painting of a dark-skinned woman with snow-coloured eyes and close-cropped ivory-coloured hair. She stands before a small marble tomb overgrown with star jasmine. The painting is signed 'Jonas B. Munch, 1811'.</description>
+    <sourceId>naenia</sourceId>
+    <category>Patron</category>
+    <iconPath>Cultist/Catalog/Patron/naenia</iconPath>
+    <aspects>
+      <li><key>patron</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

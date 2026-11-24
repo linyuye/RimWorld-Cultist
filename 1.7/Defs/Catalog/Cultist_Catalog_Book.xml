@@ -1,0 +1,2449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbooklatin</defName>
+    <label>Gildersleeve's Latin Grammar</label>
+    <description>Just what you need to refresh your knowledge of Latin.</description>
+    <sourceId>textbooklatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbooklatin</iconPath>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookfucine</defName>
+    <label>The Journal of Alessandro LaCroce</label>
+    <description>Prince Alessandro LaCroce spent years in secret study of the tablets taken from the Fucine Marshes in central Italy. His work will allow you to decipher Fucine texts.</description>
+    <sourceId>textbookfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookgreek</defName>
+    <label>Kühner and Gerth</label>
+    <description>Kühner and Gerth's 'Ausführliche Grammatik der griechischen Sprache' - a Greek grammar. An essential weapon for a ferocious struggle with a challenging language.</description>
+    <sourceId>textbookgreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookgreek</iconPath>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookphrygian</defName>
+    <label>The Velshorn Inscriptions</label>
+    <description>An epic and notably erotic poem describing a rash musician's couplings with, and eventual flaying by, the Red Mother - in both Greek and Phrygian. The intrepid Cal Velshorn found these inscriptions on a temple wall in Halicarnassus, but the same inscription has turned up in a surprising number of other places. [If you speak Greek, you can use this to learn Phrygian.]</description>
+    <sourceId>textbookphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookaramaic</defName>
+    <label>THE MAGUS VON BRANDT'S AUTHENTIC AND UNIQUE ACCOUNT OF THE TRUE TONGUE OF THE TRUE HOLY LAND OF THE HIGHMOST</label>
+    <description>Written excitably and in some haste by a gentleman in the grip of a Transcendentalist enthusiasm, but nevertheless a useful guide to Aramaic.</description>
+    <sourceId>textbookaramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookaramaic</iconPath>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookmandaic</defName>
+    <label>The August Stone</label>
+    <description>A tremendous bowl, big as a gong, carved from black basalt, bearing an incantation against demons in Deep Mandaic. The underside bears the same incantation in Aramaic. [If you speak Aramaic, you can use this to learn Deep Mandaic.]</description>
+    <sourceId>textbookmandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookmandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbooksanskrit</defName>
+    <label>Gartside's Sanskrit Reader</label>
+    <description>A lucid book which outlines a careful path through the thickets of a vast and complex language.</description>
+    <sourceId>textbooksanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbooksanskrit</iconPath>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookvak</defName>
+    <label>The Uyrus</label>
+    <description>An elaborate ivory sculpture of impossible intricacy. Around and across its surfaces, Sanskrit inscriptions spiral against matching lines of Vak. [If you speak Sanskrit, you can use this to learn Vak, the first language of the world.]</description>
+    <sourceId>textbookvak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookvak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dehoris1</defName>
+    <label>De Horis (Book 1)</label>
+    <description>An occasionally coherent catalogue of the secret gods. This is an English translation of a volume dealing with the powers of the Wood.</description>
+    <sourceId>dehoris1</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/dehoris1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dehoris2</defName>
+    <label>De Horis (Book 2)</label>
+    <description>An occasionally coherent catalogue of the secret gods. This is an English translation of a volume describing the enmity between the Lionsmith and the Tribune of Scars.</description>
+    <sourceId>dehoris2</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/dehoris2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_travellingatnight1</defName>
+    <label>Travelling at Night(Vol. 1)</label>
+    <description>The annotated dream-journals of Christopher Illopoly, sometimes called 'the only readable occultist': literate, entertaining, bewildering.</description>
+    <sourceId>travellingatnight1</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/travellingatnight1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_travellingatnight2</defName>
+    <label>Travelling at Night(Vol. 2)</label>
+    <description>The annotated dream-journals of Christopher Illopoly, sometimes called 'the only readable occultist': literate, entertaining, bewildering. This is the second volume.</description>
+    <sourceId>travellingatnight2</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/travellingatnight2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_travellingatnight3</defName>
+    <label>Travelling at Night(Vol. 3)</label>
+    <description>The annotated dream-journals of Christopher Illopoly, sometimes called 'the only readable occultist': literate, entertaining, bewildering. This is the third volume.</description>
+    <sourceId>travellingatnight3</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/travellingatnight3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sixlettersonnecessity</defName>
+    <label>The Six Letters on Necessity</label>
+    <description>Warnings and confessions about the cost of the invisible arts, addressed to a student by the seventeenth-century magus (and reputed immortal) Julian Coseley.</description>
+    <sourceId>sixlettersonnecessity</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/sixlettersonnecessity</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locksmithsdream1</defName>
+    <label>The Locksmith's Dream: a Light through the Keyhole</label>
+    <description>The first volume of Teresa Galmier's examination of parallels in the mystic dreams of artisans.</description>
+    <sourceId>locksmithsdream1</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/locksmithsdream1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locksmithsdream2</defName>
+    <label>The Locksmith's Dream: Portions and Proportions</label>
+    <description>The second volume of Teresa Galmier's examination of parallels in the mystic dreams of artisans. The frontispiece has been slashed with a razor.</description>
+    <sourceId>locksmithsdream2</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/locksmithsdream2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locksmithsdream3</defName>
+    <label>The Locksmith's Dream: Trespasses</label>
+    <description>The third volume of Teresa Galmier's examination of parallels in the mystic dreams of artisans.</description>
+    <sourceId>locksmithsdream3</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/locksmithsdream3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locksmithsdream4</defName>
+    <label>The Locksmith's Dream: Stolen Reflections</label>
+    <description>The fourth volume of Teresa Galmier's expansive work - no longer a discussion of the dreams of artisans, but a valuable survey of other works. The tone is calmer than that of 'Trespasses', but occasionally fearful, even paranoid. This volume was published in 1926 but almost immediately recalled and pulped by the publisher - at the request of the author or possibly the authorities, depending which story you believe. A few copies survive.</description>
+    <sourceId>locksmithsdream4</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/locksmithsdream4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locksmithsdream5</defName>
+    <label>The Locksmith's Dream: Incursus</label>
+    <description>The fifth (and final?) volume of Teresa Galmier's notorious work, which began as an examination of parallels in the mystic dreams of artisans but became an account of her own occult journey. This volume was never published nor, apparently, even written.</description>
+    <sourceId>locksmithsdream5</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/locksmithsdream5</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>lantern</key><value>1</value></li>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_humoursofagentleman</defName>
+    <label>The Humours of a Gentleman</label>
+    <description>Samuel Savage's satirical comedy, on the intrigues of the ailing, but cunning John Sonne, his mistress Maevelin, her lover Leo, and the upstart Corvino.</description>
+    <sourceId>humoursofagentleman</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/humoursofagentleman</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_victoryofcrowns</defName>
+    <label>The Victory of Crowns</label>
+    <description>Erratic accounts, by one 'Arun', of the hunting and consumption of supposed immortals, by shadowy cults of assassins. Published in the late nineteenth century.</description>
+    <sourceId>victoryofcrowns</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/victoryofcrowns</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_introductiontohistories</defName>
+    <label>An Introduction to Histories</label>
+    <description>The seventeenth-century mystic and antiquarian Claude Hersault describes divergent incidents in five major Histories.</description>
+    <sourceId>introductiontohistories</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/introductiontohistories</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_treatiseonunderplaces</defName>
+    <label>The Treatise on Underplaces</label>
+    <description>Herein, the seventeenth-century mystic and antiquarian Claude Hersault describes the 'Bounds' or 'Underplaces' on the borders of dream. He warns that they shift over time.</description>
+    <sourceId>treatiseonunderplaces</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/treatiseonunderplaces</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_onthewhite</defName>
+    <label>On the White</label>
+    <description>Solomon Husher writes, perhaps allegorically, of Winter, and its long slow doomed romance with the Sun. The epigraph is 'Sunset at Noon'.</description>
+    <sourceId>onthewhite</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/onthewhite</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_waroftheroadscensored</defName>
+    <label>The War of the Roads, 1450-1580, CENSORED EDITION</label>
+    <description>Willis-Ford describes the War of the Roads, an event in a History other than our own, in detail. But numerous pages have been removed; the name of the publisher is blacked out; and an ominous slip stapled to the cover explains that Willis-Ford has been 'excised'.</description>
+    <sourceId>waroftheroadscensored</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/waroftheroadscensored</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_queensoftherivers</defName>
+    <label>The Queens of the Rivers</label>
+    <description>A surreal contemporary play by the enigmatic Monica Medina, in which the Queens of the Rivers are murdered, one by one.</description>
+    <sourceId>queensoftherivers</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/queensoftherivers</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apolloandmarsyas</defName>
+    <label>Apollo and Marsyas</label>
+    <description>The libretto of a lost opera concerning the contest between Apollo and Marsyas, and its tragic outcome. The librettist is identified only by their initials: RKNJL.</description>
+    <sourceId>apolloandmarsyas</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/apolloandmarsyas</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_skeletonsongs</defName>
+    <label>The Skeleton Songs</label>
+    <description>Poems of greedy delight composed by the possibly pseudonymous Arabella Dusk, the rumoured heiress-turned-madam-turned-poetess.</description>
+    <sourceId>skeletonsongs</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/skeletonsongs</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_burningofunburntgod</defName>
+    <label>The Burning of the Unburnt God</label>
+    <description>Compiled by Hosty Tasmane from oral traditions in rural Persia.</description>
+    <sourceId>burningofunburntgod</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/burningofunburntgod</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_debellismurorum</defName>
+    <label>De Bellis Murorum</label>
+    <description>An eighteenth-century epic poem by the pseudonymous 'Solipsistos'.</description>
+    <sourceId>debellismurorum</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/debellismurorum</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_onwhatiscontainedbysilver</defName>
+    <label>On What Is Contained By Silver</label>
+    <description>A dire bestiary of the horrors to be found in mirrors. This is a recent edition of a third century text by 'Poemander'.</description>
+    <sourceId>onwhatiscontainedbysilver</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/onwhatiscontainedbysilver</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_truecompleteasclepian</defName>
+    <label>A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House</label>
+    <description>Descriptions of the 'Asclepian Mysteries', reproduced by one 'Rylee Grese' from - supposedly - a much older text. It's unlikely to be genuine, but it makes a reference to 'The House without Walls and its Wood', right there in the prologue.</description>
+    <sourceId>truecompleteasclepian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/truecompleteasclepian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_geminiad</defName>
+    <label>The Geminiad</label>
+    <description>A fragile manuscript, illuminated with twinned shapes of sad and luminous beauty, and with all the phases of the moon. It might be as old as the seventh century, but the language - Fucine - is much older. Coral decorates its cover, and its page-edges are sharp enough to slash a throat. [I have made notes towards a translation. Now I can study it.]</description>
+    <sourceId>geminiad</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/geminiad</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>text</key><value>1</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_orchidtransfigurations1</defName>
+    <label>The Orchid Transfigurations, Vol 1: a Feast</label>
+    <description>The first volume of a compilation of quasi-Rosicrucian allegories, supposedly by Robert Fludd. This is a later English translation.</description>
+    <sourceId>orchidtransfigurations1</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/orchidtransfigurations1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_orchidtransfigurations2</defName>
+    <label>The Orchid Transfigurations, Vol 2: a Birth</label>
+    <description>The second volume of a compilation of quasi-Rosicrucian allegories, supposedly by Robert Fludd. This is a later English translation.</description>
+    <sourceId>orchidtransfigurations2</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/orchidtransfigurations2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_orchidtransfigurations3</defName>
+    <label>The Orchid Transfigurations, Vol 3: Noon</label>
+    <description>The third volume of a compilation of quasi-Rosicrucian allegories, supposedly by Robert Fludd. This is a later English translation.</description>
+    <sourceId>orchidtransfigurations3</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/orchidtransfigurations3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_wainscothistories</defName>
+    <label>The Wainscot Histories</label>
+    <description>Subtitled 'Stories from Behind the Walls': a miscellany of non-traditional histories compiled by William Gore, including battles not generally acknowledged and countries which appear on no map, told in a playful, apparently fictional manner.</description>
+    <sourceId>wainscothistories</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/wainscothistories</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_chioneatabydos</defName>
+    <label>Chione at Abydos</label>
+    <description>A play dealing with the nine-year sojourn of a snow-goddess in the Thracian city of Abydos, by 'Apollo Fireweaver'. It enjoyed success in London in its 1892 edition, when it was republished from - apparently - an older Greek text.</description>
+    <sourceId>chioneatabydos</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/chioneatabydos</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_irreproachabletraditionssocietynobleendeavour</defName>
+    <label>The Irreproachable Traditions...</label>
+    <description>The Irreproachable Traditions of the Society of the Noble Endeavour. The members of the Society of the Noble Endeavour adopted noble names at their initiation: 'Parsival', 'Roland', 'Oisín'. They drew their inspiration from the Leashed Flame, which gave the island of Britain such appalling power in some histories. One Samuel Partridge has chronicled their efforts.</description>
+    <sourceId>irreproachabletraditionssocietynobleendeavour</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/irreproachabletraditionssocietynobleendeavour</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_roseofnuriel</defName>
+    <label>The Rose of Nuriel</label>
+    <description>A volume of collected teachings of the Sisterhood of the Knot, that arcane-contemplative order that existed in all histories, but in some was very powerful indeed. This was recorded by 'Nuriel', and dedicated to St Tryphon.</description>
+    <sourceId>roseofnuriel</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/roseofnuriel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_roseofhypatia</defName>
+    <label>The Rose of Hypatia</label>
+    <description>A volume of collected teachings of the Sisterhood of the Knot, that arcane-contemplative order that existed in all histories, but in some was very powerful indeed. This was recorded by 'Hypatia', and dedicated to St Nympha.</description>
+    <sourceId>roseofhypatia</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/roseofhypatia</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_roseofwaznei</defName>
+    <label>The Rose of Waznei</label>
+    <description>The heretical teachings of a disgraced offshoot of the Sisterhood of the Knot, that arcane-contemplative order that existed in all histories. This was recorded by 'Waznei', and dedicated to St Respicius.</description>
+    <sourceId>roseofwaznei</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/roseofwaznei</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sunsetpassages</defName>
+    <label>Sunset Passages</label>
+    <description>A miscellany of the funerary prayers, ceremonies and hymns of the Church of the Unconquered Sun, which was ascendant in the Third and Fourth Histories. It schismed during the Intercalate, when the Sun was divided, and has not survived as a significant force.</description>
+    <sourceId>sunsetpassages</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/sunsetpassages</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_gospelzacchaeus</defName>
+    <label>The Gospel of Zacchaeus</label>
+    <description>An extremely heterodox account of the Nazarene Messiah and his works, describing his ascension to the Mansus through the opening of his body.</description>
+    <sourceId>gospelzacchaeus</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/gospelzacchaeus</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_matthiasamethystloss</defName>
+    <label>On Matthias and the Amethyst Imago: Loss</label>
+    <description>An account of an occult romance. A certain Para, son of Aaron, claims to have written this in a single day and a single night as part of his initiation into the Damascene branch of the House of Lethe - that tight-disciplined order of immortals who reject their past and future.</description>
+    <sourceId>matthiasamethystloss</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/matthiasamethystloss</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_matthiasamethysttransformation</defName>
+    <label>On Matthias and the Amethyst Imago: Transformation</label>
+    <description>An account of an occult romance. A certain Iyavogos claims to have written this in a single night as part of his initiation into the Aleppine branch of the House of Lethe - that order of immortals who would not pledge themselves to any Hour.</description>
+    <sourceId>matthiasamethysttransformation</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/matthiasamethysttransformation</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_matthiasamethystpursuit</defName>
+    <label>On Matthias and the Amethyst Imago: Pursuit</label>
+    <description>An account of an occult romance. A certain Mek claims to have written this in a single night as part of his initiation into the Theban branch of the House of Lethe - that order of immortals who used the arts of water to conceal themselves.</description>
+    <sourceId>matthiasamethystpursuit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/matthiasamethystpursuit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_franklinbancroftdiaries</defName>
+    <label>Lord Franklin Bancroft: Diaries, 1750-1790</label>
+    <description>Lord Franklin Bancroft was initiated into the arts of the Flowermaker by the 'rose-witch' Fionna Ayrshire. He rose to become a Society provider of occult services and secret pleasures, before his abrupt disappearance in 1790.</description>
+    <sourceId>franklinbancroftdiaries</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/franklinbancroftdiaries</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_indignitiesobliviate</defName>
+    <label>Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates</label>
+    <description>It's not clear whether 'C.R.O.D', who is identified only by his initials, was in fact an initiate of the Obliviate order of immortal adepts. He wrote in the sixteenth century, after the order - if he is to be believed - had passed the height of its power.</description>
+    <sourceId>indignitiesobliviate</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/indignitiesobliviate</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_furioustantra</defName>
+    <label>The Furious Tantra</label>
+    <description>As later transcribed by the medium and pyrotechnician Jacob Oliver Topp-Mugglestone. Tradition has it that he found it seared in the bark of an oak by lightning.</description>
+    <sourceId>furioustantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/furioustantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devouredtantra</defName>
+    <label>The Devoured Tantra</label>
+    <description>The diplomat-priest Stanislav John Schaller transcribed this from the library of a Red Long, but his manuscript remains in a private collection in Kerisham.</description>
+    <sourceId>devouredtantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/devouredtantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ceaselesstantra</defName>
+    <label>The Ceaseless Tantra</label>
+    <description>The avant-garde choreographer Nicholas Keirle supposedly incorporated this Tantra into his menacing ballets.</description>
+    <sourceId>ceaselesstantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/ceaselesstantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_knownunknowntantra</defName>
+    <label>The Known-Unknown Tantra</label>
+    <description>Carlos Garcia Sauri, the ecstatic mystic of the Pyrenees, was known to recite this in three languages, though he had never visited the Subcontinent.</description>
+    <sourceId>knownunknowntantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/knownunknowntantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_encirclingtantra</defName>
+    <label>The Encircling Tantra</label>
+    <description>The explorer and entrepreneur T. Everett Duplantis once attempted to plunder the temple where this text was held. His fate is recorded in an appendix.</description>
+    <sourceId>encirclingtantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/encirclingtantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_shavenlocktantra</defName>
+    <label>The Shaven Lock Tantra</label>
+    <description>Also known as 'The One Who Has Shaven His Hair'. This, the story goes, is the lore that even the shapechanging Vanaras rejected.</description>
+    <sourceId>shavenlocktantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/shavenlocktantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tantraworms</defName>
+    <label>The Tantra of Worms</label>
+    <description>The entomologist Juliana Zawistowski eventually came to insist that this text was written by insects inhabiting a human skin. She never presented evidence for her claim.</description>
+    <sourceId>tantraworms</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/tantraworms</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofcentipede</defName>
+    <label>The Book of the Centipede</label>
+    <description>In the mid 1860s one 'Madam Yi' presented an entertainment based, she claimed, on this book.</description>
+    <sourceId>bookofcentipede</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofcentipede</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_accountkanishkspidersdoor</defName>
+    <label>The Account of Kanishk at the Spider's Door</label>
+    <description>Lok Kahuli, Kanishk's victim and lover, wrote this account, perhaps posthumously.</description>
+    <sourceId>accountkanishkspidersdoor</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/accountkanishkspidersdoor</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_stumm</defName>
+    <label>STUMM!</label>
+    <description>A can of nitrate film labelled STUMM! - 'Silent' or, perhaps, 'Mute'. The director's name, 'Jernik Krosse', is shakily appended.</description>
+    <sourceId>stumm</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/stumm</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vinzantinscriptions</defName>
+    <label>The Vinzant Inscriptions</label>
+    <description>Everett Vinzant transcribed these from a cliff in Anatolia, where he famously survived a lightning-strike. He died seven years later to the day. His bones, the legend has it, were hot to the touch.</description>
+    <sourceId>vinzantinscriptions</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/vinzantinscriptions</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_larquebinecodex</defName>
+    <label>The Larquebine Codex</label>
+    <description>Christoph Larquebus claimed to have purchased two hand-written copies of the Codex from a family of witches on the shores of the Sea of Marmara. A third was 'given to the Sea'.</description>
+    <sourceId>larquebinecodex</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/larquebinecodex</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_againstsisterhoodknot</defName>
+    <label>Against the Sisterhood of the Knot and...</label>
+    <description>'Against the Sisterhood of the Knot and the Foulness of their Depraved Customs'. Hieronymus Pseudo-Hypnerotomachus wrote this furious screed about the sinister influence of the Sisterhood on his own Church of the Unconquered Sun.</description>
+    <sourceId>againstsisterhoodknot</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/againstsisterhoodknot</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_morphycodex</defName>
+    <label>The Morphy Codex</label>
+    <description>In which a priestess of the Sisterhood of the Knot claims to have discerned the true meaning of the Thunderskin's birth.</description>
+    <sourceId>morphycodex</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/morphycodex</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_leoninetantra</defName>
+    <label>The Leonine Tantra</label>
+    <description>In the most notorious translation of the Leonine Tantra, Ashley Phillips is listed as the translator, but their existence is explicitly denied in the prologue. This confusion is characteristic of books which mention the Great Hooded Princes.</description>
+    <sourceId>leoninetantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/leoninetantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_incandescenttantra</defName>
+    <label>The Incandescent Tantra</label>
+    <description>Michael Blockley, the eccentric iron magnate, was fond of quoting from this tantra. Blockley died in a factory fire.</description>
+    <sourceId>incandescenttantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/incandescenttantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thirstingtantra</defName>
+    <label>The Thirsting Tantra</label>
+    <description>C.G. Burial, the temperance campaigner, published elements of this in a pamphlet, which had to be withdrawn and destroyed after it became too popular.</description>
+    <sourceId>thirstingtantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/thirstingtantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_flayedtantra</defName>
+    <label>The Flayed Tantra</label>
+    <description>This Tantra is recorded as being spoken by an enigmatic individual identified as 'Peel', with many of the qualities of the mythological naga. The Flayed Tantra played a notable part in Alexander Sparrow's paranoid pamphleteering.</description>
+    <sourceId>flayedtantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/flayedtantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_watchfultantra</defName>
+    <label>The Watchful Tantra</label>
+    <description>Notorious for its involvement in the deaths of Dafyd Jones and Meredith Blaine, two early physicists who each claimed to have the only copy and who ultimately fought a duel over it in 1840.</description>
+    <sourceId>watchfultantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/watchfultantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_twinserpenttantra</defName>
+    <label>The Twin-Serpent Tantra</label>
+    <description>Just before the outbreak of the Great War, 'Alexander Sparrow' - almost certainly a pseudonym - published leaflets claiming the influence of 'Snake Princes' on world affairs. The text called the Twin-Serpent Tantra was his primary inspiration.</description>
+    <sourceId>twinserpenttantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/twinserpenttantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_firecircletantra</defName>
+    <label>The Fire-Circle Tantra</label>
+    <description>The one known extant copy of this in Western Europe was stolen from the British Library in 1892. One Harvey Hattington confessed to the crime and claimed to have eaten it, with butter and garlic, in a moment of ungovernable whimsy.</description>
+    <sourceId>firecircletantra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/firecircletantra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_asthesunhiscourse</defName>
+    <label>As The Sun His Course</label>
+    <description>Joel of the Bridge, a retired soldier and sometime tollkeeper, wrote this epic poem about Alexander's famously inexplicable decision at Issus to withdraw from the war with the Achaemenids, and his subsequent return to Macedonia.</description>
+    <sourceId>asthesunhiscourse</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/asthesunhiscourse</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_concursumdiaries</defName>
+    <label>The Concursum Diaries</label>
+    <description>The diaries of the explorer and murderer Lars Westergren. He's unhelpfully translated them into Phrygian, for privacy.</description>
+    <sourceId>concursumdiaries</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/concursumdiaries</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ironbook</defName>
+    <label>The Iron Book</label>
+    <description>A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia. This manual was compiled by one Melerai Yivni, who claims to have travelled to join the Ordo from 'the Crossroads of the Waters'.</description>
+    <sourceId>ironbook</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/ironbook</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_silverbook</defName>
+    <label>The Silver Book</label>
+    <description>A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia. This manual was compiled by one Burzghash, who explains that he came to join the Ordo from the 'city of messenger eagles' after he abandoned the service of the Ivory Dove.</description>
+    <sourceId>silverbook</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/silverbook</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ivorybook</defName>
+    <label>The Ivory Book</label>
+    <description>A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia. This manual was compiled by one Kurenai, who claims to have fled 'the tyranny of the Chrysanthemum Throne' to cross the world and join the Ordo.</description>
+    <sourceId>ivorybook</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/ivorybook</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_worlddoesnotweep</defName>
+    <label>The World Does Not Weep</label>
+    <description>'Brown' Joshua found this in a well in Hamath. There's an unlikely story that it was abandoned by Alexander during his retreat from Issus.</description>
+    <sourceId>worlddoesnotweep</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/worlddoesnotweep</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_deedsofthescarredcaptain</defName>
+    <label>The Deeds of the Scarred Captain</label>
+    <description>Painstakingly assembled by the soldier of fortune and sometime remittance man, Pavel Shulga, during his years in Greece.</description>
+    <sourceId>deedsofthescarredcaptain</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/deedsofthescarredcaptain</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofdissolution</defName>
+    <label>The Book of Dissolution</label>
+    <description>Alexander Probst, following the foundational work of Hosty Moor, recovered a copy of this work from a mountain-temple in Persia. Other copies surface now and then, usually seared on rock.</description>
+    <sourceId>bookofdissolution</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofdissolution</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_catalogueofunchartedpleasures</defName>
+    <label>A Catalogue of Uncharted Pleasures</label>
+    <description>'The Dark Gentleman' is the only, and rather grandiosely, identified author of this often-copied work.</description>
+    <sourceId>catalogueofunchartedpleasures</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/catalogueofunchartedpleasures</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thosewhodonotsleep</defName>
+    <label>Those Who Do Not Sleep</label>
+    <description>The mystic Brodnax discusses the origins of the Sister-and-Witch, and of the Thunderskin.</description>
+    <sourceId>thosewhodonotsleep</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/thosewhodonotsleep</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_theskythesoul</defName>
+    <label>The Sky, the Soul</label>
+    <description>The grand labour of Kalle, an ascetic poet writing at the court of the Shadowless Kings.</description>
+    <sourceId>theskythesoul</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/theskythesoul</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_onthematterandthedeedsofserpents</defName>
+    <label>On the Matter and the Deeds of Serpents</label>
+    <description>This was probably the 'Prophecies of the Naga' rendered into English, and illustrated, by 'William Midnight' in Paris in the 1880s; but it shows a number of divergences from that text. It's certainly quite recent by the standards of Vak texts.</description>
+    <sourceId>onthematterandthedeedsofserpents</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/onthematterandthedeedsofserpents</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_serenityofblackwood</defName>
+    <label>The Serenity of the Black Wood</label>
+    <description>An allegorical history of the House of Lethe, who it is here implied were inspired by the Centipede. 'Sereno Blackwood' is an occult alias to this day.</description>
+    <sourceId>serenityofblackwood</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/serenityofblackwood</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofthrones</defName>
+    <label>The Book of Thrones</label>
+    <description>A legend of the Shadowless Empire, transcribed by Alexander Peterhans from annals at a secret shrine in Anatolia.</description>
+    <sourceId>bookofthrones</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofthrones</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_secondglory</defName>
+    <label>A Second Glory</label>
+    <description>The priest Juceh celebrates the extirpation of the Gods-who-were-stone, those Hours who preceded humanity.</description>
+    <sourceId>secondglory</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/secondglory</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookoftrueblood</defName>
+    <label>Book of True Blood</label>
+    <description>Cassius the Thoman reveals the deeds of the Unnumbered Legion, the secret army that protected Rome against the Shadowless Empire.</description>
+    <sourceId>bookoftrueblood</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookoftrueblood</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_burningwoman</defName>
+    <label>The Burning Woman</label>
+    <description>A transcription of the play by Menander the Victor, possibly the dramatist of that name, into Phrygian, with commentaries.</description>
+    <sourceId>burningwoman</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/burningwoman</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_twentysixenticementsseventorments</defName>
+    <label>Twenty-Six Enticements, Seven Torments</label>
+    <description>The painter Niels Frederik Malskær, notoriously, attempted a series of paintings based on the Torments. By the Fifth Torment, the demands of the painting had grown so dire that he died of blood loss. The diagrams in this text are thankfully less detailed.</description>
+    <sourceId>twentysixenticementsseventorments</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/twentysixenticementsseventorments</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_historyofshadowlesskings</defName>
+    <label>A True and Accurate History of the Shadowless Kings</label>
+    <description>'A True and Accurate History of the Shadowless Kings, by Isaac of Karth.' Isaac describes the thousand-year ascendancy of the Shadowless Empire.</description>
+    <sourceId>historyofshadowlesskings</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/historyofshadowlesskings</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_highmysterieschurchsolar</defName>
+    <label>The High Mysteries of the Innermost Chamber of our Church Solar</label>
+    <description>'The High Mysteries of the Innermost Chamber of our Church Solar'. Secret rites of the Church of the Unconquered Sun, which held power in at least two Histories.</description>
+    <sourceId>highmysterieschurchsolar</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/highmysterieschurchsolar</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_medusaslament</defName>
+    <label>Medusa's Lament</label>
+    <description>On the death of the Hour called Seven-Coils, 'the Father of the Mother'.</description>
+    <sourceId>medusaslament</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/medusaslament</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofmasks</defName>
+    <label>The Book of Masks</label>
+    <description>Athena Vana's work on the rogue Hour called the Vagabond, who is also known as the Laughingthrush, the Centipede, the Pilgrim, and by many other names - or as Vana has it, 'masks'.</description>
+    <sourceId>bookofmasks</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofmasks</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_inthemountainsasupontheplain</defName>
+    <label>In The Mountains...</label>
+    <description>'In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed'. Ninegala of Lagash describes the secrets to be found in mountains.</description>
+    <sourceId>inthemountainsasupontheplain</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/inthemountainsasupontheplain</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_memoryofgods</defName>
+    <label>In Memory of Gods</label>
+    <description>'The Barrowchild', a nameless Gaulish adept who joined an organisation identified as the Ordo Limiae, writes regretfully of the destruction of the gods-who-were-stone - the Hours who preceded humanity.</description>
+    <sourceId>memoryofgods</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/memoryofgods</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sevenfoldslayingsevencoiled</defName>
+    <label>The Sevenfold Slaying of the Seven-Coiled</label>
+    <description>An account of the destruction of a primaeval Hour, a god-who-was-Stone.</description>
+    <sourceId>sevenfoldslayingsevencoiled</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/sevenfoldslayingsevencoiled</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bighuff</defName>
+    <label>My Deeds, My Powers, My Achievements...</label>
+    <description>'My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me'. Hokobald of Pocsind, formerly of the order of immortals called by some the House of Lethe, settles scores.</description>
+    <sourceId>bighuff</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bighuff</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dreamconspiracyskies</defName>
+    <label>The Dream of the Conspiracy of the Lower Skies</label>
+    <description>The disgraced oracle Damaon Azenaten sifts through the tall tales of Penelope of Gordion, the work of the court poet Kalle and the forbidden fragments of the work of the adept Arrettrez, identifying common themes.</description>
+    <sourceId>dreamconspiracyskies</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/dreamconspiracyskies</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookwhitecat</defName>
+    <label>The Book of the White Cat</label>
+    <description>Stories brought to Penelope of Gordion by a blind white cat.</description>
+    <sourceId>bookwhitecat</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookwhitecat</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_focusamber</defName>
+    <label>The Focus of Amber</label>
+    <description>Omar, the Blaze, spent seven years manning a lighthouse in Tyre, in atonement for the extinguishing of a sacred flame. By the end of his stint, he was so terrified of fire that he could not stand to share a room with a candle. This work was written in partial penance.</description>
+    <sourceId>focusamber</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/focusamber</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_songscarapacecross</defName>
+    <label>The Songs of the Carapace Cross</label>
+    <description>Micah Xi, sometimes called the Magus of Quartz, etched this work in acid on stone. It has been reproduced many times since, but the reproductions are often lost to landslides.</description>
+    <sourceId>songscarapacecross</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/songscarapacecross</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_originsofhours</defName>
+    <label>The Origins of Hours</label>
+    <description>The sage and ecstatic Soham, a frequent visitor to the Mansus, claimed to have discoursed with the Beachcrow in person. Soham later insisted on a sky-burial.</description>
+    <sourceId>originsofhours</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/originsofhours</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_wherehasshegone</defName>
+    <label>Where Has She Gone?</label>
+    <description>'The Speeth' - perhaps a single adept, perhaps a council of scholars - hypothesises secret events from limited evidence with persuasive accuracy.</description>
+    <sourceId>wherehasshegone</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/wherehasshegone</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookextinguishedheart</defName>
+    <label>The Book of the Extinguished Heart</label>
+    <description>In the days of the Shadowless Kings, Ennis Lazali was executed for prophesying the Division of the Sun. If any of his captors grew Long, they probably feel rather abashed now.</description>
+    <sourceId>bookextinguishedheart</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookextinguishedheart</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_howendwillbegin</defName>
+    <label>How the End will Begin</label>
+    <description>A prophecy of the Wars of the Roads, recorded in the Subcontinent in the days before the Great Hooded Princes.</description>
+    <sourceId>howendwillbegin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/howendwillbegin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_manneralchemistspared</defName>
+    <label>The Manner in which the Alchemist was Spared</label>
+    <description>In 1782, Anaël Verdier used this text as the basis for a presentation to the Academy of Sciences in Paris. He was executed in secret the following morning without trial.</description>
+    <sourceId>manneralchemistspared</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/manneralchemistspared</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fivecreations</defName>
+    <label>Five Creations</label>
+    <description>The itinerant scholar Shohei debated five possible origins for humanity with a hooded figure since claimed to be the Beach-Crow. Shohei later claimed that all these accounts had proven false, but the debate was, nevertheless, recorded.</description>
+    <sourceId>fivecreations</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/fivecreations</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_commandspreservationallexists</defName>
+    <label>Commandments For the Preservation of All That Exists</label>
+    <description>Black Elie, Damascene Matriarch of the Sisterhood of the Knot, was imprisoned by the emperor Didius Julianus. She reportedly instructed that these secret doctrines be recorded in writing to preserve against their loss. Regrettably, the story goes, Didius Julianus ordered that the work be entombed with her in an unmarked sepulcher.</description>
+    <sourceId>commandspreservationallexists</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/commandspreservationallexists</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_timedivision</defName>
+    <label>The Time of Division</label>
+    <description>In which Amira Zahra prophesies the events later known as the Intercalate, when the Hour called Sun-in-Splendour will be divided.</description>
+    <sourceId>timedivision</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/timedivision</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_manualdeparture</defName>
+    <label>A Manual for Departure</label>
+    <description>The author, who identifies itself as the Jekadu, claims to be one of the Great Hooded Princes of the Land of the River. The style is informal, even chatty.</description>
+    <sourceId>manualdeparture</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/manualdeparture</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_birdsong</defName>
+    <label>Inaam, Kapigiginlupir, Garkie, Cryppys</label>
+    <description>In which four enigmatic figures tell the stories they've heard over the years at the Roost, the secret location where the aviform Hours congregate.</description>
+    <sourceId>birdsong</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/birdsong</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_voyagesfo</defName>
+    <label>The Voyages of Ferninshun of Oreol</label>
+    <description>A travelogue of sorts.</description>
+    <sourceId>voyagesfo</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/voyagesfo</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scarsky</defName>
+    <label>The Scar in the Sky</label>
+    <description>Nyn wrote this, and came to regret it.</description>
+    <sourceId>scarsky</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/scarsky</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_kitlingripe</defName>
+    <label>Kitling Ripe and the Moldywarp's Grave (and Other Stories)</label>
+    <description>A lusciously illustrated tome of loosely connected children's stories, collected by one N.K. Field. Few of them are remotely suitable for children.</description>
+    <sourceId>kitlingripe</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/kitlingripe</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_raptintheking</defName>
+    <label>Rapt in the King</label>
+    <description>Detailed accounts by James Colin Murphy of secret bacchanals and ecstatic dances observed in necropolises and graveyards in Southern Europe, in Egypt and in Anatolia. The author is a self-confessed ghoul, an eater of buried flesh: he claims to have witnessed the dances while at his feasting.</description>
+    <sourceId>raptintheking</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/raptintheking</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vienneseconundra</defName>
+    <label>The Viennese Conundra</label>
+    <description>Nico Van Driel describes odd events in Vienna - the disappearance of children; epidemics of parasite activity; animal mutilations; nightmares of worms; the activities of a charitable organisation, the New Ligeians, that funds the burial of the poor. She proposes peculiar connections between these activities.</description>
+    <sourceId>vienneseconundra</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/vienneseconundra</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookreason</defName>
+    <label>A Collection of Essays</label>
+    <description>If the mind is a blade, this is a whetstone. [Study to gain an Erudition: Lesson Learnt, which you may be able to use to increase Reason.]</description>
+    <sourceId>textbookreason</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookreason</iconPath>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookpassion</defName>
+    <label>A Collection of Poetry</label>
+    <description>'The poet makes himself a seer by an immense, long, deliberate derangement of all the senses...' The opposite of wisdom, thankfully. [Study to gain a Glimmering: Lesson Learnt, which you may be able to use to increase Passion.]</description>
+    <sourceId>textbookpassion</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookpassion</iconPath>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_genericrubbishbook</defName>
+    <label>Something something DEEP MYSTERIES something</label>
+    <description>A dreadful soufflé of half-digested rumour about the 'Secret Worlds' and the irrelevance of contemporary morality, including a catalogue of unlikely, and probably invented, debaucheries. [If I've bought this from a shop, it probably means there is nothing else of interest left in stock.].</description>
+    <sourceId>genericrubbishbook</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/genericrubbishbook</iconPath>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dehoris1latin</defName>
+    <label>De Horis (Book 1)</label>
+    <description>In Latin. A nineteenth-century reprint (by the indefatigable Nathaniel Darcy-Evers) of a fourteenth-century Latin translation of a fourth-century work.</description>
+    <sourceId>dehoris1latin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/dehoris1latin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dehoris2latin</defName>
+    <label>De Horis (Book 2)</label>
+    <description>In Latin. A nineteenth-century reprint (by the indefatigable Nathaniel Darcy-Evers) of a fourteenth-century Latin translation of a fourth-century work.</description>
+    <sourceId>dehoris2latin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/dehoris2latin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_debellismurorumlatin</defName>
+    <label>De Bellis Murorum</label>
+    <description>In Latin. An eighteenth-century epic poem by the pseudonymous 'Solipsistos'.</description>
+    <sourceId>debellismurorumlatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/debellismurorumlatin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_onwhatiscontainedbysilvergreek</defName>
+    <label>On What Is Contained By Silver</label>
+    <description>A bestiary by 'Poemander'. In Greek.</description>
+    <sourceId>onwhatiscontainedbysilvergreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/onwhatiscontainedbysilvergreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_truecompleteasclepiangreek</defName>
+    <label>A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House</label>
+    <description>Reproduced by one 'Rylee Grese' from - supposedly - a much older text. In Greek.</description>
+    <sourceId>truecompleteasclepiangreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/truecompleteasclepiangreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_orchidtransfigurations1latin</defName>
+    <label>The Orchid Transfigurations, Vol 1</label>
+    <description>A sixteenth-century alchemical fever-dream, attributed to Robert Fludd, frequently banned for the disturbing allure of its illustrations. This is in the original Latin.</description>
+    <sourceId>orchidtransfigurations1latin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/orchidtransfigurations1latin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_orchidtransfigurations2latin</defName>
+    <label>The Orchid Transfigurations, Vol 2</label>
+    <description>A sixteenth-century alchemical fever-dream, attributed to Robert Fludd, frequently banned for the disturbing allure of its illustrations. This is in the original Latin.</description>
+    <sourceId>orchidtransfigurations2latin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/orchidtransfigurations2latin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_orchidtransfigurations3latin</defName>
+    <label>The Orchid Transfigurations, Vol 3</label>
+    <description>A sixteenth-century alchemical fever-dream, attributed to Robert Fludd, frequently banned for the disturbing allure of its illustrations. This is in the original Latin.</description>
+    <sourceId>orchidtransfigurations3latin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/orchidtransfigurations3latin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_geminiadfucine</defName>
+    <label>The Geminiad</label>
+    <description>A fragile manuscript, illuminated with twinned shapes of sad and luminous beauty, and with all the phases of the moon. It might be as old as the seventh century, but the language - Fucine - is much older. Coral decorates its cover, and its page-edges are sharp enough to slash a throat.</description>
+    <sourceId>geminiadfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/geminiadfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>text</key><value>1</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookfucinelatin</defName>
+    <label>The Ciphered Journal of Alessandro LaCroce</label>
+    <description>Prince Alessandro LaCroce spent years in secret study of the tablets taken from the Fucine Marshes in central Italy. His work will allow you to read Fucine texts... but it's written in a simple Latin cipher. You'll need to decipher it first.</description>
+    <sourceId>textbookfucinelatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookfucinelatin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookphrygiangreek</defName>
+    <label>The Velshorn Inscriptions</label>
+    <description>Hundreds of matching lines in Greek and Phrygian poetry, copied from a wall. Similar - or identical - to the inscriptions Cal Velshorn discovered in Halicarnassus. [If you speak Greek, you can use this as a key to Phrygian.]</description>
+    <sourceId>textbookphrygiangreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookphrygiangreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookmandaicaramaic</defName>
+    <label>The August Stone</label>
+    <description>A tremendous bowl, big as a gong, carved from black basalt, with matching incantations in Aramaic and Mandaic. [If you speak Aramaic, you can use this as a key to Mandaic.]</description>
+    <sourceId>textbookmandaicaramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookmandaicaramaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_textbookvaksanskrit</defName>
+    <label>An Enigmatic Sculpture</label>
+    <description>An elaborate ivory sculpture of impossible intricacy. Around and across its surfaces, Sanskrit inscriptions spiral against matching lines of Vak. [If you speak Sanskrit, you can use this to learn Vak, the first language of the world.]</description>
+    <sourceId>textbookvaksanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/textbookvaksanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_irreproachabletraditionssocietynobleendeavourlatin</defName>
+    <label>The Irreproachable Traditions...</label>
+    <description>The Irreproachable Traditions of the Society of the Noble Endeavour. In Latin.</description>
+    <sourceId>irreproachabletraditionssocietynobleendeavourlatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/irreproachabletraditionssocietynobleendeavourlatin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_roseofnurielgreek</defName>
+    <label>The Rose of Nuriel</label>
+    <description>Marked with the tripled sign of the arcane-contemplative order known as the Sisterhood of the Knot. In Greek.</description>
+    <sourceId>roseofnurielgreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/roseofnurielgreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_roseofhypatiagreek</defName>
+    <label>The Rose of Hypatia</label>
+    <description>Marked with the tripled sign of the arcane-contemplative order known as the Sisterhood of the Knot. In Greek.</description>
+    <sourceId>roseofhypatiagreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/roseofhypatiagreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_roseofwazneigreek</defName>
+    <label>The Rose of Waznei</label>
+    <description>Marked with the tripled sign of the arcane-contemplative order known as the Sisterhood of the Knot... but a fourth leaf has been added, disfiguring the sign. In Greek.</description>
+    <sourceId>roseofwazneigreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/roseofwazneigreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sunsetpassageslatin</defName>
+    <label>Sunset Passages</label>
+    <description>A holy text of the Church of the Unconquered Sun, which in many histories was driven underground. In Latin.</description>
+    <sourceId>sunsetpassageslatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/sunsetpassageslatin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_gospelzacchaeusgreek</defName>
+    <label>The Gospel of Zacchaeus</label>
+    <description>A lost early Christian text? It's in Greek.</description>
+    <sourceId>gospelzacchaeusgreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/gospelzacchaeusgreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_matthiasamethystlossaramaic</defName>
+    <label>On Matthias and the Amethyst Imago: Loss</label>
+    <description>The diagrams and illustrations, even across the centuries, are elegant, hypnotic, occasionally erotic. In Aramaic.</description>
+    <sourceId>matthiasamethystlossaramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/matthiasamethystlossaramaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_matthiasamethysttransformationaramaic</defName>
+    <label>On Matthias and the Amethyst Imago: Transformation</label>
+    <description>The diagrams and illustrations, even across the centuries, are elegant, hypnotic, occasionally erotic. In Aramaic.</description>
+    <sourceId>matthiasamethysttransformationaramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/matthiasamethysttransformationaramaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_matthiasamethystpursuitaramaic</defName>
+    <label>On Matthias and the Amethyst Imago: Pursuit</label>
+    <description>The diagrams and illustrations, even across the centuries, are elegant, hypnotic, occasionally erotic. In Aramaic.</description>
+    <sourceId>matthiasamethystpursuitaramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/matthiasamethystpursuitaramaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_franklinbancroftdiarieslatin</defName>
+    <label>Lord Franklin Bancroft: Diaries, 1750-1790</label>
+    <description>The notorious journal of a notorious gentleman, written in Latin, no doubt for the sake of safety.</description>
+    <sourceId>franklinbancroftdiarieslatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/franklinbancroftdiarieslatin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_indignitiesobliviatelatin</defName>
+    <label>Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates</label>
+    <description>This book is as famous for the near-incoherent fury of its tone, as for the knowledge it contains. In Latin.</description>
+    <sourceId>indignitiesobliviatelatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/indignitiesobliviatelatin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_furioustantrasanskrit</defName>
+    <label>The Furious Tantra</label>
+    <description>As later transcribed by the medium and pyrotechnician Jacob Oliver Topp-Mugglestone. Tradition has it that he found it seared in the bark of an oak by lightning.</description>
+    <sourceId>furioustantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/furioustantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devouredtantrasanskrit</defName>
+    <label>The Devoured Tantra</label>
+    <description>The diplomat-priest Stanislav John Schaller transcribed this from the library of a Red Long, but his manuscript remains in a private collection in Kerisham.</description>
+    <sourceId>devouredtantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/devouredtantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ceaselesstantrasanskrit</defName>
+    <label>The Ceaseless Tantra</label>
+    <description>The avant-garde choreographer Nicholas Keirle supposedly incorporated this tantra into his menacing ballets.</description>
+    <sourceId>ceaselesstantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/ceaselesstantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_knownunknowntantrasanskrit</defName>
+    <label>The Known-Unknown Tantra</label>
+    <description>Carlos Garcia Sauri, the ecstatic mystic of the Pyrenees, was known to recite this in three languages, though he had never visited the Subcontinent.</description>
+    <sourceId>knownunknowntantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/knownunknowntantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_encirclingtantrasanskrit</defName>
+    <label>The Encircling Tantra</label>
+    <description>The explorer and entrepreneur T. Everett Duplantis once attempted to plunder the temple where this text was held. His fate is recorded in an appendix.</description>
+    <sourceId>encirclingtantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/encirclingtantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_shavenlocktantrasanskrit</defName>
+    <label>The Shaven Lock Tantra</label>
+    <description>Also known as 'The One Who Has Shaven His Hair'. This, the story goes, is the lore that even the shapechanging Vanaras rejected.</description>
+    <sourceId>shavenlocktantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/shavenlocktantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tantrawormssanskrit</defName>
+    <label>The Tantra of Worms</label>
+    <description>The entomologist Juliana Zawistowski eventually came to insist that this text was written by insects inhabiting a human skin. She never presented evidence for her claim.</description>
+    <sourceId>tantrawormssanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/tantrawormssanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofcentipedegreek</defName>
+    <label>The Book of the Centipede</label>
+    <description>In the mid 1860s one 'Madam Yi' presented an entertainment based, she claimed, on this book.</description>
+    <sourceId>bookofcentipedegreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofcentipedegreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_accountkanishkspidersdooraramaic</defName>
+    <label>The Account of Kanishk at the Spider's Door</label>
+    <description>Lok Kahuli, Kanishk's victim and lover, wrote this account, perhaps posthumously.</description>
+    <sourceId>accountkanishkspidersdooraramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/accountkanishkspidersdooraramaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vinzantinscriptionsphrygian</defName>
+    <label>The Vinzant Inscriptions</label>
+    <description>Everett Vinzant transcribed these Phrygian incriptions from a cliff in Anatolia, where he famously survived a lightning-strike. He died seven years later to the day. His bones, the legend has it, were hot to the touch.</description>
+    <sourceId>vinzantinscriptionsphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/vinzantinscriptionsphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_larquebinecodexphrygian</defName>
+    <label>The Larquebine Codex</label>
+    <description>Christoph Larquebus claimed to have purchased two hand-written copies of the Codex, in the supposedly-extinct Phrygian tongue, from a family of witches on the shores of the Sea of Marmara. A third was 'given to the Sea'.</description>
+    <sourceId>larquebinecodexphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/larquebinecodexphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_againstsisterhoodknotgreek</defName>
+    <label>Against the Sisterhood of the Knot and...</label>
+    <description>'Against the Sisterhood of the Knot and the Foulness of their Depraved Customs'. Hieronymus Pseudo-Hypnerotomachus wrote this furious screed about the sinister influence of the Sisterhood on his own Church of the Unconquered Sun.</description>
+    <sourceId>againstsisterhoodknotgreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/againstsisterhoodknotgreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_morphycodexaramaic</defName>
+    <label>The Morphy Codex</label>
+    <description>A text of the Sisterhood of the Knot, unearthed by Evan Morphy.</description>
+    <sourceId>morphycodexaramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/morphycodexaramaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_leoninetantrasanskrit</defName>
+    <label>The Leonine Tantra</label>
+    <description>In the most notorious translation of the Leonine Tantra, Ashley Phillips is listed as the translator, but their existence is explicitly denied in the prologue. This confusion is characteristic of books which mention the Great Hooded Princes.</description>
+    <sourceId>leoninetantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/leoninetantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_incandescenttantrasanskrit</defName>
+    <label>The Incandescent Tantra</label>
+    <description>Michael Blockley, the eccentric iron magnate, was fond of quoting from this tantra. Blockley died in a factory fire.</description>
+    <sourceId>incandescenttantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/incandescenttantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thirstingtantrasanskrit</defName>
+    <label>The Thirsting Tantra</label>
+    <description>C.G. Burial, the temperance campaigner, published elements of this in a pamphlet, which had to be withdrawn and destroyed after it became too popular.</description>
+    <sourceId>thirstingtantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/thirstingtantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_flayedtantrasanskrit</defName>
+    <label>The Flayed Tantra</label>
+    <description>This Tantra is recorded as being spoken by an enigmatic individual identified as 'Peel', with many of the qualities of the mythological naga. The Flayed Tantra played a notable part in Alexander Sparrow's paranoid pamphleteering.</description>
+    <sourceId>flayedtantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/flayedtantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_watchfultantrasanskrit</defName>
+    <label>The Watchful Tantra</label>
+    <description>Notorious for its involvement in the deaths of Dafyd Jones and Meredith Blaine, two early physicists who each claimed to have the only copy and who ultimately fought a duel over it in 1840.</description>
+    <sourceId>watchfultantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/watchfultantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_twinserpenttantrasanskrit</defName>
+    <label>The Twin-Serpent Tantra</label>
+    <description>A tantra shrouded in particular obscurity.</description>
+    <sourceId>twinserpenttantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/twinserpenttantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_firecircletantrasanskrit</defName>
+    <label>The Fire-Circle Tantra</label>
+    <description>The one known extant copy of this in Western Europe was stolen from the British Library in 1892. One Harvey Hattington confessed to the crime and claimed to have eaten it, with butter and garlic, in a moment of ungovernable whimsy.</description>
+    <sourceId>firecircletantrasanskrit</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/firecircletantrasanskrit</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_asthesunhiscoursearamaic</defName>
+    <label>As The Sun His Course</label>
+    <description>Joel of the Bridge, a retired soldier and sometime tollkeeper, wrote this epic poem about Alexander's famously inexplicable decision at Issus to withdraw from the war with the Achaemenids, and his subsequent return to Macedonia.</description>
+    <sourceId>asthesunhiscoursearamaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/asthesunhiscoursearamaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_concursumdiariesphrygian</defName>
+    <label>The Concursum Diaries</label>
+    <description>The diaries of the explorer and murderer Lars Westergren. He's unhelpfully translated them into Phrygian, for privacy.</description>
+    <sourceId>concursumdiariesphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/concursumdiariesphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ironbookfucine</defName>
+    <label>The Iron Book</label>
+    <description>A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia.</description>
+    <sourceId>ironbookfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/ironbookfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_silverbookfucine</defName>
+    <label>The Silver Book</label>
+    <description>A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia.</description>
+    <sourceId>silverbookfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/silverbookfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ivorybookfucine</defName>
+    <label>The Ivory Book</label>
+    <description>A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia.</description>
+    <sourceId>ivorybookfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/ivorybookfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_worlddoesnotweeparamaic</defName>
+    <label>The World Does Not Weep</label>
+    <description>'Brown' Joshua found this in a well in Hamath. There's an unlikely story that it was abandoned by Alexander during his retreat from Issus.</description>
+    <sourceId>worlddoesnotweeparamaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/worlddoesnotweeparamaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_deedsofthescarredcaptaingreek</defName>
+    <label>The Deeds of the Scarred Captain</label>
+    <description>Painstakingly assembled by the soldier of fortune and sometime remittance man, Pavel Shulga, during his years in Greece.</description>
+    <sourceId>deedsofthescarredcaptaingreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/deedsofthescarredcaptaingreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofdissolutionmandaic</defName>
+    <label>The Book of Dissolution</label>
+    <description>Alexander Probst, following the foundational work of Hosty Moor, recovered a copy of this work from a mountain-temple in Persia. Other copies surface now and then, usually seared on rock.</description>
+    <sourceId>bookofdissolutionmandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofdissolutionmandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_catalogueofunchartedpleasuresphrygian</defName>
+    <label>A Catalogue of Uncharted Pleasures</label>
+    <description>'The Dark Gentleman' is the only, and rather grandiosely, identified author of this often-copied work.</description>
+    <sourceId>catalogueofunchartedpleasuresphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/catalogueofunchartedpleasuresphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thosewhodonotsleepfucine</defName>
+    <label>Those Who Do Not Sleep</label>
+    <description>A Fucine text attributed to the mystic, Brodnax.</description>
+    <sourceId>thosewhodonotsleepfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/thosewhodonotsleepfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_theskythesoularamaic</defName>
+    <label>The Sky, the Soul</label>
+    <description>The grand labour of Kalle, an ascetic poet writing at the court of the Shadowless Kings.</description>
+    <sourceId>theskythesoularamaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/theskythesoularamaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_onthematterandthedeedsofserpentsvak</defName>
+    <label>On the Matter and the Deeds of Serpents</label>
+    <description>This was probably the 'Prophecies of the Naga' rendered into English, and illustrated, by 'William Midnight' in Paris in the 1880s; but it shows a number of divergences from that text. It's certainly quite recent by the standards of Vak texts.</description>
+    <sourceId>onthematterandthedeedsofserpentsvak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/onthematterandthedeedsofserpentsvak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_serenityofblackwoodgreek</defName>
+    <label>The Serenity of the Black Wood</label>
+    <description>An allegorical history of the House of Lethe, who it is here implied were inspired by the Centipede. 'Sereno Blackwood' is an occult alias to this day.</description>
+    <sourceId>serenityofblackwoodgreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/serenityofblackwoodgreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofthronesphrygian</defName>
+    <label>The Book of Thrones</label>
+    <description>A legend of the Shadowless Empire, transcribed by Alexander Peterhans from annals at a secret shrine in Anatolia.</description>
+    <sourceId>bookofthronesphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofthronesphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_secondglorymandaic</defName>
+    <label>A Second Glory</label>
+    <description>A work by Juceh, the priest and hermit scholar.</description>
+    <sourceId>secondglorymandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/secondglorymandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookoftruebloodlatin</defName>
+    <label>Book of True Blood</label>
+    <description>A work by Cassius the Thoman.</description>
+    <sourceId>bookoftruebloodlatin</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookoftruebloodlatin</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_burningwomanphrygian</defName>
+    <label>The Burning Woman</label>
+    <description>A transcription of the play by Menander the Victor, possibly the dramatist of that name, into Phrygian, with commentaries.</description>
+    <sourceId>burningwomanphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/burningwomanphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_twentysixenticementsseventormentsfucine</defName>
+    <label>Twenty-Six Enticements, Seven Torments</label>
+    <description>The painter Niels Frederik Malskær, notoriously, attempted a series of paintings based on the Torments. By the Fifth Torment, the demands of the painting had grown so dire that he died of blood loss. The diagrams in this text are thankfully less detailed.</description>
+    <sourceId>twentysixenticementsseventormentsfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/twentysixenticementsseventormentsfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_historyofshadowlesskingsaramaic</defName>
+    <label>A True and Accurate History of the Shadowless Kings</label>
+    <description>Isaac of Karth's history of the Shadowless Empire.</description>
+    <sourceId>historyofshadowlesskingsaramaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/historyofshadowlesskingsaramaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_highmysterieschurchsolarfucine</defName>
+    <label>The High Mysteries of the Innermost...</label>
+    <description>'The High Mysteries of the Innermost Chamber of our Church Solar'. Secret rites of the Church of the Unconquered Sun, which held power in at least two Histories.</description>
+    <sourceId>highmysterieschurchsolarfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/highmysterieschurchsolarfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_medusaslamentgreek</defName>
+    <label>Medusa's Lament</label>
+    <description>On the death of the Hour called Seven-Coils, 'the Father of the Mother'.</description>
+    <sourceId>medusaslamentgreek</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/medusaslamentgreek</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookofmasksphrygian</defName>
+    <label>The Book of Masks</label>
+    <description>Athena Vana's work on the rogue Hour called the Vagabond.</description>
+    <sourceId>bookofmasksphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookofmasksphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_inthemountainsasupontheplainvak</defName>
+    <label>In The Mountains As Upon The Plain...</label>
+    <description>'In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed.' A work by Ninegala of Lagash.</description>
+    <sourceId>inthemountainsasupontheplainvak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/inthemountainsasupontheplainvak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_memoryofgodsfucine</defName>
+    <label>In Memory of Gods</label>
+    <description>A work by 'the Barrowchild', a nameless Gaulish adept who joined an organisation known as the Ordo Limiae.</description>
+    <sourceId>memoryofgodsfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/memoryofgodsfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sevenfoldslayingsevencoiledfucine</defName>
+    <label>The Sevenfold Slaying of the Seven-Coiled</label>
+    <description>An account of the destruction of a primaeval Hour, a god-who-was-Stone.</description>
+    <sourceId>sevenfoldslayingsevencoiledfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/sevenfoldslayingsevencoiledfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bighufffucine</defName>
+    <label>My Deeds, My Powers, My Achievements...</label>
+    <description>'My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me'</description>
+    <sourceId>bighufffucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bighufffucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dreamconspiracyskiesphrygian</defName>
+    <label>The Dream of the Conspiracy of the Lower Skies</label>
+    <description>Siftings of the disgraced oracle Damaon Azenaten.</description>
+    <sourceId>dreamconspiracyskiesphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/dreamconspiracyskiesphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookwhitecatphrygian</defName>
+    <label>The Book of the White Cat</label>
+    <description>Stories brought to Penelope of Gordion by a blind white cat.</description>
+    <sourceId>bookwhitecatphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookwhitecatphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_focusambermandaic</defName>
+    <label>The Focus of Amber</label>
+    <description>The penance-work of Omar, the Blaze.</description>
+    <sourceId>focusambermandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/focusambermandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_songscarapacecrossmandaic</defName>
+    <label>The Songs of the Carapace Cross</label>
+    <description>Micah Xi's often-destroyed work.</description>
+    <sourceId>songscarapacecrossmandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/songscarapacecrossmandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_originsofhoursvak</defName>
+    <label>The Origins of Hours</label>
+    <description>A Vak work that may contain gossip about the various origins of the secret gods.</description>
+    <sourceId>originsofhoursvak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/originsofhoursvak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_wherehasshegonevak</defName>
+    <label>Where Has She Gone?</label>
+    <description>A discussion in Vak of the Vagabond's travels.</description>
+    <sourceId>wherehasshegonevak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/wherehasshegonevak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_bookextinguishedheartmandaic</defName>
+    <label>The Book of the Extinguished Heart</label>
+    <description>A book of melancholy prophecy.</description>
+    <sourceId>bookextinguishedheartmandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/bookextinguishedheartmandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_howendwillbeginvak</defName>
+    <label>How the End will Begin</label>
+    <description>A book of bleak prophecy.</description>
+    <sourceId>howendwillbeginvak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/howendwillbeginvak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_manneralchemistsparedvak</defName>
+    <label>The Manner in which the Alchemist was Spared</label>
+    <description>A quasi-alchemical text, in Vak.</description>
+    <sourceId>manneralchemistsparedvak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/manneralchemistsparedvak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fivecreationsvak</defName>
+    <label>Five Creations</label>
+    <description>The itinerant scholar Shohei debated five possible origins for humanity with a hooded figure since claimed to be the Beach-Crow. Shohei later claimed that all these accounts had proven false, but the debate was, nevertheless, recorded.</description>
+    <sourceId>fivecreationsvak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/fivecreationsvak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_commandspreservationallexistsmandaic</defName>
+    <label>Commandments For the Preservation...</label>
+    <description>'Commandments For the Preservation of All That Exists'. Black Elie, Damascene Matriarch of the Sisterhood of the Knot, was imprisoned by the emperor Didius Julianus. She reportedly instructed that these secret doctrines be recorded in writing to preserve against their loss. Regrettably, the story goes, Didius Julianus ordered that the work be entombed with her in an unmarked sepulcher.</description>
+    <sourceId>commandspreservationallexistsmandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/commandspreservationallexistsmandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_timedivisionmandaic</defName>
+    <label>The Time of Division</label>
+    <description>In which Amira Zahra prophesies the events later known as the Intercalate, when the Hour called Sun-in-Splendour will be divided.</description>
+    <sourceId>timedivisionmandaic</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/timedivisionmandaic</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_manualdeparturevak</defName>
+    <label>A Manual for Departure</label>
+    <description>The author, who identifies itself as the Jekadu, claims to be one of the Great Hooded Princes of the Land of the River.</description>
+    <sourceId>manualdeparturevak</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/manualdeparturevak</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_birdsongphrygian</defName>
+    <label>Inaam, Kapigiginlupir, Garkie, Cryppys</label>
+    <description>In which four enigmatic figures tell the stories they've heard over the years at the Roost, the secret location where the aviform Hours congregate.</description>
+    <sourceId>birdsongphrygian</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/birdsongphrygian</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_voyagesfofucine</defName>
+    <label>The Voyages of Ferninshun of Oreol</label>
+    <description>The impossible travels of a sea-captain of the late Phoenician era. Suppressed throughout recorded history: those who read it were said to disappear.</description>
+    <sourceId>voyagesfofucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/voyagesfofucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scarskyfucine</defName>
+    <label>The Scar in the Sky</label>
+    <description>Nyn wrote this, and came to regret it.</description>
+    <sourceId>scarskyfucine</sourceId>
+    <category>Book</category>
+    <iconPath>Cultist/Catalog/Book/scarskyfucine</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>text</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Race_Hint.label>迹形</Cultist_Race_Hint.label>
+  <Cultist_Race_Hint.description>诞生于灯与刃的流光灵体，行动迅捷，受镜面吸引。</Cultist_Race_Hint.description>
+  <Cultist_Race_Hint.tools.blinding_slash.label>炫目斩</Cultist_Race_Hint.tools.blinding_slash.label>
+  <Cultist_Race_Caligine.label>汽灵</Cultist_Race_Caligine.label>
+  <Cultist_Race_Caligine.description>由铸火浓烟与冬寒凝聚而成的飘浮灵体，对物理打击极具韧性。</Cultist_Race_Caligine.description>
+  <Cultist_Race_Caligine.tools.suffocating_grip.label>窒息缠握</Cultist_Race_Caligine.tools.suffocating_grip.label>
+  <Cultist_Race_Percussigant.label>擂击者</Cultist_Race_Percussigant.label>
+  <Cultist_Race_Percussigant.description>属于心与刃的不倦狂舞巨汉，永不疲惫，每次挥击都势若雷霆。</Cultist_Race_Percussigant.description>
+  <Cultist_Race_Percussigant.tools.thunderous_blow.label>雷鸣重击</Cultist_Race_Percussigant.tools.thunderous_blow.label>
+  <Cultist_Race_MaidInMirror.label>镜中少女</Cultist_Race_MaidInMirror.label>
+  <Cultist_Race_MaidInMirror.description>自镀银镜面步出的致命冬刃刺客，每一次切割都冰冷而精准。</Cultist_Race_MaidInMirror.description>
+  <Cultist_Race_MaidInMirror.tools.glass_shard.label>碎镜寒刃</Cultist_Race_MaidInMirror.tools.glass_shard.label>
+  <Cultist_Race_KingCrucible.label>坩埚王</Cultist_Race_KingCrucible.label>
+  <Cultist_Race_KingCrucible.description>白日铸炉麾下烈焰缭绕的具名灵体，可传授弗里吉亚语。</Cultist_Race_KingCrucible.description>
+  <Cultist_Race_KingCrucible.tools.furnace_blade.label>熔炉烈刃</Cultist_Race_KingCrucible.tools.furnace_blade.label>
+  <Cultist_Race_Teresa.label>特蕾莎</Cultist_Race_Teresa.label>
+  <Cultist_Race_Teresa.description>巴尔多梅拉女士，辉光映照下的灯相具名灵体，可传授渊深曼达安语。</Cultist_Race_Teresa.description>
+  <Cultist_Race_Teresa.tools.radiant_lash.label>辉光鞭</Cultist_Race_Teresa.tools.radiant_lash.label>
+  <Cultist_Race_ShatteredRisen.label>破碎行尸</Cultist_Race_ShatteredRisen.label>
+  <Cultist_Race_ShatteredRisen.description>被寒意与怒火驱使的脆弱冬刃行尸。</Cultist_Race_ShatteredRisen.description>
+  <Cultist_Race_ShatteredRisen.tools.bone_shard.label>碎骨刺</Cultist_Race_ShatteredRisen.tools.bone_shard.label>
+  <Cultist_Race_BurgeoningRisen.label>抽芽行尸</Cultist_Race_BurgeoningRisen.label>
+  <Cultist_Race_BurgeoningRisen.description>覆满苍白嫩枝、躁动不休的冬蛾行尸。</Cultist_Race_BurgeoningRisen.description>
+  <Cultist_Race_BurgeoningRisen.tools.thorny_grasp.label>荆棘抓挠</Cultist_Race_BurgeoningRisen.tools.thorny_grasp.label>
+  <Cultist_Race_VoicelessDead.label>无声亡者</Cultist_Race_VoicelessDead.label>
+  <Cultist_Race_VoicelessDead.description>在绝对静默中承受一切打击的冬心复生者。</Cultist_Race_VoicelessDead.description>
+  <Cultist_Race_VoicelessDead.tools.silent_strike.label>无声重击</Cultist_Race_VoicelessDead.tools.silent_strike.label>
+  <Cultist_Race_RawProphet.label>原生先知</Cultist_Race_RawProphet.label>
+  <Cultist_Race_RawProphet.description>由饥渴与秘密交织蠕动的杯蛾实体。</Cultist_Race_RawProphet.description>
+  <Cultist_Race_RawProphet.tools.voracious_tendril.label>贪婪触须</Cultist_Race_RawProphet.tools.voracious_tendril.label>
+  <Cultist_Race_Ezeem.label>第二干渴者伊泽姆</Cultist_Race_Ezeem.label>
+  <Cultist_Race_Ezeem.description>欲壑难填、令人胆寒的杯刃具名灵体，可传授弗里吉亚语。</Cultist_Race_Ezeem.description>
+  <Cultist_Race_Ezeem.tools.crimson_rend.label>绯红撕裂</Cultist_Race_Ezeem.tools.crimson_rend.label>
+</LanguageData>

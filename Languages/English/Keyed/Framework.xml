@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.ChurchPrimarySet>{0} is now the colony's primary ideoligion.</Cultist.ChurchPrimarySet>
+  <Cultist.SetPrimaryIdeo>Set as colony primary ideoligion</Cultist.SetPrimaryIdeo>
+  <Cultist.OpenPatrons>Patrons &amp; Tutoring</Cultist.OpenPatrons>
+  <Cultist.KnownLanguages>Ancient languages: {0}</Cultist.KnownLanguages>
+  <Cultist.NotorietyLabel>Notoriety: {0} ({1})</Cultist.NotorietyLabel>
+  <Cultist.Notoriety.Quiet>Quiet</Cultist.Notoriety.Quiet>
+  <Cultist.Notoriety.Notable>Notable</Cultist.Notoriety.Notable>
+  <Cultist.Notoriety.High>High — Bureau Alert</Cultist.Notoriety.High>
+  <Cultist.Notoriety.Extreme>Extreme — Raid Imminent</Cultist.Notoriety.Extreme>
+  <Cultist.Notoriety.Murder>The killing of {0} drew unwanted attention (+4 notoriety).</Cultist.Notoriety.Murder>
+
+  <Cultist.BureauArrivedTitle>Suppression Bureau outposts established</Cultist.BureauArrivedTitle>
+  <Cultist.BureauArrivedBody>The Suppression Bureau ({0}) has established {1} outposts on this rimworld to monitor forbidden societies.</Cultist.BureauArrivedBody>
+  <Cultist.BureauRaidTitle>Suppression Bureau raid</Cultist.BureauRaidTitle>
+  <Cultist.BureauRaidBody>The colony's occult notoriety has drawn an armed detachment from the Suppression Bureau. They are moving to purge the society.</Cultist.BureauRaidBody>
+  <Cultist.RivalLongRaidTitle>Rival Long ambush</Cultist.RivalLongRaidTitle>
+  <Cultist.RivalLongRaidBody>An established Long views your society's ascent as a threat and has dispatched armed servants to strike the colony.</Cultist.RivalLongRaidBody>
+  <Cultist.Melee.GrowthExplain>Cultist growth stage {0} (resonance +{1}): x{2}</Cultist.Melee.GrowthExplain>
+  <Cultist.GearGrowthInspect>{0} growth gear ({1}: {2} -> {3} across stages 0-5, boosted by active matching influence)</Cultist.GearGrowthInspect>
+
+  <Cultist.HQ.Temporary>Headquarters: Temporary (no room bonus)</Cultist.HQ.Temporary>
+  <Cultist.HQ.Active>Headquarters traits: {0}</Cultist.HQ.Active>
+  <Cultist.HQ.Library>Library</Cultist.HQ.Library>
+  <Cultist.HQ.Sanctuary>Sanctuary</Cultist.HQ.Sanctuary>
+  <Cultist.HQ.Pit>Pit</Cultist.HQ.Pit>
+  <Cultist.HQ.Secret>Secret (-40% notoriety)</Cultist.HQ.Secret>
+
+  <Cultist.CodexRequiresLang>Untranslated ({0} required)</Cultist.CodexRequiresLang>
+  <Cultist.TranslateCodex>Translate codex ({0})</Cultist.TranslateCodex>
+  <Cultist.TranslateCodexNeedLang>Translate codex: requires {0}</Cultist.TranslateCodexNeedLang>
+  <Cultist.CodexTranslated>{0} translated the {1} codex into usable lore.</Cultist.CodexTranslated>
+  <Cultist.LanguageLearned>{0} mastered the ancient tongue of {1}.</Cultist.LanguageLearned>
+  <Cultist.AlreadyKnowsLanguage>{0} already knows {1}.</Cultist.AlreadyKnowsLanguage>
+
+  <Cultist.PatronsWindowTitle>Occult Patrons — Commissions &amp; Language Tutoring</Cultist.PatronsWindowTitle>
+  <Cultist.PatronSubmitCommission>Deliver Tier {0}+ lore ({1} silver)</Cultist.PatronSubmitCommission>
+  <Cultist.PatronCooldown>Next commission in {0}d</Cultist.PatronCooldown>
+  <Cultist.PatronLearnLang>Study {0} ({1} silver)</Cultist.PatronLearnLang>
+  <Cultist.PatronNeedLoreTier>The society must first study at least Tier {0} lore.</Cultist.PatronNeedLoreTier>
+  <Cultist.PatronNeedLoreBook>Keep an unforbidden Tier {0}+ lore book on the map to deliver.</Cultist.PatronNeedLoreBook>
+  <Cultist.PatronNeedSilver>Requires {0} unforbidden silver on the map.</Cultist.PatronNeedSilver>
+  <Cultist.PatronCommissionDone>{0} accepted the manuscript and paid {1} silver and {2} spintriae.</Cultist.PatronCommissionDone>
+
+  <Cultist.Book.AlreadyRead>Already studied</Cultist.Book.AlreadyRead>
+  <Cultist.Book.TeachesLang>Reading teaches: {0}</Cultist.Book.TeachesLang>
+  <Cultist.Book.RevealsSite>Reading reveals a Tier {0} occult site</Cultist.Book.RevealsSite>
+  <Cultist.Book.ReadOption>Study {0}</Cultist.Book.ReadOption>
+  <Cultist.Book.NeedLangOption>Study {0}: requires {1}</Cultist.Book.NeedLangOption>
+  <Cultist.Book.FinishedReading>{0} finished studying {1}.</Cultist.Book.FinishedReading>
+  <Cultist.BookSiteTitle>Tier {0} occult site ({1})</Cultist.BookSiteTitle>
+  <Cultist.BookSiteDesc>Studying {0} revealed the coordinates of a Tier {1} hidden vault on the world map. Dispatch a caravan to explore it and recover its occult artifacts.</Cultist.BookSiteDesc>
+
+  <Cultist.Altar.Summon>Summon spirit...</Cultist.Altar.Summon>
+  <Cultist.Summon.WindowTitle>Altar Summoning — Call Spirits from the Mansus</Cultist.Summon.WindowTitle>
+  <Cultist.Summon.ActiveRow>Active: {0} ({1}h remaining)</Cultist.Summon.ActiveRow>
+  <Cultist.Summon.LearnLang>Learn {0}</Cultist.Summon.LearnLang>
+  <Cultist.Summon.Dismiss>Banish</Cultist.Summon.Dismiss>
+  <Cultist.Summon.ReqSummary>Lore Tier {0}+ | Influence {1}+ | Backlash {2} | Duration {3}d</Cultist.Summon.ReqSummary>
+  <Cultist.Summon.Button>Summon (1 Lore)</Cultist.Summon.Button>
+  <Cultist.Summon.NeedLoreTier>Requires society lore tier {0}+.</Cultist.Summon.NeedLoreTier>
+  <Cultist.Summon.NeedInfluence>Requires at least {0} active influence.</Cultist.Summon.NeedInfluence>
+  <Cultist.Summon.Success>{0} summoned and bound {1}.</Cultist.Summon.Success>
+  <Cultist.Summon.Dissipated>{0} dissolved back into the Mansus.</Cultist.Summon.Dissipated>
+  <Cultist.Summon.BacklashTitle>Summoning backlash: {0}</Cultist.Summon.BacklashTitle>
+  <Cultist.Summon.BacklashBody>{0} lost control during the rite! {1} has broken free and is attacking the colony.</Cultist.Summon.BacklashBody>
+
+  <Cultist.ChurchName.Forge>Unflinching Order</Cultist.ChurchName.Forge>
+  <Cultist.ChurchDescription.Forge>A society dedicated to the Forge of Days, pursuing transformation through craft, heat, and relentless reshaping.</Cultist.ChurchDescription.Forge>
+  <Cultist.ChurchName.Grail>Order of the Bloody Cup</Cultist.ChurchName.Grail>
+  <Cultist.ChurchDescription.Grail>A society dedicated to the Red Grail, celebrating appetite, delight, and the ceaseless feast.</Cultist.ChurchDescription.Grail>
+  <Cultist.ChurchName.Edge>Church of the Bright Edge</Cultist.ChurchName.Edge>
+  <Cultist.ChurchDescription.Edge>A society dedicated to conflict and conquest, sharpening its faithful through struggle and rivalry.</Cultist.ChurchDescription.Edge>
+  <Cultist.ChurchName.Winter>Children of Silence</Cultist.ChurchName.Winter>
+  <Cultist.ChurchDescription.Winter>A society dedicated to endings, frost, and quiet remembrance of what cannot remain.</Cultist.ChurchDescription.Winter>
+  <Cultist.ChurchName.Heart>Temple Unceasing</Cultist.ChurchName.Heart>
+  <Cultist.ChurchDescription.Heart>A society dedicated to the Thunderskin and preservation, sustaining life through unceasing rhythm.</Cultist.ChurchDescription.Heart>
+  <Cultist.ChurchName.Moth>Wildwood Club</Cultist.ChurchName.Moth>
+  <Cultist.ChurchDescription.Moth>A society dedicated to the Moth and the Wood, embracing yearning, shedding old skins, and restless change.</Cultist.ChurchDescription.Moth>
+
+  <Cultist.Rank.Lantern.3>Seer</Cultist.Rank.Lantern.3>
+  <Cultist.Rank.Forge.3>Reshaper</Cultist.Rank.Forge.3>
+  <Cultist.Rank.Grail.3>Cyprian</Cultist.Rank.Grail.3>
+  <Cultist.Rank.Edge.3>Assassin</Cultist.Rank.Edge.3>
+  <Cultist.Rank.Winter.3>Silent</Cultist.Rank.Winter.3>
+  <Cultist.Rank.Heart.3>Tarantellist</Cultist.Rank.Heart.3>
+  <Cultist.Rank.Moth.3>Skintwister</Cultist.Rank.Moth.3>
+
+  <Cultist.SuspicionRaidTitle>Season of Suspicion: Bureau raid</Cultist.SuspicionRaidTitle>
+  <Cultist.SuspicionRaidBody>Suspicion swept the rimworld while your notoriety exceeded 75% of the threshold. The Suppression Bureau has launched an immediate raid!</Cultist.SuspicionRaidBody>
+  <Cultist.SuspicionSeasonQuiet>A season of suspicion passes over the colony. Notoriety rose slightly, though not yet enough to trigger a raid.</Cultist.SuspicionSeasonQuiet>
+  <Cultist.SicknessSeason>A season of sickness struck {0} with {1}.</Cultist.SicknessSeason>
+  <Cultist.SicknessSeasonSpared>A season of sickness passed without afflicting {0}.</Cultist.SicknessSeasonSpared>
+  <Cultist.SilenceSeason>A season of silence hushes {0}'s mind (-50% psychic sensitivity).</Cultist.SilenceSeason>
+
+  <Cultist.Spirit.Draft>Draft</Cultist.Spirit.Draft>
+  <Cultist.Spirit.DraftDesc>Direct this spirit's movement and attacks.</Cultist.Spirit.DraftDesc>
+  <Cultist.Spirit.Move>Move</Cultist.Spirit.Move>
+  <Cultist.Spirit.MoveDesc>Order this spirit to move to a target cell.</Cultist.Spirit.MoveDesc>
+  <Cultist.Spirit.Attack>Attack</Cultist.Spirit.Attack>
+  <Cultist.Spirit.AttackDesc>Order this spirit to attack a target in melee.</Cultist.Spirit.AttackDesc>
+  <Cultist.Spirit.PacifyOption>Pacify berserk {0}</Cultist.Spirit.PacifyOption>
+  <Cultist.Spirit.Pacified>{0} pacified {1} back under control (cost: {2}).</Cultist.Spirit.Pacified>
+  <Cultist.Pacify.CostFear>1 Fear</Cultist.Pacify.CostFear>
+  <Cultist.Pacify.CostFascination>1 Fascination</Cultist.Pacify.CostFascination>
+  <Cultist.Pacify.CostNotoriety>+10 Notoriety</Cultist.Pacify.CostNotoriety>
+  <Cultist.Pacify.CostDisease>contracted {0}</Cultist.Pacify.CostDisease>
+  <Cultist.Pacify.CostComfort>1 Comfort (rare calm)</Cultist.Pacify.CostComfort>
+
+  <Cultist.ChooseSocietyPath>Personal aspect: {0}. Now choose the core society you will found:</Cultist.ChooseSocietyPath>
+
+  <Cultist.Evidence.DaysLeft>Expires in {0} days</Cultist.Evidence.DaysLeft>
+  <Cultist.Evidence.Progress>Infiltrating: {0} (est. success {1})</Cultist.Evidence.Progress>
+  <Cultist.Evidence.StartInfiltrate>Infiltrate &amp; destroy evidence ({0} chance)</Cultist.Evidence.StartInfiltrate>
+  <Cultist.Evidence.TravelAndInfiltrate>Travel to destroy bureau evidence</Cultist.Evidence.TravelAndInfiltrate>
+  <Cultist.Evidence.GizmoLabel>Destroy evidence</Cultist.Evidence.GizmoLabel>
+  <Cultist.Evidence.GizmoDesc>Channel on the world map without entering combat to destroy Bureau evidence ({0} chance).</Cultist.Evidence.GizmoDesc>
+  <Cultist.Evidence.InfiltrationStarted>{0} began infiltrating the Bureau evidence drop.</Cultist.Evidence.InfiltrationStarted>
+  <Cultist.Evidence.SpawnedTitle>Bureau evidence drop spotted</Cultist.Evidence.SpawnedTitle>
+  <Cultist.Evidence.SpawnedBody>Suppression Bureau informants have hidden damning evidence nearby on the world map. Send a caravan to destroy it directly on the world map within 8 days, or face a raid.</Cultist.Evidence.SpawnedBody>
+  <Cultist.Evidence.SuccessTitle>Evidence destroyed</Cultist.Evidence.SuccessTitle>
+  <Cultist.Evidence.SuccessBody>{0} successfully destroyed the Bureau's files without raising an alarm (-25 notoriety).</Cultist.Evidence.SuccessBody>
+  <Cultist.Evidence.FailTitle>Infiltration compromised</Cultist.Evidence.FailTitle>
+  <Cultist.Evidence.FailBody>The caravan's infiltration failed! Notoriety surged and the Suppression Bureau has launched a retaliatory raid.</Cultist.Evidence.FailBody>
+  <Cultist.Evidence.ExpiredTitle>Evidence reached the Bureau</Cultist.Evidence.ExpiredTitle>
+  <Cultist.Evidence.ExpiredBody>Unchecked Bureau evidence was delivered to headquarters. Notoriety surged and a Suppression Bureau raid is inbound.</Cultist.Evidence.ExpiredBody>
+
+  <Cultist.Oriflamme.NoPower>Oriflamme's: comms console unpowered</Cultist.Oriflamme.NoPower>
+  <Cultist.Oriflamme.CommsOption>Contact Oriflamme's (Spintria direct shop)</Cultist.Oriflamme.CommsOption>
+  <Cultist.Oriflamme.WindowHeader>Oriflamme's Occult Exchange · {0} spintriae · New stock in {1} days</Cultist.Oriflamme.WindowHeader>
+  <Cultist.Oriflamme.FollowerLeadTitle>Recruit {0}</Cultist.Oriflamme.FollowerLeadTitle>
+  <Cultist.Oriflamme.FollowerLeadDesc>{0} disciple. Joins the colony on purchase.</Cultist.Oriflamme.FollowerLeadDesc>
+  <Cultist.Oriflamme.Sold>Sold</Cultist.Oriflamme.Sold>
+  <Cultist.Oriflamme.BuyBtn>Buy ({0} spintria)</Cultist.Oriflamme.BuyBtn>
+  <Cultist.Oriflamme.NeedSpintria>Requires {0} unforbidden spintriae on the map.</Cultist.Oriflamme.NeedSpintria>
+  <Cultist.Oriflamme.Bought>Purchased {0} for {1} spintriae. Delivered via drop pod.</Cultist.Oriflamme.Bought>
+  <Cultist.NamedFollower.JoinedTitle>Named follower arrived: {0}</Cultist.NamedFollower.JoinedTitle>
+  <Cultist.NamedFollower.JoinedBody>{0} ({1} aspect) has answered the society's call and joined as a Disciple.\n\n{2}</Cultist.NamedFollower.JoinedBody>
+
+  <Cultist.Poppy.Title>Poppy Lascelles — High-Risk Patronage</Cultist.Poppy.Title>
+  <Cultist.Poppy.Desc>Offers an immediate grant of 600 silver and 5 spintriae. In 10 days she will demand a follower—or 10 spintriae—in return.</Cultist.Poppy.Desc>
+  <Cultist.Poppy.AcceptBtn>Accept Poppy's grant (+600 silver, +5 spintria)</Cultist.Poppy.AcceptBtn>
+  <Cultist.Poppy.DebtPending>Poppy's debt is pending...</Cultist.Poppy.DebtPending>
+  <Cultist.Poppy.Resolved>Poppy's bargain has concluded.</Cultist.Poppy.Resolved>
+  <Cultist.Poppy.AidAccepted>Poppy Lascelles delivered 600 silver and 5 spintriae. Her debt comes due in 10 days.</Cultist.Poppy.AidAccepted>
+  <Cultist.Poppy.DueTitle>Poppy Lascelles collects her debt</Cultist.Poppy.DueTitle>
+  <Cultist.Poppy.DueBody>Ten days have passed. Poppy Lascelles demands settlement of her bargain: surrender one follower (not the leader), buy out the debt with 10 spintriae, or refuse and face her wrath.</Cultist.Poppy.DueBody>
+  <Cultist.Poppy.ChoiceSpintria>Settle with 10 spintriae (receive Tier 4 lore)</Cultist.Poppy.ChoiceSpintria>
+  <Cultist.Poppy.ChoiceFollower>Surrender a follower (receive Tier 4 lore)</Cultist.Poppy.ChoiceFollower>
+  <Cultist.Poppy.ChoiceRefuse>Refuse Poppy (Rival Long raid + Fear + Notoriety)</Cultist.Poppy.ChoiceRefuse>
+  <Cultist.Poppy.PaidSpintria>Poppy accepted 10 spintriae and delivered a Tier 4 lore volume.</Cultist.Poppy.PaidSpintria>
+  <Cultist.Poppy.PaidFollower>{0} departed into Poppy's service. A Tier 4 lore volume was delivered in return.</Cultist.Poppy.PaidFollower>
+  <Cultist.Poppy.NoFollower>No eligible non-leader colonist is available to surrender.</Cultist.Poppy.NoFollower>
+  <Cultist.Poppy.WrathTitle>Poppy's wrath</Cultist.Poppy.WrathTitle>
+  <Cultist.Poppy.WrathBody>You defaulted on Poppy Lascelles's bargain. Hostile servants have been dispatched to punish the colony.</Cultist.Poppy.WrathBody>
+
+  <Cultist.ChurchName.Knock>Society of the Holy Wound</Cultist.ChurchName.Knock>
+  <Cultist.ChurchDescription.Knock>A society dedicated to the Knock aspect, consecrating permanent scars into Lock-Scars until the faithful open the final Threshold.</Cultist.ChurchDescription.Knock>
+  <Cultist.Rank.Knock.3>Key</Cultist.Rank.Knock.3>
+
+  <Cultist.Altar.ConsecrateScar>Consecrate permanent scar...</Cultist.Altar.ConsecrateScar>
+  <Cultist.Altar.KnockVictory>Open the Seven Lock-Scars (Threshold Victory)</Cultist.Altar.KnockVictory>
+  <Cultist.Scar.WindowHeader>Scar Consecration — {0} ({1} permanent scars | Society Lock-Scars: {2}/7)</Cultist.Scar.WindowHeader>
+  <Cultist.Scar.WindowNote>Spend an influence to consecrate a permanent scar in its aspect.</Cultist.Scar.WindowNote>
+  <Cultist.Scar.NoInfluences>No active Dream Influences available. Dream in the Mansus or study an occult book first.</Cultist.Scar.NoInfluences>
+  <Cultist.Scar.InfluenceRow>{0} Influence (strength {1})</Cultist.Scar.InfluenceRow>
+  <Cultist.Scar.ConsecrateBtn>Consecrate as {0}-Lock</Cultist.Scar.ConsecrateBtn>
+  <Cultist.Scar.NoPermanentScar>{0} has no permanent injury scar to consecrate.</Cultist.Scar.NoPermanentScar>
+  <Cultist.Scar.AlreadyHasAspect>{0} already bears {1}.</Cultist.Scar.AlreadyHasAspect>
+  <Cultist.Scar.Consecrated>{0}'s permanent scar has been consecrated into {1}.</Cultist.Scar.Consecrated>
+  <Cultist.KnockVictory.MissingScars>{0}/7 Lock-Scars consecrated (missing: {1})</Cultist.KnockVictory.MissingScars>
+  <Cultist.KnockVictory.Opened>{0} opened all seven Lock-Scars at the altar! The Threshold stands open.</Cultist.KnockVictory.Opened>
+
+  <Cultist.Aspect.SecretHistories>Secret Histories</Cultist.Aspect.SecretHistories>
+  <Cultist.ChurchName.SecretHistories>Society of St Hydra</Cultist.ChurchName.SecretHistories>
+  <Cultist.ChurchDescription.SecretHistories>An occult society dedicated to the study of the five Histories and their thousand demi-real branches. St Hydra accepts all aspects equally, though it has no Exalted rank.</Cultist.ChurchDescription.SecretHistories>
+  <Cultist.StHydraNoExalted>The Society of St Hydra has no Exalted third rank.</Cultist.StHydraNoExalted>
+
+  <Cultist.Vagabond.LetterTitle>Glimpse of the Laughingthrush</Cultist.Vagabond.LetterTitle>
+  <Cultist.Vagabond.LetterBody>The Vagabond is the one Hour who can never enter the Mansus, but she goes everywhere else... and, if you believe her boasts, she's the only one who knows all the Histories. Sometimes, she lets someone record her travels. While summoning the Anomaly, you inadvertently glimpsed her aspect as the Laughingthrush.</Cultist.Vagabond.LetterBody>
+
+  <Cultist.Reward.FierceEdge>a fierce enmity</Cultist.Reward.FierceEdge>
+  <Cultist.Mansus.PickGateHeader>Mansus gates</Cultist.Mansus.PickGateHeader>
+  <Cultist.Mansus.PickRegionHeader>{0} · Destinations</Cultist.Mansus.PickRegionHeader>
+  <Cultist.Mansus.PickCardHeader>{0} · {1}</Cultist.Mansus.PickCardHeader>
+  <Cultist.Mansus.CardFaceDown>Hidden card</Cultist.Mansus.CardFaceDown>
+  <Cultist.Mansus.TakeKnown>Claim reward</Cultist.Mansus.TakeKnown>
+  <Cultist.Mansus.FlipHidden>Flip and claim</Cultist.Mansus.FlipHidden>
+  <Cultist.Mansus.FlippedResult>Brought back: {0}</Cultist.Mansus.FlippedResult>
+</LanguageData>

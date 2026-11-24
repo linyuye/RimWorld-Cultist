@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hunger</defName>
+    <label>Hunger</label>
+    <description>I need rest and nourishment, if I am to recover. But when my mouth waters, when my vision swims, I see the red cup; and now and then it will speak to me. [Dreaming with Hunger before the card fades will allow you to recover Health.]</description>
+    <sourceId>hunger</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/hunger</iconPath>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_health</defName>
+    <label>Health</label>
+    <description>This is my body. There are other bodies, but this one is mine, and my mind needs it as a fungus needs soil. [With enough Vitality, you can gain more Health.]</description>
+    <sourceId>health</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/health</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_injury</defName>
+    <label>An Injury</label>
+    <description>I need rest and nourishment, if I am to recover. But the Mother of Ants looks kindly on wounds. [Dreaming with an Injury before the card fades will also allow you to recover Health.]</description>
+    <sourceId>injury</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/injury</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>knock</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_affliction</defName>
+    <label>An Affliction</label>
+    <description>Disease has left me weak. I need rest and nourishment, if I am to recover. [Dream on an Affliction to transform it back to Health, before the card decays.]</description>
+    <sourceId>affliction</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/affliction</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_reason</defName>
+    <label>Reason</label>
+    <description>'No live organism can continue for long to exist sanely under conditions of absolute reality.' - Shirley Jackson\n\n[With Erudition, you can Study to gain more Reason.]</description>
+    <sourceId>reason</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/reason</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_passion</defName>
+    <label>Passion</label>
+    <description>'Dull minds are never either intuitive or mathematical.' - Blaise Pascal\n\n[With enough Glimmering, you can Study to gain more Passion.]</description>
+    <sourceId>passion</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/passion</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientedgeb</defName>
+    <label>Martensite Paste</label>
+    <description>The sacred chrysm of the sword. Also an attractive silver-green.</description>
+    <sourceId>ingredientedgeb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientedgeb</iconPath>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientedged</defName>
+    <label>Labhitic Grains</label>
+    <description>Labhites are the youngest of the Lionsmith's servants. When rendered to powder, they retain their potency but not their beauty.</description>
+    <sourceId>ingredientedged</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientedged</iconPath>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientedgef</defName>
+    <label>Skaptodon Fang</label>
+    <description>It is rare for the Lionsmith to make skaptodons, now; but they are difficult to kill, and they live a very long time.</description>
+    <sourceId>ingredientedgef</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientedgef</iconPath>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientforgeb</defName>
+    <label>Bitterblack Salts</label>
+    <description>No ordinary chemist could produce these dark-gleaming crystals - not without the touch of the Forge.</description>
+    <sourceId>ingredientforgeb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientforgeb</iconPath>
+    <aspects>
+      <li><key>forge</key><value>4</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientforged</defName>
+    <label>Xanthotic Essence</label>
+    <description>In certain operations of the Forge, sunlight is said to overcome moonlight, as we pass from the Meniscate to the Madrugad. This essence was mercury, once, but now it's the rich gold of a summer afternoon. Pretty.</description>
+    <sourceId>ingredientforged</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientforged</iconPath>
+    <aspects>
+      <li><key>forge</key><value>8</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientforgef</defName>
+    <label>Iotic Essence</label>
+    <description>In the later operations of the Forge, the Madrugad yields to the true Forge of Days, and the essence begins to redden. Some day, perhaps, it will not, but for now we have this.</description>
+    <sourceId>ingredientforgef</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientforgef</iconPath>
+    <aspects>
+      <li><key>forge</key><value>12</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientgrailb</defName>
+    <label>Vital Pigment</label>
+    <description>It is not usual for a red this red to survive the death of the body.</description>
+    <sourceId>ingredientgrailb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientgrailb</iconPath>
+    <aspects>
+      <li><key>grail</key><value>4</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientgraild</defName>
+    <label>Amaranthine Nectar</label>
+    <description>One of the Flowermaker's many gifts. In a brighter age, it might have bestowed immortality. In this blighted History, it is still an unparalleled sweetness.</description>
+    <sourceId>ingredientgraild</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientgraild</iconPath>
+    <aspects>
+      <li><key>grail</key><value>8</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientgrailf</defName>
+    <label>Writhing Caul</label>
+    <description>Lay your hand on these tattered folds and feel their warmth; leave your hand upon it, and it will explore the possibilities of embrace.</description>
+    <sourceId>ingredientgrailf</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientgrailf</iconPath>
+    <aspects>
+      <li><key>grail</key><value>12</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientheartb</defName>
+    <label>Rose-Pearl Dust</label>
+    <description>Pearls are sacred to the Witch-and-Sister, especially those of this colour. They have been used in protective rites, among others.</description>
+    <sourceId>ingredientheartb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientheartb</iconPath>
+    <aspects>
+      <li><key>heart</key><value>4</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientheartd</defName>
+    <label>Witch-Kissed Oil</label>
+    <description>The formula remains unchanged since the days Hecate was worshipped at the crossways.</description>
+    <sourceId>ingredientheartd</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientheartd</iconPath>
+    <aspects>
+      <li><key>heart</key><value>8</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientheartf</defName>
+    <label>True Blood of St Januarius</label>
+    <description>The Thunderskin protected the one they called Januarius, against perils from every past. To this day his blood keeps dancing.</description>
+    <sourceId>ingredientheartf</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientheartf</iconPath>
+    <aspects>
+      <li><key>heart</key><value>12</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientknockb</defName>
+    <label>The Byzantine Tinct</label>
+    <description>The profound purple worn only in Histories where Tyrian dye was not rich enough for emperors. It is difficult to bar entry to one wearing this colour.</description>
+    <sourceId>ingredientknockb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientknockb</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>knock</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientknockd</defName>
+    <label>Sthenic Venom</label>
+    <description>From time to time, the Mother of Ants has also been called the Daughter of Venoms. This substance opens the body in uncountable places.</description>
+    <sourceId>ingredientknockd</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientknockd</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>knock</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientknockf</defName>
+    <label>Azoth</label>
+    <description>Store this only in containers of a pure element, and never permit it to grow warm. Perhaps it isn't the final solvent that the alchemists sought. But it will do, for our purposes.</description>
+    <sourceId>ingredientknockf</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientknockf</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>knock</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientlanternb</defName>
+    <label>Refulgin</label>
+    <description>A white so pure that it remains visible even in utter darkness.</description>
+    <sourceId>ingredientlanternb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientlanternb</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientlanternd</defName>
+    <label>Glassfinger Toxin</label>
+    <description>'What is within, without; what is without, within.' A poison sacred to the votaries of the Meniscate.</description>
+    <sourceId>ingredientlanternd</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientlanternd</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientlanternf</defName>
+    <label>Ichor Vitreous</label>
+    <description>A pale and watchful fluid that can be gathered, sometimes, when the Door-in-the-Eye is opened.</description>
+    <sourceId>ingredientlanternf</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientlanternf</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientmothb</defName>
+    <label>Piebald Pigment</label>
+    <description>From the crushed wings of rare lepidopterans. 'Painting black, or painting white, this is the stuff that'll see you right.'</description>
+    <sourceId>ingredientmothb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientmothb</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>moth</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientmothd</defName>
+    <label>Leathy</label>
+    <description>A dark and syrupy liquor favoured in unnamed forest villages. 'The tongue and the eye, and now we begin! Forget your name, forget your skin.'</description>
+    <sourceId>ingredientmothd</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientmothd</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>moth</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientmothf</defName>
+    <label>Holiest Hemolymph</label>
+    <description>Faint traces of an enigmatic substance spilt in the commission of an ancient crime, tightly sealed in a glass ampoule. 'Who will remember the barber's son?'</description>
+    <sourceId>ingredientmothf</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientmothf</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>moth</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientwinterb</defName>
+    <label>Greydawn Oil</label>
+    <description>The precise colour of the hours when one cannot sleep.</description>
+    <sourceId>ingredientwinterb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientwinterb</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientwinterd</defName>
+    <label>Wolf-Snow</label>
+    <description>Far too cold ever to melt in anything but the hottest noonday sun. It will, very gradually, consume human flesh.</description>
+    <sourceId>ingredientwinterd</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientwinterd</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>winter</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ingredientwinterf</defName>
+    <label>Watch-Worms</label>
+    <description>A tiny pot of stunted, desiccated larval remnants from the First Worm War, rank with the power that inhabits dead Hours.</description>
+    <sourceId>ingredientwinterf</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/ingredientwinterf</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>winter</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostleforge_pillar3</defName>
+    <label>Blue Gold</label>
+    <description>This is alchemy's savage summit: the deadly blue of fire outpacing light. Touch it and die.</description>
+    <sourceId>apostleforge.pillar3</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/apostleforge.pillar3</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostleforge_pillar3_sabotaged</defName>
+    <label>Unstable Blue Gold</label>
+    <description>A poisoned, stuttering ingot of energetic alchemy. We must soothe its rage, and quickly!</description>
+    <sourceId>apostleforge.pillar3.sabotaged</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/apostleforge.pillar3.sabotaged</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillarfuel</defName>
+    <label>Delightful Blood</label>
+    <description>I have received a little vial of our Delight's blood, via courier. Our Delight's instructions are written herein, in the tiny tangles of cellular script. We can taste them, as they will taste us. If we waste it, our Delight will wax wroth.</description>
+    <sourceId>apostlegrail.pillarfuel</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/mentorguidance</iconPath>
+    <aspects>
+      <li><key>grail</key><value>3</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar3</defName>
+    <label>The Seven Graces</label>
+    <description>The Spices and Savouries department of the eccentric firm of T.R.N. Ltd caters to endeavours such as ours. They have supplied these tempting adornments, with which we shall bedizen and prepare ourselves... once they have been correctly prepared in a sealed and darkened kitchen.</description>
+    <sourceId>apostlegrail.pillar3</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/apostlegrail.pillar3</iconPath>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_rumour</defName>
+    <label>Peculiar Rumour</label>
+    <description>This might lead me to someone I need; or it might mean something else entirely. [Explore with a Rumour to follow up on it.]</description>
+    <sourceId>rumour</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/rumour</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>moth</key><value>1</value></li>
+      <li><key>secrethistories</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_funds</defName>
+    <label>Funds</label>
+    <description>Enough to support me for a little while in adequate comfort.</description>
+    <sourceId>funds</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/funds</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_compensation</defName>
+    <label>Iron Spintria</label>
+    <description>Initiates of the hidden world use spintriae to pay for services. Iron spintriae are the lowest denomination, and display scenes of murder on their reverse side. [Spintriae can be sold for more traditional funds at an auction house.]</description>
+    <sourceId>compensation</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/compensation</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>secrethistories</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_compensationb</defName>
+    <label>Bronze Spintria</label>
+    <description>Initiates of the hidden world use spintriae to pay for services. Bronze spintriae usually display the act of shaping on their reverse side. [Spintriae can be sold for more traditional funds at an auction house.]</description>
+    <sourceId>compensationb</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/compensationb</iconPath>
+    <aspects>
+      <li><key>forge</key><value>4</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>secrethistories</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_compensationc</defName>
+    <label>Silver Spintria</label>
+    <description>Initiates of the hidden world use spintriae to pay for services. They can easily be sold for more traditional funds. Silver spintriae are more valuable, and usually display scenes of debauchery on their reverse side. [Spintriae can be sold for more traditional funds at an auction house.]</description>
+    <sourceId>compensationc</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/compensationc</iconPath>
+    <aspects>
+      <li><key>grail</key><value>6</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>secrethistories</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_compensationd</defName>
+    <label>Gold Spintria</label>
+    <description>Initiates of the hidden world use spintriae to pay for services. They can easily be sold for more traditional funds. Gold spintriae display scenes that are not visible to mortal eyes on their reverse side. [Spintriae can be sold for more traditional funds at an auction house.]</description>
+    <sourceId>compensationd</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/compensationd</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>8</value></li>
+      <li><key>secrethistories</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_corpse</defName>
+    <label>A Human Corpse</label>
+    <description>The spirit is departed. At some point, the smell will be so bad you'll have to dispose of it, but here it is for now. It may attract attention; it may be used to impress the impressionable. [Even after the Corpse is gone, Notoriety will remain.]</description>
+    <sourceId>corpse</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/corpse</iconPath>
+    <aspects>
+      <li><key>grail</key><value>3</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>winter</key><value>3</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_corpse_calcin</defName>
+    <label>A Human Corpse</label>
+    <description>The spirit is departed.</description>
+    <sourceId>corpse.calcin</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/corpse</iconPath>
+    <aspects>
+      <li><key>grail</key><value>3</value></li>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>winter</key><value>3</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toollanternbcracked</defName>
+    <label>Cracked Noonstone</label>
+    <description>Noon, the saying goes, is not what it was; but this stone still retains an embery glow. It has been cracked. A Forge-aspected follower could restore it, with sufficient resources - or I could use up what power remains in it.</description>
+    <sourceId>toollanternbcracked</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/toollanternbcracked</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toollanterndcracked</defName>
+    <label>Cracked Wildering Mirror</label>
+    <description>A deep crack runs across the shimmering metal. A Forge-aspected follower could repair it, with sufficient resources - or I could use up what power remains in it.</description>
+    <sourceId>toollanterndcracked</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/toollanterndcracked</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toollanternfcracked</defName>
+    <label>Cracked Watchman's Glass</label>
+    <description>A Forge-aspected follower could repair it, but the cost would be high - or I could use up what power remains in it.</description>
+    <sourceId>toollanternfcracked</sourceId>
+    <category>Ingredient</category>
+    <iconPath>Cultist/Catalog/Ingredient/toollanternfcracked</iconPath>
+    <aspects>
+      <li><key>ingredient</key><value>1</value></li>
+      <li><key>lantern</key><value>3</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>Cultist_ResearchTab</defName>
+    <label>cultist</label>
+  </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>Cultist_StudiesOfLight</defName>
+    <label>foundations of invisible arts</label>
+    <description>Study the first principles glimpsed at the edge of sleep. Unlocks basic lore compilation (Tiers 2-3), noonstone repair, and starter Lantern gear.</description>
+    <baseCost>450</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Cultist_ResearchTab</tab>
+    <researchViewX>0.0</researchViewX>
+    <researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Cultist_OccultCraft</defName>
+    <label>occult craft and vestments</label>
+    <description>Refine ritual tools and forge aspect-attuned weapons and robes. Unlocks intermediate lore compilation (Tiers 4-5), wayfarer's mirror repair, and all-aspect growth gear.</description>
+    <baseCost>850</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Cultist_ResearchTab</tab>
+    <prerequisites>
+      <li>Cultist_StudiesOfLight</li>
+    </prerequisites>
+    <researchViewX>1.5</researchViewX>
+    <researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Cultist_HighMansusRites</defName>
+    <label>high Mansus mysteries</label>
+    <description>Synthesize the highest orders of lore and repair the watchkeeper's mirror for the final vigil. Unlocks high lore compilation (Tiers 6-7) and master focal tools.</description>
+    <baseCost>1300</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Cultist_ResearchTab</tab>
+    <prerequisites>
+      <li>Cultist_OccultCraft</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>0.5</researchViewY>
+  </ResearchProjectDef>
+</Defs>

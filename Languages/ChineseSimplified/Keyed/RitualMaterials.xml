@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.LoreInspect>秘传第 {0}/7 阶 · {2} {1}</Cultist.LoreInspect>
+  <Cultist.ToolInspect>仪式工具 · {1} {0}</Cultist.ToolInspect>
+  <Cultist.StudyLore>研读秘传典籍</Cultist.StudyLore>
+  <Cultist.LoreLearned>{0}为结社记录了第 {1} 阶秘传。</Cultist.LoreLearned>
+  <Cultist.NeedLearnedLore>先让信徒研读一本秘传典籍。</Cultist.NeedLearnedLore>
+  <Cultist.NeedRiteBooks>在祭坛 {1} 格内放置 {0} 本秘传。</Cultist.NeedRiteBooks>
+  <Cultist.NeedRiteTool>在祭坛 {0} 格内放置一件已修复的工具。工具和秘传提供的法力合计至少为 {1}。</Cultist.NeedRiteTool>
+  <Cultist.NeedRiteAssistant>让另一名教徒来到祭坛 {0} 格内。</Cultist.NeedRiteAssistant>
+  <Cultist.ChooseRiteBook>秘传：{0} · 法力 {1}</Cultist.ChooseRiteBook>
+  <Cultist.ChooseRiteTool>工具：{0} · 法力 {1}</Cultist.ChooseRiteTool>
+  <Cultist.ChooseRiteAssistant>助手：{0}</Cultist.ChooseRiteAssistant>
+  <Cultist.RiteInputsChanged>仪式中止，所需的秘传、工具或助手已不可用。</Cultist.RiteInputsChanged>
+</LanguageData>

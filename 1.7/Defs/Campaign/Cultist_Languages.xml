@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Latin</defName>
+    <label>Latin</label>
+    <description>Classical tongue of western esoteric manuscripts and chronicles.</description>
+    <isSecretLanguage>false</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Greek</defName>
+    <label>Greek</label>
+    <description>Hellenic script found in philosophical fragments and temple records.</description>
+    <isSecretLanguage>false</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Aramaic</defName>
+    <label>Aramaic</label>
+    <description>Ancient script prized by Lantern scholars and desert archivists.</description>
+    <isSecretLanguage>false</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Sanskrit</defName>
+    <label>Sanskrit</label>
+    <description>Sacred literary language of distant hymns and secret lineages.</description>
+    <isSecretLanguage>false</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Fucine</defName>
+    <label>Fucine</label>
+    <description>An archaic tongue whispered along wet stones and forgotten borderlands.</description>
+    <isSecretLanguage>true</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Phrygian</defName>
+    <label>Phrygian</label>
+    <description>An ecstatic ancient language linked to fire, blood, and forbidden rites.</description>
+    <isSecretLanguage>true</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Mandaic</defName>
+    <label>Deep Mandaic</label>
+    <description>A luminous, esoteric dialect spoken by ancient watchers and forge-smiths.</description>
+    <isSecretLanguage>true</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+  <Cultist.AncientLanguageDef>
+    <defName>Cultist_Lang_Vak</defName>
+    <label>Vak</label>
+    <description>The high tongue of the Peacock's Door, spoken where light cuts deepest.</description>
+    <isSecretLanguage>true</isSecretLanguage>
+  </Cultist.AncientLanguageDef>
+
+  <ThingDef ParentName="Cultist_RiteMaterialBase">
+    <defName>Cultist_AncientCodex</defName>
+    <label>untranslated occult codex</label>
+    <description>A sealed manuscript written in an ancient tongue. A cult member fluent in its language can translate it into usable lore.</description>
+    <graphicData>
+      <texPath>Cultist/Items/AncientCodex</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <Flammability>1</Flammability>
+      <MarketValue>220</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.AncientCodexProperties">
+        <requiredLanguage>Cultist_Lang_Aramaic</requiredLanguage>
+        <rewardLoreDef>Cultist_Lore3Book</rewardLoreDef>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Existing Night BGM -->
+  <SongDef>
+    <defName>Cultist_ObservatoryAfterDusk</defName>
+    <clipPath>Cultist/ObservatoryAfterDusk</clipPath>
+    <allowedTimeOfDay>Night</allowedTimeOfDay>
+    <playOnMap>true</playOnMap>
+    <commonality>0.6</commonality>
+    <volume>0.5</volume>
+  </SongDef>
+
+  <!-- Cultist Simulator BGM Tracks -->
+  <SongDef>
+    <defName>Cultist_BGM_DoorInEye</defName>
+    <clipPath>Cultist/BGM_DoorInEye</clipPath>
+    <allowedTimeOfDay>Night</allowedTimeOfDay>
+    <playOnMap>true</playOnMap>
+    <commonality>0.7</commonality>
+    <volume>0.55</volume>
+  </SongDef>
+  <SongDef>
+    <defName>Cultist_BGM_SunInRags</defName>
+    <clipPath>Cultist/BGM_SunInRags</clipPath>
+    <allowedTimeOfDay>Day</allowedTimeOfDay>
+    <playOnMap>true</playOnMap>
+    <commonality>0.65</commonality>
+    <volume>0.5</volume>
+  </SongDef>
+  <SongDef>
+    <defName>Cultist_BGM_CircularTheme</defName>
+    <clipPath>Cultist/BGM_CircularTheme</clipPath>
+    <allowedTimeOfDay>Any</allowedTimeOfDay>
+    <playOnMap>true</playOnMap>
+    <commonality>0.65</commonality>
+    <volume>0.5</volume>
+  </SongDef>
+  <SongDef>
+    <defName>Cultist_BGM_SubtleOccult</defName>
+    <clipPath>Cultist/BGM_SubtleOccult</clipPath>
+    <allowedTimeOfDay>Night</allowedTimeOfDay>
+    <playOnMap>true</playOnMap>
+    <commonality>0.6</commonality>
+    <volume>0.48</volume>
+  </SongDef>
+  <SongDef>
+    <defName>Cultist_BGM_ImpendingGlory</defName>
+    <clipPath>Cultist/BGM_ImpendingGlory</clipPath>
+    <tense>true</tense>
+    <playOnMap>true</playOnMap>
+    <commonality>0.8</commonality>
+    <volume>0.6</volume>
+  </SongDef>
+
+  <!-- Existing Dream Sting -->
+  <SoundDef>
+    <defName>Cultist_DreamSting</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/DreamSting</clipPath></li></grains>
+        <volumeRange>32~32</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <!-- Cultist Simulator SFX -->
+  <SoundDef>
+    <defName>Cultist_Sfx_MansusEnter</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_MansusEnter</clipPath></li></grains>
+        <volumeRange>38~38</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Cultist_Sfx_MansusExit</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_MansusExit</clipPath></li></grains>
+        <volumeRange>34~34</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Cultist_Sfx_SummonSuccess</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_SummonSuccess</clipPath></li></grains>
+        <volumeRange>42~42</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Cultist_Sfx_Backlash</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_Backlash</clipPath></li></grains>
+        <volumeRange>45~45</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Cultist_Sfx_BookRead</defName>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_BookRead</clipPath></li></grains>
+        <volumeRange>35~35</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Cultist_Sfx_RiteComplete</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_RiteComplete</clipPath></li></grains>
+        <volumeRange>40~40</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Cultist_Sfx_SiteRevealed</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_SiteRevealed</clipPath></li></grains>
+        <volumeRange>40~40</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Cultist_Sfx_EndingGlory</defName>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>true</onCamera>
+        <grains><li Class="AudioGrain_Clip"><clipPath>Cultist/SFX_EndingGlory</clipPath></li></grains>
+        <volumeRange>46~46</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

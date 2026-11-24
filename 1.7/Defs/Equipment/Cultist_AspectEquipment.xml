@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== FORGE (铸) ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>Cultist_ForgeHammer</defName>
+    <label>reshaper's hammer</label>
+    <description>A heavy Forge-aspect smithing hammer tempered in occult fire. Scales across growth stages and resonates with active Forge influence.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData><texPath>Cultist/Equipment/ForgeHammer</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories><li>Metallic</li></stuffCategories>
+    <statBases><WorkToMake>2000</WorkToMake><Mass>1.4</Mass></statBases>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Forge</affinity>
+        <stat>GeneralLaborSpeed</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <meleeDamageStages><li>1.00</li><li>1.15</li><li>1.35</li><li>1.60</li><li>1.90</li><li>2.25</li></meleeDamageStages>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite><recipeUsers><li>CraftingSpot</li></recipeUsers></recipeMaker>
+    <tools><li><label>head</label><capacities><li>Blunt</li></capacities><power>14</power><cooldownTime>2.2</cooldownTime></li></tools>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_ForgeCoat</defName>
+    <label>forge heavy coat</label>
+    <description>A thick heat-resistant smithing coat worn by members of the Unflinching Order.</description>
+    <graphicData><texPath>Cultist/Equipment/ForgeCoat</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Forge</affinity>
+        <stat>GeneralLaborSpeed</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories><li>Fabric</li><li>Leathery</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>140</MaxHitPoints><WorkToMake>2200</WorkToMake><Mass>1.2</Mass><StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor><StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold><StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat><EquipDelay>2.0</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath><layers><li>Shell</li></layers></apparel>
+  </ThingDef>
+
+  <!-- ==================== EDGE (刃) ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Cultist_EdgeDagger</defName>
+    <label>bright edge dagger</label>
+    <description>A razor-sharp assassin's dagger dedicated to the Church of the Bright Edge. Scales fiercely across growth stages and Edge influence.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData><texPath>Cultist/Equipment/EdgeDagger</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories><li>Metallic</li></stuffCategories>
+    <statBases><WorkToMake>1800</WorkToMake><Mass>0.5</Mass></statBases>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Edge</affinity>
+        <stat>MeleeDamageFactor</stat>
+        <stageBonuses><li>0.05</li><li>0.10</li><li>0.15</li><li>0.20</li><li>0.25</li><li>0.30</li></stageBonuses>
+        <meleeDamageStages><li>1.00</li><li>1.18</li><li>1.40</li><li>1.68</li><li>2.00</li><li>2.35</li></meleeDamageStages>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite><recipeUsers><li>CraftingSpot</li></recipeUsers></recipeMaker>
+    <tools><li><label>edge</label><capacities><li>Cut</li><li>Stab</li></capacities><power>13</power><cooldownTime>1.6</cooldownTime></li></tools>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_EdgeGarb</defName>
+    <label>edge duelist garb</label>
+    <description>Lightweight, close-fitted combat attire tailored for duelists and assassins of the Bright Edge.</description>
+    <graphicData><texPath>Cultist/Equipment/EdgeGarb</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Edge</affinity>
+        <stat>MeleeDamageFactor</stat>
+        <stageBonuses><li>0.04</li><li>0.07</li><li>0.10</li><li>0.14</li><li>0.18</li><li>0.22</li></stageBonuses>
+        <meleeDamageStages><li>1.00</li><li>1.06</li><li>1.12</li><li>1.18</li><li>1.24</li><li>1.30</li></meleeDamageStages>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories><li>Fabric</li><li>Leathery</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>120</MaxHitPoints><WorkToMake>1900</WorkToMake><Mass>0.55</Mass><StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor><StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold><StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat><EquipDelay>1.5</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</wornGraphicPath><layers><li>OnSkin</li></layers></apparel>
+  </ThingDef>
+
+  <!-- ==================== WINTER (冬) ==================== -->
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Cultist_WinterBlade</defName>
+    <label>frost-silent blade</label>
+    <description>A pale ritual dirk of the Children of Silence that hurls pale frost shards at medium range, chilling and slowing struck foes.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData><texPath>Cultist/Equipment/WinterBlade</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories><li>Metallic</li></stuffCategories>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.6</Mass>
+      <AccuracyTouch>0.72</AccuracyTouch>
+      <AccuracyShort>0.82</AccuracyShort>
+      <AccuracyMedium>0.76</AccuracyMedium>
+      <AccuracyLong>0.58</AccuracyLong>
+      <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+    </statBases>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Winter</affinity>
+        <stat>MeleeDamageFactor</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <meleeDamageStages><li>1.00</li><li>1.15</li><li>1.35</li><li>1.60</li><li>1.90</li><li>2.25</li></meleeDamageStages>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite><recipeUsers><li>CraftingSpot</li></recipeUsers></recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Cultist_Proj_WinterShard</defaultProjectile>
+        <warmupTime>0.95</warmupTime>
+        <range>18.9</range>
+        <soundCast>Bow_Recurve</soundCast>
+        <muzzleFlashScale>3</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools><li><label>blade</label><capacities><li>Cut</li></capacities><power>9</power><cooldownTime>1.8</cooldownTime></li></tools>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_WinterRobe</defName>
+    <label>winter frost robe</label>
+    <description>A solemn frost-coloured robe worn during quiet vigils. Offers exceptional cold insulation.</description>
+    <graphicData><texPath>Cultist/Equipment/WinterRobe</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Winter</affinity>
+        <stat>ComfyTemperatureMin</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>60</costStuffCount>
+    <stuffCategories><li>Fabric</li><li>Leathery</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>125</MaxHitPoints><WorkToMake>2100</WorkToMake><Mass>1.1</Mass><StuffEffectMultiplierArmor>0.24</StuffEffectMultiplierArmor><StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold><StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat><EquipDelay>2.0</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/Parka/Parka</wornGraphicPath><layers><li>Shell</li></layers></apparel>
+  </ThingDef>
+
+  <!-- ==================== HEART (心) ==================== -->
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Cultist_HeartChime</defName>
+    <label>unceasing ritual chime</label>
+    <description>A resonant ritual instrument of the Temple Unceasing that emits a staggering sonic pulse at short-to-medium range and can rally nearby allies.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData><texPath>Cultist/Equipment/HeartChime</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories><li>Metallic</li></stuffCategories>
+    <statBases>
+      <WorkToMake>1700</WorkToMake>
+      <Mass>0.9</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.74</AccuracyMedium>
+      <AccuracyLong>0.52</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Heart</affinity>
+        <stat>ImmunityGainSpeed</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <meleeDamageStages><li>1.00</li><li>1.12</li><li>1.30</li><li>1.52</li><li>1.80</li><li>2.10</li></meleeDamageStages>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite><recipeUsers><li>CraftingSpot</li></recipeUsers></recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Cultist_Proj_HeartPulse</defaultProjectile>
+        <warmupTime>0.85</warmupTime>
+        <range>15.9</range>
+        <soundCast>Interact_BeatFire</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools><li><label>chime head</label><capacities><li>Blunt</li></capacities><power>9</power><cooldownTime>1.8</cooldownTime></li></tools>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_HeartVestments</defName>
+    <label>heart resilient vestments</label>
+    <description>Durable woven vestments blessed by the Temple Unceasing to ward off exhaustion and decay.</description>
+    <graphicData><texPath>Cultist/Equipment/HeartVestments</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Heart</affinity>
+        <stat>ImmunityGainSpeed</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories><li>Fabric</li><li>Leathery</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>135</MaxHitPoints><WorkToMake>2000</WorkToMake><Mass>0.7</Mass><StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor><StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold><StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat><EquipDelay>1.5</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</wornGraphicPath><layers><li>OnSkin</li></layers></apparel>
+  </ThingDef>
+
+  <!-- ==================== GRAIL (杯) ==================== -->
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Cultist_GrailChalice</defName>
+    <label>bloody cup chalice</label>
+    <description>A ceremonial chalice of the Order of the Bloody Cup that flings a scalding three-burst spray of crimson acid at close-to-medium range.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData><texPath>Cultist/Equipment/GrailChalice</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories><li>Metallic</li></stuffCategories>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.8</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Grail</affinity>
+        <stat>SocialImpact</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <meleeDamageStages><li>1.00</li><li>1.10</li><li>1.25</li><li>1.45</li><li>1.75</li><li>2.05</li></meleeDamageStages>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite><recipeUsers><li>CraftingSpot</li></recipeUsers></recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Cultist_Proj_GrailSplash</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>10.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <soundCast>FireSpew_Resolve</soundCast>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools><li><label>chalice rim</label><capacities><li>Blunt</li></capacities><power>8</power><cooldownTime>1.9</cooldownTime></li></tools>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_GrailRobe</defName>
+    <label>grail ornate robe</label>
+    <description>Sumptuous crimson-trimmed attire worn at feasts of the Order of the Bloody Cup.</description>
+    <graphicData><texPath>Cultist/Equipment/GrailRobe</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Grail</affinity>
+        <stat>SocialImpact</stat>
+        <stageBonuses><li>0.05</li><li>0.08</li><li>0.12</li><li>0.16</li><li>0.20</li><li>0.25</li></stageBonuses>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories><li>Fabric</li><li>Leathery</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>110</MaxHitPoints><WorkToMake>2100</WorkToMake><Mass>0.6</Mass><StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor><StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold><StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat><EquipDelay>1.5</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath><layers><li>Shell</li></layers></apparel>
+  </ThingDef>
+
+  <!-- ==================== MOTH (蛾) ==================== -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_MothMask</defName>
+    <label>wildwood moth mask</label>
+    <description>A carved ceremonial mask of the Wildwood Club that obscures identity and sharpens restless instincts.</description>
+    <graphicData><texPath>Cultist/Equipment/MothMask</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Moth</affinity>
+        <stat>MoveSpeed</stat>
+        <stageBonuses><li>0.04</li><li>0.07</li><li>0.10</li><li>0.13</li><li>0.16</li><li>0.20</li></stageBonuses>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories><li>Woody</li><li>Metallic</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>90</MaxHitPoints><WorkToMake>1400</WorkToMake><Mass>0.3</Mass><StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor><EquipDelay>1.0</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>FullHead</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/VisageMask/VisageMask</wornGraphicPath><layers><li>Overhead</li></layers></apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_MothCloak</defName>
+    <label>moth light cloak</label>
+    <description>A whispering, tattered light cloak favoured by Skintwisters wandering the Wood.</description>
+    <graphicData><texPath>Cultist/Equipment/MothCloak</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Moth</affinity>
+        <stat>MoveSpeed</stat>
+        <stageBonuses><li>0.04</li><li>0.07</li><li>0.10</li><li>0.13</li><li>0.16</li><li>0.20</li></stageBonuses>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories><li>Fabric</li><li>Leathery</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>105</MaxHitPoints><WorkToMake>1800</WorkToMake><Mass>0.4</Mass><StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor><StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold><StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat><EquipDelay>1.2</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath><layers><li>Shell</li></layers></apparel>
+  </ThingDef>
+
+  <!-- ==================== KNOCK (启 — 预留独立扩展) ==================== -->
+  <ThingDef ParentName="BaseGunWithQuality">
+    <defName>Cultist_KnockKeyBlade</defName>
+    <label>threshold key-blade</label>
+    <description>A key-shaped ritual instrument of the Knock aspect that projects high-armor-piercing threshold rift shards to open sealed doors and armor alike.</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData><texPath>Cultist/Equipment/KnockKeyBlade</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories><li>Metallic</li></stuffCategories>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.65</Mass>
+      <AccuracyTouch>0.76</AccuracyTouch>
+      <AccuracyShort>0.84</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Knock</affinity>
+        <stat>MoveSpeed</stat>
+        <stageBonuses><li>0.04</li><li>0.07</li><li>0.10</li><li>0.14</li><li>0.18</li><li>0.22</li></stageBonuses>
+        <meleeDamageStages><li>1.00</li><li>1.14</li><li>1.32</li><li>1.56</li><li>1.85</li><li>2.20</li></meleeDamageStages>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite><recipeUsers><li>CraftingSpot</li></recipeUsers></recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Cultist_Proj_KnockRift</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>16.9</range>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools><li><label>warded edge</label><capacities><li>Stab</li><li>Cut</li></capacities><power>9</power><cooldownTime>1.8</cooldownTime></li></tools>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Cultist_KnockRobe</defName>
+    <label>knock ritual robe</label>
+    <description>A violet-trimmed ritual robe worn by openers of doors and summoners of the threshold.</description>
+    <graphicData><texPath>Cultist/Equipment/KnockRobe</texPath><graphicClass>Graphic_Single</graphicClass></graphicData>
+    <comps><li Class="Cultist.AffinityGearInspectProperties"/></comps>
+    <modExtensions>
+      <li Class="Cultist.AffinityGear">
+        <affinity>Knock</affinity>
+        <stat>MoveSpeed</stat>
+        <stageBonuses><li>0.04</li><li>0.07</li><li>0.10</li><li>0.14</li><li>0.18</li><li>0.22</li></stageBonuses>
+        <influenceResonanceEnabled>true</influenceResonanceEnabled>
+      </li>
+    </modExtensions>
+    <recipeMaker><researchPrerequisite>Cultist_OccultCraft</researchPrerequisite></recipeMaker>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories><li>Fabric</li><li>Leathery</li></stuffCategories>
+    <thingCategories><li>ApparelMisc</li></thingCategories>
+    <statBases><MaxHitPoints>115</MaxHitPoints><WorkToMake>1950</WorkToMake><Mass>0.55</Mass><StuffEffectMultiplierArmor>0.24</StuffEffectMultiplierArmor><StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold><StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat><EquipDelay>1.5</EquipDelay></statBases>
+    <apparel><bodyPartGroups><li>Torso</li><li>Shoulders</li></bodyPartGroups><wornGraphicPath>Things/Pawn/Humanlike/Apparel/Duster/Duster</wornGraphicPath><layers><li>Shell</li></layers></apparel>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.Altar.Expedition>定位废弃勘测站</Cultist.Altar.Expedition>
+  <Cultist.NeedHome>请使用殖民地定居点里的祭坛。</Cultist.NeedHome>
+  <Cultist.ExpeditionActive>世界地图上已有一处标记的勘测站。</Cultist.ExpeditionActive>
+  <Cultist.ExpeditionPlateExists>已有回收的勘测板，请将它带到这处定居点。</Cultist.ExpeditionPlateExists>
+  <Cultist.ExpeditionUnavailable>没找到可抵达的位置，秘传页已保留。</Cultist.ExpeditionUnavailable>
+  <Cultist.NeedPlate>需要从远征带回一块刻纹勘测板。</Cultist.NeedPlate>
+  <Cultist.ExpeditionTitle>未送达的勘测记录</Cultist.ExpeditionTitle>
+  <Cultist.ExpeditionBody>抄下来的梦境图和殖民地附近一处勘测站吻合。最后一条讯息提到一块刻纹板。派商队回收它，再把它带回祭坛。信号大约会持续十五天。</Cultist.ExpeditionBody>
+  <Cultist.QuietSeason>日常事务给了教主一份安逸，也让教主整理出一页秘传。</Cultist.QuietSeason>
+  <Cultist.BrightSeason>镜中光芒日渐强烈，教主因此陷入入迷。</Cultist.BrightSeason>
+  <Cultist.StudyTranscript>研读勘测抄本</Cultist.StudyTranscript>
+  <Cultist.TranscriptStudied>教会已经记录了这份抄本中的有用笔记。</Cultist.TranscriptStudied>
+  <Cultist.TranscriptRead>{0}从勘测抄本整理出两页秘传。</Cultist.TranscriptRead>
+</LanguageData>

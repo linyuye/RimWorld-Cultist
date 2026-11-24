@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_auclair</defName>
+    <label>Auclair, a believer</label>
+    <description>The air is frosty, the candles gutter, the street-sounds are hushed. Someone is here.</description>
+    <sourceId>auclair</sourceId>
+    <affinity>Winter</affinity>
+    <believerLabel>Auclair, a believer</believerLabel>
+    <discipleLabel>Auclair, a disciple</discipleLabel>
+    <exaltedLabel>A gaunt woman, who is silent.</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/auclair_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_cat</defName>
+    <label>Cat Caro, a believer</label>
+    <description>Archaeologists find treasures in tombs. Farmers bring harvest from the fields. What does Cat Caro unearth in dreams?</description>
+    <sourceId>cat</sourceId>
+    <affinity>Lantern</affinity>
+    <believerLabel>Cat Caro, a believer</believerLabel>
+    <discipleLabel>Cat Caro, a disciple</discipleLabel>
+    <exaltedLabel>Cat Caro, a Seer</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/cat_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_clifton</defName>
+    <label>'Pope' Clifton, a believer</label>
+    <description>Clifton still recites his prayers, but they are grown strange as old mirrors. He rises every morning to greet the dawn. He looks it full in the face, and tells you exactly what he sees.</description>
+    <sourceId>clifton</sourceId>
+    <affinity>Lantern</affinity>
+    <believerLabel>'Pope' Clifton, a believer</believerLabel>
+    <discipleLabel>'Pope' Clifton, a disciple</discipleLabel>
+    <exaltedLabel>Clifton, a Seer</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/clifton_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_clovette</defName>
+    <label>Clovette, a believer</label>
+    <description>Clovette is always in motion. She laughs easily. Her smile is the crescent at the edge of the moon.</description>
+    <sourceId>clovette</sourceId>
+    <affinity>Heart</affinity>
+    <believerLabel>Clovette, a believer</believerLabel>
+    <discipleLabel>Clovette, a disciple</discipleLabel>
+    <exaltedLabel>Clovette, a Tarantellist</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/clovette_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_connie</defName>
+    <label>Connie, a Conqueress</label>
+    <description>It's not in Connie's nature to serve. One day she'll rise as a river rises. But for now, she stoops to conquer.</description>
+    <sourceId>connie</sourceId>
+    <affinity>Edge</affinity>
+    <believerLabel>Connie, a Conqueress</believerLabel>
+    <discipleLabel>Connie, a disciple</discipleLabel>
+    <exaltedLabel>Connie, a Conqueress</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/connie_r</iconPath>
+    <isHunterConvert>true</isHunterConvert>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_dorothy</defName>
+    <label>Dorothy, a believer</label>
+    <description>When Dorothy moves, we hear the drum. When she speaks, we see the dance. Her determination is her shield and her weapon.</description>
+    <sourceId>dorothy</sourceId>
+    <affinity>Heart</affinity>
+    <believerLabel>Dorothy, a believer</believerLabel>
+    <discipleLabel>Dorothy, a disciple</discipleLabel>
+    <exaltedLabel>Dorothy, a Tarantellist</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/dorothy_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_douglas</defName>
+    <label>Douglas, a believer</label>
+    <description>Douglas has changed so much. His eyes glow like smithy windows in fog. His voice is the rattle of coal in the chute. His arm is long.</description>
+    <sourceId>douglas</sourceId>
+    <affinity>Forge</affinity>
+    <believerLabel>Douglas, a believer</believerLabel>
+    <discipleLabel>Douglas, a disciple</discipleLabel>
+    <exaltedLabel>Douglas, a Reshaper</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/douglas_r</iconPath>
+    <isHunterConvert>true</isHunterConvert>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_elridge</defName>
+    <label>Elridge, a believer</label>
+    <description>Elridge is never seen with a spot of blood upon his person. Not a spot.</description>
+    <sourceId>elridge</sourceId>
+    <affinity>Edge</affinity>
+    <believerLabel>Elridge, a believer</believerLabel>
+    <discipleLabel>Elridge, a disciple</discipleLabel>
+    <exaltedLabel>Elridge, an Assassin</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/elridge_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_laidlaw</defName>
+    <label>Laidlaw, a believer</label>
+    <description>Laidlaw can shape what is broken into what is necessary.</description>
+    <sourceId>laidlaw</sourceId>
+    <affinity>Forge</affinity>
+    <believerLabel>Laidlaw, a believer</believerLabel>
+    <discipleLabel>Laidlaw, a disciple</discipleLabel>
+    <exaltedLabel>Laidlaw, a Reshaper</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/laidlaw_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_leo</defName>
+    <label>Leo, a believer</label>
+    <description>Leo will preserve, at all costs. He will not cease.</description>
+    <sourceId>leo</sourceId>
+    <affinity>Heart</affinity>
+    <believerLabel>Leo, a believer</believerLabel>
+    <discipleLabel>Leo, a disciple</discipleLabel>
+    <exaltedLabel>Leo, a Tarantellist</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/leo_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_natalia</defName>
+    <label>Natalia, a Sage</label>
+    <description>Natalia has aligned herself with the brightest path she can find.</description>
+    <sourceId>natalia</sourceId>
+    <affinity>Lantern</affinity>
+    <believerLabel>Natalia, a Sage</believerLabel>
+    <discipleLabel>Natalia, a disciple</discipleLabel>
+    <exaltedLabel>Natalia, a Sage</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/natalia_r</iconPath>
+    <isHunterConvert>true</isHunterConvert>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_porter</defName>
+    <label>Porter, a believer</label>
+    <description>Porter, like a spider, is found in the most unexpected places.</description>
+    <sourceId>porter</sourceId>
+    <affinity>Moth</affinity>
+    <believerLabel>Porter, a believer</believerLabel>
+    <discipleLabel>Porter, a disciple</discipleLabel>
+    <exaltedLabel>Porter, a Skintwister</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/porter_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_renira</defName>
+    <label>Renira, a believer</label>
+    <description>Renira receives tokens from admirers almost daily. Some gifts are flowers, others poetry. Sometimes she receives jewels; sometimes, desperate gifts wrapped tightly in blood-stained crepe paper.</description>
+    <sourceId>renira</sourceId>
+    <affinity>Grail</affinity>
+    <believerLabel>Renira, a believer</believerLabel>
+    <discipleLabel>Renira, a disciple</discipleLabel>
+    <exaltedLabel>Renira, a Cyprian</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/renira_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_rose</defName>
+    <label>Rose, a believer</label>
+    <description>The night before Rose meets her subject, the subject will receive a package with a single yellow rose.</description>
+    <sourceId>rose</sourceId>
+    <affinity>Edge</affinity>
+    <believerLabel>Rose, a believer</believerLabel>
+    <discipleLabel>Rose, a disciple</discipleLabel>
+    <exaltedLabel>Rose, an Assassin</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/rose_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_saliba</defName>
+    <label>Saliba, a believer</label>
+    <description>Saliba's charisma strikes with the force of a hammer. It is horribly difficult to refuse his desires.</description>
+    <sourceId>saliba</sourceId>
+    <affinity>Grail</affinity>
+    <believerLabel>Saliba, a believer</believerLabel>
+    <discipleLabel>Saliba, a disciple</discipleLabel>
+    <exaltedLabel>Saliba, a Cyprian</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/saliba_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_slee</defName>
+    <label>Slee, a believer</label>
+    <description>Slee speaks exclusively in mathematics and in poetry. Both are compelling: it is increasingly difficult to tell the difference.</description>
+    <sourceId>slee</sourceId>
+    <affinity>Lantern</affinity>
+    <believerLabel>Slee, a believer</believerLabel>
+    <discipleLabel>Slee, a disciple</discipleLabel>
+    <exaltedLabel>Slee, a Seer</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/slee_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_sylvia</defName>
+    <label>Sylvia, a believer</label>
+    <description>Sylvia has learnt to get out of a place almost before she has gotten in. Sometimes, she leaves dead leaves beneath the window-sill. Sometimes, she writes her name where it won't be found.</description>
+    <sourceId>sylvia</sourceId>
+    <affinity>Moth</affinity>
+    <believerLabel>Sylvia, a believer</believerLabel>
+    <discipleLabel>Sylvia, a disciple</discipleLabel>
+    <exaltedLabel>Sylvia, a Skintwister</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/sylvia_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_tristan</defName>
+    <label>Tristan, a believer</label>
+    <description>In another age, Tristan might have been a smith. In another life, he might have been a bomb-maker.</description>
+    <sourceId>tristan</sourceId>
+    <affinity>Forge</affinity>
+    <believerLabel>Tristan, a believer</believerLabel>
+    <discipleLabel>Tristan, a disciple</discipleLabel>
+    <exaltedLabel>Tristan, a Reshaper</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/tristan_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_valciane</defName>
+    <label>Valciane, a believer</label>
+    <description>Valciane has begun to work without tools. 'They get in the way,' she claims.</description>
+    <sourceId>valciane</sourceId>
+    <affinity>Forge</affinity>
+    <believerLabel>Valciane, a believer</believerLabel>
+    <discipleLabel>Valciane, a disciple</discipleLabel>
+    <exaltedLabel>Valciane, a Reshaper</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/valciane_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_victor</defName>
+    <label>Victor, a believer</label>
+    <description>Victor likes to become acquainted with his subjects, so he can apologise to them personally, just before the end.</description>
+    <sourceId>victor</sourceId>
+    <affinity>Edge</affinity>
+    <believerLabel>Victor, a believer</believerLabel>
+    <discipleLabel>Victor, a disciple</discipleLabel>
+    <exaltedLabel>Victor, an Assassin</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/victor_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_violet</defName>
+    <label>Violet, a believer</label>
+    <description>Sleep, now. Don't worry about a thing.</description>
+    <sourceId>violet</sourceId>
+    <affinity>Winter</affinity>
+    <believerLabel>Violet, a believer</believerLabel>
+    <discipleLabel>Violet, a disciple</discipleLabel>
+    <exaltedLabel>A kindly-faced woman, who is silent.</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/violet_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_ysabet</defName>
+    <label>Ysabet, a believer</label>
+    <description>Ysabet never lies, now. She doesn't need to.</description>
+    <sourceId>ysabet</sourceId>
+    <affinity>Moth</affinity>
+    <believerLabel>Ysabet, a believer</believerLabel>
+    <discipleLabel>Ysabet, a disciple</discipleLabel>
+    <exaltedLabel>Ysabet, a Skintwister</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/ysabet_b</iconPath>
+  </Cultist.CultistNamedFollowerDef>
+  <Cultist.CultistNamedFollowerDef>
+    <defName>Cultist_Follower_zachary</defName>
+    <label>Zachary, a Conclusion</label>
+    <description>Zachary has chosen his ending.</description>
+    <sourceId>zachary</sourceId>
+    <affinity>Winter</affinity>
+    <believerLabel>Zachary, a Conclusion</believerLabel>
+    <discipleLabel>Zachary, a disciple</discipleLabel>
+    <exaltedLabel>Zachary, a Conclusion</exaltedLabel>
+    <iconPath>Cultist/Catalog/Follower/zachary_r</iconPath>
+    <isHunterConvert>true</isHunterConvert>
+  </Cultist.CultistNamedFollowerDef>
+</Defs>

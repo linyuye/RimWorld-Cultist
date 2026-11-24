@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Card_aladim.label>伊本·阿迪姆博士</Cultist_Card_aladim.label>
+  <Cultist_Card_aladim.description>伊本·阿迪姆博士，人称阿勒颇人，对被忽视的历史有兴趣。他向你提出了委托。</Cultist_Card_aladim.description>
+  <Cultist_Card_aladimready.label>伊本·阿迪姆博士</Cultist_Card_aladimready.label>
+  <Cultist_Card_aladimready.description>伊本·阿迪姆博士，人称阿勒颇人，对被忽视的历史有兴趣。他正需要有人协助。</Cultist_Card_aladimready.description>
+  <Cultist_Card_bechet.label>贝谢女士</Cultist_Card_bechet.label>
+  <Cultist_Card_bechet.description>奥兰普·贝谢女士是《凯尔伊苏姆评论报》的编辑；该报刊登的是那些对其他文学杂志来说过于阴森或惊悚的题材。她向你提出了委托。</Cultist_Card_bechet.description>
+  <Cultist_Card_bechetready.label>贝谢女士</Cultist_Card_bechetready.label>
+  <Cultist_Card_bechetready.description>奥兰普·贝谢女士是《凯尔伊苏姆评论报》的编辑；该报刊登的是那些对其他文学杂志来说过于阴森或惊悚的题材。她正需要有人协助。</Cultist_Card_bechetready.description>
+  <Cultist_Card_jannings.label>雅宁斯伯爵</Cultist_Card_jannings.label>
+  <Cultist_Card_jannings.description>戈特洛布·雅宁斯伯爵是大陆上一个医师和决斗者协会的代表。他向你提出了委托。</Cultist_Card_jannings.description>
+  <Cultist_Card_janningsready.label>雅宁斯伯爵</Cultist_Card_janningsready.label>
+  <Cultist_Card_janningsready.description>戈特洛布·雅宁斯伯爵是大陆上一个医师和决斗者协会的代表。他正需要有人协助。</Cultist_Card_janningsready.description>
+  <Cultist_Card_poppyready.label>波比·拉舍莱斯</Cultist_Card_poppyready.label>
+  <Cultist_Card_poppyready.description>一个和蔼可亲的富有女人。她想要和你谈谈。</Cultist_Card_poppyready.description>
+  <Cultist_Card_poppy.label>波比·拉舍莱斯</Cultist_Card_poppy.label>
+  <Cultist_Card_poppy.description>一个和蔼可亲的富有女人。</Cultist_Card_poppy.description>
+  <Cultist_Card_poppycommissionready.label>波比·拉舍莱斯</Cultist_Card_poppycommissionready.label>
+  <Cultist_Card_poppycommissionready.description>一个和蔼可亲的富有女人。她想要你的帮助。</Cultist_Card_poppycommissionready.description>
+  <Cultist_Card_poppycommission.label>波比·拉舍莱斯</Cultist_Card_poppycommission.label>
+  <Cultist_Card_poppycommission.description>一个和蔼可亲的富有女人。她向你提出了委托。</Cultist_Card_poppycommission.description>
+  <Cultist_Card_sulochana.label>苏洛恰那·阿摩伐舍</Cultist_Card_sulochana.label>
+  <Cultist_Card_sulochana.description>蜕衣俱乐部的所有者，言语简练，精力充沛，目光炯炯，从不眨眼。</Cultist_Card_sulochana.description>
+  <Cultist_Card_echidna.label>E夫人</Cultist_Card_echidna.label>
+  <Cultist_Card_echidna.description>一位自封“怪物之母”的，活泼、矮胖的女性，身着一身灰绿色、松垮垮的奥地利农妇裙。</Cultist_Card_echidna.description>
+  <Cultist_Card_marinette.label>“操线仙娥”玛丽内特</Cultist_Card_marinette.label>
+  <Cultist_Card_marinette.description>它散发着腐败血液的恶臭，每一说话下颚骨便咔嚓作响。蜷缩在这层衣服和骨骸下的也许是个女人，又也许是某种操线木偶。</Cultist_Card_marinette.description>
+  <Cultist_Card_kleidouchos_enroute.label>施鲁塞尔女士正在途中</Cultist_Card_kleidouchos_enroute.label>
+  <Cultist_Card_kleidouchos_enroute.description>特蕾莎·加尔米耶的“笔友”，苏洛恰那的“姐妹”，白日之钥的持有者，正从维也纳前来。也许我应该在车站见见她。</Cultist_Card_kleidouchos_enroute.description>
+  <Cultist_Card_kleidouchos.label>施鲁塞尔女士</Cultist_Card_kleidouchos.label>
+  <Cultist_Card_kleidouchos.description>一个精神矍铄，魄力十足的女人，衣着黑白分明，脸上满布皱纹。没人见过她眨眼。一只小小的黑毛狗崽从她裙底探出头来。</Cultist_Card_kleidouchos.description>
+  <Cultist_Card_naenia.label>“挽歌儿小姐”</Cultist_Card_naenia.label>
+  <Cultist_Card_naenia.description>一幅画作，画中肤色深暗的女人拥有雪色的双眸和剪得很短的骨白色头发，站在一个长满白花藤的小型大理石墓前。署名为“乔纳斯·B·蒙克，作于1811年。”</Cultist_Card_naenia.description>
+</LanguageData>

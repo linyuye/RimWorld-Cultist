@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.Altar.Succeed>Assume leadership</Cultist.Altar.Succeed>
+  <Cultist.Altar.Promote>Ask for ordination</Cultist.Altar.Promote>
+  <Cultist.Altar.Mark>Record the next mark</Cultist.Altar.Mark>
+  <Cultist.Altar.Vigil>Begin the four-star rite of the watchkeeper</Cultist.Altar.Vigil>
+  <Cultist.AltarSummary>Marks {0}/6 · Lore studied {1}/7 · Light {2} · Fascination {3} · Fear {4} · Memories {5} · Comfort {6}</Cultist.AltarSummary>
+  <Cultist.NeedLantern>Only a Lantern initiate may hold the third rank.</Cultist.NeedLantern>
+  <Cultist.NeedPromotionInputs>Requires a light influence of strength six.</Cultist.NeedPromotionInputs>
+  <Cultist.RankMaximum>This member has reached the highest rank.</Cultist.RankMaximum>
+  <Cultist.NeedResearch>Finish studies of light.</Cultist.NeedResearch>
+  <Cultist.NeedDisciple>Ordain a second member to at least the second rank and bring them to this map.</Cultist.NeedDisciple>
+  <Cultist.NeedGear>Wear the observatory coat or equip the light engraver.</Cultist.NeedGear>
+  <Cultist.SuccessorMade>{0} has assumed leadership of the society.</Cultist.SuccessorMade>
+  <Cultist.Promoted>{0} has been ordained as {1}.</Cultist.Promoted>
+  <Cultist.Rank.2>disciple</Cultist.Rank.2>
+  <Cultist.Rank.3>seer</Cultist.Rank.3>
+  <Cultist.MarkEarned>The society has recorded mark {0} of six.</Cultist.MarkEarned>
+  <Cultist.VigilUnavailable>The vigil cannot draw a challenge here. Try again later.</Cultist.VigilUnavailable>
+  <Cultist.VigilStarted>The vigil has begun. Keep the altar and leader safe until the attackers are gone and six hours have passed.</Cultist.VigilStarted>
+  <Cultist.VigilFailed>The vigil has broken. Prepare another attempt at an altar.</Cultist.VigilFailed>
+  <Cultist.EndingPrompt>The gate is open. Will the leader return or ascend and depart?</Cultist.EndingPrompt>
+  <Cultist.ReturnChoice>Return as Long</Cultist.ReturnChoice>
+  <Cultist.DepartChoice>Ascend as Long and depart</Cultist.DepartChoice>
+  <Cultist.EndingTitle>After the vigil</Cultist.EndingTitle>
+  <Cultist.EndingReturned>{0} returned with a light that quickens the society’s research.</Cultist.EndingReturned>
+  <Cultist.EndingDeparted>{0} crossed the passage. The colony may appoint a successor.</Cultist.EndingDeparted>
+  <Cultist.Gate.0>The Wood</Cultist.Gate.0>
+  <Cultist.Gate.1>The White Gate</Cultist.Gate.1>
+  <Cultist.Gate.2>The Antler Gate</Cultist.Gate.2>
+  <Cultist.Gate.3>The Silk Gate</Cultist.Gate.3>
+  <Cultist.Gate.4>The Iridescent Gate</Cultist.Gate.4>
+  <Cultist.Reward.IntenseLight>Carry a fierce impression of light</Cultist.Reward.IntenseLight>
+  <Cultist.Reward.BrilliantLight>Carry a blinding impression of light</Cultist.Reward.BrilliantLight>
+  <Cultist.Altar.RelieveMemory>Recall a waking memory</Cultist.Altar.RelieveMemory>
+  <Cultist.Altar.RelieveFear>Dispel fascination with fear</Cultist.Altar.RelieveFear>
+  <Cultist.Altar.RelieveComfort>Relieve fear with comfort</Cultist.Altar.RelieveComfort>
+  <Cultist.Relieved>{0} has steadied their mind.</Cultist.Relieved>
+  <Cultist.FearWarning>Fear is closing in on {0}.</Cultist.FearWarning>
+  <Cultist.DespairCrisis>{0} is overwhelmed by despair. Use comfort at an altar within six hours.</Cultist.DespairCrisis>
+  <Cultist.Reward.Fear>Face a disturbing reflection</Cultist.Reward.Fear>
+  <Cultist.Reward.Comfort>Carry home a moment of comfort</Cultist.Reward.Comfort>
+  <Cultist.DarkSeason>A season of long shadows leaves the leader with a new fear.</Cultist.DarkSeason>
+  <Cultist.InfluenceTiming>{3} influence {0} · {1} h to {2}</Cultist.InfluenceTiming>
+  <Cultist.CrisisTiming>Time to resolve {0}: {1} h</Cultist.CrisisTiming>
+  <Cultist.NextFascination>fascination</Cultist.NextFascination>
+  <Cultist.NextDespair>despair</Cultist.NextDespair>
+  <Cultist.Research.Society>Society: +{0}</Cultist.Research.Society>
+  <Cultist.Research.Equipment>Affinity gear: +{0}</Cultist.Research.Equipment>
+  <Cultist.GearRanks>{0} affinity · {1} by rank: +{2} / +{3} / +{4}</Cultist.GearRanks>
+</LanguageData>

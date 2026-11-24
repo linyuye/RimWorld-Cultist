@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scar_edge</defName>
+    <label>Scar: Brutal Experience</label>
+    <description>FAUSTUS: I think Hell's a fable. MEPHISTOPHILIS: Ay, think so still, till experience change thy mind. [You've made a permanent sacrifice for power.]</description>
+    <sourceId>scar_edge</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/scar_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scar_knock</defName>
+    <label>Scar: Half-Healed Fistula</label>
+    <description>Not all doors are wounds; but all wounds are doors. [You've made a permanent sacrifice for power.]</description>
+    <sourceId>scar_knock</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/scar_knock</iconPath>
+    <aspects>
+      <li><key>knock</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scar_winter</defName>
+    <label>Scar: Old Wound</label>
+    <description>Step closer to the sunset, and see the first stars of night. [You've made a permanent sacrifice for power.]</description>
+    <sourceId>scar_winter</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/scar_winter</iconPath>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scar_heart</defName>
+    <label>Scar: A Wandering Heart</label>
+    <description>I have so much life in me. It is difficult not to move. When I sit, my joints burn. I know that if I stop, I might stop for always. [You've made a permanent sacrifice for power. Be careful: unlike Health, this card will not satisfy Sickness or Starvation.]</description>
+    <sourceId>scar_heart</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/scar_heart</iconPath>
+    <aspects>
+      <li><key>heart</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scar_moth</defName>
+    <label>Scar: A Flexible Aspect</label>
+    <description>I've worn so many guises. With each new guise it is harder to recall my original face. Even the cartilage softens when my tempers are high. [You've made a permanent sacrifice for power.]</description>
+    <sourceId>scar_moth</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/scar_moth</iconPath>
+    <aspects>
+      <li><key>moth</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_scar_lantern</defName>
+    <label>Scar: A Translucency</label>
+    <description>Sometimes now I am beautiful beneath my skin. When I bend to the right angle - when my garments falls aside - when the eye is keen - my shape is a perfect revelation. [You've made a permanent sacrifice for power.]</description>
+    <sourceId>scar_lantern</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/scar_lantern</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_geminiadread</defName>
+    <label>The Geminiad (Read)</label>
+    <description>A fragile manuscript, illuminated with twinned shapes of sad and luminous beauty, and with all the phases of the moon. Coral decorates its cover, and its page-edges are sharp enough to slash a throat. [I've learnt everything I can from this, but the book itself still has power.]</description>
+    <sourceId>geminiadread</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/geminiadread</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostleforge_pillar2_dormant</defName>
+    <label>Dormant Dawnbreaker Core</label>
+    <description>A shining cage of curved metal, enclosing a softly glowing fragment of ancient light. It might begin our Dawn, if we can rekindle it and purify it with the fiercest alchemy.</description>
+    <sourceId>apostleforge.pillar2.dormant</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/apostleforge.pillar2.dormant</iconPath>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostleforge_pillar2</defName>
+    <label>Dawnbreaker Core</label>
+    <description>A radiant cage of curved metal, imprisoning a blazing mote of solar fire. If we can carry it to the place where the world's flaw colours the air, we can bring the Dawn.</description>
+    <sourceId>apostleforge.pillar2</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/apostleforge.pillar2</iconPath>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostleforge_pillar2_dormant_sabotaged</defName>
+    <label>Sabotaged Dormant Dawnbreaker Core</label>
+    <description>A battered tangle of bent metal, enclosing a mote of drunkenly bobbing light. We must repair it before it collapses altogether!</description>
+    <sourceId>apostleforge.pillar2.dormant.sabotaged</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/apostleforge.pillar2.dormant.sabotaged</iconPath>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostleforge_pillar2_sabotaged</defName>
+    <label>Sabotaged Dawnbreaker Core</label>
+    <description>A flaring tangle of bent metal. A blazing mote of solar fire quivers fitfully within. We must repair it before it collapses altogether!</description>
+    <sourceId>apostleforge.pillar2.sabotaged</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/apostleforge.pillar2.sabotaged</iconPath>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillarfuel</defName>
+    <label>A Dream of a Key</label>
+    <description>The dream, again. Instructions for me, and for someone else, if I can find them. It will guide me into the Mansus. It will show me what I need to do. It is a presentiment of the true Key, for those who know something of the Glory.</description>
+    <sourceId>apostlelantern.pillarfuel</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/mentorguidance</iconPath>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar1</defName>
+    <label>The Third Mode</label>
+    <description>'We shall navigate; we shall illuminate; we shall not be compassionate. Seek the Crossroads behind the Door of Eyes. Raise there the Allure. Send the silvered dead to bring the sleeping souls of mortals. When there are sufficient Witnesses, send for the Key of Days, to open the three-lobed gate Outwards, in its third mode.'</description>
+    <sourceId>apostlelantern.pillar1</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/apostlelantern.pillar1</iconPath>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_lockscaredge</defName>
+    <label>Edge-Lock Scar</label>
+    <description>When I am Threshold, this scar will open beneath a blade's touch.</description>
+    <sourceId>lockscaredge</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscaredge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_lockscarforge</defName>
+    <label>Forge-Lock Scar</label>
+    <description>When I am Threshold, this scar will open to the touch of hot iron.</description>
+    <sourceId>lockscarforge</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarforge</iconPath>
+    <aspects>
+      <li><key>forge</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_lockscargrail</defName>
+    <label>Grail-Lock Scar</label>
+    <description>When I am Threshold, this scar will open to a fervent kiss.</description>
+    <sourceId>lockscargrail</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscargrail</iconPath>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_lockscarheart</defName>
+    <label>Heart-Lock Scar</label>
+    <description>When I am Threshold, this scar will open at the beat of the drum.</description>
+    <sourceId>lockscarheart</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarheart</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_lockscarlantern</defName>
+    <label>Lantern-Lock Scar</label>
+    <description>When I am Threshold, this scar will open at the flush of dawn.</description>
+    <sourceId>lockscarlantern</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarlantern</iconPath>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>lantern</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_lockscarmoth</defName>
+    <label>Moth-Lock Scar</label>
+    <description>When I am Threshold, this scar will answer to the scissors.</description>
+    <sourceId>lockscarmoth</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarmoth</iconPath>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>moth</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_lockscarwinter</defName>
+    <label>Winter-Lock Scar</label>
+    <description>When I am Threshold, this scar will open last.</description>
+    <sourceId>lockscarwinter</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarwinter</iconPath>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_openedlockscaredge</defName>
+    <label>Edge-Lock Scar</label>
+    <description>When I am Threshold, this scar will open beneath a blade's touch.</description>
+    <sourceId>openedlockscaredge</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscaredge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_openedlockscarforge</defName>
+    <label>Forge-Lock Scar</label>
+    <description>When I am Threshold, this scar will open to the touch of hot iron.</description>
+    <sourceId>openedlockscarforge</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarforge</iconPath>
+    <aspects>
+      <li><key>forge</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_openedlockscargrail</defName>
+    <label>Grail-Lock Scar</label>
+    <description>When I am Threshold, this scar will open to a fervent kiss.</description>
+    <sourceId>openedlockscargrail</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscargrail</iconPath>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_openedlockscarheart</defName>
+    <label>Heart-Lock Scar</label>
+    <description>When I am Threshold, this scar will open at the beat of the drum.</description>
+    <sourceId>openedlockscarheart</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarheart</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_openedlockscarlantern</defName>
+    <label>Lantern-Lock Scar</label>
+    <description>When I am Threshold, this scar will open at the flush of dawn.</description>
+    <sourceId>openedlockscarlantern</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarlantern</iconPath>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>lantern</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_openedlockscarmoth</defName>
+    <label>Moth-Lock Scar</label>
+    <description>When I am Threshold, this scar will answer to the scissors.</description>
+    <sourceId>openedlockscarmoth</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarmoth</iconPath>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>moth</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_openedlockscarwinter</defName>
+    <label>Winter-Lock Scar</label>
+    <description>When I am Threshold, this scar will open last.</description>
+    <sourceId>openedlockscarwinter</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/lockscarwinter</iconPath>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tooledgeb</defName>
+    <label>Meteoric Bullet</label>
+    <description>Taenite-iron bullets are occasionally dug from the skeletons of unusual beasts, across Europe, the Middle East and India. Someone has been hunting monsters.</description>
+    <sourceId>tooledgeb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/tooledgeb</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tooledged</defName>
+    <label>Biedde's Blade</label>
+    <description>A cut from this blade will not cease bleeding until the wound is healed. One account has it that Biedde was a knife-collecting surgeon-highwayman in eighteenth-century Toulouse. Another claims Biedde is only the bastardisation of an Arabic word for 'mosquito'.</description>
+    <sourceId>tooledged</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/tooledged</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tooledgef</defName>
+    <label>Furious Sliver</label>
+    <description>When the Lionsmith turned against the Colonel, he crushed his own sword in his fist. Each tiniest fragment of that weapon still thrills with rage.</description>
+    <sourceId>tooledgef</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/tooledgef</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolforgeb</defName>
+    <label>Cinnabar Amulet</label>
+    <description>Scarlet is the colour of heat. Mercury holds one key to an ultimate dissolution.</description>
+    <sourceId>toolforgeb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolforgeb</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>forge</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolforged</defName>
+    <label>Malleus Imperative</label>
+    <description>A tiny ear-bone, blackened by intense heat. Applied correctly, it can crack stone.</description>
+    <sourceId>toolforged</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolforged</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>forge</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolforgef</defName>
+    <label>Carcass Spark</label>
+    <description>A remnant of a greater radiance, glowing softly as decay. Just possibly, a mote of the divided Sun.</description>
+    <sourceId>toolforgef</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolforgef</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>forge</key><value>12</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolgrailmoth</defName>
+    <label>Whispering Amulet</label>
+    <description>It knows what I desire; or I imagine that it does.</description>
+    <sourceId>toolgrailmoth</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolgrailmoth</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>moth</key><value>2</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolgrailb</defName>
+    <label>Stained Gloves</label>
+    <description>What uses have these known? What lessons might they teach my hands?</description>
+    <sourceId>toolgrailb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolgrailb</iconPath>
+    <aspects>
+      <li><key>grail</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolgraild</defName>
+    <label>Hallowed Polos</label>
+    <description>The ring-crown of a savage mother, stained with essence, woven with scraps of hair and blessed with flecks of skin.</description>
+    <sourceId>toolgraild</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolgraild</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>grail</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolgrailf</defName>
+    <label>Chalice Murmurous</label>
+    <description>On those nights when we drink from the chalice, we are not certain, afterwards, what we have done. But, we may be assured, it is what always has been done, and if we do not remember, our children will, in their redmost dreams.</description>
+    <sourceId>toolgrailf</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolgrailf</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>grail</key><value>12</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolheartb</defName>
+    <label>Marruvine Idol</label>
+    <description>The Marruvii would make little wooden idols to placate the witch-twins they feared in their lake. The lake is almost dry now, but the idols and the witch-twins yet remain, yet shadowed with the aspect of the Heart.</description>
+    <sourceId>toolheartb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolheartb</iconPath>
+    <aspects>
+      <li><key>heart</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolheartd</defName>
+    <label>Wakeful Tympanum</label>
+    <description>In the grove where they flayed the thunder, they rattled their instruments to rouse the frenzy. The power still clings, like scent.</description>
+    <sourceId>toolheartd</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolheartd</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>heart</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolheartf</defName>
+    <label>Kingskin Bodhrán</label>
+    <description>In the deep forests, the monarch gave up the last thing they had to give, and so the tool was shaped to keep their land forever safe. Then, of course, an empire stole it, as empires do.</description>
+    <sourceId>toolheartf</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolheartf</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>heart</key><value>12</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolknockb</defName>
+    <label>Icon of St Agnes</label>
+    <description>St Agnes of Bohemia was renowned for her pious dedication to the mortification of the flesh. This icon makes for grisly viewing.</description>
+    <sourceId>toolknockb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolknockb</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolknockd</defName>
+    <label>Consecrated Lintel</label>
+    <description>This is the skull of a door through which power has passed.</description>
+    <sourceId>toolknockd</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolknockd</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolknockf</defName>
+    <label>Frangiclave</label>
+    <description>There are keys that open doors; then there are keys that destroy them.</description>
+    <sourceId>toolknockf</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolknockf</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>12</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toollanternb</defName>
+    <label>Noonstone</label>
+    <description>Noon, the saying goes, is not what it was; but this polished stone still retains a sunset glow.</description>
+    <sourceId>toollanternb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toollanternb</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toollanternd</defName>
+    <label>Wildering Mirror</label>
+    <description>A multiplicity of vistas! A bewilderment of views! Gaze upon me, and rejoice in the dissolution of your senses!</description>
+    <sourceId>toollanternd</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toollanternd</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toollanternf</defName>
+    <label>Watchman's Glass</label>
+    <description>This is the mirror into which one does not look twice.</description>
+    <sourceId>toollanternf</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toollanternf</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>12</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolmothb</defName>
+    <label>Wingèd Doll</label>
+    <description>In an attic above a skeleton house there was a window. Beside the window there was a box. In the box there was a bandage. In the bandage was a twist of clotted hair. In the hair was wound a doll, because the window had never been opened.</description>
+    <sourceId>toolmothb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolmothb</iconPath>
+    <aspects>
+      <li><key>moth</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolmothd</defName>
+    <label>Dappled Mask</label>
+    <description>In the forest where the moon couldn't go, the boughs of the trees were woven together like bandages or lovers. The moon might change herself to an ant or to a bird or to her sister, but the forest would not yield to her penetrations, no matter her caresses. One day we came with our scissors, and we severed the branches until the moon and the blood dappled the rotting leaves on the forest floor.</description>
+    <sourceId>toolmothd</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolmothd</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>moth</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolmothf</defName>
+    <label>Alakapurine Shears</label>
+    <description>In the North there is a city of great wealth where dwelt a protector of the world. One day he fell silent. These shears were used to take from him first his hair and then his fingers and then what remained.</description>
+    <sourceId>toolmothf</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolmothf</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>moth</key><value>12</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolsecrethistoriesb</defName>
+    <label>Paradoxical Curio</label>
+    <description>Sometimes, it is hard to be sure if an arrow slew the Empress Herodias, or the Empress Eudokia. Sometimes, it is possible that an ormolu clock was stolen in the sack of Vienna even as it rested safe in the vaults of Rome.</description>
+    <sourceId>toolsecrethistoriesb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolsecrethistoriesb</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>secrethistories</key><value>4</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolsecrethistoriesd</defName>
+    <label>Atlas of Dreams</label>
+    <description>The shape of the world changes in each past, but the shape of the Mansus is reflected in all of them. One cannot map the Mansus, but one can make an attempt to map its reflections.</description>
+    <sourceId>toolsecrethistoriesd</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolsecrethistoriesd</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>secrethistories</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolwinterb</defName>
+    <label>Bone Flute</label>
+    <description>Its sound will cease.</description>
+    <sourceId>toolwinterb</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolwinterb</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolwinterd</defName>
+    <label>Elagabaline Manacle</label>
+    <description>It does not relinquish its grip.</description>
+    <sourceId>toolwinterd</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolwinterd</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+      <li><key>winter</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_toolwinterf</defName>
+    <label>Division Bell</label>
+    <description>First, its voice, and after, nothing.</description>
+    <sourceId>toolwinterf</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/toolwinterf</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+      <li><key>winter</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmasteredge</defName>
+    <label>'Colonel and Lionsmith'</label>
+    <description>Since Issus have they striven so.</description>
+    <sourceId>paintingmasteredge</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmasteredge</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmasterforge</defName>
+    <label>'The Forge of Days'</label>
+    <description>If the Forge could regret, it would regret the Intercalate, but in all its other work, it knows joy.</description>
+    <sourceId>paintingmasterforge</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmasterforge</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>forge</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmastergrail</defName>
+    <label>'The Red Grail'</label>
+    <description>She did not split the Sun, but here we might imagine how she must have desired it.</description>
+    <sourceId>paintingmastergrail</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmastergrail</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>grail</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmasterheart</defName>
+    <label>'The Sister-and-Witch'</label>
+    <description>She has been a pair of funeral birds, but here she is as she would wish to drown.</description>
+    <sourceId>paintingmasterheart</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmasterheart</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>heart</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmasterknock</defName>
+    <label>'The Mother of Ants'</label>
+    <description>Even in the days of Elam, she had begun to appear thus.</description>
+    <sourceId>paintingmasterknock</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmasterknock</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmasterlantern</defName>
+    <label>'The Door in the Eye'</label>
+    <description>He came from the Glory. We cannot help but see.</description>
+    <sourceId>paintingmasterlantern</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmasterlantern</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>lantern</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmastermoth</defName>
+    <label>'The Moth'</label>
+    <description>In the forests of the first continent, our ancestors cursed themselves with their own god.</description>
+    <sourceId>paintingmastermoth</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmastermoth</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>moth</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmastersecrethistories</defName>
+    <label>'Teresa and Christopher'</label>
+    <description>Love, like the Mansus, defies boundaries.</description>
+    <sourceId>paintingmastersecrethistories</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmastersecrethistories</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>secrethistories</key><value>8</value></li>
+      <li><key>tool</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_paintingmasterwinter</defName>
+    <label>'The Wolf-Divided'</label>
+    <description>CAPUT GERAT LUPINUM. The Sun was divided, and this is its wound.</description>
+    <sourceId>paintingmasterwinter</sourceId>
+    <category>Tool</category>
+    <iconPath>Cultist/Catalog/Tool/paintingmasterwinter</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>tool</key><value>1</value></li>
+      <li><key>winter</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

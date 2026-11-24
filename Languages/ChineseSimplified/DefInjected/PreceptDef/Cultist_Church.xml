@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_LanternDoctrine.label>谨记所见</Cultist_LanternDoctrine.label>
+  <Cultist_LanternDoctrine.description>【优点】研究速度 +10%，阅读速度 +25%，明亮环境心情 +2。【缺点】社交冲击力 -10%，心灵敏感度 +15%，黑暗环境额外 -3 心情。</Cultist_LanternDoctrine.description>
+  <Cultist_ForgeDoctrine.label>烈火重塑</Cultist_ForgeDoctrine.label>
+  <Cultist_ForgeDoctrine.description>【优点】综合劳作速度 +10%，最高舒适温度 +8°C，穿戴优秀及以上品质装备 +3 心情。【缺点】动物驯服率 -15%，穿戴破损或劣质装备 -4 心情。</Cultist_ForgeDoctrine.description>
+  <Cultist_GrailDoctrine.label>永飨圣宴</Cultist_GrailDoctrine.label>
+  <Cultist_GrailDoctrine.description>【优点】社交冲击力 +12%，谈判能力 +10%，食用精致/奢侈餐点 +4 心情。【缺点】饥饿速率 ×1.15，娱乐下降 ×1.15，吃营养膏或生食 -4 心情。</Cultist_GrailDoctrine.description>
+  <Cultist_EdgeDoctrine.label>以锋试道</Cultist_EdgeDoctrine.label>
+  <Cultist_EdgeDoctrine.description>【优点】近战命中 +2，近战伤害 +10%，痛觉休克阈值 +10%，战后 +4 心情。【缺点】连续 12 天无战斗 -4 心情，社交打架 ×1.5，医疗照料速度 -10%。</Cultist_EdgeDoctrine.description>
+  <Cultist_WinterDoctrine.label>归于静默</Cultist_WinterDoctrine.label>
+  <Cultist_WinterDoctrine.description>【优点】最低舒适温度 -8°C，精神崩溃阈值 -6%，无视非殖民者尸体负面心情，社交打架 -50%。【缺点】社交冲击力 -15%，贸易价格 -5%，无法从普通派对获益。</Cultist_WinterDoctrine.description>
+  <Cultist_HeartDoctrine.label>永续鼓点</Cultist_HeartDoctrine.label>
+  <Cultist_HeartDoctrine.description>【优点】免疫获得速度 +12%，医疗趋向质量 +10%，休息效率 +10%。【缺点】目睹盟友死亡、处决或摘取器官额外 -5 心情，饥饿速率 ×1.08。</Cultist_HeartDoctrine.description>
+  <Cultist_MothDoctrine.label>林中蜕羽</Cultist_MothDoctrine.label>
+  <Cultist_MothDoctrine.description>【优点】移动速度 +0.25，近战闪避 +8%，植物工作速度 +10%，夜间心情 +3。【缺点】精神崩溃阈值 +5%（倾向迷茫游荡），手术成功率 -8%。</Cultist_MothDoctrine.description>
+  <Cultist_KnockDoctrine.label>创口即门</Cultist_KnockDoctrine.label>
+  <Cultist_KnockDoctrine.description>【优点】手术成功率 +10%，远行队速度 +10%，每道祝圣伤疤锁 +1 心情（上限 +5）。【缺点】承受伤害 +8%，全身无伤疤时常驻 -2 心情。</Cultist_KnockDoctrine.description>
+  <Cultist_SecretHistoriesDoctrine.label>诸史合流</Cultist_SecretHistoriesDoctrine.label>
+  <Cultist_SecretHistoriesDoctrine.description>【优点】远行队速度 +15%，古语破译与阅读速度 +25%，可兼容任意相性影响。【缺点】传教转化效率 -20%，结社恶名自然衰减速度 -40%。</Cultist_SecretHistoriesDoctrine.description>
+</LanguageData>

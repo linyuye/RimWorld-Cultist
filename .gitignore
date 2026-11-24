@@ -1,0 +1,6 @@
+﻿/Source/**/bin/
+/Source/**/obj/
+/1.7/Assemblies/*.pdb
+.vs/
+.DS_Store
+Thumbs.db

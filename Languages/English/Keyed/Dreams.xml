@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.DreamRegion.0.0>Woodland track</Cultist.DreamRegion.0.0>
+  <Cultist.DreamRegion.0.1>The well under roots</Cultist.DreamRegion.0.1>
+  <Cultist.DreamRegion.0.2>The wheel house</Cultist.DreamRegion.0.2>
+  <Cultist.DreamRegion.1.0>White approach</Cultist.DreamRegion.1.0>
+  <Cultist.DreamRegion.1.1>The hermit's lodge</Cultist.DreamRegion.1.1>
+  <Cultist.DreamRegion.1.2>The orchard of light</Cultist.DreamRegion.1.2>
+  <Cultist.DreamRegion.2.0>Antler passage</Cultist.DreamRegion.2.0>
+  <Cultist.DreamRegion.2.1>The blade stair</Cultist.DreamRegion.2.1>
+  <Cultist.DreamRegion.2.2>The painted stream</Cultist.DreamRegion.2.2>
+  <Cultist.DreamRegion.3.0>The silken approach</Cultist.DreamRegion.3.0>
+  <Cultist.DreamRegion.3.1>The forge yard</Cultist.DreamRegion.3.1>
+  <Cultist.DreamRegion.3.2>The chamber of paths</Cultist.DreamRegion.3.2>
+  <Cultist.DreamRegion.4.0>The iridescent passage</Cultist.DreamRegion.4.0>
+  <Cultist.DreamRegion.4.1>The vermilion chapel</Cultist.DreamRegion.4.1>
+  <Cultist.DreamRegion.4.2>The gallery of husks</Cultist.DreamRegion.4.2>
+  <Cultist.Reward.Whisper>A whisper under the skull</Cultist.Reward.Whisper>
+  <Cultist.Reward.TornPage>A torn page</Cultist.Reward.TornPage>
+  <Cultist.Reward.Rumor>A whispered rumor</Cultist.Reward.Rumor>
+  <Cultist.Reward.Appetite>A returning appetite</Cultist.Reward.Appetite>
+  <Cultist.Reward.Vitality>Returning strength</Cultist.Reward.Vitality>
+  <Cultist.Reward.HiddenAccount>A concealed account</Cultist.Reward.HiddenAccount>
+  <Cultist.Reward.FineCrack>A hairline crack</Cultist.Reward.FineCrack>
+  <Cultist.Reward.Shiver>A breath like a blade</Cultist.Reward.Shiver>
+  <Cultist.Reward.FrozenAir>A still frost</Cultist.Reward.FrozenAir>
+  <Cultist.Reward.Restless>A restless echo</Cultist.Reward.Restless>
+  <Cultist.Reward.DoorSliver>A sliver in the latch</Cultist.Reward.DoorSliver>
+  <Cultist.Reward.LostHistory>A forgotten chronicle</Cultist.Reward.LostHistory>
+  <Cultist.Reward.Insight>A sudden insight</Cultist.Reward.Insight>
+  <Cultist.Reward.MarginalNotes>Notes in the margin</Cultist.Reward.MarginalNotes>
+  <Cultist.Reward.SealOfFavor>A seal of patronage</Cultist.Reward.SealOfFavor>
+  <Cultist.Reward.Pulse>A pulse in the earth</Cultist.Reward.Pulse>
+  <Cultist.Reward.BrokenThreshold>A split threshold</Cultist.Reward.BrokenThreshold>
+  <Cultist.Reward.ShakingHeat>A trembling warmth</Cultist.Reward.ShakingHeat>
+  <Cultist.Reward.Anger>An edge of anger</Cultist.Reward.Anger>
+  <Cultist.Reward.Hunger>An urgent hunger</Cultist.Reward.Hunger>
+  <Cultist.Reward.BitterCold>A killing chill</Cultist.Reward.BitterCold>
+  <Cultist.Reward.ForbiddenEpic>A suppressed epic</Cultist.Reward.ForbiddenEpic>
+  <Cultist.Reward.ScholarsNotes>A scholar's notebook</Cultist.Reward.ScholarsNotes>
+  <Cultist.Reward.Famine>A devouring appetite</Cultist.Reward.Famine>
+  <Cultist.Reward.Drumming>A beat beneath the floor</Cultist.Reward.Drumming>
+  <Cultist.Reward.Furnace>The furnace's breath</Cultist.Reward.Furnace>
+  <Cultist.Reward.Ambiguity>A riddle with two answers</Cultist.Reward.Ambiguity>
+  <Cultist.Reward.RedResidue>Red sediment</Cultist.Reward.RedResidue>
+  <Cultist.Reward.WrongDoor>A door out of place</Cultist.Reward.WrongDoor>
+  <Cultist.Reward.HeartRoar>A roar behind the ribs</Cultist.Reward.HeartRoar>
+  <Cultist.Reward.InterpreterNotes>The interpreter's notes</Cultist.Reward.InterpreterNotes>
+  <Cultist.Reward.RedBody>Vermilion made flesh</Cultist.Reward.RedBody>
+  <Cultist.Reward.Nectar>A drop of undying nectar</Cultist.Reward.Nectar>
+  <Cultist.Reward.WanderingMap>A wanderer's map</Cultist.Reward.WanderingMap>
+  <Cultist.Reward.FlawlessIce>Ice without a flaw</Cultist.Reward.FlawlessIce>
+  <Cultist.AutoDreamToggle>Automatic dreaming</Cultist.AutoDreamToggle>
+  <Cultist.AutoDreamDescription>Enter the Mansus when the leader falls asleep at night. Play pauses for your choice.</Cultist.AutoDreamDescription>
+  <Cultist.DreamBack>Choose another gate</Cultist.DreamBack>
+  <Cultist.DreamInfluenceReward>{0} · {1} influence {2}</Cultist.DreamInfluenceReward>
+  <Cultist.DreamMappedReward>{0} · {1}</Cultist.DreamMappedReward>
+  <Cultist.DreamFade>dissipates</Cultist.DreamFade>
+  <Cultist.DreamEffect.Lore>Lore: {0}</Cultist.DreamEffect.Lore>
+  <Cultist.DreamEffect.Fascination>+1 fascination</Cultist.DreamEffect.Fascination>
+  <Cultist.DreamEffect.Fear>+1 fear</Cultist.DreamEffect.Fear>
+  <Cultist.DreamEffect.Memory>+1 memory</Cultist.DreamEffect.Memory>
+  <Cultist.DreamEffect.Comfort>+1 comfort</Cultist.DreamEffect.Comfort>
+  <Cultist.DreamEffect.InterpreterNotes>{0} and Vak. Once per society</Cultist.DreamEffect.InterpreterNotes>
+</LanguageData>

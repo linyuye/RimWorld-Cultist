@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_ReturnedKeeper.label>归来的长生者</Cultist_ReturnedKeeper.label>
+  <Cultist_ReturnedKeeper.description>此人完成守夜仪式，带着残存的光归来。其成年后的生理年龄保持稳定，并能加快教会研习。</Cultist_ReturnedKeeper.description>
+  <Cultist_SeasonSilence.label>静默的时节</Cultist_SeasonSilence.label>
+  <Cultist_SeasonSilence.description>冬日的寂静笼罩心神，心灵敏感度降低 50%。</Cultist_SeasonSilence.description>
+  <Cultist_SpiritFatigue.label>安抚劳累</Cultist_SpiritFatigue.label>
+  <Cultist_SpiritFatigue.description>强行安抚失控灵体带来的疲惫，意识与移速略微下降。</Cultist_SpiritFatigue.description>
+  <Cultist_SpiritExhaustion.label>精疲力尽</Cultist_SpiritExhaustion.label>
+  <Cultist_SpiritExhaustion.description>强行镇压高战力发狂灵体导致身心透支，意识与移速大幅下降。</Cultist_SpiritExhaustion.description>
+</LanguageData>

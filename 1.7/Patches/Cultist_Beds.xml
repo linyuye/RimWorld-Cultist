@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="BedBase"]/comps</xpath>
+    <value>
+      <li Class="Cultist.InteractionProperties">
+        <bed>true</bed>
+      </li>
+    </value>
+  </Operation>
+</Patch>

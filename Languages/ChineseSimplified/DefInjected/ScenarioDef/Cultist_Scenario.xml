@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_DormantReceiver.label>沉睡的接收机</Cultist_DormantReceiver.label>
+  <Cultist_DormantReceiver.description>合同到期后，你的勘测队被留在地面。你们手头有露营装备、少量补给，以及一座早已断电却仍在发信的荒野中继站的坐标。赶在下一次讯号前扎营。</Cultist_DormantReceiver.description>
+  <Cultist_DormantReceiver.scenario.name>沉睡的接收机</Cultist_DormantReceiver.scenario.name>
+  <Cultist_DormantReceiver.scenario.description>合同到期后，你的勘测队被留在地面。你们手头有露营装备、少量补给，以及一座早已断电却仍在发信的荒野中继站的坐标。赶在下一次讯号前扎营。</Cultist_DormantReceiver.scenario.description>
+  <Cultist_DormantReceiver.scenario.summary>四名勘测员在一座沉寂的中继站附近扎营。</Cultist_DormantReceiver.scenario.summary>
+</LanguageData>

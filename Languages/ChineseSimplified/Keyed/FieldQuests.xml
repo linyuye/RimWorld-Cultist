@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.InquiryTitle>调查者的来函</Cultist.InquiryTitle>
+  <Cultist.InquiryDescription>调查者要求教会交代秘传的来源。接受后有三天时间。在祭坛附近放一本灯相秘传，由教主将其提交为证据。逾期会让教主获得一份恐惧。</Cultist.InquiryDescription>
+  <Cultist.Altar.AnswerInquiry>向调查者提交书证</Cultist.Altar.AnswerInquiry>
+  <Cultist.StudyScholarDocument>研读勘测记录</Cultist.StudyScholarDocument>
+  <Cultist.ScholarTitle>迷失的学者</Cultist.ScholarTitle>
+  <Cultist.ScholarDescription>沿勘测公文上的坐标前往废弃勘测棚，让一名教徒研读留下的笔记。包裹里还有一面裂镜，可以带回修复。</Cultist.ScholarDescription>
+  <Cultist.WitnessTitle>见证者名册</Cultist.WitnessTitle>
+  <Cultist.WitnessDescription>接受后，派 {0} 名教主以外的不同教徒在祭坛签名。他们的见证将写入守夜结局。</Cultist.WitnessDescription>
+  <Cultist.Altar.SignWitness>签署见证者名册</Cultist.Altar.SignWitness>
+  <Cultist.WitnessSigned>已收录见证签名 {0}/{1}。</Cultist.WitnessSigned>
+  <Cultist.EndingWitnesses>见证者记下时刻，合上了名册。</Cultist.EndingWitnesses>
+</LanguageData>

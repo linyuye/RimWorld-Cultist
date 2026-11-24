@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SitePartDef>
+    <defName>Cultist_ScholarShelter</defName>
+    <label>survey shelter</label>
+    <description>A researcher left this place in haste. A parcel was hidden near the final coordinates in the dispatch.</description>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/ItemStash</expandingIconTexture>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>Cultist_ScholarShelterStash</defName>
+    <linkWithSite>Cultist_ScholarShelter</linkWithSite>
+    <order>400</order>
+    <genStep Class="Cultist.GenStep_ObservatoryCache"/>
+  </GenStepDef>
+  <ThingDef Name="Cultist_ScholarDocument" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <alwaysHaulable>true</alwaysHaulable>
+    <useHitPoints>true</useHitPoints>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>1</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Book/Textbook/Textbook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(176,157,117)</color>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <thingCategories><li>Items</li></thingCategories>
+    <statBases><MaxHitPoints>60</MaxHitPoints><MarketValue>110</MarketValue><Mass>0.4</Mass><Flammability>1</Flammability></statBases>
+    <comps><li Class="CompProperties_Forbiddable"/></comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_ScholarDocument">
+    <defName>Cultist_ScholarDispatch</defName>
+    <label>sealed survey dispatch</label>
+    <description>An exotic trader obtained these coordinates from an abandoned shipment. A society member can decipher them.</description>
+    <comps><li Class="Cultist.InteractionProperties"><scholarDocument>Dispatch</scholarDocument></li></comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_ScholarDocument">
+    <defName>Cultist_ScholarNotebook</defName>
+    <label>notebook from the survey shelter</label>
+    <description>A missing researcher’s observations, including several experiments with Lantern lore.</description>
+    <comps><li Class="Cultist.InteractionProperties"><scholarDocument>Notebook</scholarDocument></li></comps>
+  </ThingDef>
+</Defs>

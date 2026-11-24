@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vitality</defName>
+    <label>Vitality</label>
+    <description>Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]</description>
+    <sourceId>vitality</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/vitality</iconPath>
+    <aspects>
+      <li><key>heart</key><value>1</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vitalityplus</defName>
+    <label>Vitality: a Lesson Learnt</label>
+    <description>I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]</description>
+    <sourceId>vitalityplus</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/vitalityplus</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_restlessness</defName>
+    <label>Restlessness</label>
+    <description>A restless longing has me. I feel that I want to do... &lt;i&gt;something&lt;/i&gt;. What, exactly?</description>
+    <sourceId>restlessness</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/restlessness</iconPath>
+    <aspects>
+      <li><key>forge</key><value>2</value></li>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_erudition</defName>
+    <label>Erudition</label>
+    <description>I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]</description>
+    <sourceId>erudition</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/erudition</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_eruditionplus</defName>
+    <label>Erudition: a Lesson Learnt</label>
+    <description>I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]</description>
+    <sourceId>eruditionplus</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/eruditionplus</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dread</defName>
+    <label>Dread</label>
+    <description>I've seen too much. A nameless gnawing fear has its teeth in my hopes; an existential horror.</description>
+    <sourceId>dread</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/dread</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_glimmering</defName>
+    <label>Glimmering</label>
+    <description>My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]</description>
+    <sourceId>glimmering</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/glimmering</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_glimmeringplus</defName>
+    <label>Glimmering: a Lesson Learnt</label>
+    <description>I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]</description>
+    <sourceId>glimmeringplus</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/glimmeringplus</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fascination</defName>
+    <label>Fascination</label>
+    <description>Light LEAKS through the CRACKS. My mind is BRIGHTER than it EVER was. THE HIGHER I RISE THE MORE I SEE.</description>
+    <sourceId>fascination</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/fascination</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fleeting</defName>
+    <label>Fleeting Reminiscence</label>
+    <description>A moment in time. In another moment, it'll be gone.</description>
+    <sourceId>fleeting</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/fleeting</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+      <li><key>secrethistories</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_contentment</defName>
+    <label>Contentment</label>
+    <description>I'm happy, I think. [Contentment defends against Dread; but Contentment doesn't last.]</description>
+    <sourceId>contentment</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/contentment</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceedge</defName>
+    <label>A Thrilling Air</label>
+    <description>The senses are sharpened. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceedge</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceedge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceedgec</defName>
+    <label>A Rousing Air</label>
+    <description>The passions are roused. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceedgec</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceedgec</iconPath>
+    <aspects>
+      <li><key>edge</key><value>6</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceedgee</defName>
+    <label>A Furious Air</label>
+    <description>Anger is implicit in every shape. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceedgee</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceedgee</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceedgeg</defName>
+    <label>A Resolution</label>
+    <description>Who can avert the finality of battle? [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceedgeg</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceedgeg</iconPath>
+    <aspects>
+      <li><key>edge</key><value>15</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceforge</defName>
+    <label>A Rising Heat</label>
+    <description>A haze and a shimmer. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]</description>
+    <sourceId>influenceforge</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceforge</iconPath>
+    <aspects>
+      <li><key>forge</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceforgec</defName>
+    <label>A Trembling Heat</label>
+    <description>The possibility of sparks. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceforgec</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceforgec</iconPath>
+    <aspects>
+      <li><key>forge</key><value>6</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceforgee</defName>
+    <label>An Exalting Heat</label>
+    <description>This is the aura at the volcano's edge. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceforgee</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceforgee</iconPath>
+    <aspects>
+      <li><key>forge</key><value>10</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceforgeg</defName>
+    <label>An Incandescence</label>
+    <description>Change follows fire. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceforgeg</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceforgeg</iconPath>
+    <aspects>
+      <li><key>forge</key><value>15</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencegrail</defName>
+    <label>An Awareness of Appetite</label>
+    <description>Every sense is heightened; every sensation, deepened. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]</description>
+    <sourceId>influencegrail</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencegrail</iconPath>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencegrailc</defName>
+    <label>An Urgency of Appetite</label>
+    <description>It is difficult to control oneself. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencegrailc</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencegrailc</iconPath>
+    <aspects>
+      <li><key>grail</key><value>6</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencegraile</defName>
+    <label>An Imperative of Appetite</label>
+    <description>The lips ache to savour; the fingers ache to clutch. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencegraile</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencegraile</iconPath>
+    <aspects>
+      <li><key>grail</key><value>10</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencegrailg</defName>
+    <label>An Incarnadescence</label>
+    <description>The very air is succulent with possibility. Pierce it, and it might bleed. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencegrailg</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencegrailg</iconPath>
+    <aspects>
+      <li><key>grail</key><value>15</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceheart</defName>
+    <label>Trembling Airs</label>
+    <description>The toes tap. All is brisk and all is well. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]</description>
+    <sourceId>influenceheart</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceheart</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceheartc</defName>
+    <label>Pulsing Airs</label>
+    <description>A rising power; a reassuring energy. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceheartc</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceheartc</iconPath>
+    <aspects>
+      <li><key>heart</key><value>6</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencehearte</defName>
+    <label>Pounding Airs</label>
+    <description>The heart moves; the world moves. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencehearte</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencehearte</iconPath>
+    <aspects>
+      <li><key>heart</key><value>10</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceheartg</defName>
+    <label>An Imminence</label>
+    <description>The sky is a drum; the earth is ready for its ecstasy. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceheartg</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceheartg</iconPath>
+    <aspects>
+      <li><key>heart</key><value>15</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceknock</defName>
+    <label>Subtle Flaw</label>
+    <description>Laces uncoil -- windows swing open -- locks move as if oiled. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceknock</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceknock</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>knock</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceknockc</defName>
+    <label>Subtle Fracture</label>
+    <description>Clouds part -- walls creak -- old wounds ache. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceknockc</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceknockc</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>knock</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceknocke</defName>
+    <label>Subtle Rupture</label>
+    <description>Geometry contorts -- doors burst open -- snakes boil from the earth! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceknocke</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceknocke</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>knock</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influenceknockg</defName>
+    <label>Wrong Door</label>
+    <description>There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influenceknockg</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influenceknockg</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>knock</key><value>15</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencelantern</defName>
+    <label>A Consciousness of Radiance</label>
+    <description>There is a light behind the world, a light above the Mansus, a light that penetrates both glass and skin. It is present here. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.  If unused, it will become Fascination.]</description>
+    <sourceId>influencelantern</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencelantern</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencelanternc</defName>
+    <label>An Intensity of Radiance</label>
+    <description>Light dews the skin and suffuses the air. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencelanternc</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencelanternc</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencelanterne</defName>
+    <label>A Blaze of Radiance</label>
+    <description>Every colour has grown bright as new dye, but now all of them begin to bleed towards white. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencelanterne</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencelanterne</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencelanterng</defName>
+    <label>A Splendour</label>
+    <description>Cover your eyes, if you like. It will serve no purpose. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencelanterng</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencelanterng</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>lantern</key><value>15</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencemoth</defName>
+    <label>A Buzzing in the Brain</label>
+    <description>in gi rum imus noc te et con sumi &lt;b&gt;snip snip snip&lt;/b&gt; [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]</description>
+    <sourceId>influencemoth</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencemoth</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencemothc</defName>
+    <label>A Rattling in the Soul</label>
+    <description>Oh the friends that we played and the skins that we made; still they drive us! [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencemothc</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencemothc</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencemothe</defName>
+    <label>A Howling in the Heart</label>
+    <description>Emotions contort our thoughts. One passion yields to the next like leaves in the wind's grip! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]</description>
+    <sourceId>influencemothe</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencemothe</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencemothg</defName>
+    <label>That Old Yearning</label>
+    <description>"\n    please"</description>
+    <sourceId>influencemothg</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencemothg</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>moth</key><value>15</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencewinter</defName>
+    <label>A Chilly Atmosphere</label>
+    <description>A peculiar chill lingers in my rooms. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]</description>
+    <sourceId>influencewinter</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencewinter</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencewinterc</defName>
+    <label>An Icy Atmosphere</label>
+    <description>The air crisps the skin. Frost marks the glass. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions. If unused, it will become Dread.]</description>
+    <sourceId>influencewinterc</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencewinterc</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>winter</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencewintere</defName>
+    <label>A Bitter Atmosphere</label>
+    <description>Winter passes the clothes, passes the skin, nestles in the veins. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions. If unused, it will become Dread.]</description>
+    <sourceId>influencewintere</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencewintere</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>winter</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_influencewinterg</defName>
+    <label>Perfect Frost</label>
+    <description>The world is still as ice. Each movement is a journey. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions. If unused, it will become Dread.]</description>
+    <sourceId>influencewinterg</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/influencewinterg</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+      <li><key>winter</key><value>15</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostleforge_pillarfuel</defName>
+    <label>Shaper's Guidance</label>
+    <description>We will need our Shaper's guidance to forge the Dawnbreaker Core from a Carcass Spark; to refine Forge ingredients to their final form; to make of a follower the Shaper's Compass; to learn of the Key from the Ligeian, Sulochana; and to complete the Work. But if we do not do their bidding swiftly, Dread will follow.</description>
+    <sourceId>apostleforge.pillarfuel</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/mentorguidance</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar3</defName>
+    <label>The Allure</label>
+    <description>Once seen, the Allure clings. Few living souls will ever venture this far into the Mansus. I must employ a Maid-in-the-Mirror and show her the Allure, so that she will know to bring them here.</description>
+    <sourceId>apostlelantern.pillar3</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/apostlelantern.pillar3</iconPath>
+    <aspects>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fervour</defName>
+    <label>Fervour</label>
+    <description>My congregation's passions run strong, if not deep. [Keep your congregation satisfied. Fervour, if unused, will decay to Dread.]</description>
+    <sourceId>fervour</sourceId>
+    <category>Influence</category>
+    <iconPath>Cultist/Catalog/Influence/fervour</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>influence</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

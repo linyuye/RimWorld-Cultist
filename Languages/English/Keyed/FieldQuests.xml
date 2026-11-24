@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.InquiryTitle>The inspector’s letter</Cultist.InquiryTitle>
+  <Cultist.InquiryDescription>An inspector asks how the society obtained its books. If you accept, you have three days. Place a book of Lantern lore near the altar and have the leader file it as evidence. A missed deadline adds fear to the leader.</Cultist.InquiryDescription>
+  <Cultist.Altar.AnswerInquiry>File evidence for the inspector</Cultist.Altar.AnswerInquiry>
+  <Cultist.StudyScholarDocument>Read the survey record</Cultist.StudyScholarDocument>
+  <Cultist.ScholarTitle>The missing scholar</Cultist.ScholarTitle>
+  <Cultist.ScholarDescription>Follow the dispatch to the survey shelter. Have a society member read the notebook left there. The parcel also holds a cracked mirror you can bring home to repair.</Cultist.ScholarDescription>
+  <Cultist.WitnessTitle>The witness register</Cultist.WitnessTitle>
+  <Cultist.WitnessDescription>After accepting, send {0} different society members other than the leader to the altar to sign. Their testimony will be remembered after the vigil.</Cultist.WitnessDescription>
+  <Cultist.Altar.SignWitness>Sign the witness register</Cultist.Altar.SignWitness>
+  <Cultist.WitnessSigned>Witness signatures recorded: {0}/{1}.</Cultist.WitnessSigned>
+  <Cultist.EndingWitnesses>The witnesses note the hour and close the register.</Cultist.EndingWitnesses>
+</LanguageData>

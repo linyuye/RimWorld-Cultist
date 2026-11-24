@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>Cultist_PacifySpirit</defName>
+    <driverClass>Cultist.PacifySpiritJobDriver</driverClass>
+    <reportString>pacifying TargetA.</reportString>
+  </JobDef>
+
+  <ThingDef Name="Cultist_SpiritBase" ParentName="AnimalThingBase" Abstract="True">
+    <comps>
+      <li Class="Cultist.CultistSpiritCompProperties"/>
+    </comps>
+    <statBases>
+      <MoveSpeed>5.2</MoveSpeed>
+      <MarketValue>0</MarketValue>
+      <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <ComfyTemperatureMax>200</ComfyTemperatureMax>
+      <Flammability>0</Flammability>
+      <MeatAmount>0</MeatAmount>
+      <LeatherAmount>0</LeatherAmount>
+      <Wildness>0</Wildness>
+    </statBases>
+    <race>
+      <body>Human</body>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <baseHungerRate>0</baseHungerRate>
+      <foodType>None</foodType>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <trainability>Advanced</trainability>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <lifeExpectancy>999</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags Inherit="False"/>
+  </ThingDef>
+
+  <!-- 1. Hint (迹形) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_Hint</defName>
+    <label>Hint</label>
+    <description>A luminous, elusive spirit born of Lantern and Edge. Swift in combat and drawn to mirrors.</description>
+    <statBases><MoveSpeed>6.0</MoveSpeed><ArmorRating_Sharp>0.25</ArmorRating_Sharp></statBases>
+    <tools>
+      <li><label>blinding slash</label><capacities><li>Cut</li></capacities><power>14</power><cooldownTime>1.6</cooldownTime></li>
+    </tools>
+    <race><baseHealthScale>1.0</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_Hint</defName>
+    <label>Hint</label>
+    <race>Cultist_Race_Hint</race>
+    <combatPower>95</combatPower>
+    <lifeStages>
+      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_lanternc_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.35</drawSize></bodyGraphicData></li>
+    </lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_Hint</defName>
+    <label>Hint</label>
+    <description>A swift Lantern-Edge spirit that skirmishes enemies and scouts danger. Low backlash risk.</description>
+    <catalogSourceId>spirit_lanternc_edge</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_Hint</pawnKindDef>
+    <requiredAspect>Lantern</requiredAspect>
+    <requiredLoreTier>1</requiredLoreTier>
+    <requiredInfluence>2</requiredInfluence>
+    <durationDays>2.0</durationDays>
+    <baseBacklashChance>0.12</baseBacklashChance>
+    <notorietyGain>10</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 2. Caligine (汽灵) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_Caligine</defName>
+    <label>Caligine</label>
+    <description>A drifting cloud of Forge smoke and Winter chill. Resilient against physical blows.</description>
+    <statBases><MoveSpeed>4.6</MoveSpeed><ArmorRating_Sharp>0.40</ArmorRating_Sharp><ArmorRating_Blunt>0.40</ArmorRating_Blunt></statBases>
+    <tools>
+      <li><label>suffocating grip</label><capacities><li>Blunt</li></capacities><power>13</power><cooldownTime>1.9</cooldownTime></li>
+    </tools>
+    <race><baseHealthScale>1.5</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_Caligine</defName>
+    <label>Caligine</label>
+    <race>Cultist_Race_Caligine</race>
+    <combatPower>110</combatPower>
+    <lifeStages>
+      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_forgec_winter</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.4</drawSize></bodyGraphicData></li>
+    </lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_Caligine</defName>
+    <label>Caligine</label>
+    <description>A durable Forge-Winter vapor spirit suited for holding frontline choke points.</description>
+    <catalogSourceId>spirit_forgec_winter</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_Caligine</pawnKindDef>
+    <requiredAspect>Forge</requiredAspect>
+    <requiredLoreTier>1</requiredLoreTier>
+    <requiredInfluence>0</requiredInfluence>
+    <durationDays>2.0</durationDays>
+    <baseBacklashChance>0.15</baseBacklashChance>
+    <notorietyGain>12</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 3. Percussigant (擂击者) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_Percussigant</defName>
+    <label>Percussigant</label>
+    <description>A relentless dancing brute of Heart and Edge. Never tires and strikes with crushing blows.</description>
+    <statBases><MoveSpeed>5.0</MoveSpeed><ArmorRating_Sharp>0.45</ArmorRating_Sharp><ArmorRating_Blunt>0.35</ArmorRating_Blunt></statBases>
+    <tools>
+      <li><label>thunderous blow</label><capacities><li>Blunt</li></capacities><power>20</power><cooldownTime>2.1</cooldownTime></li>
+    </tools>
+    <race><baseHealthScale>2.0</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_Percussigant</defName>
+    <label>Percussigant</label>
+    <race>Cultist_Race_Percussigant</race>
+    <combatPower>160</combatPower>
+    <lifeStages>
+      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_heartc_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li>
+    </lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_Percussigant</defName>
+    <label>Percussigant</label>
+    <description>A heavy Heart-Edge brawler that relentlessly dances into enemy ranks.</description>
+    <catalogSourceId>spirit_heartc_edge</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_Percussigant</pawnKindDef>
+    <requiredAspect>Heart</requiredAspect>
+    <requiredLoreTier>2</requiredLoreTier>
+    <requiredInfluence>0</requiredInfluence>
+    <durationDays>2.5</durationDays>
+    <baseBacklashChance>0.18</baseBacklashChance>
+    <notorietyGain>15</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 4. Maid-in-the-Mirror (镜中少女) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_MaidInMirror</defName>
+    <label>Maid-in-the-Mirror</label>
+    <description>A lethal Winter-Edge assassin stepped from silvered glass. Cuts with razor-cold precision.</description>
+    <statBases><MoveSpeed>6.4</MoveSpeed><ArmorRating_Sharp>0.35</ArmorRating_Sharp></statBases>
+    <tools>
+      <li><label>glass shard</label><capacities><li>Cut</li></capacities><power>22</power><cooldownTime>1.5</cooldownTime></li>
+    </tools>
+    <race><baseHealthScale>1.35</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_MaidInMirror</defName>
+    <label>Maid-in-the-Mirror</label>
+    <race>Cultist_Race_MaidInMirror</race>
+    <combatPower>190</combatPower>
+    <lifeStages>
+      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_winterd_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.45</drawSize></bodyGraphicData></li>
+    </lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_MaidInMirror</defName>
+    <label>Maid-in-the-Mirror</label>
+    <description>A deadly Winter-Edge spirit assassin. High combat power, but dangerous if control slips.</description>
+    <catalogSourceId>spirit_winterd_edge</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_MaidInMirror</pawnKindDef>
+    <requiredAspect>Winter</requiredAspect>
+    <requiredLoreTier>2</requiredLoreTier>
+    <requiredInfluence>2</requiredInfluence>
+    <durationDays>2.5</durationDays>
+    <baseBacklashChance>0.22</baseBacklashChance>
+    <notorietyGain>18</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 5. King Crucible (坩埚王) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_KingCrucible</defName>
+    <label>King Crucible</label>
+    <description>A Name-emanation of the Forge of Days, wreathed in furnace fire. Can tutor Phrygian.</description>
+    <statBases><MoveSpeed>5.6</MoveSpeed><ArmorRating_Sharp>0.60</ArmorRating_Sharp><ArmorRating_Blunt>0.55</ArmorRating_Blunt><ArmorRating_Heat>2.0</ArmorRating_Heat></statBases>
+    <tools>
+      <li><label>furnace blade</label><capacities><li>Cut</li></capacities><power>28</power><cooldownTime>1.7</cooldownTime></li>
+    </tools>
+    <race><baseHealthScale>2.6</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_KingCrucible</defName>
+    <label>King Crucible</label>
+    <race>Cultist_Race_KingCrucible</race>
+    <combatPower>280</combatPower>
+    <lifeStages>
+      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_forgee_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.65</drawSize></bodyGraphicData></li>
+    </lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_KingCrucible</defName>
+    <label>King Crucible</label>
+    <description>A mighty Forge-Edge Name-emanation. Dominates battlefields and can teach the secret tongue of Phrygian.</description>
+    <catalogSourceId>spirit_forgee_edge</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_KingCrucible</pawnKindDef>
+    <requiredAspect>Forge</requiredAspect>
+    <requiredLoreTier>3</requiredLoreTier>
+    <requiredInfluence>6</requiredInfluence>
+    <durationDays>3.0</durationDays>
+    <baseBacklashChance>0.28</baseBacklashChance>
+    <notorietyGain>24</notorietyGain>
+    <taughtLanguage>Cultist_Lang_Phrygian</taughtLanguage>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 6. Teresa (特蕾莎) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_Teresa</defName>
+    <label>Teresa</label>
+    <description>The Baldomerian, a Lantern Name-emanation of radiant insight. Can tutor Deep Mandaic.</description>
+    <statBases><MoveSpeed>5.8</MoveSpeed><ArmorRating_Sharp>0.40</ArmorRating_Sharp></statBases>
+    <tools>
+      <li><label>radiant lash</label><capacities><li>Cut</li></capacities><power>18</power><cooldownTime>1.7</cooldownTime></li>
+    </tools>
+    <race><baseHealthScale>1.8</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_Teresa</defName>
+    <label>Teresa</label>
+    <race>Cultist_Race_Teresa</race>
+    <combatPower>200</combatPower>
+    <lifeStages>
+      <li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_lanterne_secret</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.55</drawSize></bodyGraphicData></li>
+    </lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_Teresa</defName>
+    <label>Teresa</label>
+    <description>A luminous Lantern Name-emanation. Gentle compared to other Names, and willing to tutor Deep Mandaic.</description>
+    <catalogSourceId>spirit_lanterne_secret</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_Teresa</pawnKindDef>
+    <requiredAspect>Lantern</requiredAspect>
+    <requiredLoreTier>3</requiredLoreTier>
+    <requiredInfluence>6</requiredInfluence>
+    <durationDays>3.0</durationDays>
+    <baseBacklashChance>0.18</baseBacklashChance>
+    <notorietyGain>20</notorietyGain>
+    <taughtLanguage>Cultist_Lang_Mandaic</taughtLanguage>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 7. Shattered Risen (破碎行尸) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_ShatteredRisen</defName>
+    <label>Shattered Risen</label>
+    <description>A brittle Winter-Edge corpse animated by cold fury.</description>
+    <statBases><MoveSpeed>4.4</MoveSpeed><ArmorRating_Sharp>0.20</ArmorRating_Sharp></statBases>
+    <tools><li><label>bone shard</label><capacities><li>Cut</li></capacities><power>12</power><cooldownTime>1.8</cooldownTime></li></tools>
+    <race><baseHealthScale>1.0</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_ShatteredRisen</defName>
+    <label>Shattered Risen</label>
+    <race>Cultist_Race_ShatteredRisen</race>
+    <combatPower>70</combatPower>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_wintera_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.3</drawSize></bodyGraphicData></li></lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_ShatteredRisen</defName>
+    <label>Shattered Risen</label>
+    <description>A brittle Winter-Edge risen servant. Low cost and low backlash risk.</description>
+    <catalogSourceId>spirit_wintera_edge</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_ShatteredRisen</pawnKindDef>
+    <requiredAspect>Winter</requiredAspect>
+    <requiredLoreTier>1</requiredLoreTier>
+    <requiredInfluence>0</requiredInfluence>
+    <durationDays>2.0</durationDays>
+    <baseBacklashChance>0.10</baseBacklashChance>
+    <notorietyGain>8</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 8. Burgeoning Risen (抽芽行尸) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_BurgeoningRisen</defName>
+    <label>Burgeoning Risen</label>
+    <description>A Winter-Moth corpse overgrown with pale shoots and restless vitality.</description>
+    <statBases><MoveSpeed>4.6</MoveSpeed><ArmorRating_Blunt>0.25</ArmorRating_Blunt></statBases>
+    <tools><li><label>thorny grasp</label><capacities><li>Scratch</li></capacities><power>11</power><cooldownTime>1.7</cooldownTime></li></tools>
+    <race><baseHealthScale>1.2</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_BurgeoningRisen</defName>
+    <label>Burgeoning Risen</label>
+    <race>Cultist_Race_BurgeoningRisen</race>
+    <combatPower>70</combatPower>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_wintera_moth</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.3</drawSize></bodyGraphicData></li></lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_BurgeoningRisen</defName>
+    <label>Burgeoning Risen</label>
+    <description>A resilient Winter-Moth risen servant overgrown with Wood shoots.</description>
+    <catalogSourceId>spirit_wintera_moth</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_BurgeoningRisen</pawnKindDef>
+    <requiredAspect>Moth</requiredAspect>
+    <requiredLoreTier>1</requiredLoreTier>
+    <requiredInfluence>0</requiredInfluence>
+    <durationDays>2.0</durationDays>
+    <baseBacklashChance>0.10</baseBacklashChance>
+    <notorietyGain>8</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 9. Voiceless Dead (无声亡者) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_VoicelessDead</defName>
+    <label>Voiceless Dead</label>
+    <description>A hushed Winter-Heart revenant that endures blows in absolute silence.</description>
+    <statBases><MoveSpeed>4.8</MoveSpeed><ArmorRating_Sharp>0.35</ArmorRating_Sharp><ArmorRating_Blunt>0.35</ArmorRating_Blunt></statBases>
+    <tools><li><label>silent strike</label><capacities><li>Blunt</li></capacities><power>14</power><cooldownTime>1.8</cooldownTime></li></tools>
+    <race><baseHealthScale>1.6</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_VoicelessDead</defName>
+    <label>Voiceless Dead</label>
+    <race>Cultist_Race_VoicelessDead</race>
+    <combatPower>105</combatPower>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_winterb_heart</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.4</drawSize></bodyGraphicData></li></lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_VoicelessDead</defName>
+    <label>Voiceless Dead</label>
+    <description>A steadfast Winter-Heart spirit that guards the colony in unbroken silence.</description>
+    <catalogSourceId>spirit_winterb_heart</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_VoicelessDead</pawnKindDef>
+    <requiredAspect>Winter</requiredAspect>
+    <requiredLoreTier>1</requiredLoreTier>
+    <requiredInfluence>2</requiredInfluence>
+    <durationDays>2.5</durationDays>
+    <baseBacklashChance>0.14</baseBacklashChance>
+    <notorietyGain>12</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 10. Raw Prophet (原生先知) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_RawProphet</defName>
+    <label>Raw Prophet</label>
+    <description>A writhing Grail-Moth entity of hunger and secrets.</description>
+    <statBases><MoveSpeed>5.4</MoveSpeed><ArmorRating_Sharp>0.30</ArmorRating_Sharp></statBases>
+    <tools><li><label>voracious tendril</label><capacities><li>Bite</li></capacities><power>17</power><cooldownTime>1.6</cooldownTime></li></tools>
+    <race><baseHealthScale>1.45</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_RawProphet</defName>
+    <label>Raw Prophet</label>
+    <race>Cultist_Race_RawProphet</race>
+    <combatPower>135</combatPower>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_grailc_moth</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.45</drawSize></bodyGraphicData></li></lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_RawProphet</defName>
+    <label>Raw Prophet</label>
+    <description>A hungry Grail-Moth spirit with vicious melee attacks and capricious temper.</description>
+    <catalogSourceId>spirit_grailc_moth</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_RawProphet</pawnKindDef>
+    <requiredAspect>Grail</requiredAspect>
+    <requiredLoreTier>2</requiredLoreTier>
+    <requiredInfluence>2</requiredInfluence>
+    <durationDays>2.5</durationDays>
+    <baseBacklashChance>0.20</baseBacklashChance>
+    <notorietyGain>16</notorietyGain>
+  </Cultist.SummonSpiritDef>
+
+  <!-- 11. Ezeem, the Second Thirstly (第二干渴者伊泽姆) -->
+  <ThingDef ParentName="Cultist_SpiritBase">
+    <defName>Cultist_Race_Ezeem</defName>
+    <label>Ezeem, the Second Thirstly</label>
+    <description>A terrifying Grail-Edge Name-emanation of insatiable appetite. Can tutor Phrygian.</description>
+    <statBases><MoveSpeed>6.0</MoveSpeed><ArmorRating_Sharp>0.55</ArmorRating_Sharp><ArmorRating_Blunt>0.50</ArmorRating_Blunt></statBases>
+    <tools><li><label>crimson rend</label><capacities><li>Cut</li></capacities><power>27</power><cooldownTime>1.6</cooldownTime></li></tools>
+    <race><baseHealthScale>2.5</baseHealthScale></race>
+  </ThingDef>
+  <PawnKindDef>
+    <defName>Cultist_PawnKind_Ezeem</defName>
+    <label>Ezeem, the Second Thirstly</label>
+    <race>Cultist_Race_Ezeem</race>
+    <combatPower>275</combatPower>
+    <lifeStages><li><bodyGraphicData><texPath>Cultist/Catalog/Summon/spirit_graile_edge</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>1.65</drawSize></bodyGraphicData></li></lifeStages>
+  </PawnKindDef>
+  <Cultist.SummonSpiritDef>
+    <defName>Cultist_Summon_Ezeem</defName>
+    <label>Ezeem, the Second Thirstly</label>
+    <description>A fearsome Grail-Edge Name-emanation. Devastating in combat and willing to teach Phrygian—if kept bound.</description>
+    <catalogSourceId>spirit_graile_edge</catalogSourceId>
+    <pawnKindDef>Cultist_PawnKind_Ezeem</pawnKindDef>
+    <requiredAspect>Grail</requiredAspect>
+    <requiredLoreTier>3</requiredLoreTier>
+    <requiredInfluence>6</requiredInfluence>
+    <durationDays>3.0</durationDays>
+    <baseBacklashChance>0.30</baseBacklashChance>
+    <notorietyGain>25</notorietyGain>
+    <taughtLanguage>Cultist_Lang_Phrygian</taughtLanguage>
+  </Cultist.SummonSpiritDef>
+</Defs>

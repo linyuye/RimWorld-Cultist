@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SitePartDef>
+    <defName>Cultist_AbandonedObservatory</defName>
+    <label>abandoned survey station</label>
+    <description>A survey station located from the records recovered in dreams. Its last recorded shipment never arrived.</description>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/ItemStash</expandingIconTexture>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>Cultist_AbandonedObservatoryStash</defName>
+    <linkWithSite>Cultist_AbandonedObservatory</linkWithSite>
+    <order>400</order>
+    <genStep Class="Cultist.GenStep_ObservatoryCache"/>
+  </GenStepDef>
+  <ThingDef>
+    <defName>Cultist_LightPlate</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <label>etched survey plate</label>
+    <description>A metal survey plate whose etched marks align when held toward a light source. The colony can use it to calibrate the observatory altar.</description>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <alwaysHaulable>true</alwaysHaulable>
+    <useHitPoints>true</useHitPoints>
+    <altitudeLayer>Item</altitudeLayer>
+    <graphicData>
+      <texPath>Things/Item/Resource/Steel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(202,170,109)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories><li>Items</li></thingCategories>
+    <comps><li Class="CompProperties_Forbiddable"/></comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.MarkDef>
+    <defName>Cultist_Mark1</defName>
+    <label>Identify the sign</label>
+    <description>Bring back a lore book from the Wood, or ask an exotic trader for a survey transcript. Have a society member study a book, then place a copy near the altar and have the leader perform the first rite.</description>
+    <number>1</number>
+    <books>1</books>
+    <readTier>1</readTier>
+  </Cultist.MarkDef>
+  <Cultist.MarkDef>
+    <defName>Cultist_Mark2</defName>
+    <label>Measure the light</label>
+    <description>Complete Studies of Light in the research tab and have the leader record the result at the altar.</description>
+    <number>2</number>
+    <research>Cultist_StudiesOfLight</research>
+  </Cultist.MarkDef>
+  <Cultist.MarkDef>
+    <defName>Cultist_Mark3</defName>
+    <label>Bring the sign home</label>
+    <description>Dream through the Mansus and bring back a matching society influence. Have the leader offer an influence of at least 2 at the altar before it fades.</description>
+    <number>3</number>
+    <influence>2</influence>
+  </Cultist.MarkDef>
+  <Cultist.MarkDef>
+    <defName>Cultist_Mark4</defName>
+    <label>Train a disciple</label>
+    <description>Convert another colonist to the society using ideology conversion. Send them to the altar with a lore book to advance to disciple. With the disciple on the map, have the leader record the mark.</description>
+    <number>4</number>
+    <needsDisciple>true</needsDisciple>
+  </Cultist.MarkDef>
+  <Cultist.MarkDef>
+    <defName>Cultist_Mark5</defName>
+    <label>Return the survey plate</label>
+    <description>Have the leader trace the abandoned observatory at the altar and send a caravan to retrieve its engraved plate. Bring the plate home and equip the leader with society-aligned occult gear before recording the mark.</description>
+    <number>5</number>
+    <needsPlate>true</needsPlate>
+    <needsGear>true</needsGear>
+  </Cultist.MarkDef>
+  <Cultist.MarkDef>
+    <defName>Cultist_Mark6</defName>
+    <label>Hold the threshold</label>
+    <description>Set aside two physical lore books. Bring back a society-aligned influence of at least 10 from the deeper Mansus gates. Have the leader combine these inputs at the altar.</description>
+    <number>6</number>
+    <books>2</books>
+    <influence>10</influence>
+  </Cultist.MarkDef>
+</Defs>

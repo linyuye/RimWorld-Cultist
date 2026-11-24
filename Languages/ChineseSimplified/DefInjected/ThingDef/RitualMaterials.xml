@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Lore1Book.label>守夜札记</Cultist_Lore1Book.label>
+  <Cultist_Lore1Book.description>灯教会收录的第1阶秘传。研读可为教会记录知识，实体书可投入祭坛仪式。</Cultist_Lore1Book.description>
+  <Cultist_Lore2Book.label>内庭天图</Cultist_Lore2Book.label>
+  <Cultist_Lore2Book.description>灯教会收录的第2阶秘传。研读可为教会记录知识，实体书可投入祭坛仪式。</Cultist_Lore2Book.description>
+  <Cultist_Lore3Book.label>冷光短章</Cultist_Lore3Book.label>
+  <Cultist_Lore3Book.description>灯教会收录的第3阶秘传。研读可为教会记录知识，实体书可投入祭坛仪式。</Cultist_Lore3Book.description>
+  <Cultist_Lore4Book.label>照门祷文</Cultist_Lore4Book.label>
+  <Cultist_Lore4Book.description>灯教会收录的第4阶秘传。研读可为教会记录知识，实体书可投入祭坛仪式。</Cultist_Lore4Book.description>
+  <Cultist_Lore5Book.label>聚光论</Cultist_Lore5Book.label>
+  <Cultist_Lore5Book.description>灯教会收录的第5阶秘传。研读可为教会记录知识，实体书可投入祭坛仪式。</Cultist_Lore5Book.description>
+  <Cultist_Lore6Book.label>登阶笔录</Cultist_Lore6Book.label>
+  <Cultist_Lore6Book.description>灯教会收录的第6阶秘传。研读可为教会记录知识，实体书可投入祭坛仪式。</Cultist_Lore6Book.description>
+  <Cultist_Lore7Book.label>彻照密钥</Cultist_Lore7Book.label>
+  <Cultist_Lore7Book.description>灯教会收录的第7阶秘传。研读可为教会记录知识，实体书可投入祭坛仪式。</Cultist_Lore7Book.description>
+  <Cultist_RiteTool1Cracked.label>裂损午之石</Cultist_RiteTool1Cracked.label>
+  <Cultist_RiteTool1Cracked.description>一件尚不完整的聚光器。修复裂纹后才能在仪式上聚集梦中的光。</Cultist_RiteTool1Cracked.description>
+  <Cultist_RiteTool1Ready.label>午之石</Cultist_RiteTool1Ready.label>
+  <Cultist_RiteTool1Ready.description>校准后的聚光工具，可为守夜提供4点灯值。仪式结束后工具仍可使用。</Cultist_RiteTool1Ready.description>
+  <Cultist_RiteTool2Cracked.label>裂损迷途之镜</Cultist_RiteTool2Cracked.label>
+  <Cultist_RiteTool2Cracked.description>一件尚不完整的聚光器。修复裂纹后才能在仪式上聚集梦中的光。</Cultist_RiteTool2Cracked.description>
+  <Cultist_RiteTool2Ready.label>迷途之镜</Cultist_RiteTool2Ready.label>
+  <Cultist_RiteTool2Ready.description>校准后的聚光工具，可为守夜提供8点灯值。仪式结束后工具仍可使用。</Cultist_RiteTool2Ready.description>
+  <Cultist_RiteTool3Cracked.label>裂损守夜人之镜</Cultist_RiteTool3Cracked.label>
+  <Cultist_RiteTool3Cracked.description>一件尚不完整的聚光器。修复裂纹后才能在仪式上聚集梦中的光。</Cultist_RiteTool3Cracked.description>
+  <Cultist_RiteTool3Ready.label>守夜人之镜</Cultist_RiteTool3Ready.label>
+  <Cultist_RiteTool3Ready.description>校准后的聚光工具，可为守夜提供12点灯值。仪式结束后工具仍可使用。</Cultist_RiteTool3Ready.description>
+</LanguageData>

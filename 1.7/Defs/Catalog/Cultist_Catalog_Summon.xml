@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4_inprogress1</defName>
+    <label>The First Fragments of the Host</label>
+    <description>We have attracted a few gourmands and perverts. They will expect a feast of the senses.</description>
+    <sourceId>apostlegrail.pillar4.inprogress1</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4.inprogress1</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4_inprogress2</defName>
+    <label>The Second Fragments of the Host</label>
+    <description>Word spreads. Curiosity and appetite will drive strangers to attend our Vitulation.</description>
+    <sourceId>apostlegrail.pillar4.inprogress2</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4.inprogress2</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4_inprogress3</defName>
+    <label>The Third Fragments of the Host</label>
+    <description>Filthy draggles of the morbid and the inquisitive.</description>
+    <sourceId>apostlegrail.pillar4.inprogress3</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4.inprogress3</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4_inprogress4</defName>
+    <label>The Fourth Fragments of the Host</label>
+    <description>The hungry, the greedy, the curious: all these have received our invitation.</description>
+    <sourceId>apostlegrail.pillar4.inprogress4</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4.inprogress4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4_inprogress5</defName>
+    <label>The Fifth Fragments of the Host</label>
+    <description>Now the name of the Vitulation is whispered wherever mouths embrace meat.</description>
+    <sourceId>apostlegrail.pillar4.inprogress5</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4.inprogress5</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4_inprogress6</defName>
+    <label>The Sixth Fragments of the Host</label>
+    <description>When the time comes, our guests will throng like rats.</description>
+    <sourceId>apostlegrail.pillar4.inprogress6</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4.inprogress6</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4_inprogress7</defName>
+    <label>The Host, Assembled</label>
+    <description>We await only the Key-holder, who must open the Kingskin Gate when our Delight enacts the Grail.</description>
+    <sourceId>apostlegrail.pillar4.inprogress7</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4.inprogress7</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar4</defName>
+    <label>The Host and the Guests</label>
+    <description>When the signal is given, a great Host will assemble, their eyes so wide - their mouths so wide - to feast and be feasted upon - to draw from me the blood of our Delight. Our very Delight shall lead them in their feasting, and the Lady of Wires shall turn her Key.</description>
+    <sourceId>apostlegrail.pillar4</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlegrail.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar4_inprogress1</defName>
+    <label>The Witnesses: One of Seven</label>
+    <description>A solitary figure, swaying at the Crossroads in the golden light of the Allure, the blue of the Mansus.</description>
+    <sourceId>apostlelantern.pillar4.inprogress1</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlelantern.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar4_inprogress2</defName>
+    <label>The Witnesses: Two of Seven</label>
+    <description>A Witness-pair, swaying at the Crossroads in the golden light of the Allure, the blue of the Mansus.</description>
+    <sourceId>apostlelantern.pillar4.inprogress2</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlelantern.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar4_inprogress3</defName>
+    <label>The Witnesses: Three of Seven</label>
+    <description>Their faces are blanker than ever, but they have taken each others' hands.</description>
+    <sourceId>apostlelantern.pillar4.inprogress3</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlelantern.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar4_inprogress4</defName>
+    <label>The Witnesses: Four of Seven</label>
+    <description>The light bleaches them, but by their nature they will dapple as the moment draws near.</description>
+    <sourceId>apostlelantern.pillar4.inprogress4</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlelantern.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar4_inprogress5</defName>
+    <label>The Witnesses: Five of Seven</label>
+    <description>Five witnesses wait for the fruit that will swell, but never ripen.</description>
+    <sourceId>apostlelantern.pillar4.inprogress5</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlelantern.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar4_inprogress6</defName>
+    <label>The Witnesses: Six of Seven</label>
+    <description>The air is agony. They cannot look away.</description>
+    <sourceId>apostlelantern.pillar4.inprogress6</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlelantern.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlelantern_pillar4</defName>
+    <label>The Cloud of Witnesses</label>
+    <description>Seven silent souls softly supplicate shining source.</description>
+    <sourceId>apostlelantern.pillar4</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/apostlelantern.pillar4</iconPath>
+    <aspects>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_wintera_edge</defName>
+    <label>Shattered Risen</label>
+    <description>A rending force has dragged this corpse back to near-life. When it moves, it crunches like broken glass. Its fists are claw-nests of bone-shards. It won't hold together for long.</description>
+    <sourceId>spirit_wintera_edge</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_wintera_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>summoned</key><value>1</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_wintera_moth</defName>
+    <label>Burgeoning Risen</label>
+    <description>The growths of the Wood have encompassed the corpse's organs, swelled its skull like a gourd, twined around its heart. Its eyes are moist with cunning, and it moves with jerky puppet grace. Its bones are rotten wood, and soon it will take root, but until then it will be a swift and subtle servant.</description>
+    <sourceId>spirit_wintera_moth</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_wintera_moth</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>4</value></li>
+      <li><key>summoned</key><value>1</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_winterb_heart</defName>
+    <label>Voiceless Dead</label>
+    <description>Sometimes the Dead enter the Mansus by the White Door. At its threshold they lay down their power of speech forever. Call them back to the world, and they will have no voice, but their skins of dust are yours to command.</description>
+    <sourceId>spirit_winterb_heart</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_winterb_heart</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>6</value></li>
+      <li><key>summoned</key><value>1</value></li>
+      <li><key>winter</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_forgec_winter</defName>
+    <label>Caligine</label>
+    <description>At the corners of the Forge, in the bounds of the Mansus, the Glory's fire meets baser elements. Here is a cunning vapour to infect your enemy's dreams.</description>
+    <sourceId>spirit_forgec_winter</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_forgec_winter</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>8</value></li>
+      <li><key>moth</key><value>8</value></li>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_grailc_moth</defName>
+    <label>Raw Prophet</label>
+    <description>Sometimes it divides, sometimes it unites, sometimes she speaks words of warning, sometimes he advises on appetite. Its prophecies are confusion, their whispers confound.</description>
+    <sourceId>spirit_grailc_moth</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_grailc_moth</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>8</value></li>
+      <li><key>moth</key><value>8</value></li>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_lanternc_edge</defName>
+    <label>Hint</label>
+    <description>The Hinter are most comfortable behind: behind the scenes, behind the mirrors, behind you. They slide under doors and kill with glass, but they cannot survive the gaze of a living mortal.</description>
+    <sourceId>spirit_lanternc_edge</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_lanternc_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>8</value></li>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_heartc_edge</defName>
+    <label>Percussigant</label>
+    <description>The Percussigant! It loves the sistrum's shiver, it loves the thrum of the tympanos, it recalls with fondness the flaying of Marsyas, and so it will not\n            will not\n            will not stop dancing.</description>
+    <sourceId>spirit_heartc_edge</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_heartc_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>8</value></li>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_winterd_edge</defName>
+    <label>Maid-in-the-Mirror</label>
+    <description>'The ascent is glass. The walls are knives. Each step is blood.' The Dead who rest before a new-cracked mirror, who pass through the Peacock Gate, who master the Sharp Stair: those Dead enter the service of the Sun-in-Rags.</description>
+    <sourceId>spirit_winterd_edge</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_winterd_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>summoned</key><value>1</value></li>
+      <li><key>winter</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_forgee_edge</defName>
+    <label>King Crucible</label>
+    <description>'IN THE DESERT I WAIT IN THE RUINS I BURN - METAL IS WATER - STONE IS WAX - FLESH IS SMOKE - ENTER ME AND BE NO LONGER.'</description>
+    <sourceId>spirit_forgee_edge</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_forgee_edge</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>12</value></li>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_graile_edge</defName>
+    <label>Ezeem, the Second Thirstly</label>
+    <description>'Change me. Change me. Change me harder. Now: &lt;i&gt;my&lt;/i&gt; turn.'</description>
+    <sourceId>spirit_graile_edge</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_graile_edge</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>12</value></li>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_lanterne_secret</defName>
+    <label>Teresa</label>
+    <description>'Oh, the world is flat; oh, but it's flat! I won't stay long. I shan't stay long. Tell me a secret.'</description>
+    <sourceId>spirit_lanterne_secret</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_lanterne_secret</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>12</value></li>
+      <li><key>secrethistories</key><value>12</value></li>
+      <li><key>summoned</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spirit_forgee_edge_defunct</defName>
+    <label>King Crucible Burns Low</label>
+    <description>King Crucible's fires have sunk to a lesser heat, for now. Blackened traces remain, like the bones of coal.</description>
+    <sourceId>spirit_forgee_edge.defunct</sourceId>
+    <category>Summon</category>
+    <iconPath>Cultist/Catalog/Summon/spirit_forgee_edge.defunct</iconPath>
+    <unique>true</unique>
+  </Cultist.CultistCatalogDef>
+</Defs>

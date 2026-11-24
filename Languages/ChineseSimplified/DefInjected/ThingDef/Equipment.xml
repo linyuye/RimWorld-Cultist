@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_FieldCoat.label>观测员外套</Cultist_FieldCoat.label>
+  <Cultist_FieldCoat.description>一件为殖民地观测台夜班人员制作的耐用外套。</Cultist_FieldCoat.description>
+  <Cultist_Engraver.label>刻光针</Cultist_Engraver.label>
+  <Cultist_Engraver.description>能将灯相辉光凝聚为中程金色光束的金属刻针；近身时也可凭硬化针尖刺击防身。</Cultist_Engraver.description>
+  <Cultist_Engraver.tools.point.label>针尖</Cultist_Engraver.tools.point.label>
+  <Cultist_Engraver.verbs.Verb_Shoot.label>刻光针</Cultist_Engraver.verbs.Verb_Shoot.label>
+</LanguageData>

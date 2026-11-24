@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>Cultist_LoreCat_Tier1</defName>
+    <label>tier 1 occult lore</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Cultist_LoreCat_Tier2</defName>
+    <label>tier 2 occult lore</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Cultist_LoreCat_Tier3</defName>
+    <label>tier 3 occult lore</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Cultist_LoreCat_Tier4</defName>
+    <label>tier 4 occult lore</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Cultist_LoreCat_Tier5</defName>
+    <label>tier 5 occult lore</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Cultist_LoreCat_Tier6</defName>
+    <label>tier 6 occult lore</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>Cultist_LoreCat_Tier7</defName>
+    <label>tier 7 occult lore</label>
+    <parent>Items</parent>
+  </ThingCategoryDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Forge1Book</defName>
+    <label>A Smith's Secret</label>
+    <description>In five continents, smiths have whispered the same words to the iron. Murderers have been known to whisper these words, too. And adepts, of course. These words are spoken in ritual to inspire an unmerciful Change.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforge</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Forge2Book</defName>
+    <label>An Ardent Orison</label>
+    <description>When we watch a fire, what are we watching for? When we find it, these are the words it will speak: a word that sanctifies the change that comes when the seared skin peels.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforgeb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Forge3Book</defName>
+    <label>A Shaping Chant</label>
+    <description>The proper words must be employed when the Change comes. [Use this in a Rite with a Knock influence and a Bone Flute - or other resources of equal power - to summon a Caligine.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforgec</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Forge4Book</defName>
+    <label>Callidate Invocation</label>
+    <description>The Names of the Forge have all spoken these words. [Use this in a Rite with a Knock influence and a Bone Flute - or other resources of equal power - to summon a Caligine.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforged</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Forge5Book</defName>
+    <label>Formula Fissive</label>
+    <description>Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and then break what remains. Here is fire. [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforgee</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Forge6Book</defName>
+    <label>Furnace Paean</label>
+    <description>This is the hymn the heat sings to the iron. If we imitate it faithfully enough we will parch our lips and crisp our tongue, but O, the rewards. [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforgef</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Forge7Book</defName>
+    <label>Mysteries of Making</label>
+    <description>The Forge of Days, the Meniscate and the Madrugad are gods-from-Light. Mercury, silver and gold are the seeds of the Work, and here is their secret doctrine... [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforgeg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Edge1Book</defName>
+    <label>A Knife's Secret</label>
+    <description>When our ancestors forged swords, taught the arts of martial movement, spoke curses on the eve of battle - all these things shared certain patterns. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedge</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Edge2Book</defName>
+    <label>Chiliarch's Lesson</label>
+    <description>This is the bone-deep story the thousandman learnt in antiquity, of blood and its exits. To speak it aloud is to hear the sword hiss. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedgeb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Edge3Book</defName>
+    <label>An Operation of the Labhite</label>
+    <description>A series of mystic exercises that requires both dedication and terror. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedgec</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Edge4Book</defName>
+    <label>The Colonel's Names</label>
+    <description>The Colonel has been many things in many ages. He is blind; he is deaf; he cannot be wounded; he cannot be denied. His Names are cunning as only the very old can be.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedged</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Edge5Book</defName>
+    <label>The Lionsmith's Names</label>
+    <description>The Lionsmith is young by the standards of the Hours, but old by the standards of war. His Names are recent recruits, and their recitation has a savage power.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedgee</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Edge6Book</defName>
+    <label>The Alignments of Murder</label>
+    <description>These are the arts that ensure an ending.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedgef</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Edge7Book</defName>
+    <label>The Mysteries of Force</label>
+    <description>The Colonel and the Lionsmith are gods-who-were-flesh, but the Wolf-Divided is a god-who-was-blood. Cunning, Strength and Agony are the three roots of victory, and here is their secret doctrine...</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedgeg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Winter1Book</defName>
+    <label>A Sexton's Secret</label>
+    <description>Certain knowledge, it is said, can be expressed only through the particular quality of a silence. It has been suggested that one can only read such knowledge with one's eyes closed, but only by mischievous commentators. [Use this in a Rite with a corpse and Edge aspect, and the corpse will rise.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentwinter</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Winter2Book</defName>
+    <label>A White Ceremony</label>
+    <description>When I speak it, my lips don't crisp with frost. Each time, this is surprising. [Use this in a Rite with a Heart influence and Byzantine Tinct to summon the Voiceless Dead.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentwinterb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Winter3Book</defName>
+    <label>An Operation of the Declining Sun</label>
+    <description>This invokes, acknowledges and welcomes the passage to silence. [Use this in a Rite with a Heart influence and Byzantine Tinct to summon the Voiceless Dead.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentwinterc</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Winter4Book</defName>
+    <label>Invocation of the Ivory Dove</label>
+    <description>There is a power that commemorates and grieves, from whom nothing is taken, but who cannot be deceived. You might expect to be able to crush him in your hand, into bird-bone fragments. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentwinterd</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Winter5Book</defName>
+    <label>Recitation of Lost Hours</label>
+    <description>Six are gone. Five came from Stone and one from Light. All went to Nowhere. Still their memories have power, and now we call upon it. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentwintere</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Winter6Book</defName>
+    <label>The Divisions of the Names</label>
+    <description>When the Sun-in-Splendour was divided, its Names fractured too. Here are the shards of their names which once were whole. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentwinterf</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Winter7Book</defName>
+    <label>Wolf-Word</label>
+    <description>When the Forge is cold and the Glory is dark and the Wood is dust, perhaps the Wolf Divided will rest, but only until it can devour itself. This Word almost expresses the Divided One's hatred. [Speak this to a Hunter, and it might drive them insane on the spot.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentwinterg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Heart1Book</defName>
+    <label>A Thunderous Secret</label>
+    <description>There are common sentiments in every thunderclap. Let us acknowledge them.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentheart</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Heart2Book</defName>
+    <label>Words that Walk</label>
+    <description>The syllables of this formula are compelling. I find myself snapping my fingers to its rhythm. It desires not to cease.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentheartb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Heart3Book</defName>
+    <label>A Waking Chant</label>
+    <description>Who could hear this and remain unmoved? The sleeping? The dead? The earth and the sky? [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentheartc</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Heart4Book</defName>
+    <label>Geminate Invocation</label>
+    <description>The Sister-and-Witch has always been invoked for protection, at crossroads and at moonrise and where the land shelters the sea. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentheartd</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Heart5Book</defName>
+    <label>Formulae Vigilant</label>
+    <description>One who watches does not sleep, one who sleeps watches not. &lt;b&gt;One who watches does not sleep, one who sleeps watches not.&lt;/b&gt; [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmenthearte</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Heart6Book</defName>
+    <label>Velvet Charm</label>
+    <description>The Velvet always answers 'No', but we can shelter in that 'No' like beasts in the crook of a tree. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentheartf</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Heart7Book</defName>
+    <label>Unceasing Mysteries</label>
+    <description>The Grail ripped the Thunderskin from flesh. The Sister-and-Witch was born from two wombs. The Velvet woke when the Wood-roots tasted blood. The Heart is Blood's Drum, and here is its secret doctrine... [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentheartg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Grail1Book</defName>
+    <label>A Red Secret</label>
+    <description>Some words are spelt correctly only when the proper ink is used.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentgrail</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Grail2Book</defName>
+    <label>A Megalesian Incantation</label>
+    <description>The Great Mother remembers.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentgrailb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Grail3Book</defName>
+    <label>A Delightful Sacrament</label>
+    <description>So pleasant upon the ear. One could listen over and over. These are the words that make sacrifice sweet. [Use this with Byzantine Tinct and a Moth influence - or other resources of equal power - to summon a Raw Prophet.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentgrailc</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Grail4Book</defName>
+    <label>Thiatic Invocation</label>
+    <description>Raucous shrieks attend the passage of the Names of the Grail. We reproduce them as best we can, for the pulsing power they lend. [Use this with Byzantine Tinct and a Moth influence - or other resources of equal power - to summon a Raw Prophet.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentgraild</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Grail5Book</defName>
+    <label>Formulae Voluptuous</label>
+    <description>There exist some pleasures intense enough to corrupt the laws of the physical world. [This formula can be used in a Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentgraile</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Grail6Book</defName>
+    <label>Anthic Elaboration</label>
+    <description>The Flowermaker cannot touch you; he cannot find you; he always has what you desire. Even an elaboration of the properties of his works can draw the attention of Hours. [This formula can be used in a Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentgrailf</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Grail7Book</defName>
+    <label>Devouring Mysteries</label>
+    <description>The Grail was the first god-who-was-blood. The Flowermaker came from Light. The Beach-Crow was flesh. Hunger and Greed and Yearning are the matrix of appetite, and here is their secret doctrine...  [Use this formula in Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentgrailg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Moth1Book</defName>
+    <label>A Barber's Warning</label>
+    <description>A power of the Wood enjoys the separation of the lock from the scalp. For attention, burn it. For opportunity, bury it. [Speak this over a corpse in a Rite, with a Winter influence present, and the corpse will rise.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentmoth</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Moth2Book</defName>
+    <label>A Wood-Whisper</label>
+    <description>Lie awake, and listen. The wind speaks in the branches. The house cries out in its sleep. These are the roads that chaos rides. [Speak this over a corpse in a Rite, with a Winter influence present, and the corpse will rise.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentmothb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Moth3Book</defName>
+    <label>An Ecdysiast's Parable</label>
+    <description>The Ecdysiast's Riddle is 'What may be lost?' Each Ecdysiast's Parable is an attempt to answer the Riddle.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentmothc</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Moth4Book</defName>
+    <label>Moldywarp Admonitions</label>
+    <description>Moldywarp keeps her crowns in the moss and her feet in the dirt and the trees locked jaw-tight. Moldywarp has these warnings for you.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentmothd</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Moth5Book</defName>
+    <label>Centipede Testament</label>
+    <description>The Centipede came up out of the sands and went in under the roots. She found a new home but now she can't go home. She creeps in everywhere else: keyholes and histories and the channels of birth and sight and hearing. Here's what she has to say.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentmothe</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Moth6Book</defName>
+    <label>Thigh-born Thorax-Sweet</label>
+    <description>Vine-crowned moth-king hatched in the thigh of the thunder-king who's dead. Drink up his belly-lymph. These are the sights you'll see.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentmothf</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Moth7Book</defName>
+    <label>Mare-in-the-Yew</label>
+    <description>The real Hours don't meet the gods-from-Nowhere, but the Ring-Yew meets the Mare-in-the-Tree in where the Wood grows lush. Their couplings are forbidden, and forbidden things have power, and this is the story of their couplings.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentmothg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Knock1Book</defName>
+    <label>A Locksmith's Secret</label>
+    <description>Sooner or later, every locksmith has the Dream. Now we recite its seven phases... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknock</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Knock2Book</defName>
+    <label>An Iguvine Rite</label>
+    <description>Every door in the Mansus requires its sacrifice before it will open. The Iguvine Rites prescribe the manner of the sacrifice. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknockb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Knock3Book</defName>
+    <label>A Consent of Wounds</label>
+    <description>To open certain Ways, one must first open oneself. This practice outlines that opening, in the name of the Mother of Ants. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknockc</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Knock4Book</defName>
+    <label>Meniscate Invocation</label>
+    <description>When the moon's face was wounded, these words appeared. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknockd</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Knock5Book</defName>
+    <label>Formulae Ophidian</label>
+    <description>Serpents are the visitors which may not be denied. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknocke</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Knock6Book</defName>
+    <label>Liminal Evocation</label>
+    <description>One god-who-was-stone remains, and she watches all thresholds. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknockf</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_Knock7Book</defName>
+    <label>Mysteries of Opening</label>
+    <description>The Mother of Ants is the child of two rivers. The Horned-Axe is the last god-from-Stone. The Meniscate was born in the Moon from Light. The Wound and the Threshold and the Revelation are all the Gate's aspects, and here is their secret doctrine... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknockg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_SecretHistories1Book</defName>
+    <label>An Occult Scrap</label>
+    <description>Secret histories are layered beneath the one we know, like the notes in rare wine. This is a detail from one of those histories. [Exploring with this scrap of knowledge may uncover secret locations in the Capital.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentsecrethistories</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier1</li></thingCategories>
+    <statBases><MarketValue>120</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><loreTier>1</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_SecretHistories2Book</defName>
+    <label>A Furtive Truth</label>
+    <description>A detail smuggled in from an adjacent narrative. Don't speak this where you may be overheard. [Exploring with this scrap of knowledge may uncover secret locations in the Shires.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentsecrethistoriesb</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier2</li></thingCategories>
+    <statBases><MarketValue>165</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><loreTier>2</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_SecretHistories3Book</defName>
+    <label>A Forgotten Chronicle</label>
+    <description>A story of a city without a gate, of a queen who was not born, of a war which was not fought. [Exploring with this scrap of knowledge may uncover secret locations on the Continent.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentsecrethistoriesc</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier3</li></thingCategories>
+    <statBases><MarketValue>210</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><loreTier>3</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_SecretHistories4Book</defName>
+    <label>Forbidden Epic</label>
+    <description>The attention of the Hours is drawn to the bloodiest wars. Afterwards, the Histories are braided like hair. [Exploring with this scrap of knowledge may uncover secret locations in the Land Beyond the Forest, across the Continent.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentsecrethistoriesd</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier4</li></thingCategories>
+    <statBases><MarketValue>255</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><loreTier>4</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_SecretHistories5Book</defName>
+    <label>Unresolved Ambiguity</label>
+    <description>In the Mansus, the Hours strive one against another. As the struggles are resolved, they iron out the impossible, exalt the possible, tie the fraying braids of what has been into one golden ribbon of future. Everything is resolved. History becomes the past. There are, however, exceptions. [Exploring with this scrap of knowledge may uncover secret locations in the Rending Mountains, three thousand miles away among the wreck of the oldest empires.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentsecrethistoriese</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier5</li></thingCategories>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><loreTier>5</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_SecretHistories6Book</defName>
+    <label>Vagabond's Map</label>
+    <description>The Vagabond is the one Hour who can never enter the Mansus, but she goes &lt;i&gt;everywhere&lt;/i&gt; else... and, if you believe her boasts, she's the only one who knows all the Histories. Sometimes, she lets someone record her travels. [Exploring with this scrap of knowledge may uncover secret locations in the Lone and Level Sands, far from here.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentsecrethistoriesf</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier6</li></thingCategories>
+    <statBases><MarketValue>345</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><loreTier>6</loreTier></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_LoreBase">
+    <defName>Cultist_Lore_SecretHistories7Book</defName>
+    <label>Port Noon Anecdote</label>
+    <description>Port Noon is where the Long go to enjoy the sea and the sun, to drink from the Spring that makes them forgotten, and to stay out of trouble. Mostly out of trouble. The stories you can hear in the Hotel Ciervo are golden-dewed, quintuple-distilled toasts to memory, served straight up. [Exploring with this scrap of knowledge may uncover secret locations in the Evening Isles, where Port Noon is located, across the great ocean.]</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentsecrethistoriesg</texPath></graphicData>
+    <thingCategories><li>Cultist_LoreCat_Tier7</li></thingCategories>
+    <statBases><MarketValue>390</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><loreTier>7</loreTier></li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_ForgeHammer.label>铸相工锤</Cultist_ForgeHammer.label>
+  <Cultist_ForgeHammer.description>在秘火中淬炼的铸相重锤，随成长阶平滑增强近战威力与工艺效率，并可与铸相影响产生共鸣。</Cultist_ForgeHammer.description>
+  <Cultist_ForgeCoat.label>铸相厚重袍</Cultist_ForgeCoat.label>
+  <Cultist_ForgeCoat.description>不屈教团匠师穿戴的耐热厚重外套，具备优异的隔热与防护性能。</Cultist_ForgeCoat.description>
+
+  <Cultist_EdgeDagger.label>刃相仪式匕首</Cultist_EdgeDagger.label>
+  <Cultist_EdgeDagger.description>献给闪刃教会的锋利暗杀匕首，拥有极高的成长近战倍率与刃相影响共鸣。</Cultist_EdgeDagger.description>
+  <Cultist_EdgeGarb.label>刃相轻装</Cultist_EdgeGarb.label>
+  <Cultist_EdgeGarb.description>为闪刃教会决斗者与刺客量身定制的贴身轻装。</Cultist_EdgeGarb.description>
+
+  <Cultist_WinterBlade.label>冬相寒霜刃</Cultist_WinterBlade.label>
+  <Cultist_WinterBlade.description>静默之子所铸的苍白寒刃，可向中程掷出苍白寒霜碎晶，造成冻伤并使目标短暂减速。</Cultist_WinterBlade.description>
+  <Cultist_WinterRobe.label>冬相寒色长袍</Cultist_WinterRobe.label>
+  <Cultist_WinterRobe.description>静默守望时穿着的寒色厚长袍，具备卓越的抗寒能力。</Cultist_WinterRobe.description>
+
+  <Cultist_HeartChime.label>心相仪式器</Cultist_HeartChime.label>
+  <Cultist_HeartChime.description>不休圣堂用于维系心跳律动的共鸣仪式器，可敲击释放中近程震荡音波压制敌人，并有几率鼓舞附近友军恢复精力。</Cultist_HeartChime.description>
+  <Cultist_HeartVestments.label>心相坚韧服饰</Cultist_HeartVestments.label>
+  <Cultist_HeartVestments.description>经不休圣堂祝圣的坚韧法衣，能有效抵御疲惫、瘟疫与衰败。</Cultist_HeartVestments.description>
+
+  <Cultist_GrailChalice.label>杯相圣杯</Cultist_GrailChalice.label>
+  <Cultist_GrailChalice.description>血杯教团的仪式圣杯，可在近中程泼洒三连发炽热绯红酸蚀秘液，擅长近战防线压制。</Cultist_GrailChalice.description>
+  <Cultist_GrailRobe.label>杯相华丽服饰</Cultist_GrailRobe.label>
+  <Cultist_GrailRobe.description>血杯教团盛宴上穿着的绯红华服，显著提升社交气场。</Cultist_GrailRobe.description>
+
+  <Cultist_MothMask.label>蛾相面具</Cultist_MothMask.label>
+  <Cultist_MothMask.description>荒林俱乐部雕刻的仪式面具，遮蔽真容并唤醒躁动的林地直觉。</Cultist_MothMask.description>
+  <Cultist_MothCloak.label>蛾相轻袍</Cultist_MothCloak.label>
+  <Cultist_MothCloak.description>易皮者漫游林地时披挂的轻盈残破斗篷。</Cultist_MothCloak.description>
+
+  <Cultist_KnockKeyBlade.label>启相开扉钥剑</Cultist_KnockKeyBlade.label>
+  <Cultist_KnockKeyBlade.description>钥匙形态的启相仪式器，可向中近程射出高破甲的门扉裂隙穿刺，专克重甲目标。</Cultist_KnockKeyBlade.description>
+  <Cultist_KnockRobe.label>启相仪式袍</Cultist_KnockRobe.label>
+  <Cultist_KnockRobe.description>开扉者与召唤师身着的紫边仪式长袍。</Cultist_KnockRobe.description>
+  <Cultist_ForgeHammer.tools.head.label>锤头</Cultist_ForgeHammer.tools.head.label>
+  <Cultist_EdgeDagger.tools.edge.label>刃口</Cultist_EdgeDagger.tools.edge.label>
+  <Cultist_WinterBlade.tools.blade.label>刀刃</Cultist_WinterBlade.tools.blade.label>
+  <Cultist_HeartChime.tools.chime_head.label>铃头</Cultist_HeartChime.tools.chime_head.label>
+  <Cultist_GrailChalice.tools.chalice_rim.label>杯沿</Cultist_GrailChalice.tools.chalice_rim.label>
+  <Cultist_KnockKeyBlade.tools.warded_edge.label>护咒刃口</Cultist_KnockKeyBlade.tools.warded_edge.label>
+  <Cultist_WinterBlade.verbs.Verb_Shoot.label>冬相寒霜刃</Cultist_WinterBlade.verbs.Verb_Shoot.label>
+  <Cultist_HeartChime.verbs.Verb_Shoot.label>心相仪式器</Cultist_HeartChime.verbs.Verb_Shoot.label>
+  <Cultist_GrailChalice.verbs.Verb_Shoot.label>杯相圣杯</Cultist_GrailChalice.verbs.Verb_Shoot.label>
+  <Cultist_KnockKeyBlade.verbs.Verb_Shoot.label>启相开扉钥剑</Cultist_KnockKeyBlade.verbs.Verb_Shoot.label>
+</LanguageData>

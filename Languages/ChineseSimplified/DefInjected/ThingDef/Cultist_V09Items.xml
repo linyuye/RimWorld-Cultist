@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_BureauDossier.label>防剿局机密卷宗</Cultist_BureauDossier.label>
+  <Cultist_BureauDossier.description>从防剿局外勤或猎人身上缴获的密封案卷。焚毁可立即消除 10 点恶名（在隐秘圣殿内消除 12 点）；破译则可在大地图揭示一处被查封的 2–3 阶异端藏书库遗址。</Cultist_BureauDossier.description>
+  <Cultist_DawnbreakerCore.label>破晓核心</Cultist_DawnbreakerCore.label>
+  <Cultist_DawnbreakerCore.description>由塑钢、工业零部件与斯宾特里亚古币锻造而成的炽白引擎，是铸相塑形使徒完成大功业的终极圣物。</Cultist_DawnbreakerCore.description>
+  <Cultist_VitulationChalice.label>紫晶圣爵饮</Cultist_VitulationChalice.label>
+  <Cultist_VitulationChalice.description>由珍馐佳肴与斯宾特里亚古币酿成的赤杯圣餐，是杯相饕餮使徒完成大功业的终极圣物。</Cultist_VitulationChalice.description>
+</LanguageData>

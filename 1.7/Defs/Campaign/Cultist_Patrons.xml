@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>Cultist_Spintria</defName>
+    <label>spintria</label>
+    <description>An archaic bronze-and-silver token circulated among occult patrons, booksellers, and repairers of mirrors.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>true</alwaysHaulable>
+    <useHitPoints>false</useHitPoints>
+    <stackLimit>75</stackLimit>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <thingCategories><li>Items</li></thingCategories>
+    <graphicData>
+      <texPath>Cultist/Items/Spintria</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>0.02</Mass>
+      <MarketValue>90</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+  <Cultist.PatronDef>
+    <defName>Cultist_Patron_Aladim</defName>
+    <label>Dr Ibn al-Adim</label>
+    <description>A scholar of solar histories and Lantern lore. Pays generously for Lantern monographs and tutors Aramaic.</description>
+    <preferredAspect>Lantern</preferredAspect>
+    <taughtLanguage>Cultist_Lang_Aramaic</taughtLanguage>
+    <tuitionSilver>180</tuitionSilver>
+    <commissionRequiredTier>1</commissionRequiredTier>
+    <commissionRewardSilver>220</commissionRewardSilver>
+    <commissionRewardSpintria>2</commissionRewardSpintria>
+    <commissionCooldownDays>5</commissionCooldownDays>
+  </Cultist.PatronDef>
+
+  <Cultist.PatronDef>
+    <defName>Cultist_Patron_Bechet</defName>
+    <label>Mme Bechet</label>
+    <description>A discerning collector of rare monographs and classical texts. Commissions esoteric papers and tutors Greek.</description>
+    <preferredAspect>Grail</preferredAspect>
+    <taughtLanguage>Cultist_Lang_Greek</taughtLanguage>
+    <tuitionSilver>180</tuitionSilver>
+    <commissionRequiredTier>1</commissionRequiredTier>
+    <commissionRewardSilver>200</commissionRewardSilver>
+    <commissionRewardSpintria>2</commissionRewardSpintria>
+    <commissionCooldownDays>5</commissionCooldownDays>
+  </Cultist.PatronDef>
+
+  <Cultist.PatronDef>
+    <defName>Cultist_Patron_Jannings</defName>
+    <label>Count Jannings</label>
+    <description>An aristocratic patron fascinated by conflict and hidden histories. Commissions treatises and tutors Latin.</description>
+    <preferredAspect>Edge</preferredAspect>
+    <taughtLanguage>Cultist_Lang_Latin</taughtLanguage>
+    <tuitionSilver>180</tuitionSilver>
+    <commissionRequiredTier>2</commissionRequiredTier>
+    <commissionRewardSilver>260</commissionRewardSilver>
+    <commissionRewardSpintria>2</commissionRewardSpintria>
+    <commissionCooldownDays>5</commissionCooldownDays>
+  </Cultist.PatronDef>
+
+  <Cultist.PatronDef>
+    <defName>Cultist_Patron_Sulochana</defName>
+    <label>Sulochana Amavasya</label>
+    <description>Proprietress of the Ecdysis Club. Rarely speaks plainly, yet rewards deep manuscripts and teaches Sanskrit.</description>
+    <preferredAspect>Moth</preferredAspect>
+    <taughtLanguage>Cultist_Lang_Sanskrit</taughtLanguage>
+    <tuitionSilver>200</tuitionSilver>
+    <commissionRequiredTier>2</commissionRequiredTier>
+    <commissionRewardSilver>280</commissionRewardSilver>
+    <commissionRewardSpintria>3</commissionRewardSpintria>
+    <commissionCooldownDays>6</commissionCooldownDays>
+  </Cultist.PatronDef>
+
+  <LetterDef>
+    <defName>Cultist_PoppyDebtLetter</defName>
+    <letterClass>Cultist.PoppyDebtLetter</letterClass>
+    <color>(0.85, 0.35, 0.45)</color>
+  </LetterDef>
+</Defs>

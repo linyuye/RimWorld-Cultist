@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.MarkNeedsInfluence>需要至少 {0} 点契合结社相性的影响。</Cultist.MarkNeedsInfluence>
+  <Cultist.Quest.Expedition>前往废弃勘测站，回收刻纹勘测板并运抵定居点。如果遗址失效，教主可在祭坛重新定位。</Cultist.Quest.Expedition>
+  <Cultist.Quest.Vigil.Title>守夜人之仪</Cultist.Quest.Vigil.Title>
+  <Cultist.Quest.Vigil.Description>在祭坛选择一本秘传、一件已修复的工具与一名教徒助手。秘传与工具提供的法力合计至少为 {0} 点。保护祭坛与教主 {1} 小时，并击退袭击者。最后抉择教主的去向。</Cultist.Quest.Vigil.Description>
+  <Cultist.Quest.Seer.Title>晋升崇高信徒</Cultist.Quest.Seer.Title>
+  <Cultist.Quest.Seer.Description>在祭坛备好两本秘传与至少 {0} 点契合结社相性的影响，将一名同相门徒晋升至三阶崇高头衔。</Cultist.Quest.Seer.Description>
+  <Cultist.Quest.Repair.Title>裂镜修复</Cultist.Quest.Repair.Title>
+  <Cultist.Quest.Repair.Description>在制作点用零部件修复裂损的迷途之镜。</Cultist.Quest.Repair.Description>
+  <Cultist.Quest.Transcript.Title>书商的抄本</Cultist.Quest.Transcript.Title>
+  <Cultist.Quest.Transcript.Description>让任意教徒研读勘测抄本，整理出两本结社秘传。</Cultist.Quest.Transcript.Description>
+</LanguageData>

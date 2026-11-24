@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>Cultist_UseBureauDossier</defName>
+    <driverClass>Cultist.BureauDossierJobDriver</driverClass>
+    <reportString>handling TargetA.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+
+  <ThingDef ParentName="Cultist_RiteMaterialBase">
+    <defName>Cultist_BureauDossier</defName>
+    <label>Suppression Bureau dossier</label>
+    <description>A sealed case file confiscated from a Suppression Bureau operative. Burning it erases active investigation leads (-10 notoriety, or -12 inside a Secret sanctuary); decoding it reveals the coordinates of a seized occult archive.</description>
+    <graphicData>
+      <texPath>Cultist/Catalog/Tool/mentorguidance</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>180</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="Cultist.BureauDossierProperties"/>
+    </comps>
+  </ThingDef>
+</Defs>

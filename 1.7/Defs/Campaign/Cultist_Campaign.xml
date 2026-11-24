@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LetterDef>
+    <defName>Cultist_JournalOffer</defName>
+    <letterClass>Cultist.JournalOffer</letterClass>
+    <color>(0.85, 0.75, 0.40)</color>
+  </LetterDef>
+  <JobDef>
+    <defName>Cultist_ReadJournal</defName>
+    <driverClass>Cultist.CultistInteractionJob</driverClass>
+    <reportString>reading TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>Cultist_EnterDream</defName>
+    <driverClass>Cultist.CultistInteractionJob</driverClass>
+    <reportString>preparing to dream.</reportString>
+  </JobDef>
+  <ThingDef>
+    <defName>Cultist_NightJournal</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>true</alwaysHaulable>
+    <useHitPoints>true</useHitPoints>
+    <thingCategories><li>Items</li></thingCategories>
+    <label>journal of the unlit sky</label>
+    <description>A recovered journal whose final pages describe a sky that cannot be seen while awake.</description>
+    <graphicData>
+      <texPath>Cultist/Items/NightJournal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+
+
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <Flammability>1</Flammability>
+      <MarketValue>80</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="Cultist.InteractionProperties"/>
+    </comps>
+  </ThingDef>
+  <JobDef>
+    <defName>Cultist_DiscussDoctrine</defName>
+    <driverClass>Cultist.DoctrineTalkJob</driverClass>
+    <reportString>discussing the Lantern with TargetA.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+</Defs>

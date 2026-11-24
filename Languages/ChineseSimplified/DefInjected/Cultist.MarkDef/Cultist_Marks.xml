@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Mark1.label>第一印：辨认印记</Cultist_Mark1.label>
+  <Cultist_Mark1.description>从漫宿林地带回结社秘传，或向异货商购买勘测抄本。让教徒研读秘传，把一本实体秘传放在祭坛附近，由教主举行第一次刻印仪式。</Cultist_Mark1.description>
+  <Cultist_Mark2.label>第二印：丈量微光</Cultist_Mark2.label>
+  <Cultist_Mark2.description>在研究页完成「光之研习」，再由教主将成果记入祭坛。</Cultist_Mark2.description>
+  <Cultist_Mark3.label>第三印：携兆归来</Cultist_Mark3.label>
+  <Cultist_Mark3.description>进入漫宿梦境，把一份契合结社相性的影响带回现实，在衰变前由教主向祭坛投入至少 2 点影响。</Cultist_Mark3.description>
+  <Cultist_Mark4.label>第四印：传授门徒</Cultist_Mark4.label>
+  <Cultist_Mark4.description>用原版传教让另一名殖民者加入结社。在祭坛旁备好秘传并让其晋升为门徒。门徒留在地图上时，由教主登记第四印。</Cultist_Mark4.description>
+  <Cultist_Mark5.label>第五印：带回勘测板</Cultist_Mark5.label>
+  <Cultist_Mark5.description>由教主在祭坛定位废弃勘测站。派商队回收刻纹勘测板并运回据点，再给教主穿戴契合结社相性的秘教装备，登记第五印。</Cultist_Mark5.description>
+  <Cultist_Mark6.label>第六印：驻守门限</Cultist_Mark6.label>
+  <Cultist_Mark6.description>准备两本实体秘传。从漫宿深处的大门带回至少 10 点契合结社相性的影响，由教主将这些材料投入祭坛。</Cultist_Mark6.description>
+</LanguageData>

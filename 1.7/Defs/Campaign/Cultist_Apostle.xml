@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LetterDef>
+    <defName>Cultist_ApostleOfferLetter</defName>
+    <letterClass>Cultist.ApostleOfferLetter</letterClass>
+    <color>(0.96, 0.80, 0.38)</color>
+  </LetterDef>
+
+  <ThingDef ParentName="Cultist_RiteMaterialBase">
+    <defName>Cultist_DawnbreakerCore</defName>
+    <label>Dawnbreaker Core</label>
+    <description>A blinding engine of plasteel, high-grade components, and archaic spintriae forged for the Forge Apostle's Great Work.</description>
+    <graphicData>
+      <texPath>Cultist/Catalog/Tool/apostleforge.pillar2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.95</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>4.0</Mass>
+      <Flammability>0</Flammability>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>Cultist_CraftDawnbreakerCore</defName>
+    <label>forge Dawnbreaker Core</label>
+    <description>Forge the Dawnbreaker Core required for the Forge Apostle's Great Work.</description>
+    <jobString>Forging Dawnbreaker Core.</jobString>
+    <workAmount>3600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>Cultist_HighMansusRites</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>FueledSmithy</li>
+      <li>ElectricSmithy</li>
+    </recipeUsers>
+    <ingredients>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>50</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>8</count></li>
+      <li><filter><thingDefs><li>Cultist_Spintria</li></thingDefs></filter><count>5</count></li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+        <li>Cultist_Spintria</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products><Cultist_DawnbreakerCore>1</Cultist_DawnbreakerCore></products>
+  </RecipeDef>
+
+  <ThingDef ParentName="Cultist_RiteMaterialBase">
+    <defName>Cultist_VitulationChalice</defName>
+    <label>Amethyst Vitulation Chalice</label>
+    <description>A sumptuous ceremonial vintage distilled from fine delicacies and spintriae for the Grail Apostle's Great Work.</description>
+    <graphicData>
+      <texPath>Cultist/Catalog/Ingredient/apostlegrail.pillar3</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.95</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <Flammability>0</Flammability>
+      <MarketValue>1100</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>Cultist_CraftVitulationChalice</defName>
+    <label>prepare Amethyst Vitulation Chalice</label>
+    <description>Prepare the ceremonial Grail feast chalice required for the Grail Apostle's Great Work.</description>
+    <jobString>Preparing Amethyst Vitulation Chalice.</jobString>
+    <workAmount>3200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Cultist_HighMansusRites</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <ingredients>
+      <li><filter><thingDefs><li>MealFine</li><li>MealLavish</li></thingDefs></filter><count>10</count></li>
+      <li><filter><thingDefs><li>Cultist_Spintria</li></thingDefs></filter><count>5</count></li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MealFine</li>
+        <li>MealLavish</li>
+        <li>Cultist_Spintria</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products><Cultist_VitulationChalice>1</Cultist_VitulationChalice></products>
+  </RecipeDef>
+</Defs>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>Cultist_ReadOccultBook</defName>
+    <driverClass>Cultist.CultistBookJobDriver</driverClass>
+    <reportString>studying TargetA.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+
+  <ThingDef Name="Cultist_ReadableBookBase" ParentName="Cultist_RiteMaterialBase" Abstract="True">
+    <tradeTags><li>CultistBook</li></tradeTags>
+    <graphicData>
+      <texPath>Cultist/Items/AncientCodex</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_ReadableBookBase">
+    <defName>Cultist_Textbook_Latin</defName>
+    <label>primer of Latin</label>
+    <description>A well-annotated classical grammar. Reading it teaches the reader Latin so they can decipher Latin occult manuscripts.</description>
+    <graphicData><texPath>Cultist/Catalog/Book/textbooklatin</texPath></graphicData>
+    <statBases><MarketValue>160</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CultistBookProperties">
+        <teachesLanguage>Cultist_Lang_Latin</teachesLanguage>
+        <readWorkTicks>700</readWorkTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_ReadableBookBase">
+    <defName>Cultist_Textbook_Greek</defName>
+    <label>primer of Greek</label>
+    <description>An archaic Hellenic primer. Reading it teaches the reader Greek for translating ancient philosophical fragments.</description>
+    <graphicData><texPath>Cultist/Catalog/Book/textbookgreek</texPath></graphicData>
+    <statBases><MarketValue>160</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CultistBookProperties">
+        <teachesLanguage>Cultist_Lang_Greek</teachesLanguage>
+        <readWorkTicks>700</readWorkTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_ReadableBookBase">
+    <defName>Cultist_Textbook_Aramaic</defName>
+    <label>primer of Aramaic</label>
+    <description>A desert archivist's textbook. Reading it teaches the reader Aramaic for translating solar and Lantern texts.</description>
+    <graphicData><texPath>Cultist/Catalog/Book/textbookaramaic</texPath></graphicData>
+    <statBases><MarketValue>160</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CultistBookProperties">
+        <teachesLanguage>Cultist_Lang_Aramaic</teachesLanguage>
+        <readWorkTicks>700</readWorkTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_ReadableBookBase">
+    <defName>Cultist_Textbook_Sanskrit</defName>
+    <label>primer of Sanskrit</label>
+    <description>A linen-bound treatise on classical Sanskrit. Reading it teaches the reader Sanskrit.</description>
+    <graphicData><texPath>Cultist/Catalog/Book/textbooksanskrit</texPath></graphicData>
+    <statBases><MarketValue>180</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CultistBookProperties">
+        <teachesLanguage>Cultist_Lang_Sanskrit</teachesLanguage>
+        <readWorkTicks>700</readWorkTicks>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

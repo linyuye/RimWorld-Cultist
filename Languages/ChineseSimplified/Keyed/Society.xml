@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.Altar.Succeed>接任教主</Cultist.Altar.Succeed>
+  <Cultist.Altar.Promote>请求晋升</Cultist.Altar.Promote>
+  <Cultist.Altar.Mark>刻录下一道印记</Cultist.Altar.Mark>
+  <Cultist.Altar.Vigil>开启四星守夜人之怆</Cultist.Altar.Vigil>
+  <Cultist.AltarSummary>印记 {0}/6 · 已研读 {1}/7 阶 · 灯影响 {2} · 入迷 {3} · 恐惧 {4} · 追忆 {5} · 安逸 {6}</Cultist.AltarSummary>
+  <Cultist.NeedLantern>只有灯相教徒可以达到三级。</Cultist.NeedLantern>
+  <Cultist.NeedPromotionInputs>需要至少六点灯影响。</Cultist.NeedPromotionInputs>
+  <Cultist.RankMaximum>此教徒已达最高等级。</Cultist.RankMaximum>
+  <Cultist.NeedResearch>完成光之研习。</Cultist.NeedResearch>
+  <Cultist.NeedDisciple>将另一名教徒晋升至二级，并让其来到本地图。</Cultist.NeedDisciple>
+  <Cultist.NeedGear>穿上观测员外套或装备刻光针。</Cultist.NeedGear>
+  <Cultist.SuccessorMade>{0}已接任教主。</Cultist.SuccessorMade>
+  <Cultist.Promoted>{0}已晋升为{1}。</Cultist.Promoted>
+  <Cultist.Rank.2>门徒</Cultist.Rank.2>
+  <Cultist.Rank.3>先见者</Cultist.Rank.3>
+  <Cultist.MarkEarned>教会已刻录第{0}道印记，共六道。</Cultist.MarkEarned>
+  <Cultist.VigilUnavailable>这座祭坛现在无法引来挑战，请稍后再试。</Cultist.VigilUnavailable>
+  <Cultist.VigilStarted>守夜已经开始。保护祭坛和教主，击退袭击者，并坚持六小时。</Cultist.VigilStarted>
+  <Cultist.VigilFailed>守夜中断。准备好后可在祭坛重新开始。</Cultist.VigilFailed>
+  <Cultist.EndingPrompt>门扉已开。教主将归来，还是飞升离去？</Cultist.EndingPrompt>
+  <Cultist.ReturnChoice>以长生者身份归来</Cultist.ReturnChoice>
+  <Cultist.DepartChoice>飞升为长生者并离开</Cultist.DepartChoice>
+  <Cultist.EndingTitle>守夜之后</Cultist.EndingTitle>
+  <Cultist.EndingReturned>{0}带回一缕光。它将加快教会的研究。</Cultist.EndingReturned>
+  <Cultist.EndingDeparted>{0}穿过了通道。殖民地可以推举继任者。</Cultist.EndingDeparted>
+  <Cultist.Gate.0>林地</Cultist.Gate.0>
+  <Cultist.Gate.1>纯白之门</Cultist.Gate.1>
+  <Cultist.Gate.2>牡鹿之门</Cultist.Gate.2>
+  <Cultist.Gate.3>蜘蛛之门</Cultist.Gate.3>
+  <Cultist.Gate.4>孔雀之门</Cultist.Gate.4>
+  <Cultist.Reward.IntenseLight>带回一缕炽烈的光</Cultist.Reward.IntenseLight>
+  <Cultist.Reward.BrilliantLight>带回一缕刺眼的光</Cultist.Reward.BrilliantLight>
+  <Cultist.Altar.RelieveMemory>以追忆平复入迷</Cultist.Altar.RelieveMemory>
+  <Cultist.Altar.RelieveFear>以恐惧平复入迷</Cultist.Altar.RelieveFear>
+  <Cultist.Altar.RelieveComfort>以安逸缓解恐惧</Cultist.Altar.RelieveComfort>
+  <Cultist.Relieved>{0}的心绪平复了一些。</Cultist.Relieved>
+  <Cultist.FearWarning>恐惧正在逼近{0}。</Cultist.FearWarning>
+  <Cultist.DespairCrisis>{0}陷入了绝望。请在六小时内到祭坛使用安逸。</Cultist.DespairCrisis>
+  <Cultist.Reward.Fear>面对令人不安的倒影</Cultist.Reward.Fear>
+  <Cultist.Reward.Comfort>带回片刻安逸</Cultist.Reward.Comfort>
+  <Cultist.DarkSeason>长影漫延的时节让教主又添一份恐惧。</Cultist.DarkSeason>
+  <Cultist.InfluenceTiming>{3}影响 {0} · {1} 小时后转为 {2}</Cultist.InfluenceTiming>
+  <Cultist.CrisisTiming>{0}危机剩余 {1} 小时</Cultist.CrisisTiming>
+  <Cultist.NextFascination>入迷</Cultist.NextFascination>
+  <Cultist.NextDespair>绝望</Cultist.NextDespair>
+  <Cultist.Research.Society>教会：+{0}</Cultist.Research.Society>
+  <Cultist.Research.Equipment>性相装备：+{0}</Cultist.Research.Equipment>
+  <Cultist.GearRanks>{0}相 · {1}按阶级：+{2} / +{3} / +{4}</Cultist.GearRanks>
+</LanguageData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef Name="Cultist_ConsecratedScarBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <defaultLabelColor>(0.78, 0.56, 0.96)</defaultLabelColor>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Lantern</defName>
+    <label>Lantern-Lock Scar</label>
+    <description>When I am the Threshold, this scar will open at dawn. Grants +10% research speed.</description>
+    <stages><li><statOffsets><ResearchSpeed>0.10</ResearchSpeed></statOffsets></li></stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Forge</defName>
+    <label>Forge-Lock Scar</label>
+    <description>When I am the Threshold, this scar will open to the touch of hot iron. Grants +10% general labor speed.</description>
+    <stages><li><statOffsets><GeneralLaborSpeed>0.10</GeneralLaborSpeed></statOffsets></li></stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Edge</defName>
+    <label>Edge-Lock Scar</label>
+    <description>When I am the Threshold, this scar will open to the touch of a blade. Grants +10% melee damage.</description>
+    <stages><li><statOffsets><MeleeDamageFactor>0.10</MeleeDamageFactor></statOffsets></li></stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Winter</defName>
+    <label>Winter-Lock Scar</label>
+    <description>When I am the Threshold, this scar will open last. Lowers comfortable minimum temperature by 10°C.</description>
+    <stages><li><statOffsets><ComfyTemperatureMin>-10</ComfyTemperatureMin></statOffsets></li></stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Heart</defName>
+    <label>Heart-Lock Scar</label>
+    <description>When I am the Threshold, this scar will open to the beat of the drum. Grants +12% immunity gain speed.</description>
+    <stages><li><statOffsets><ImmunityGainSpeed>0.12</ImmunityGainSpeed></statOffsets></li></stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Grail</defName>
+    <label>Grail-Lock Scar</label>
+    <description>When I am the Threshold, this scar will open to a warm kiss. Grants +12% social impact.</description>
+    <stages><li><statOffsets><SocialImpact>0.12</SocialImpact></statOffsets></li></stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Moth</defName>
+    <label>Moth-Lock Scar</label>
+    <description>When I am the Threshold, this scar will answer the shears. Grants +0.25 move speed.</description>
+    <stages><li><statOffsets><MoveSpeed>0.25</MoveSpeed></statOffsets></li></stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_ConsecratedScarBase">
+    <defName>Cultist_Scar_Knock</defName>
+    <label>Knock-Lock Scar</label>
+    <description>A sacred threshold scar that steadies summonings (-6% backlash risk) and sharpens psychic sensitivity.</description>
+    <stages><li><statOffsets><PsychicSensitivity>0.10</PsychicSensitivity></statOffsets></li></stages>
+  </HediffDef>
+</Defs>

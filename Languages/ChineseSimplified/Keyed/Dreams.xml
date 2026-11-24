@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.DreamRegion.0.0>林间小径</Cultist.DreamRegion.0.0>
+  <Cultist.DreamRegion.0.1>树根下的井</Cultist.DreamRegion.0.1>
+  <Cultist.DreamRegion.0.2>转轮堂</Cultist.DreamRegion.0.2>
+  <Cultist.DreamRegion.1.0>白门道路</Cultist.DreamRegion.1.0>
+  <Cultist.DreamRegion.1.1>隐士小屋</Cultist.DreamRegion.1.1>
+  <Cultist.DreamRegion.1.2>光之果园</Cultist.DreamRegion.1.2>
+  <Cultist.DreamRegion.2.0>鹿角径</Cultist.DreamRegion.2.0>
+  <Cultist.DreamRegion.2.1>刀刃阶梯</Cultist.DreamRegion.2.1>
+  <Cultist.DreamRegion.2.2>画中之河</Cultist.DreamRegion.2.2>
+  <Cultist.DreamRegion.3.0>蛛丝长径</Cultist.DreamRegion.3.0>
+  <Cultist.DreamRegion.3.1>锤炼场</Cultist.DreamRegion.3.1>
+  <Cultist.DreamRegion.3.2>道路之室</Cultist.DreamRegion.3.2>
+  <Cultist.DreamRegion.4.0>流彩门径</Cultist.DreamRegion.4.0>
+  <Cultist.DreamRegion.4.1>朱红礼拜堂</Cultist.DreamRegion.4.1>
+  <Cultist.DreamRegion.4.2>空壳展馆</Cultist.DreamRegion.4.2>
+  <Cultist.Reward.Whisper>颅中低语</Cultist.Reward.Whisper>
+  <Cultist.Reward.TornPage>残缺书页</Cultist.Reward.TornPage>
+  <Cultist.Reward.Rumor>低传的流言</Cultist.Reward.Rumor>
+  <Cultist.Reward.Appetite>复苏的食欲</Cultist.Reward.Appetite>
+  <Cultist.Reward.Vitality>回返的生机</Cultist.Reward.Vitality>
+  <Cultist.Reward.HiddenAccount>暗藏的记述</Cultist.Reward.HiddenAccount>
+  <Cultist.Reward.FineCrack>细如发丝的裂纹</Cultist.Reward.FineCrack>
+  <Cultist.Reward.Shiver>如刃的吐息</Cultist.Reward.Shiver>
+  <Cultist.Reward.FrozenAir>凝滞的霜气</Cultist.Reward.FrozenAir>
+  <Cultist.Reward.Restless>焦躁的回响</Cultist.Reward.Restless>
+  <Cultist.Reward.DoorSliver>门闩留下的隙缝</Cultist.Reward.DoorSliver>
+  <Cultist.Reward.LostHistory>忘却的纪事</Cultist.Reward.LostHistory>
+  <Cultist.Reward.Insight>忽至的灵感</Cultist.Reward.Insight>
+  <Cultist.Reward.MarginalNotes>页边批注</Cultist.Reward.MarginalNotes>
+  <Cultist.Reward.SealOfFavor>庇护者的印信</Cultist.Reward.SealOfFavor>
+  <Cultist.Reward.Pulse>地底的脉搏</Cultist.Reward.Pulse>
+  <Cultist.Reward.BrokenThreshold>断开的门槛</Cultist.Reward.BrokenThreshold>
+  <Cultist.Reward.ShakingHeat>振颤的暖流</Cultist.Reward.ShakingHeat>
+  <Cultist.Reward.Anger>怒意的锋芒</Cultist.Reward.Anger>
+  <Cultist.Reward.Hunger>迫切的饥渴</Cultist.Reward.Hunger>
+  <Cultist.Reward.BitterCold>凛冽的冷意</Cultist.Reward.BitterCold>
+  <Cultist.Reward.ForbiddenEpic>讳禁的史诗</Cultist.Reward.ForbiddenEpic>
+  <Cultist.Reward.ScholarsNotes>学者笔记</Cultist.Reward.ScholarsNotes>
+  <Cultist.Reward.Famine>吞噬一切的饥渴</Cultist.Reward.Famine>
+  <Cultist.Reward.Drumming>地板下的鼓点</Cultist.Reward.Drumming>
+  <Cultist.Reward.Furnace>熔炉吐息</Cultist.Reward.Furnace>
+  <Cultist.Reward.Ambiguity>两解之谜</Cultist.Reward.Ambiguity>
+  <Cultist.Reward.RedResidue>赭红沉淀</Cultist.Reward.RedResidue>
+  <Cultist.Reward.WrongDoor>错置之门</Cultist.Reward.WrongDoor>
+  <Cultist.Reward.HeartRoar>肋间轰鸣</Cultist.Reward.HeartRoar>
+  <Cultist.Reward.InterpreterNotes>译者手稿</Cultist.Reward.InterpreterNotes>
+  <Cultist.Reward.RedBody>凝作血肉的朱红</Cultist.Reward.RedBody>
+  <Cultist.Reward.Nectar>未凋的蜜露</Cultist.Reward.Nectar>
+  <Cultist.Reward.WanderingMap>旅人的舆图</Cultist.Reward.WanderingMap>
+  <Cultist.Reward.FlawlessIce>无痕坚冰</Cultist.Reward.FlawlessIce>
+  <Cultist.AutoDreamToggle>自动入梦</Cultist.AutoDreamToggle>
+  <Cultist.AutoDreamDescription>教主夜间睡着后入梦，游戏暂停等待选择。</Cultist.AutoDreamDescription>
+  <Cultist.DreamBack>返回选门</Cultist.DreamBack>
+  <Cultist.DreamInfluenceReward>{0} · {1}影响 {2}</Cultist.DreamInfluenceReward>
+  <Cultist.DreamMappedReward>{0} · {1}</Cultist.DreamMappedReward>
+  <Cultist.DreamFade>消散</Cultist.DreamFade>
+  <Cultist.DreamEffect.Lore>秘传：{0}</Cultist.DreamEffect.Lore>
+  <Cultist.DreamEffect.Fascination>+1 入迷</Cultist.DreamEffect.Fascination>
+  <Cultist.DreamEffect.Fear>+1 恐惧</Cultist.DreamEffect.Fear>
+  <Cultist.DreamEffect.Memory>+1 一瞬追忆</Cultist.DreamEffect.Memory>
+  <Cultist.DreamEffect.Comfort>+1 安逸</Cultist.DreamEffect.Comfort>
+  <Cultist.DreamEffect.InterpreterNotes>{0}、伐诃语。教会限领一次</Cultist.DreamEffect.InterpreterNotes>
+</LanguageData>

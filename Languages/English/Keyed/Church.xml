@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.CharacterTab>Society</Cultist.CharacterTab>
+  <Cultist.PersonalAspect>Personal affinity: {0}</Cultist.PersonalAspect>
+  <Cultist.SocietyRank>Society rank: {0}</Cultist.SocietyRank>
+  <Cultist.OutsideChurch>Not a member</Cultist.OutsideChurch>
+  <Cultist.LeaderTitle>Current society leader</Cultist.LeaderTitle>
+  <Cultist.EditChurchRules>Edit church customs</Cultist.EditChurchRules>
+  <Cultist.FixedChurchRules>The Lantern doctrine and normal research are fixed. Other customs can be edited below.</Cultist.FixedChurchRules>
+  <Cultist.AppointSuccessor>Appoint as successor</Cultist.AppointSuccessor>
+  <Cultist.ConfirmSuccessor>Appoint {0} as the society leader? The current leader will relinquish the office.</Cultist.ConfirmSuccessor>
+  <Cultist.DiscussDoctrine>Discuss the Lantern with {0}</Cultist.DiscussDoctrine>
+  <Cultist.DoctrineTalkLater>{0} (wait for the next discussion)</Cultist.DoctrineTalkLater>
+  <Cultist.DoctrineTalkInterrupted>{0} cannot talk right now.</Cultist.DoctrineTalkInterrupted>
+</LanguageData>

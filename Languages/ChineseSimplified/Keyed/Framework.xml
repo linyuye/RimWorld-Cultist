@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.ChurchPrimarySet>{0} 已成为殖民地的主信仰。</Cultist.ChurchPrimarySet>
+  <Cultist.SetPrimaryIdeo>设为殖民地主信仰</Cultist.SetPrimaryIdeo>
+  <Cultist.OpenPatrons>赞助人委托与古语师承</Cultist.OpenPatrons>
+  <Cultist.KnownLanguages>已掌握古语：{0}</Cultist.KnownLanguages>
+  <Cultist.NotorietyLabel>恶名（邪名）：{0}（{1}）</Cultist.NotorietyLabel>
+  <Cultist.Notoriety.Quiet>潜伏</Cultist.Notoriety.Quiet>
+  <Cultist.Notoriety.Notable>惹人注目</Cultist.Notoriety.Notable>
+  <Cultist.Notoriety.High>高危——防剿局警戒</Cultist.Notoriety.High>
+  <Cultist.Notoriety.Extreme>极危——清剿迫近</Cultist.Notoriety.Extreme>
+  <Cultist.Notoriety.Murder>非战杀戮（{0}）引来了外界怀疑（恶名 +4）。</Cultist.Notoriety.Murder>
+
+  <Cultist.BureauArrivedTitle>防剿局设立外勤据点</Cultist.BureauArrivedTitle>
+  <Cultist.BureauArrivedBody>防剿局（{0}）已在这颗边缘星球上设立了 {1} 座外勤据点，严密监视一切禁忌结社的活动。</Cultist.BureauArrivedBody>
+  <Cultist.BureauRaidTitle>防剿局武装清剿</Cultist.BureauRaidTitle>
+  <Cultist.BureauRaidBody>殖民地累积的密教恶名引来了防剿局的武装特勤小队，他们正准备强行清剿教会。</Cultist.BureauRaidBody>
+  <Cultist.RivalLongRaidTitle>竞争长生者突袭</Cultist.RivalLongRaidTitle>
+  <Cultist.RivalLongRaidBody>某位早已飞升的长生者将你们教会的崛起视为威胁，派遣了手下仆从与刺客前来破坏殖民地。</Cultist.RivalLongRaidBody>
+  <Cultist.Melee.GrowthExplain>密教成长阶 {0}（影响共鸣 +{1}）：×{2}</Cultist.Melee.GrowthExplain>
+  <Cultist.GearGrowthInspect>{0}相成长装备（{1}：随教阶与印记 0~5 阶平滑成长 {2}→{3}，同相影响激活时触发共鸣增幅）</Cultist.GearGrowthInspect>
+
+  <Cultist.HQ.Temporary>教团总部：临时总部（无房间特性加成）</Cultist.HQ.Temporary>
+  <Cultist.HQ.Active>教团总部特性：{0}</Cultist.HQ.Active>
+  <Cultist.HQ.Library>藏书室</Cultist.HQ.Library>
+  <Cultist.HQ.Sanctuary>圣所</Cultist.HQ.Sanctuary>
+  <Cultist.HQ.Pit>秘窖</Cultist.HQ.Pit>
+  <Cultist.HQ.Secret>隐秘（恶名 -40%）</Cultist.HQ.Secret>
+
+  <Cultist.CodexRequiresLang>未破译（需要掌握{0}）</Cultist.CodexRequiresLang>
+  <Cultist.TranslateCodex>破译古代密本（{0}）</Cultist.TranslateCodex>
+  <Cultist.TranslateCodexNeedLang>破译密本：需掌握{0}</Cultist.TranslateCodexNeedLang>
+  <Cultist.CodexTranslated>{0} 运用{1}成功破译了古代密本，整理出可用的秘传典籍。</Cultist.CodexTranslated>
+  <Cultist.LanguageLearned>{0} 掌握了古代语言：{1}。</Cultist.LanguageLearned>
+  <Cultist.AlreadyKnowsLanguage>{0} 已经掌握了{1}。</Cultist.AlreadyKnowsLanguage>
+
+  <Cultist.PatronsWindowTitle>密教赞助人——论文委托与古语师承</Cultist.PatronsWindowTitle>
+  <Cultist.PatronSubmitCommission>提交 {0} 阶以上秘传（报酬 {1} 白银）</Cultist.PatronSubmitCommission>
+  <Cultist.PatronCooldown>冷却中（剩余 {0} 天）</Cultist.PatronCooldown>
+  <Cultist.PatronLearnLang>拜师学习{0}（{1} 白银）</Cultist.PatronLearnLang>
+  <Cultist.PatronNeedLoreTier>教会至少需要先研习过 {0} 阶秘传。</Cultist.PatronNeedLoreTier>
+  <Cultist.PatronNeedLoreBook>地图上需要有一本未禁用的 {0} 阶以上实体秘传可供交付。</Cultist.PatronNeedLoreBook>
+  <Cultist.PatronNeedSilver>地图上需要至少 {0} 未禁用的白银。</Cultist.PatronNeedSilver>
+  <Cultist.PatronCommissionDone>{0} 收下了委托稿件，支付了 {1} 白银与 {2} 枚古币。</Cultist.PatronCommissionDone>
+
+  <Cultist.Book.AlreadyRead>已研读</Cultist.Book.AlreadyRead>
+  <Cultist.Book.TeachesLang>研读后习得古语：{0}</Cultist.Book.TeachesLang>
+  <Cultist.Book.RevealsSite>研读后揭示 {0} 级隐秘探索地点</Cultist.Book.RevealsSite>
+  <Cultist.Book.ReadOption>研读《{0}》</Cultist.Book.ReadOption>
+  <Cultist.Book.NeedLangOption>研读《{0}》：需掌握{1}</Cultist.Book.NeedLangOption>
+  <Cultist.Book.FinishedReading>{0} 完成了对《{1}》的研读。</Cultist.Book.FinishedReading>
+  <Cultist.BookSiteTitle>{0} 级隐秘遗址（出自《{1}》）</Cultist.BookSiteTitle>
+  <Cultist.BookSiteDesc>研读《{0}》揭示了一处 {1} 级隐秘藏所的大地图坐标。派遣远征商队前往探索，击败守卫并回收其中的秘传、裂损工具与古币。</Cultist.BookSiteDesc>
+
+  <Cultist.Altar.Summon>召唤灵体…</Cultist.Altar.Summon>
+  <Cultist.Summon.WindowTitle>祭坛召唤——从漫宿呼唤灵体</Cultist.Summon.WindowTitle>
+  <Cultist.Summon.ActiveRow>已召唤：{0}（剩余 {1} 小时）</Cultist.Summon.ActiveRow>
+  <Cultist.Summon.LearnLang>请教{0}</Cultist.Summon.LearnLang>
+  <Cultist.Summon.Dismiss>驱逐</Cultist.Summon.Dismiss>
+  <Cultist.Summon.ReqSummary>需秘传 {0} 阶+ | 影响 {1}+ | 反噬率 {2} | 持续 {3} 天</Cultist.Summon.ReqSummary>
+  <Cultist.Summon.Button>召唤（耗1秘传）</Cultist.Summon.Button>
+  <Cultist.Summon.NeedLoreTier>教会至少需研习过 {0} 阶秘传。</Cultist.Summon.NeedLoreTier>
+  <Cultist.Summon.NeedInfluence>至少需要 {0} 点当前激活的梦境影响。</Cultist.Summon.NeedInfluence>
+  <Cultist.Summon.Success>{0} 成功召唤并束缚了灵体：{1}。</Cultist.Summon.Success>
+  <Cultist.Summon.Dissipated>{0} 消散归于漫宿。</Cultist.Summon.Dissipated>
+  <Cultist.Summon.BacklashTitle>召唤反噬：{0}</Cultist.Summon.BacklashTitle>
+  <Cultist.Summon.BacklashBody>{0} 在召唤仪式中失去了控制！{1} 挣脱了束缚并开始袭击殖民地！</Cultist.Summon.BacklashBody>
+
+  <Cultist.ChurchName.Forge>不屈教团</Cultist.ChurchName.Forge>
+  <Cultist.ChurchDescription.Forge>侍奉白日铸炉的密教结社，以工艺、烈火与无畏的重塑追求蜕变。</Cultist.ChurchDescription.Forge>
+  <Cultist.ChurchName.Grail>血杯教团</Cultist.ChurchName.Grail>
+  <Cultist.ChurchDescription.Grail>侍奉赤杯的密教结社，礼赞渴望、欢愉与永不落幕的圣宴。</Cultist.ChurchDescription.Grail>
+  <Cultist.ChurchName.Edge>闪刃教会</Cultist.ChurchName.Edge>
+  <Cultist.ChurchDescription.Edge>侍奉争锋之刃的密教结社，在冲突、决斗与征服中磨砺信徒。</Cultist.ChurchDescription.Edge>
+  <Cultist.ChurchName.Winter>静默之子</Cultist.ChurchName.Winter>
+  <Cultist.ChurchDescription.Winter>侍奉冬之司辰的密教结社，守望寒霜、终结与不可挽留之物的静默。</Cultist.ChurchDescription.Winter>
+  <Cultist.ChurchName.Heart>不休圣堂</Cultist.ChurchName.Heart>
+  <Cultist.ChurchDescription.Heart>侍奉轰雷之皮的密教结社，以永不停歇的律动与医术护佑生机。</Cultist.ChurchDescription.Heart>
+  <Cultist.ChurchName.Moth>荒林俱乐部</Cultist.ChurchName.Moth>
+  <Cultist.ChurchDescription.Moth>侍奉蛾与林地的密教结社，拥抱渴望、蜕壳与变幻莫测的改易。</Cultist.ChurchDescription.Moth>
+
+  <Cultist.Rank.Lantern.3>先见者</Cultist.Rank.Lantern.3>
+  <Cultist.Rank.Forge.3>重塑者</Cultist.Rank.Forge.3>
+  <Cultist.Rank.Grail.3>纵情者</Cultist.Rank.Grail.3>
+  <Cultist.Rank.Edge.3>暗杀者</Cultist.Rank.Edge.3>
+  <Cultist.Rank.Winter.3>沉默者</Cultist.Rank.Winter.3>
+  <Cultist.Rank.Heart.3>蛊舞者</Cultist.Rank.Heart.3>
+  <Cultist.Rank.Moth.3>易皮者</Cultist.Rank.Moth.3>
+
+  <Cultist.SuspicionRaidTitle>猜忌的时节：防剿局突袭</Cultist.SuspicionRaidTitle>
+  <Cultist.SuspicionRaidBody>猜忌的时节降临，且殖民地恶名已超过警戒阈值的 75%！防剿局立刻发动了一次武装清剿袭击。</Cultist.SuspicionRaidBody>
+  <Cultist.SuspicionSeasonQuiet>猜忌的时节悄然掠过，教会的恶名略有上升，但尚未达到引来防剿局突袭的程度。</Cultist.SuspicionSeasonQuiet>
+  <Cultist.SicknessSeason>疾病的时节降临，{0} 染上了 {1}。</Cultist.SicknessSeason>
+  <Cultist.SicknessSeasonSpared>疾病的时节掠过，{0} 侥幸未染新疾。</Cultist.SicknessSeasonSpared>
+  <Cultist.SilenceSeason>静默的时节笼罩了 {0}（心灵敏感度 -50%）。</Cultist.SilenceSeason>
+
+  <Cultist.Spirit.Draft>征召</Cultist.Spirit.Draft>
+  <Cultist.Spirit.DraftDesc>指挥灵体移动和战斗。</Cultist.Spirit.DraftDesc>
+  <Cultist.Spirit.Move>移动</Cultist.Spirit.Move>
+  <Cultist.Spirit.MoveDesc>命令此灵体移动到指定格子。</Cultist.Spirit.MoveDesc>
+  <Cultist.Spirit.Attack>攻击</Cultist.Spirit.Attack>
+  <Cultist.Spirit.AttackDesc>命令此灵体近战攻击指定目标。</Cultist.Spirit.AttackDesc>
+  <Cultist.Spirit.PacifyOption>安抚发狂的 {0}</Cultist.Spirit.PacifyOption>
+  <Cultist.Spirit.Pacified>{0} 强行安抚了 {1}，令其重归掌控（代价：{2}）。</Cultist.Spirit.Pacified>
+  <Cultist.Pacify.CostFear>获得 1 份恐惧</Cultist.Pacify.CostFear>
+  <Cultist.Pacify.CostFascination>获得 1 份入迷</Cultist.Pacify.CostFascination>
+  <Cultist.Pacify.CostNotoriety>恶名 +10</Cultist.Pacify.CostNotoriety>
+  <Cultist.Pacify.CostDisease>染上 {0}</Cultist.Pacify.CostDisease>
+  <Cultist.Pacify.CostComfort>意外获得 1 份安逸</Cultist.Pacify.CostComfort>
+
+  <Cultist.ChooseSocietyPath>个人性相已选为：{0}。请选择你要创立的核心社团：</Cultist.ChooseSocietyPath>
+
+  <Cultist.Evidence.DaysLeft>剩余期限：{0} 天</Cultist.Evidence.DaysLeft>
+  <Cultist.Evidence.Progress>正在大地图潜入销毁：{0}（预计成功率 {1}）</Cultist.Evidence.Progress>
+  <Cultist.Evidence.StartInfiltrate>潜入并销毁确凿证据（成功率 {0}）</Cultist.Evidence.StartInfiltrate>
+  <Cultist.Evidence.TravelAndInfiltrate>前往大地图销毁防剿局证据</Cultist.Evidence.TravelAndInfiltrate>
+  <Cultist.Evidence.GizmoLabel>销毁证据</Cultist.Evidence.GizmoLabel>
+  <Cultist.Evidence.GizmoDesc>无需进入战斗地图，直接在大地图读条潜入销毁防剿局证据（预计成功率 {0}）。</Cultist.Evidence.GizmoDesc>
+  <Cultist.Evidence.InfiltrationStarted>{0} 已开始在防剿局暗探藏匿点潜入销毁证据。</Cultist.Evidence.InfiltrationStarted>
+  <Cultist.Evidence.SpawnedTitle>发现防剿局「确凿证据」藏匿点</Cultist.Evidence.SpawnedTitle>
+  <Cultist.Evidence.SpawnedBody>防剿局暗探在附近大地图藏匿了针对教会的确凿证据。请在 8 天内派遣远行队前往该格直接读条销毁（无需进入战斗地图），否则将招致武装清剿。</Cultist.Evidence.SpawnedBody>
+  <Cultist.Evidence.SuccessTitle>确凿证据已销毁</Cultist.Evidence.SuccessTitle>
+  <Cultist.Evidence.SuccessBody>{0} 成功销毁了防剿局暗探留下的所有档案，未惊动任何人（恶名 -25）。</Cultist.Evidence.SuccessBody>
+  <Cultist.Evidence.FailTitle>潜入暴露</Cultist.Evidence.FailTitle>
+  <Cultist.Evidence.FailBody>远行队销毁证据时行迹败露！恶名飙升，防剿局已立刻发动报复性清剿袭击。</Cultist.Evidence.FailBody>
+  <Cultist.Evidence.ExpiredTitle>确凿证据已呈交防剿局</Cultist.Evidence.ExpiredTitle>
+  <Cultist.Evidence.ExpiredBody>未能及时处理的证据已被送抵防剿局总部，恶名飙升并引来了武装清剿袭击。</Cultist.Evidence.ExpiredBody>
+
+  <Cultist.Oriflamme.NoPower>奥里弗拉姆秘商行：通讯台未通电</Cultist.Oriflamme.NoPower>
+  <Cultist.Oriflamme.CommsOption>联络奥里弗拉姆秘商行（古币直购）</Cultist.Oriflamme.CommsOption>
+  <Cultist.Oriflamme.WindowHeader>奥里弗拉姆秘商行 · 古币 {0} 枚 · {1} 天后到货</Cultist.Oriflamme.WindowHeader>
+  <Cultist.Oriflamme.FollowerLeadTitle>招募 {0}</Cultist.Oriflamme.FollowerLeadTitle>
+  <Cultist.Oriflamme.FollowerLeadDesc>{0}相门徒，购买后加入殖民地。</Cultist.Oriflamme.FollowerLeadDesc>
+  <Cultist.Oriflamme.Sold>已售出</Cultist.Oriflamme.Sold>
+  <Cultist.Oriflamme.BuyBtn>直购（{0} 古币）</Cultist.Oriflamme.BuyBtn>
+  <Cultist.Oriflamme.NeedSpintria>地图上需要至少 {0} 枚未禁用的古币。</Cultist.Oriflamme.NeedSpintria>
+  <Cultist.Oriflamme.Bought>花费 {1} 枚古币购得 {0}，已通过空投送达。</Cultist.Oriflamme.Bought>
+  <Cultist.NamedFollower.JoinedTitle>具名信徒抵达：{0}</Cultist.NamedFollower.JoinedTitle>
+  <Cultist.NamedFollower.JoinedBody>{0}（{1} 相）响应了教会的召唤，以门徒身份正式加入殖民地。\n\n{2}</Cultist.NamedFollower.JoinedBody>
+
+  <Cultist.Poppy.Title>波比·拉舍莱斯——高风险资助</Cultist.Poppy.Title>
+  <Cultist.Poppy.Desc>立刻提供 600 白银与 5 枚古币的丰厚资助；但 10 天后她将索要一位追随者（或 10 枚古币）作为偿债代价。</Cultist.Poppy.Desc>
+  <Cultist.Poppy.AcceptBtn>接受波比的资助（+600 白银，+5 古币）</Cultist.Poppy.AcceptBtn>
+  <Cultist.Poppy.DebtPending>波比之债尚未到期…</Cultist.Poppy.DebtPending>
+  <Cultist.Poppy.Resolved>波比的交易已了结。</Cultist.Poppy.Resolved>
+  <Cultist.Poppy.AidAccepted>波比·拉舍莱斯送来了 600 白银与 5 枚古币。10 天后她将前来讨债。</Cultist.Poppy.AidAccepted>
+  <Cultist.Poppy.DueTitle>波比·拉舍莱斯前来索债</Cultist.Poppy.DueTitle>
+  <Cultist.Poppy.DueBody>十日期限已到。波比·拉舍莱斯要求履行约定：交出一位非教主追随者、支付 10 枚古币赎身，或违约承受她的报复。</Cultist.Poppy.DueBody>
+  <Cultist.Poppy.ChoiceSpintria>支付 10 枚古币赎身（获赠 4 阶秘传）</Cultist.Poppy.ChoiceSpintria>
+  <Cultist.Poppy.ChoiceFollower>交出一位追随者履约（获赠 4 阶秘传）</Cultist.Poppy.ChoiceFollower>
+  <Cultist.Poppy.ChoiceRefuse>违约拒付（招致袭击 + 恐惧 + 恶名）</Cultist.Poppy.ChoiceRefuse>
+  <Cultist.Poppy.PaidSpintria>波比收下了 10 枚古币，并回赠了一本 4 阶秘传。</Cultist.Poppy.PaidSpintria>
+  <Cultist.Poppy.PaidFollower>{0} 离队前往侍奉波比，作为回礼送来了一本 4 阶秘传。</Cultist.Poppy.PaidFollower>
+  <Cultist.Poppy.NoFollower>当前没有可供交出的非教主殖民者。</Cultist.Poppy.NoFollower>
+  <Cultist.Poppy.WrathTitle>波比的怒火</Cultist.Poppy.WrathTitle>
+  <Cultist.Poppy.WrathBody>你违背了与波比·拉舍莱斯的约定，敌对的仆从已被派来惩罚殖民地。</Cultist.Poppy.WrathBody>
+
+  <Cultist.ChurchName.Knock>神圣伤口会</Cultist.ChurchName.Knock>
+  <Cultist.ChurchDescription.Knock>侍奉启之司辰的密教结社，将永久伤疤祝圣为伤疤锁，直至以自身化为开启漫宿的最终门扉。</Cultist.ChurchDescription.Knock>
+  <Cultist.Rank.Knock.3>开扉者</Cultist.Rank.Knock.3>
+
+  <Cultist.Altar.ConsecrateScar>祝圣永久伤疤…</Cultist.Altar.ConsecrateScar>
+  <Cultist.Altar.KnockVictory>开启七重伤疤锁（神圣伤口会终局）</Cultist.Altar.KnockVictory>
+  <Cultist.Scar.WindowHeader>伤疤祝圣——{0}（现有永久伤疤 {1} 处 | 教会已收集伤疤锁：{2}/7）</Cultist.Scar.WindowHeader>
+  <Cultist.Scar.WindowNote>消耗一份影响，将教徒的永久伤疤祝圣为同相印痕。</Cultist.Scar.WindowNote>
+  <Cultist.Scar.NoInfluences>当前没有可用的梦境影响。请先让教主入梦或研读密教书籍获取影响。</Cultist.Scar.NoInfluences>
+  <Cultist.Scar.InfluenceRow>{0}相影响（强度 {1}）</Cultist.Scar.InfluenceRow>
+  <Cultist.Scar.ConsecrateBtn>祝圣为{0}之伤疤锁</Cultist.Scar.ConsecrateBtn>
+  <Cultist.Scar.NoPermanentScar>{0} 身上没有可供祝圣的永久伤疤。</Cultist.Scar.NoPermanentScar>
+  <Cultist.Scar.AlreadyHasAspect>{0} 身上已经刻有「{1}」。</Cultist.Scar.AlreadyHasAspect>
+  <Cultist.Scar.Consecrated>{0} 的永久伤疤已被祝圣为「{1}」。</Cultist.Scar.Consecrated>
+  <Cultist.KnockVictory.MissingScars>已收集 {0}/7 道伤疤锁（尚缺：{1}）</Cultist.KnockVictory.MissingScars>
+  <Cultist.KnockVictory.Opened>{0} 在祭坛上同时开启了七重伤疤锁！最终门扉已向外敞开。</Cultist.KnockVictory.Opened>
+
+  <Cultist.Aspect.SecretHistories>秘史</Cultist.Aspect.SecretHistories>
+  <Cultist.ChurchName.SecretHistories>圣许德拉会</Cultist.ChurchName.SecretHistories>
+  <Cultist.ChurchDescription.SecretHistories>追求研究五大历史及其数以千计、亦虚亦实的分支的密教社团。圣许德拉会兼容一切性相，但不存在使徒（3 级）一阶。</Cultist.ChurchDescription.SecretHistories>
+  <Cultist.StHydraNoExalted>圣许德拉会不存在 3 级崇高称谓（止步门徒）。</Cultist.StHydraNoExalted>
+
+  <Cultist.Vagabond.LetterTitle>笑鸫的一瞥</Cultist.Vagabond.LetterTitle>
+  <Cultist.Vagabond.LetterBody>浪游旅人是一位无法踏足漫宿的司辰，但她能前往其他任意地点……并且，如果你相信她的自夸，她还是唯一知晓每重历史的人。有时候，她会让某人记录下她的行踪。你在召唤异象的时候无意瞥见了她作为笑鸫的一面。</Cultist.Vagabond.LetterBody>
+
+  <Cultist.Reward.FierceEdge>猛烈的敌意</Cultist.Reward.FierceEdge>
+  <Cultist.Mansus.PickGateHeader>漫宿入口</Cultist.Mansus.PickGateHeader>
+  <Cultist.Mansus.PickRegionHeader>{0} · 探索地点</Cultist.Mansus.PickRegionHeader>
+  <Cultist.Mansus.PickCardHeader>{0} · {1}</Cultist.Mansus.PickCardHeader>
+  <Cultist.Mansus.CardFaceDown>暗牌</Cultist.Mansus.CardFaceDown>
+  <Cultist.Mansus.TakeKnown>带走奖励</Cultist.Mansus.TakeKnown>
+  <Cultist.Mansus.FlipHidden>翻牌并带走</Cultist.Mansus.FlipHidden>
+  <Cultist.Mansus.FlippedResult>带回：{0}</Cultist.Mansus.FlippedResult>
+</LanguageData>

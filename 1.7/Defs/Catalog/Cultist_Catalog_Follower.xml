@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_wolfatthedoor</defName>
+    <label>T H  E  WO L  F  W  H  O   L  I  V  E  S IN THE BIG HOUSE</label>
+    <description>The Wolf will accept anything, and then devour everything, no matter what.</description>
+    <sourceId>wolfatthedoor</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/violet_p</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_auclair_a</defName>
+    <label>Auclair, an acquaintance</label>
+    <description>Auclair has a scholarly aspect and a morbid streak. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>auclair_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/auclair_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_auclair_b</defName>
+    <label>Auclair, a believer</label>
+    <description>Auclair is quiet, meticulous and remorseless.</description>
+    <sourceId>auclair_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/auclair_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_auclair_c</defName>
+    <label>Auclair, a disciple</label>
+    <description>Auclair rarely speaks. She chooses her words with care. Even her movements have become economical. She is never seen to blink.</description>
+    <sourceId>auclair_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/auclair_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_auclair_d</defName>
+    <label>A gaunt woman, who is silent.</label>
+    <description>The air is frosty, the candles gutter, the street-sounds are hushed. Someone is here.</description>
+    <sourceId>auclair_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/auclair_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_cat_a</defName>
+    <label>Cat Caro, an acquaintance</label>
+    <description>'Cat Caro', as she styles herself, earns a living as a stage medium and a fortune-teller. She may have deeper talents. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>cat_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/cat_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_cat_b</defName>
+    <label>Cat Caro, a believer</label>
+    <description>A bright-eyed, watchful woman who recalls her dreams perfectly.</description>
+    <sourceId>cat_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/cat_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_cat_c</defName>
+    <label>Cat Caro, a disciple</label>
+    <description>She still performs in the theatres sometimes. 'Cat Caro,' the posters say, 'finds the path; Cat Caro knows the way.'</description>
+    <sourceId>cat_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/cat_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_cat_d</defName>
+    <label>Cat Caro, a Seer</label>
+    <description>Archaeologists find treasures in tombs. Farmers bring harvest from the fields. What does Cat Caro unearth in dreams?</description>
+    <sourceId>cat_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/cat_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clifton_a</defName>
+    <label>'Pope' Clifton, an acquaintance</label>
+    <description>A bellowing and unorthodox Catholic with a mystic streak and an untrimmed beard. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>clifton_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clifton_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clifton_b</defName>
+    <label>'Pope' Clifton, a believer</label>
+    <description>Now Clifton improvises new prayers rich with solar metaphors. He still shouts like a soldier and drinks like a sailor.</description>
+    <sourceId>clifton_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clifton_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clifton_c</defName>
+    <label>'Pope' Clifton, a disciple</label>
+    <description>Clifton's devotions have grown complex. His eyes have grown wide and shining. His voice has become even louder.</description>
+    <sourceId>clifton_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clifton_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clifton_d</defName>
+    <label>Clifton, a Seer</label>
+    <description>Clifton still recites his prayers, but they are grown strange as old mirrors. He rises every morning to greet the dawn. He looks it full in the face, and tells you exactly what he sees.</description>
+    <sourceId>clifton_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clifton_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clovette_a</defName>
+    <label>Clovette, an acquaintance</label>
+    <description>Clovette is happy in a way that brooks no counter-argument to happiness. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>clovette_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clovette_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clovette_b</defName>
+    <label>Clovette, a believer</label>
+    <description>Clovette's determined happiness now borders on the fanatical.</description>
+    <sourceId>clovette_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clovette_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clovette_c</defName>
+    <label>Clovette, a disciple</label>
+    <description>Clovette's optimism is daunting. She wields her joy like a hammer.</description>
+    <sourceId>clovette_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clovette_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_clovette_d</defName>
+    <label>Clovette, a Tarantellist</label>
+    <description>Clovette is always in motion. She laughs easily. Her smile is the crescent at the edge of the moon.</description>
+    <sourceId>clovette_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/clovette_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_connie_c</defName>
+    <label>Connie, a disciple</label>
+    <description>Connie's found one last gambit she couldn't resist... or perhaps she's just enjoying life.</description>
+    <sourceId>connie_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/connie_r</iconPath>
+    <aspects>
+      <li><key>edge</key><value>5</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_connie_d</defName>
+    <label>Connie, a Conqueress</label>
+    <description>It's not in Connie's nature to serve. One day she'll rise as a river rises. But for now, she stoops to conquer.</description>
+    <sourceId>connie_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/connie_r</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>7</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dorothy_a</defName>
+    <label>Dorothy, an acquaintance</label>
+    <description>Dorothy is an enthusiastic sort with an eclectic reading habit. She's fascinated by my hints about the shapes beneath the world's skin. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>dorothy_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/dorothy_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dorothy_b</defName>
+    <label>Dorothy, a believer</label>
+    <description>Dorothy is an enthusiastic sort, and I have turned her enthusiasm to our advantage.</description>
+    <sourceId>dorothy_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/dorothy_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dorothy_c</defName>
+    <label>Dorothy, a disciple</label>
+    <description>Dorothy's enthusiasm has become obsession. She will not cease; and how she loves to dance.</description>
+    <sourceId>dorothy_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/dorothy_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_dorothy_d</defName>
+    <label>Dorothy, a Tarantellist</label>
+    <description>When Dorothy moves, we hear the drum. When she speaks, we see the dance. Her determination is her shield and her weapon.</description>
+    <sourceId>dorothy_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/dorothy_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_douglas_b</defName>
+    <label>Douglas, a believer</label>
+    <description>Douglas has exchanged the Force for the Forge.</description>
+    <sourceId>douglas_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/douglas_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_douglas_c</defName>
+    <label>Douglas, a disciple</label>
+    <description>Douglas doesn't like hammers. They remind him of an Incident. But he uses what instruments he must.</description>
+    <sourceId>douglas_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/douglas_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_douglas_d</defName>
+    <label>Douglas, a Reshaper</label>
+    <description>Douglas has changed so much. His eyes glow like smithy windows in fog. His voice is the rattle of coal in the chute. His arm is long.</description>
+    <sourceId>douglas_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/douglas_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_elridge_a</defName>
+    <label>Elridge, an acquaintance</label>
+    <description>An elegant man of inelegant habits. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>elridge_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/elridge_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_elridge_b</defName>
+    <label>Elridge, a believer</label>
+    <description>Elridge has almost learnt not to pick his teeth with his knife in conversation. He has not yet learnt to leave his knife in his boot.</description>
+    <sourceId>elridge_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/elridge_b</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_elridge_c</defName>
+    <label>Elridge, a disciple</label>
+    <description>Elridge is waiting patiently until it's time to knife someone again.</description>
+    <sourceId>elridge_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/elridge_c</iconPath>
+    <aspects>
+      <li><key>edge</key><value>5</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_elridge_d</defName>
+    <label>Elridge, an Assassin</label>
+    <description>Elridge is never seen with a spot of blood upon his person. Not a spot.</description>
+    <sourceId>elridge_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/elridge_d</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_enid_a</defName>
+    <label>Enid, an acquaintance</label>
+    <description>Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. It may be that you've dreamed the same dreams. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>enid_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/enid_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_enid_b</defName>
+    <label>Enid, a believer</label>
+    <description>Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. She sees things that others don't.</description>
+    <sourceId>enid_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/enid_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_enid_c</defName>
+    <label>Enid, a disciple</label>
+    <description>Enid sees what others do not. It is becoming difficult for her, but it is very useful.</description>
+    <sourceId>enid_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/enid_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_enid_d</defName>
+    <label>Enid, a Key</label>
+    <description>Enid sees the gaps between things, and the arts that she has learned permit her, sometimes, to place her fingers in that gap.</description>
+    <sourceId>enid_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/enid_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_laidlaw_a</defName>
+    <label>Laidlaw, an acquaintance</label>
+    <description>Laidlaw is a tinkerer and mechanic with an uncanny knack. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>laidlaw_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/laidlaw_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_laidlaw_b</defName>
+    <label>Laidlaw, a believer</label>
+    <description>Laidlaw has begun to understand the limitations of ingenuity, and the power of sacrifice.</description>
+    <sourceId>laidlaw_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/laidlaw_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_laidlaw_c</defName>
+    <label>Laidlaw, a disciple</label>
+    <description>Laidlaw has learnt the cleverer uses of fire and copper, wax and acid.</description>
+    <sourceId>laidlaw_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/laidlaw_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_laidlaw_d</defName>
+    <label>Laidlaw, a Reshaper</label>
+    <description>Laidlaw can shape what is broken into what is necessary.</description>
+    <sourceId>laidlaw_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/laidlaw_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_leo_a</defName>
+    <label>Leo, an acquaintance</label>
+    <description>Leo is an earnest sort with an interest in the occult. He hangs on your hints about the invisible arts. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>leo_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/leo_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_leo_b</defName>
+    <label>Leo, a believer</label>
+    <description>Leo is an earnest sort, but he's prepared to do what he must.</description>
+    <sourceId>leo_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/leo_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_leo_c</defName>
+    <label>Leo, a disciple</label>
+    <description>Leo still yearns to preserve what is good and valuable; but he understands that to protect one's ideals, one must sometimes do questionable things.</description>
+    <sourceId>leo_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/leo_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_leo_d</defName>
+    <label>Leo, a Tarantellist</label>
+    <description>Leo will preserve, at all costs. He will not cease.</description>
+    <sourceId>leo_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/leo_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_natalia_c</defName>
+    <label>Natalia, a disciple</label>
+    <description>Natalia never follows unquestioningly - but for now, she follows.</description>
+    <sourceId>natalia_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/natalia_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>4</value></li>
+      <li><key>lantern</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_natalia_d</defName>
+    <label>Natalia, a Sage</label>
+    <description>Natalia has aligned herself with the brightest path she can find.</description>
+    <sourceId>natalia_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/natalia_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>7</value></li>
+      <li><key>lantern</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_neville_a</defName>
+    <label>Neville, an acquaintance</label>
+    <description>Neville pauses before he speaks, and flinches easily. He laughs whenever he thinks you've made a joke. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>neville_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/neville_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_neville_b</defName>
+    <label>Neville, a believer</label>
+    <description>Neville pauses before he speaks, and flinches easily. He's sensitive to deeper matters.</description>
+    <sourceId>neville_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/neville_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_neville_c</defName>
+    <label>Neville, a disciple</label>
+    <description>Neville's gaze has grown furtive, and his voice is sometimes shrill. He speaks freely of his dreams.</description>
+    <sourceId>neville_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/neville_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_neville_d</defName>
+    <label>Neville, a Key</label>
+    <description>In his dreams, Neville sees the flaws where the world and its ways can be opened.</description>
+    <sourceId>neville_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/neville_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_porter_a</defName>
+    <label>Porter, an acquaintance</label>
+    <description>Porter was a barber, until the court case. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>porter_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/porter_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_porter_b</defName>
+    <label>Porter, a believer</label>
+    <description>Porter plies his razor and his scissors, to the great advantage of his friends.</description>
+    <sourceId>porter_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/porter_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_porter_c</defName>
+    <label>Porter, a disciple</label>
+    <description>Porter goes unnoticed, until he's ready.</description>
+    <sourceId>porter_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/porter_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_porter_d</defName>
+    <label>Porter, a Skintwister</label>
+    <description>Porter, like a spider, is found in the most unexpected places.</description>
+    <sourceId>porter_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/porter_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_renira_a</defName>
+    <label>Renira, an acquaintance</label>
+    <description>Renira has been found not guilty three times in three separate jurisdictions. She will likely never be found guilty of anything. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>renira_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/renira_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_renira_b</defName>
+    <label>Renira, a believer</label>
+    <description>Renira continues to pursue her appetites discreetly, although her ambitions have grown.</description>
+    <sourceId>renira_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/renira_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_renira_c</defName>
+    <label>Renira, a disciple</label>
+    <description>Renira commands admiration wherever she goes. She reserves her attentions  for those who merit admiration in return.</description>
+    <sourceId>renira_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/renira_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_renira_d</defName>
+    <label>Renira, a Cyprian</label>
+    <description>Renira receives tokens from admirers almost daily. Some gifts are flowers, others poetry. Sometimes she receives jewels; sometimes, desperate gifts wrapped tightly in blood-stained crepe paper.</description>
+    <sourceId>renira_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/renira_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_rose_a</defName>
+    <label>Rose, an acquaintance</label>
+    <description>Rose is a sly miss, and she recognises you as someone uncommon. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>rose_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/rose_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_rose_b</defName>
+    <label>Rose, a believer</label>
+    <description>Rose is a sly miss, but loyal.</description>
+    <sourceId>rose_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/rose_b</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_rose_c</defName>
+    <label>Rose, a disciple</label>
+    <description>Rose has sharpened her cunning to a concentrated point.</description>
+    <sourceId>rose_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/rose_c</iconPath>
+    <aspects>
+      <li><key>edge</key><value>5</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_rose_d</defName>
+    <label>Rose, an Assassin</label>
+    <description>The night before Rose meets her subject, the subject will receive a package with a single yellow rose.</description>
+    <sourceId>rose_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/rose_d</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_saliba_a</defName>
+    <label>Saliba, an acquaintance</label>
+    <description>Saliba is a man of prodigious appetites. He is long past the point where their satisfaction has given him any pleasure; but he has learnt so very much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>saliba_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/saliba_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_saliba_b</defName>
+    <label>Saliba, a believer</label>
+    <description>Saliba understands blood. He does not yet understand birth.</description>
+    <sourceId>saliba_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/saliba_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_saliba_c</defName>
+    <label>Saliba, a disciple</label>
+    <description>Saliba's pleasures are taken in a room without windows. His companions return to him again and again, even though each time they are a little less.</description>
+    <sourceId>saliba_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/saliba_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_saliba_d</defName>
+    <label>Saliba, a Cyprian</label>
+    <description>Saliba's charisma strikes with the force of a hammer. It is horribly difficult to refuse his desires.</description>
+    <sourceId>saliba_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/saliba_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_slee_a</defName>
+    <label>Slee, an acquaintance</label>
+    <description>Craig Slee, the astronomer and avant-garde poet, has developed an interest in the esoteric as his health wanes. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>slee_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/slee_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_slee_b</defName>
+    <label>Slee, a believer</label>
+    <description>Slee speaks earnestly of his theories to all who will listen: the stars as tiny wounds, and the Sun as a haemorrhage of glory. His poetry is more eccentric than ever.</description>
+    <sourceId>slee_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/slee_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_slee_c</defName>
+    <label>Slee, a disciple</label>
+    <description>Slee's headaches have become crippling, but his theories grow more practical by the day. His poetry's getting better, too.</description>
+    <sourceId>slee_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/slee_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_slee_d</defName>
+    <label>Slee, a Seer</label>
+    <description>Slee speaks exclusively in mathematics and in poetry. Both are compelling: it is increasingly difficult to tell the difference.</description>
+    <sourceId>slee_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/slee_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spencer_c</defName>
+    <label>Spencer, a disciple</label>
+    <description>Spencer carries a tiny icon of St Agnes on a chain around his neck, to rest on the scar above his heart.</description>
+    <sourceId>spencer_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/spencer_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>5</value></li>
+      <li><key>moth</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_spencer_d</defName>
+    <label>Spencer, a Herald</label>
+    <description>Some follow the Way, and some are the Way for others. Spencer no longer tells us he made a decision: instead, he suggests that the decision has made him.</description>
+    <sourceId>spencer_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/spencer_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>10</value></li>
+      <li><key>moth</key><value>7</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sylvia_a</defName>
+    <label>Sylvia, an acquaintance</label>
+    <description>Sylvia lost her eye in the woods when she was nine years old. Every year, at Candlemas, she returns to the place she buried it. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>sylvia_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/sylvia_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sylvia_b</defName>
+    <label>Sylvia, a believer</label>
+    <description>Sylvia has a detailed knowledge of roof-ridges, of the river at low tide, of Irish whiskey, and of conjuring tricks.</description>
+    <sourceId>sylvia_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/sylvia_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sylvia_c</defName>
+    <label>Sylvia, a disciple</label>
+    <description>Sylvia's favourite tactic is to smile and close her eye. It is remarkable how often her interlocutor will blurt out exactly what they are thinking.</description>
+    <sourceId>sylvia_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/sylvia_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_sylvia_d</defName>
+    <label>Sylvia, a Skintwister</label>
+    <description>Sylvia has learnt to get out of a place almost before she has gotten in. Sometimes, she leaves dead leaves beneath the window-sill. Sometimes, she writes her name where it won't be found.</description>
+    <sourceId>sylvia_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/sylvia_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tristan_a</defName>
+    <label>Tristan, an acquaintance</label>
+    <description>Tristan dislikes distractions. Tristan gets things done. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>tristan_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/tristan_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tristan_b</defName>
+    <label>Tristan, a believer</label>
+    <description>Tristan dislikes distractions; Tristan likes results.</description>
+    <sourceId>tristan_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/tristan_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tristan_c</defName>
+    <label>Tristan, a disciple</label>
+    <description>Tristan will do what is necessary. To create, sometimes one must first destroy.</description>
+    <sourceId>tristan_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/tristan_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_tristan_d</defName>
+    <label>Tristan, a Reshaper</label>
+    <description>In another age, Tristan might have been a smith. In another life, he might have been a bomb-maker.</description>
+    <sourceId>tristan_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/tristan_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_valciane_a</defName>
+    <label>Valciane, an acquaintance</label>
+    <description>Valciane has operated her establishment for almost twenty years. She has never employed an assistant. Her hands are terribly strong. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>valciane_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/valciane_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_valciane_b</defName>
+    <label>Valciane, a believer</label>
+    <description>Valciane's ingenuities are endless, and her grip is stronger than a blacksmith's.</description>
+    <sourceId>valciane_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/valciane_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_valciane_c</defName>
+    <label>Valciane, a disciple</label>
+    <description>Valciane is not a machine. We are reasonably confident of that, because she has been observed, now and then, to commit quite human errors.</description>
+    <sourceId>valciane_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/valciane_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_valciane_d</defName>
+    <label>Valciane, a Reshaper</label>
+    <description>Valciane has begun to work without tools. 'They get in the way,' she claims.</description>
+    <sourceId>valciane_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/valciane_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_victor_a</defName>
+    <label>Victor, an acquaintance</label>
+    <description>Victor is a sly fellow, and he knows an unusual opportunity when he sees it. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>victor_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/victor_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_victor_b</defName>
+    <label>Victor, a believer</label>
+    <description>Victor is a sly fellow, but loyal.</description>
+    <sourceId>victor_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/victor_b</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_victor_c</defName>
+    <label>Victor, a disciple</label>
+    <description>Victor has sharpened his cunning to a concentrated point.</description>
+    <sourceId>victor_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/victor_c</iconPath>
+    <aspects>
+      <li><key>edge</key><value>5</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_victor_d</defName>
+    <label>Victor, an Assassin</label>
+    <description>Victor likes to become acquainted with his subjects, so he can apologise to them personally, just before the end.</description>
+    <sourceId>victor_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/victor_d</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_violet_a</defName>
+    <label>Violet, an acquaintance</label>
+    <description>Violet has always given unstintingly of her time, easing the pain of the dying. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>violet_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/violet_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_violet_b</defName>
+    <label>Violet, a believer</label>
+    <description>Violet likes to paint. She has a gift, although she's always been very modest about it. She never puts human figures in her paintings. There are enough people in the world.</description>
+    <sourceId>violet_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/violet_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_violet_c</defName>
+    <label>Violet, a disciple</label>
+    <description>Violet is always very careful.</description>
+    <sourceId>violet_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/violet_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_violet_d</defName>
+    <label>A kindly-faced woman, who is silent.</label>
+    <description>Sleep, now. Don't worry about a thing.</description>
+    <sourceId>violet_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/violet_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ysabet_a</defName>
+    <label>Ysabet, an acquaintance</label>
+    <description>Ysabet has always been most comfortable by moonlight. She has excellent night vision. She is often overlooked in daylight. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>ysabet_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/ysabet_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ysabet_b</defName>
+    <label>Ysabet, a believer</label>
+    <description>Ysabet sleeps in fits and starts. She rises at dusk to do the things an Ysabet does.</description>
+    <sourceId>ysabet_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/ysabet_b</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ysabet_c</defName>
+    <label>Ysabet, a disciple</label>
+    <description>Ysabet was just here, just a moment ago. Just here. Almost certainly.</description>
+    <sourceId>ysabet_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/ysabet_c</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_ysabet_d</defName>
+    <label>Ysabet, a Skintwister</label>
+    <description>Ysabet never lies, now. She doesn't need to.</description>
+    <sourceId>ysabet_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/ysabet_d</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_zachary_c</defName>
+    <label>Zachary, a disciple</label>
+    <description>Zachary's reasoning is as certain as ever, but now, it is chillier.</description>
+    <sourceId>zachary_c</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/zachary_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>4</value></li>
+      <li><key>winter</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_zachary_d</defName>
+    <label>Zachary, a Conclusion</label>
+    <description>Zachary has chosen his ending.</description>
+    <sourceId>zachary_d</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/zachary_r</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>7</value></li>
+      <li><key>winter</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_edge</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_edge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_edge</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_forge</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_forge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_forge</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_grail</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_grail</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_grail</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_heart</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_heart</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_heart</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_knock</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_knock</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_knock</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_lantern</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_lantern</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_lantern</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_moth</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_moth</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_moth</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_a_winter</defName>
+    <label>A Hanger-On</label>
+    <description>Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]</description>
+    <sourceId>generic_a_winter</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_a_winter</iconPath>
+    <aspects>
+      <li><key>acquaintance</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_edge</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_edge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_forge</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_forge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_forge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_grail</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_grail</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_grail</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_heart</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_heart</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_heart</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_knock</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_knock</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_knock</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_lantern</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_lantern</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_lantern</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_moth</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_moth</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_moth</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_b_winter</defName>
+    <label>A Pawn</label>
+    <description>This one is loyal, but lacks initiative.</description>
+    <sourceId>generic_b_winter</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_b_winter</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_edge</defName>
+    <label>A Sturdy Disciple</label>
+    <description>Loyalty, and muscles.</description>
+    <sourceId>generic_c_edge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_forge</defName>
+    <label>A Practical Disciple</label>
+    <description>Loyal, and good with their hands.</description>
+    <sourceId>generic_c_forge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_forge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_grail</defName>
+    <label>An Avid Disciple</label>
+    <description>Loyal, but greedy.</description>
+    <sourceId>generic_c_grail</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_grail</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_heart</defName>
+    <label>A Lively Disciple</label>
+    <description>Loyal, and always ready with a song.</description>
+    <sourceId>generic_c_heart</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_heart</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_knock</defName>
+    <label>A Dextrous Disciple</label>
+    <description>Loyal, and clever with locks.</description>
+    <sourceId>generic_c_knock</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_knock</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_lantern</defName>
+    <label>A Percipient Disciple</label>
+    <description>Loyal, and keen-sighted.</description>
+    <sourceId>generic_c_lantern</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_lantern</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_moth</defName>
+    <label>An Erratic Disciple</label>
+    <description>Loyal, if peculiar; peculiar even for one of our kind.</description>
+    <sourceId>generic_c_moth</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_moth</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generic_c_winter</defName>
+    <label>A Silent Disciple</label>
+    <description>Loyal, and quiet as falling snow.</description>
+    <sourceId>generic_c_winter</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/generic_c_winter</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thugedgeminor</defName>
+    <label>A Hulking Fellow</label>
+    <description>'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]</description>
+    <sourceId>thugedgeminor</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/thugedgeminor</iconPath>
+    <aspects>
+      <li><key>edge</key><value>3</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thugmothminor</defName>
+    <label>A Shifty Woman</label>
+    <description>'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]</description>
+    <sourceId>thugmothminor</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/thugmothminor</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>3</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thugedge</defName>
+    <label>Professional Muscle</label>
+    <description>'I'll break them in half.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]</description>
+    <sourceId>thugedge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/thugedge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>5</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thugforgeedge</defName>
+    <label>A Bomb-Maker</label>
+    <description>'Perhaps we shouldn't discuss politics just yet.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]</description>
+    <sourceId>thugforgeedge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/thugforgeedge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>3</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thugknock</defName>
+    <label>An Entry Consultant</label>
+    <description>'I'm good with doors. [This Hireling may be useful for some Expeditions.]'</description>
+    <sourceId>thugknock</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/thugknock</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thuglanternmoth</defName>
+    <label>A Fortune-Teller</label>
+    <description>'I see things. I see that you're different.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]</description>
+    <sourceId>thuglanternmoth</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/thuglanternmoth</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>5</value></li>
+      <li><key>moth</key><value>3</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_thugmoth</defName>
+    <label>An Experienced Swindler</label>
+    <description>'How delightful to be working with you!' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]</description>
+    <sourceId>thugmoth</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/thugmoth</iconPath>
+    <aspects>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>1</value></li>
+      <li><key>moth</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_edge</defName>
+    <label>A Sturdy Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_edge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_edge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>follower</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_forge</defName>
+    <label>A Practical Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_forge</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_forge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>forge</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_grail</defName>
+    <label>An Avid Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_grail</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_grail</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>grail</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_heart</defName>
+    <label>A Lively Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_heart</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_heart</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>heart</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_knock</defName>
+    <label>A Dextrous Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_knock</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_knock</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>knock</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_lantern</defName>
+    <label>A Percipient Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_lantern</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_lantern</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>lantern</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_moth</defName>
+    <label>An Erratic Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_moth</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_moth</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_devotee_winter</defName>
+    <label>A Silent Worshipper</label>
+    <description>Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]</description>
+    <sourceId>devotee_winter</sourceId>
+    <category>Follower</category>
+    <iconPath>Cultist/Catalog/Follower/devotee_winter</iconPath>
+    <aspects>
+      <li><key>edge</key><value>1</value></li>
+      <li><key>follower</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

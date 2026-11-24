@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Textbook_Latin.label>拉丁语入门教材</Cultist_Textbook_Latin.label>
+  <Cultist_Textbook_Latin.description>批注详尽的古典语法书。研读后可掌握拉丁语，用以破译拉丁语密教手稿。</Cultist_Textbook_Latin.description>
+  <Cultist_Textbook_Greek.label>希腊语入门教材</Cultist_Textbook_Greek.label>
+  <Cultist_Textbook_Greek.description>古老的希腊语读本。研读后可掌握希腊语，用以破译古典哲学残篇。</Cultist_Textbook_Greek.description>
+  <Cultist_Textbook_Aramaic.label>亚兰语入门教材</Cultist_Textbook_Aramaic.label>
+  <Cultist_Textbook_Aramaic.description>荒漠档案馆流传的文字教材。研读后可掌握亚兰语，用以破译太阳史与灯相密本。</Cultist_Textbook_Aramaic.description>
+  <Cultist_Textbook_Sanskrit.label>梵语入门教材</Cultist_Textbook_Sanskrit.label>
+  <Cultist_Textbook_Sanskrit.description>布面装帧的古典梵语教程。研读后可掌握梵语。</Cultist_Textbook_Sanskrit.description>
+</LanguageData>

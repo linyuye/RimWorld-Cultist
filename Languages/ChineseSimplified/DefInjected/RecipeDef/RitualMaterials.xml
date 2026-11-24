@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_CompileLore2.label>编纂内庭天图</Cultist_CompileLore2.label>
+  <Cultist_CompileLore2.description>编纂内庭天图。</Cultist_CompileLore2.description>
+  <Cultist_CompileLore2.jobString>编纂内庭天图。</Cultist_CompileLore2.jobString>
+  <Cultist_CompileLore3.label>编纂冷光短章</Cultist_CompileLore3.label>
+  <Cultist_CompileLore3.description>编纂冷光短章。</Cultist_CompileLore3.description>
+  <Cultist_CompileLore3.jobString>编纂冷光短章。</Cultist_CompileLore3.jobString>
+  <Cultist_CompileLore4.label>编纂照门祷文</Cultist_CompileLore4.label>
+  <Cultist_CompileLore4.description>编纂照门祷文。</Cultist_CompileLore4.description>
+  <Cultist_CompileLore4.jobString>编纂照门祷文。</Cultist_CompileLore4.jobString>
+  <Cultist_CompileLore5.label>编纂聚光论</Cultist_CompileLore5.label>
+  <Cultist_CompileLore5.description>编纂聚光论。</Cultist_CompileLore5.description>
+  <Cultist_CompileLore5.jobString>编纂聚光论。</Cultist_CompileLore5.jobString>
+  <Cultist_CompileLore6.label>编纂登阶笔录</Cultist_CompileLore6.label>
+  <Cultist_CompileLore6.description>编纂登阶笔录。</Cultist_CompileLore6.description>
+  <Cultist_CompileLore6.jobString>编纂登阶笔录。</Cultist_CompileLore6.jobString>
+  <Cultist_CompileLore7.label>编纂彻照密钥</Cultist_CompileLore7.label>
+  <Cultist_CompileLore7.description>编纂彻照密钥。</Cultist_CompileLore7.description>
+  <Cultist_CompileLore7.jobString>编纂彻照密钥。</Cultist_CompileLore7.jobString>
+  <Cultist_RiteTool1Prepare.label>制作裂损午之石</Cultist_RiteTool1Prepare.label>
+  <Cultist_RiteTool1Prepare.description>制作裂损午之石。</Cultist_RiteTool1Prepare.description>
+  <Cultist_RiteTool1Prepare.jobString>制作裂损午之石。</Cultist_RiteTool1Prepare.jobString>
+  <Cultist_RiteTool1Repair.label>修复午之石</Cultist_RiteTool1Repair.label>
+  <Cultist_RiteTool1Repair.description>修复午之石。</Cultist_RiteTool1Repair.description>
+  <Cultist_RiteTool1Repair.jobString>修复午之石。</Cultist_RiteTool1Repair.jobString>
+  <Cultist_RiteTool2Prepare.label>制作裂损迷途之镜</Cultist_RiteTool2Prepare.label>
+  <Cultist_RiteTool2Prepare.description>制作裂损迷途之镜。</Cultist_RiteTool2Prepare.description>
+  <Cultist_RiteTool2Prepare.jobString>制作裂损迷途之镜。</Cultist_RiteTool2Prepare.jobString>
+  <Cultist_RiteTool2Repair.label>修复迷途之镜</Cultist_RiteTool2Repair.label>
+  <Cultist_RiteTool2Repair.description>修复迷途之镜。</Cultist_RiteTool2Repair.description>
+  <Cultist_RiteTool2Repair.jobString>修复迷途之镜。</Cultist_RiteTool2Repair.jobString>
+  <Cultist_RiteTool3Prepare.label>制作裂损守夜人之镜</Cultist_RiteTool3Prepare.label>
+  <Cultist_RiteTool3Prepare.description>制作裂损守夜人之镜。</Cultist_RiteTool3Prepare.description>
+  <Cultist_RiteTool3Prepare.jobString>制作裂损守夜人之镜。</Cultist_RiteTool3Prepare.jobString>
+  <Cultist_RiteTool3Repair.label>修复守夜人之镜</Cultist_RiteTool3Repair.label>
+  <Cultist_RiteTool3Repair.description>修复守夜人之镜。</Cultist_RiteTool3Repair.description>
+  <Cultist_RiteTool3Repair.jobString>修复守夜人之镜。</Cultist_RiteTool3Repair.jobString>
+</LanguageData>

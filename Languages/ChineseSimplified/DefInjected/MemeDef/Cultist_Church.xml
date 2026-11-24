@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_LanternMeme.label>灯相</Cultist_LanternMeme.label>
+  <Cultist_LanternMeme.description>辉光之镜记录一切所得之知，并将每项发现置于严苛审视之下。</Cultist_LanternMeme.description>
+  <Cultist_LanternMeme.generalRules.rulesStrings>
+    <li>memeConcept-&gt;证据</li>
+    <li>memeConcept-&gt;启明</li>
+    <li>memeAdjective-&gt;勤学</li>
+    <li>memeAdjective-&gt;专注</li>
+  </Cultist_LanternMeme.generalRules.rulesStrings>
+  <Cultist_ForgeMeme.label>铸相</Cultist_ForgeMeme.label>
+  <Cultist_ForgeMeme.description>不屈教团崇敬烈火、重塑与永不停歇的锻造。万物皆可在火中蜕变。</Cultist_ForgeMeme.description>
+  <Cultist_GrailMeme.label>杯相</Cultist_GrailMeme.label>
+  <Cultist_GrailMeme.description>血杯教团尊崇渴望、欢愉、诞育与永不落幕的圣宴。</Cultist_GrailMeme.description>
+  <Cultist_EdgeMeme.label>刃相</Cultist_EdgeMeme.label>
+  <Cultist_EdgeMeme.description>闪刃教会坚信唯有冲突、争锋与决断之刃方能锻造强者。</Cultist_EdgeMeme.description>
+  <Cultist_WinterMeme.label>冬相</Cultist_WinterMeme.label>
+  <Cultist_WinterMeme.description>静默之子守望终结、寒霜以及已逝之物的寂静尊严。</Cultist_WinterMeme.description>
+  <Cultist_HeartMeme.label>心相</Cultist_HeartMeme.label>
+  <Cultist_HeartMeme.description>不休圣堂以永不停息的律动、守望与治愈护佑生机，抵御腐朽与诅咒。</Cultist_HeartMeme.description>
+  <Cultist_MothMeme.label>蛾相</Cultist_MothMeme.label>
+  <Cultist_MothMeme.description>荒林俱乐部拥抱渴望、蜕去旧壳，追随林地变幻莫测的古老低语。</Cultist_MothMeme.description>
+  <Cultist_KnockMeme.label>启相</Cultist_KnockMeme.label>
+  <Cultist_KnockMeme.description>神圣伤口会崇敬钥匙、门径与神圣的伤疤。集齐七道伤疤锁，信徒自身便将化为门扉。</Cultist_KnockMeme.description>
+  <Cultist_SecretHistoriesMeme.label>秘史</Cultist_SecretHistoriesMeme.label>
+  <Cultist_SecretHistoriesMeme.description>圣许德拉会追求研究五大历史及其数以千计、亦虚亦实的分支。任何性相皆可效力，但不存在使徒一阶。</Cultist_SecretHistoriesMeme.description>
+</LanguageData>

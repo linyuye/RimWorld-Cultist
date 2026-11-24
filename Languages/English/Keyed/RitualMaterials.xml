@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.LoreInspect>Lore tier {0}/7 · {2} {1}</Cultist.LoreInspect>
+  <Cultist.ToolInspect>Ritual tool · {1} {0}</Cultist.ToolInspect>
+  <Cultist.StudyLore>Study the lore book</Cultist.StudyLore>
+  <Cultist.LoreLearned>{0} recorded tier {1} occult lore for the society.</Cultist.LoreLearned>
+  <Cultist.NeedLearnedLore>A member must study a lore book first.</Cultist.NeedLearnedLore>
+  <Cultist.NeedRiteBooks>Place {0} lore books within {1} cells of the altar.</Cultist.NeedRiteBooks>
+  <Cultist.NeedRiteTool>Place a repaired tool within {0} cells of the altar. The tool and book must total at least {1} power.</Cultist.NeedRiteTool>
+  <Cultist.NeedRiteAssistant>Bring another society member within {0} cells of the altar.</Cultist.NeedRiteAssistant>
+  <Cultist.ChooseRiteBook>Lore: {0} · Power {1}</Cultist.ChooseRiteBook>
+  <Cultist.ChooseRiteTool>Tool: {0} · Power {1}</Cultist.ChooseRiteTool>
+  <Cultist.ChooseRiteAssistant>Assistant: {0}</Cultist.ChooseRiteAssistant>
+  <Cultist.RiteInputsChanged>The rite stopped because a required book, tool, or assistant became unavailable.</Cultist.RiteInputsChanged>
+</LanguageData>

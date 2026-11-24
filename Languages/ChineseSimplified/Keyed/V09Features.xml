@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- HQ Foundry -->
+  <Cultist.HQ.Foundry>熔炉圣所</Cultist.HQ.Foundry>
+
+  <!-- Bureau Dossier -->
+  <Cultist.Dossier.BurnOption>焚毁卷宗（恶名 −{0}）</Cultist.Dossier.BurnOption>
+  <Cultist.Dossier.DecodeOption>破译藏书库坐标</Cultist.Dossier.DecodeOption>
+  <Cultist.Dossier.Burned>{0}焚毁了防剿局机密卷宗，结社恶名降低了 {1} 点。</Cultist.Dossier.Burned>
+  <Cultist.Dossier.Decoded>{0} 找到一处 {1} 阶藏书库。</Cultist.Dossier.Decoded>
+
+  <!-- Exalted Rank 3 Fixed Specialties & Random Traits -->
+  <Cultist.Exalted.Awakened>{0} 晋升为崇高门徒，习得「{1}」，觉醒特质：{2}。</Cultist.Exalted.Awakened>
+  <Cultist.Exalted.TabSkill>崇高专长：{0}</Cultist.Exalted.TabSkill>
+  <Cultist.Exalted.TabTraits>觉醒特质：{0}</Cultist.Exalted.TabTraits>
+  <Cultist.Exalted.CooldownLeft>冷却剩余：{0} 小时</Cultist.Exalted.CooldownLeft>
+  <Cultist.Exalted.MoltingTriggered>{0}在危急关头绽放出迷蒙蛾雾并疾步脱身！</Cultist.Exalted.MoltingTriggered>
+  <Cultist.Exalted.PhaseStep>穿门跃行</Cultist.Exalted.PhaseStep>
+  <Cultist.Exalted.PhaseStep.Desc>跃至 18 格内的空地，可穿过墙壁和门锁。</Cultist.Exalted.PhaseStep.Desc>
+  <Cultist.Exalted.PhaseInvalidCell>请选择 18 格内一处可站立的空地。</Cultist.Exalted.PhaseInvalidCell>
+
+  <Cultist.ExaltedSkill.Lantern>洞悉门径</Cultist.ExaltedSkill.Lantern>
+  <Cultist.ExaltedSkill.Lantern.Desc>教主下次入梦时多看见一张明牌。冷却 3 天。</Cultist.ExaltedSkill.Lantern.Desc>
+  <Cultist.ExaltedSkill.Forge>炉火重锻</Cultist.ExaltedSkill.Forge>
+  <Cultist.ExaltedSkill.Forge.Desc>消耗 10 钢铁，为一件武器或护甲恢复 60% 最大耐久。冷却 3 天。</Cultist.ExaltedSkill.Forge.Desc>
+  <Cultist.ExaltedSkill.Grail>秘仪劝诱</Cultist.ExaltedSkill.Grail>
+  <Cultist.ExaltedSkill.Grail.Desc>使一名囚犯的抵抗和意志各降低 8 点。若其信奉其他信仰，确定性再降低 25 个百分点。冷却 3 天。</Cultist.ExaltedSkill.Grail.Desc>
+  <Cultist.ExaltedSkill.Edge>决死战意</Cultist.ExaltedSkill.Edge>
+  <Cultist.ExaltedSkill.Edge.Desc>进入 4 小时狂热战意（近战命中 +4、痛觉休克阈值 +20%、移速 +10%；冷却 3 天）。</Cultist.ExaltedSkill.Edge.Desc>
+  <Cultist.ExaltedSkill.Winter>苍白凝视</Cultist.ExaltedSkill.Winter>
+  <Cultist.ExaltedSkill.Winter.Desc>对 12 格内一名敌方有机体施加 30 秒冬寒迟滞（移速 -30%、意识 -10%；冷却 3 天）。</Cultist.ExaltedSkill.Winter.Desc>
+  <Cultist.ExaltedSkill.Heart>不息鼓舞</Cultist.ExaltedSkill.Heart>
+  <Cultist.ExaltedSkill.Heart.Desc>8 格内的己方殖民者恢复 15% 休息值，并在 1 天内获得 +5 心情和 +15% 伤口愈合速度。冷却 3 天。</Cultist.ExaltedSkill.Heart.Desc>
+  <Cultist.ExaltedSkill.Moth>林地隐迹</Cultist.ExaltedSkill.Moth>
+  <Cultist.ExaltedSkill.Moth.Desc>暗中抹除调查踪迹，直接降低结社 12 点恶名（冷却 3 天）。</Cultist.ExaltedSkill.Moth.Desc>
+  <Cultist.ExaltedSkill.Knock>越界门扉</Cultist.ExaltedSkill.Knock>
+  <Cultist.ExaltedSkill.Knock.Desc>半小时内可用「穿门跃行」越过墙壁和门锁。冷却 3 天。</Cultist.ExaltedSkill.Knock.Desc>
+  <Cultist.ExaltedSkill.SecretHistories>秘史寻踪</Cultist.ExaltedSkill.SecretHistories>
+  <Cultist.ExaltedSkill.SecretHistories.Desc>揭示一处 1–2 阶藏书遗址。冷却 3 天。</Cultist.ExaltedSkill.SecretHistories.Desc>
+
+  <Cultist.Exalted.LanternUsed>{0}照亮了前路：教主下一次漫宿入梦将展示 2 张明牌。</Cultist.Exalted.LanternUsed>
+  <Cultist.Exalted.NoDamagedGear>没有受损的武器或护甲。</Cultist.Exalted.NoDamagedGear>
+  <Cultist.Exalted.NeedSteel>需要 {0} 份可用钢铁。</Cultist.Exalted.NeedSteel>
+  <Cultist.Exalted.ForgeUsed>{0}以炉火重锻了 {1}，恢复了大量耐久。</Cultist.Exalted.ForgeUsed>
+  <Cultist.Exalted.NoPrisoner>没有可劝诱的囚犯。</Cultist.Exalted.NoPrisoner>
+  <Cultist.Exalted.GrailUsed>{0}以赤杯秘仪动摇了 {1} 的抵抗意志与信仰。</Cultist.Exalted.GrailUsed>
+  <Cultist.Exalted.EdgeUsed>{0}进入了锋锐无比的决死战意。</Cultist.Exalted.EdgeUsed>
+  <Cultist.Exalted.InvalidWinterTarget>请选择 12 格内一名活着的敌方目标。</Cultist.Exalted.InvalidWinterTarget>
+  <Cultist.Exalted.WinterUsed>{0}以苍白冬霜凝视迟滞了 {1}。</Cultist.Exalted.WinterUsed>
+  <Cultist.Exalted.HeartUsed>{0}的不息鼓点振奋了周围殖民者的精神。</Cultist.Exalted.HeartUsed>
+  <Cultist.Exalted.MothUsed>{0}悄然抹去了可疑踪迹（恶名 -12）。</Cultist.Exalted.MothUsed>
+  <Cultist.Exalted.KnockUsed>{0}开启了越界门扉，半小时内可无视墙体与门锁自由穿行。</Cultist.Exalted.KnockUsed>
+  <Cultist.Exalted.NoFreshCorpse>10 格内没有新鲜的人类尸体。</Cultist.Exalted.NoFreshCorpse>
+  <Cultist.Exalted.GraveUsed>{0}低声唤起了一具持续 6 小时的破碎行尸协战。</Cultist.Exalted.GraveUsed>
+
+  <Cultist.ExaltedTrait.PhaseWalker>穿隙行者</Cultist.ExaltedTrait.PhaseWalker>
+  <Cultist.ExaltedTrait.PhaseWalker.Desc>半小时内可用「穿门跃行」越过墙壁和门锁。冷却 2 天。</Cultist.ExaltedTrait.PhaseWalker.Desc>
+  <Cultist.ExaltedTrait.MoltingMist>蜕壳迷雾</Cultist.ExaltedTrait.MoltingMist>
+  <Cultist.ExaltedTrait.AshenSkin>灰烬之肤</Cultist.ExaltedTrait.AshenSkin>
+  <Cultist.ExaltedTrait.PainFervor>噬痛锋芒</Cultist.ExaltedTrait.PainFervor>
+  <Cultist.ExaltedTrait.GraveyardWhisper>墓园低语</Cultist.ExaltedTrait.GraveyardWhisper>
+  <Cultist.ExaltedTrait.GraveyardWhisper.Desc>主动（冷却 3 天）：消耗 10 格内一具新鲜人类尸体，无恶名唤起一具持续 6 小时的破碎行尸协战。</Cultist.ExaltedTrait.GraveyardWhisper.Desc>
+  <Cultist.ExaltedTrait.HoneyedTongue>甘美舌灿</Cultist.ExaltedTrait.HoneyedTongue>
+  <Cultist.ExaltedTrait.SleeplessVigil>守夜无眠</Cultist.ExaltedTrait.SleeplessVigil>
+  <Cultist.ExaltedTrait.HourForesight>司辰预感</Cultist.ExaltedTrait.HourForesight>
+  <Cultist.ExaltedTrait.PulseHemostasis>脉动止血</Cultist.ExaltedTrait.PulseHemostasis>
+  <Cultist.ExaltedTrait.NightEyes>夜行兽瞳</Cultist.ExaltedTrait.NightEyes>
+  <Cultist.ExaltedTrait.VoraciousGut>饕餮铁胃</Cultist.ExaltedTrait.VoraciousGut>
+  <Cultist.ExaltedTrait.BedrockMind>磐石心智</Cultist.ExaltedTrait.BedrockMind>
+  <Cultist.ExaltedTrait.LoreSpeedReader>秘传速读</Cultist.ExaltedTrait.LoreSpeedReader>
+  <Cultist.ExaltedTrait.LongStrider>远征苦旅</Cultist.ExaltedTrait.LongStrider>
+  <Cultist.ExaltedTrait.SilentStep>无声影步</Cultist.ExaltedTrait.SilentStep>
+
+  <!-- Minor Victory Credits, Returned Keeper & Same-Save Re-Founding -->
+  <Cultist.Victory.LongSubtitle>小胜飞升 —— {0}长生者（{1}）</Cultist.Victory.LongSubtitle>
+  <Cultist.Victory.NameSubtitle>大胜登临 —— {0}守护具名者（{1}）</Cultist.Victory.NameSubtitle>
+  <Cultist.Victory.Credits>致敬《密教模拟器》（Weather Factory）。</Cultist.Victory.Credits>
+  <Cultist.Victory.ContinueColony>返回殖民地</Cultist.Victory.ContinueColony>
+
+  <Cultist.Altar.CalmWeather>门限平息：驱散恶劣天气（消耗 1 本秘传，15 天冷却）</Cultist.Altar.CalmWeather>
+  <Cultist.Returned.WeatherCalmed>{0}以长生者之力平息了门限之风，驱散了当前地图的恶劣天气。</Cultist.Returned.WeatherCalmed>
+  <Cultist.Altar.SpawnRefoundJournal>抄录《夜游漫记》</Cultist.Altar.SpawnRefoundJournal>
+  <Cultist.Refound.JournalSpawned>{0} 抄录了《夜游漫记》。让另一名殖民者研读，可另立教会。</Cultist.Refound.JournalSpawned>
+
+  <!-- Apostle Major Victory & Guardian Name -->
+  <Cultist.Apostle.Accept>接受使徒召唤</Cultist.Apostle.Accept>
+  <Cultist.Apostle.OfferTitle>使徒召唤：更高处的门扉（{0}）</Cultist.Apostle.OfferTitle>
+  <Cultist.Apostle.OfferBody>{1}相长生者 {0} 从三尖之门彼端传来召唤。若你应允，一名继承其技能与特质的使徒将加入殖民地，接任教主并主持大功业。</Cultist.Apostle.OfferBody>
+  <Cultist.Apostle.Prefix.Lantern>启明使徒·</Cultist.Apostle.Prefix.Lantern>
+  <Cultist.Apostle.Prefix.Forge>塑形使徒·</Cultist.Apostle.Prefix.Forge>
+  <Cultist.Apostle.Prefix.Grail>饕餮使徒·</Cultist.Apostle.Prefix.Grail>
+  <Cultist.Apostle.Joined>{0}已受感召抵达殖民地，准备为尊主 {1} 成就大功业！</Cultist.Apostle.Joined>
+
+  <Cultist.Apostle.QuestTitle.Lantern>守夜人的朝圣</Cultist.Apostle.QuestTitle.Lantern>
+  <Cultist.Apostle.QuestDesc.Lantern>协助长生者 {0} 晋升为灯相具名者。\n\n祭坛大功业条件：\n1. 祭坛旁备妥 7 阶灯相最高秘传\n2. 祭坛旁备妥已修复的守夜人之镜\n3. 拥有至少 15 级灯影响（辉煌之光）且地图上至少有 3 名结社成员\n4. 启动并守住 8 小时「三尖之门大守夜」。</Cultist.Apostle.QuestDesc.Lantern>
+  <Cultist.Apostle.QuestTitle.Forge>白日铸炉的破晓</Cultist.Apostle.QuestTitle.Forge>
+  <Cultist.Apostle.QuestDesc.Forge>协助长生者 {0} 晋升为铸相具名者。\n\n祭坛大功业条件：\n1. 祭坛旁备妥 7 阶铸相最高秘传\n2. 祭坛旁备妥锻造完成的「破晓核心」\n3. 场上存在已召唤的「坩埚王」，或于熔炉圣所内持有至少 10 级铸影响\n4. 启动并守住 8 小时破晓重铸大仪轨。</Cultist.Apostle.QuestDesc.Forge>
+  <Cultist.Apostle.QuestTitle.Grail>赤杯的无尽盛宴</Cultist.Apostle.QuestTitle.Grail>
+  <Cultist.Apostle.QuestDesc.Grail>协助长生者 {0} 晋升为杯相具名者。\n\n祭坛大功业条件：\n1. 祭坛旁备妥 7 阶杯相最高秘传\n2. 祭坛旁备妥调制完成的「紫晶圣爵饮」\n3. 场上存在已召唤的「第二干渴者伊泽姆」，或持有至少 10 级杯影响且拥有三阶崇高门徒\n4. 启动并守住 8 小时无尽盛宴大仪轨。</Cultist.Apostle.QuestDesc.Grail>
+
+  <Cultist.Altar.ApostleGreatWork>举行大功业仪式</Cultist.Altar.ApostleGreatWork>
+  <Cultist.Apostle.NeedLore7>需要在祭坛 {1} 格内放置 {0}。</Cultist.Apostle.NeedLore7>
+  <Cultist.Apostle.NeedMirror3>需要在祭坛 {0} 格内放置已修复的守夜人之镜。</Cultist.Apostle.NeedMirror3>
+  <Cultist.Apostle.NeedInfluence>需要至少 {0} 级{1}影响。</Cultist.Apostle.NeedInfluence>
+  <Cultist.Apostle.NeedMembers>地图上至少需要 {0} 名结社成员在场。</Cultist.Apostle.NeedMembers>
+  <Cultist.Apostle.NeedRelic>需要在祭坛 {1} 格内放置大功业圣物「{0}」。</Cultist.Apostle.NeedRelic>
+  <Cultist.Apostle.NeedForgeSupport>需要场上存在已召唤的「坩埚王」，或在熔炉圣所内持有至少 10 级铸影响。</Cultist.Apostle.NeedForgeSupport>
+  <Cultist.Apostle.NeedGrailSupport>需要场上存在已召唤的「伊泽姆」，或持有至少 10 级杯影响且拥有三阶崇高门徒。</Cultist.Apostle.NeedGrailSupport>
+
+  <Cultist.Apostle.RaidTitle>三尖之门前的总攻</Cultist.Apostle.RaidTitle>
+  <Cultist.Apostle.RaidBody>防剿局与敌对长生者前来阻止大功业。守住祭坛与使徒 8 小时。</Cultist.Apostle.RaidBody>
+  <Cultist.Apostle.VigilStarted>大功业守夜开始。守住祭坛与使徒 8 小时。</Cultist.Apostle.VigilStarted>
+
+  <Cultist.Apostle.VictoryTitle.Lantern>大胜：辉光之具名者</Cultist.Apostle.VictoryTitle.Lantern>
+  <Cultist.Apostle.VictoryBody.Lantern>越过三尖之门，{0} 褪尽了凡世最后的阴影，在司辰阶下夺得了「具名者」的永恒席位。\n\n{1} 作为具名者的「地上代言人」留在殖民地，此后你可以在任意祭坛直接祈求守护具名者 {0} 的垂青。</Cultist.Apostle.VictoryBody.Lantern>
+  <Cultist.Apostle.VictoryTitle.Forge>大胜：白日铸炉之具名者</Cultist.Apostle.VictoryTitle.Forge>
+  <Cultist.Apostle.VictoryBody.Forge>破晓核心炽白轰鸣，{0} 步入白日铸炉的烈焰，重铸为不朽的「具名者」。\n\n{1} 作为具名者的「地上代言人」留在殖民地，此后你可以在任意祭坛直接祈求守护具名者 {0} 的垂青。</Cultist.Apostle.VictoryBody.Forge>
+  <Cultist.Apostle.VictoryTitle.Grail>大胜：赤杯之具名者</Cultist.Apostle.VictoryTitle.Grail>
+  <Cultist.Apostle.VictoryBody.Grail>紫晶圣爵溢出无尽甘露，赤杯将 {0} 纳为永恒欢愉与饥渴的「具名者」。\n\n{1} 作为具名者的「地上代言人」留在殖民地，此后你可以在任意祭坛直接祈求守护具名者 {0} 的垂青。</Cultist.Apostle.VictoryBody.Grail>
+
+  <Cultist.Altar.GuardianAvatar>召请 {0} 的化身（12 小时）</Cultist.Altar.GuardianAvatar>
+  <Cultist.Altar.GuardianBlessing>祈求 {0} 的恩泽</Cultist.Altar.GuardianBlessing>
+  <Cultist.Altar.GuardianCooldown>{0} 天后可再次祈求</Cultist.Altar.GuardianCooldown>
+  <Cultist.Guardian.AvatarName>{0}守护具名者 · {1}</Cultist.Guardian.AvatarName>
+  <Cultist.Guardian.AvatarArrived>{0} 自漫宿降临凡世，将守护殖民地 12 小时！</Cultist.Guardian.AvatarArrived>
+  <Cultist.Guardian.BlessingGranted>守护具名者 {0} 降下恩泽（全员 5 天 +8 心情、+15% 劳作与研究速度，并获赐 3 枚斯宾特里亚古币）！</Cultist.Guardian.BlessingGranted>
+</LanguageData>

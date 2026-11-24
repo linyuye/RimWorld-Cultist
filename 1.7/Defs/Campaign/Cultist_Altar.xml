@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>Cultist_AltarRite</defName>
+    <driverClass>Cultist.AltarRiteJob</driverClass>
+    <reportString>performing a rite at TargetA.</reportString>
+  </JobDef>
+  <ThingDef ParentName="FurnitureBase">
+    <defName>Cultist_Altar</defName>
+    <label>observatory altar</label>
+    <description>A low table for observing traces from dreams, ordaining members, and holding vigils.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/EndTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <color>(211,182,114)</color>
+    </graphicData>
+    <designationCategory>Misc</designationCategory>
+    <costList><Steel>40</Steel></costList>
+    <statBases>
+      <MaxHitPoints>110</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.35</Flammability>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <comps><li Class="Cultist.AltarProperties"/></comps>
+  </ThingDef>
+</Defs>

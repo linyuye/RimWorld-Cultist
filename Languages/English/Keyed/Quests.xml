@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.MarkNeedsInfluence>Requires a society-aligned influence of at least {0}.</Cultist.MarkNeedsInfluence>
+  <Cultist.Quest.Expedition>Travel to the abandoned observatory, take the engraved survey plate and deliver it to a home settlement. If the site is lost, the leader can trace another one at the altar.</Cultist.Quest.Expedition>
+  <Cultist.Quest.Vigil.Title>The rite of the watchkeeper</Cultist.Quest.Vigil.Title>
+  <Cultist.Quest.Vigil.Description>Use the altar to choose a lore book, a repaired tool and a society member as an assistant. The book and tool must together provide at least {0} power. Protect the altar and the leader for {1} hours and drive off the attackers. The rite ends when you choose what becomes of the leader.</Cultist.Quest.Vigil.Description>
+  <Cultist.Quest.Seer.Title>An exalted disciple</Cultist.Quest.Seer.Title>
+  <Cultist.Quest.Seer.Description>Advance a matching disciple to exalted rank at the altar using two lore books and a society-aligned influence of at least {0}.</Cultist.Quest.Seer.Description>
+  <Cultist.Quest.Repair.Title>Set the mirror right</Cultist.Quest.Repair.Title>
+  <Cultist.Quest.Repair.Description>Use a crafting spot to repair the cracked wayfarer’s mirror with components.</Cultist.Quest.Repair.Description>
+  <Cultist.Quest.Transcript.Title>A trader’s transcript</Cultist.Quest.Transcript.Title>
+  <Cultist.Quest.Transcript.Description>Study a survey transcript with any society member to recover two books of society lore.</Cultist.Quest.Transcript.Description>
+</LanguageData>

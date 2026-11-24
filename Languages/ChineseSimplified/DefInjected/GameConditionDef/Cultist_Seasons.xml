@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_QuietSeason.label>休憩时节</Cultist_QuietSeason.label>
+  <Cultist_QuietSeason.description>教主获得一份短暂的安逸，并整理出一本灯相秘传。</Cultist_QuietSeason.description>
+  <Cultist_QuietSeason.endMessage>休憩时节已经结束。</Cultist_QuietSeason.endMessage>
+  <Cultist_BrightSeason.label>映光时节</Cultist_BrightSeason.label>
+  <Cultist_BrightSeason.description>教主获得了一份入迷。留意后续的入迷状况。</Cultist_BrightSeason.description>
+  <Cultist_BrightSeason.endMessage>映光时节已经结束。</Cultist_BrightSeason.endMessage>
+  <Cultist_DarkSeason.label>忧惧时节</Cultist_DarkSeason.label>
+  <Cultist_DarkSeason.description>教主获得了一份恐惧。可在状况恶化前用安逸缓解。</Cultist_DarkSeason.description>
+  <Cultist_DarkSeason.endMessage>忧惧时节已经结束。</Cultist_DarkSeason.endMessage>
+  <Cultist_AffectionSeason.label>浓情蜜意的时节</Cultist_AffectionSeason.label>
+  <Cultist_AffectionSeason.description>殖民者更愿意关照彼此，也可能有两人走到一起。</Cultist_AffectionSeason.description>
+  <Cultist_AffectionSeason.endMessage>浓情蜜意的时节已经结束。</Cultist_AffectionSeason.endMessage>
+  <Cultist_SuspicionSeason.label>猜忌的时节</Cultist_SuspicionSeason.label>
+  <Cultist_SuspicionSeason.description>不怀好意的目光笼罩着教会。若恶名超过警戒阈值的 75%，防剿局会立刻发动袭击。</Cultist_SuspicionSeason.description>
+  <Cultist_SuspicionSeason.endMessage>猜忌的时节已经结束。</Cultist_SuspicionSeason.endMessage>
+  <Cultist_SicknessSeason.label>疾病的时节</Cultist_SicknessSeason.label>
+  <Cultist_SicknessSeason.description>寒意侵袭，教主染上了一种可治愈的疾病。</Cultist_SicknessSeason.description>
+  <Cultist_SicknessSeason.endMessage>疾病的时节已经结束。</Cultist_SicknessSeason.endMessage>
+  <Cultist_SilenceSeason.label>静默的时节</Cultist_SilenceSeason.label>
+  <Cultist_SilenceSeason.description>冬日的沉静笼罩教主心神，心灵敏感度降低 50%。</Cultist_SilenceSeason.description>
+  <Cultist_SilenceSeason.endMessage>静默的时节已经结束。</Cultist_SilenceSeason.endMessage>
+</LanguageData>

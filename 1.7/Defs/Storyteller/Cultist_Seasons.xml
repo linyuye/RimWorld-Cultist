@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentCategoryDef>
+    <defName>Cultist_SeasonEvent</defName>
+  </IncidentCategoryDef>
+  <GameConditionDef>
+    <defName>Cultist_QuietSeason</defName>
+    <conditionClass>Cultist.CultistSeasonCondition</conditionClass>
+    <label>a season of respite</label>
+    <description>The society’s leader finds a short-lived comfort and records a book of Lantern lore.</description>
+    <endMessage>The season of respite is over.</endMessage>
+  </GameConditionDef>
+  <IncidentDef>
+    <defName>Cultist_ArrivalQuietSeason</defName>
+    <label>a season of respite</label>
+    <category>Cultist_SeasonEvent</category>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Cultist.IncidentWorker_CultistSeason</workerClass>
+    <gameCondition>Cultist_QuietSeason</gameCondition>
+    <baseChance>0</baseChance>
+    <modExtensions>
+      <li Class="Cultist.CultistSeasonEffect"><effect>Comfort</effect></li>
+    </modExtensions>
+  </IncidentDef>
+  <GameConditionDef>
+    <defName>Cultist_BrightSeason</defName>
+    <conditionClass>Cultist.CultistSeasonCondition</conditionClass>
+    <label>a season of reflections</label>
+    <description>The society’s leader has taken on a fascination. Watch for further signs of obsession.</description>
+    <endMessage>The season of reflections is over.</endMessage>
+  </GameConditionDef>
+  <IncidentDef>
+    <defName>Cultist_ArrivalBrightSeason</defName>
+    <label>a season of reflections</label>
+    <category>Cultist_SeasonEvent</category>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Cultist.IncidentWorker_CultistSeason</workerClass>
+    <gameCondition>Cultist_BrightSeason</gameCondition>
+    <baseChance>0</baseChance>
+    <modExtensions>
+      <li Class="Cultist.CultistSeasonEffect"><effect>Fascination</effect></li>
+    </modExtensions>
+  </IncidentDef>
+  <GameConditionDef>
+    <defName>Cultist_DarkSeason</defName>
+    <conditionClass>Cultist.CultistSeasonCondition</conditionClass>
+    <label>a season of foreboding</label>
+    <description>The society’s leader has taken on a fear. Comfort may help before it worsens.</description>
+    <endMessage>The season of foreboding is over.</endMessage>
+  </GameConditionDef>
+  <IncidentDef>
+    <defName>Cultist_ArrivalDarkSeason</defName>
+    <label>a season of foreboding</label>
+    <category>Cultist_SeasonEvent</category>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Cultist.IncidentWorker_CultistSeason</workerClass>
+    <gameCondition>Cultist_DarkSeason</gameCondition>
+    <baseChance>0</baseChance>
+    <modExtensions>
+      <li Class="Cultist.CultistSeasonEffect"><effect>Fear</effect></li>
+    </modExtensions>
+  </IncidentDef>
+  <GameConditionDef>
+    <defName>Cultist_AffectionSeason</defName>
+    <conditionClass>Cultist.CultistSeasonCondition</conditionClass>
+    <label>a season of affection</label>
+    <description>Colonists are more attentive to one another. This may bring two compatible colonists together.</description>
+    <endMessage>The season of affection is over.</endMessage>
+  </GameConditionDef>
+  <IncidentDef>
+    <defName>Cultist_ArrivalAffectionSeason</defName>
+    <label>a season of affection</label>
+    <category>Cultist_SeasonEvent</category>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Cultist.IncidentWorker_CultistSeason</workerClass>
+    <gameCondition>Cultist_AffectionSeason</gameCondition>
+    <baseChance>0</baseChance>
+    <modExtensions>
+      <li Class="Cultist.CultistSeasonEffect"><effect>Affection</effect></li>
+    </modExtensions>
+  </IncidentDef>
+  <ThoughtDef>
+    <defName>Cultist_SeasonGoodwill</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>4</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>seasonal goodwill</label>
+        <baseOpinionOffset>8</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <GameConditionDef>
+    <defName>Cultist_SuspicionSeason</defName>
+    <conditionClass>Cultist.CultistSeasonCondition</conditionClass>
+    <label>a season of suspicion</label>
+    <description>Unwelcome eyes linger on the society. If notoriety exceeds 75% of the raid threshold, the Suppression Bureau strikes immediately.</description>
+    <endMessage>The season of suspicion is over.</endMessage>
+  </GameConditionDef>
+  <IncidentDef>
+    <defName>Cultist_ArrivalSuspicionSeason</defName>
+    <label>a season of suspicion</label>
+    <category>Cultist_SeasonEvent</category>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Cultist.IncidentWorker_CultistSeason</workerClass>
+    <gameCondition>Cultist_SuspicionSeason</gameCondition>
+    <baseChance>0</baseChance>
+    <modExtensions>
+      <li Class="Cultist.CultistSeasonEffect"><effect>Suspicion</effect></li>
+    </modExtensions>
+  </IncidentDef>
+
+  <GameConditionDef>
+    <defName>Cultist_SicknessSeason</defName>
+    <conditionClass>Cultist.CultistSeasonCondition</conditionClass>
+    <label>a season of sickness</label>
+    <description>A creeping chill afflicts the society's leader with a curable illness.</description>
+    <endMessage>The season of sickness is over.</endMessage>
+  </GameConditionDef>
+  <IncidentDef>
+    <defName>Cultist_ArrivalSicknessSeason</defName>
+    <label>a season of sickness</label>
+    <category>Cultist_SeasonEvent</category>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Cultist.IncidentWorker_CultistSeason</workerClass>
+    <gameCondition>Cultist_SicknessSeason</gameCondition>
+    <baseChance>0</baseChance>
+    <modExtensions>
+      <li Class="Cultist.CultistSeasonEffect"><effect>Sickness</effect></li>
+    </modExtensions>
+  </IncidentDef>
+
+  <GameConditionDef>
+    <defName>Cultist_SilenceSeason</defName>
+    <conditionClass>Cultist.CultistSeasonCondition</conditionClass>
+    <label>a season of silence</label>
+    <description>A still Winter hush settles over the leader, reducing psychic sensitivity by 50%.</description>
+    <endMessage>The season of silence is over.</endMessage>
+  </GameConditionDef>
+  <IncidentDef>
+    <defName>Cultist_ArrivalSilenceSeason</defName>
+    <label>a season of silence</label>
+    <category>Cultist_SeasonEvent</category>
+    <targetTags><li>Map_PlayerHome</li></targetTags>
+    <workerClass>Cultist.IncidentWorker_CultistSeason</workerClass>
+    <gameCondition>Cultist_SilenceSeason</gameCondition>
+    <baseChance>0</baseChance>
+    <modExtensions>
+      <li Class="Cultist.CultistSeasonEffect"><effect>Silence</effect></li>
+    </modExtensions>
+  </IncidentDef>
+
+  <Cultist.CultistSeasonSettings>
+    <defName>Cultist_SeasonCadence</defName>
+    <minimumDays>3</minimumDays>
+    <durationDays>4</durationDays>
+    <activeLimit>2</activeLimit>
+    <ordinaryChance>0.4</ordinaryChance>
+    <archivistChance>0.85</archivistChance>
+    <affectionRomanceChance>0.10</affectionRomanceChance>
+    <pool>
+      <li>Cultist_ArrivalQuietSeason</li>
+      <li>Cultist_ArrivalBrightSeason</li>
+      <li>Cultist_ArrivalDarkSeason</li>
+      <li>Cultist_ArrivalAffectionSeason</li>
+      <li>Cultist_ArrivalSuspicionSeason</li>
+      <li>Cultist_ArrivalSicknessSeason</li>
+      <li>Cultist_ArrivalSilenceSeason</li>
+    </pool>
+  </Cultist.CultistSeasonSettings>
+</Defs>

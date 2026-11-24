@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedge_exile</defName>
+    <label>A Knife's Secret</label>
+    <description>I'm no adept, but I've had to kill a few adepts in my time. You pick things up as you go.</description>
+    <sourceId>fragmentedge.exile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeb_exile</defName>
+    <label>Biedde's Lesson</label>
+    <description>Biedde said: 'Blood can be replenished. Time cannot.' Biedde knew what he was about.</description>
+    <sourceId>fragmentedgeb.exile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeb</iconPath>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgec_exile</defName>
+    <label>An Operation of the Strix</label>
+    <description>'Where warriors fall, the many-winged striges gather to honour their flesh. Where heroes fall, the Many-Winged Ones gather to convey their souls before the Hours.' I don't intend to fall, so I've learnt how the striges protect themselves.</description>
+    <sourceId>fragmentedgec.exile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgec</iconPath>
+    <aspects>
+      <li><key>edge</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedged_exile</defName>
+    <label>The Names of the Wolf</label>
+    <description>'Three natures hath the Wolf Divided; he unmaketh; he unmaketh; at the last, he unmaketh.' You don't have to like an Hour to learn from it.</description>
+    <sourceId>fragmentedged.exile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedged</iconPath>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgee_exile</defName>
+    <label>The Cinnabar Forms</label>
+    <description>Seven times seven techniques of unmaking.</description>
+    <sourceId>fragmentedgee.exile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgee</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgef_exile</defName>
+    <label>The Alignments of Murder</label>
+    <description>These are the arts that ensure an ending.</description>
+    <sourceId>fragmentedgef.exile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgef</iconPath>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeg_exile</defName>
+    <label>The Mysteries of Force</label>
+    <description>The Colonel and the Lionsmith are gods-who-were-flesh, but the Wolf-Divided is a god-who-was-blood. Cunning, Strength and Agony are the three roots of victory, and here is their secret doctrine...</description>
+    <sourceId>fragmentedgeg.exile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeg</iconPath>
+    <aspects>
+      <li><key>edge</key><value>14</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeb_colonel</defName>
+    <label>The Chiliarch's Lesson</label>
+    <description>'This is the bone-deep story the thousandman learnt in antiquity, of blood and its exits. To speak it aloud is to hear the sword hiss.' It's more practical than it sounds.</description>
+    <sourceId>fragmentedgeb.colonel</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeb.colonel</iconPath>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>lantern</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgec_colonel</defName>
+    <label>An Operation of the Histid</label>
+    <description>A set of exacting exercises that will armour the skin and make each digit lethal as a spear-point.</description>
+    <sourceId>fragmentedgec.colonel</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgec.colonel</iconPath>
+    <aspects>
+      <li><key>edge</key><value>6</value></li>
+      <li><key>lantern</key><value>3</value></li>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>3</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedged_colonel</defName>
+    <label>The Colonel's Names</label>
+    <description>The Colonel has been many things in many ages. He is blind; he is deaf; he cannot be wounded; he cannot be denied. His Names are cunning as only the very old can be.</description>
+    <sourceId>fragmentedged.colonel</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedged.colonel</iconPath>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>lantern</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgee_colonel</defName>
+    <label>The Iron Forms</label>
+    <description>Seven times seven techniques for the sundering of flesh.</description>
+    <sourceId>fragmentedgee.colonel</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgee.colonel</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>lantern</key><value>5</value></li>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>5</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgef_colonel</defName>
+    <label>Moduli of the Langet</label>
+    <description>If I am to be a weapon, I must know where my soul is reinforced by its history, and where my limits become fundamental.</description>
+    <sourceId>fragmentedgef.colonel</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgef.colonel</iconPath>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>lantern</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeg_colonel</defName>
+    <label>The Scarred Mysteries</label>
+    <description>Cunning is the root of victory. Experience is the root of cunning. There can be no experience without suffering, and a scar is suffering given form.</description>
+    <sourceId>fragmentedgeg.colonel</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeg.colonel</iconPath>
+    <aspects>
+      <li><key>edge</key><value>14</value></li>
+      <li><key>lantern</key><value>7</value></li>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>7</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeb_lionsmith</defName>
+    <label>The Shahpur's Lesson</label>
+    <description>'This is the lesson the Great One's Son found in the breaking of his blade. Even now it glints like shards of metal in the Persian sun.' It's more practical than it sounds.</description>
+    <sourceId>fragmentedgeb.lionsmith</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeb.lionsmith</iconPath>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>forge</key><value>2</value></li>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgec_lionsmith</defName>
+    <label>An Operation of the Labhite</label>
+    <description>A series of mystic exercises that require both dedication and terror.</description>
+    <sourceId>fragmentedgec.lionsmith</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgec.lionsmith</iconPath>
+    <aspects>
+      <li><key>edge</key><value>6</value></li>
+      <li><key>forge</key><value>3</value></li>
+      <li><key>heart</key><value>3</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedged_lionsmith</defName>
+    <label>The Lionsmith's Names</label>
+    <description>The Lionsmith is young by the standards of the Hours, but old by the standards of war. His Names are recent recruits, and their recitation has a savage power.</description>
+    <sourceId>fragmentedged.lionsmith</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedged.lionsmith</iconPath>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>forge</key><value>4</value></li>
+      <li><key>heart</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgee_lionsmith</defName>
+    <label>The Brass Forms</label>
+    <description>Seven times seven techniques for the shattering of bone.</description>
+    <sourceId>fragmentedgee.lionsmith</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgee.lionsmith</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>forge</key><value>5</value></li>
+      <li><key>heart</key><value>5</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgef_lionsmith</defName>
+    <label>Consummations of the Helve</label>
+    <description>I am the weapon that will be broken, and remade again without flaw. The argument of my flesh will at last be irrefragable.</description>
+    <sourceId>fragmentedgef.lionsmith</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgef.lionsmith</iconPath>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>forge</key><value>6</value></li>
+      <li><key>heart</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeg_lionsmith</defName>
+    <label>The Shattered Mysteries</label>
+    <description>In each rebirth there is greater strength. What has been broken can be reforged. What has never been broken must be reforged.</description>
+    <sourceId>fragmentedgeg.lionsmith</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeg.lionsmith</iconPath>
+    <aspects>
+      <li><key>edge</key><value>14</value></li>
+      <li><key>forge</key><value>7</value></li>
+      <li><key>heart</key><value>7</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedge</defName>
+    <label>A Knife's Secret</label>
+    <description>When our ancestors forged swords, taught the arts of martial movement, spoke curses on the eve of battle - all these things shared certain patterns. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]</description>
+    <sourceId>fragmentedge</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedge</iconPath>
+    <aspects>
+      <li><key>edge</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeb</defName>
+    <label>Chiliarch's Lesson</label>
+    <description>This is the bone-deep story the thousandman learnt in antiquity, of blood and its exits. To speak it aloud is to hear the sword hiss. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]</description>
+    <sourceId>fragmentedgeb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeb</iconPath>
+    <aspects>
+      <li><key>edge</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgec</defName>
+    <label>An Operation of the Labhite</label>
+    <description>A series of mystic exercises that requires both dedication and terror. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]</description>
+    <sourceId>fragmentedgec</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgec</iconPath>
+    <aspects>
+      <li><key>edge</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedged</defName>
+    <label>The Colonel's Names</label>
+    <description>The Colonel has been many things in many ages. He is blind; he is deaf; he cannot be wounded; he cannot be denied. His Names are cunning as only the very old can be.</description>
+    <sourceId>fragmentedged</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedged</iconPath>
+    <aspects>
+      <li><key>edge</key><value>8</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgee</defName>
+    <label>The Lionsmith's Names</label>
+    <description>The Lionsmith is young by the standards of the Hours, but old by the standards of war. His Names are recent recruits, and their recitation has a savage power.</description>
+    <sourceId>fragmentedgee</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgee</iconPath>
+    <aspects>
+      <li><key>edge</key><value>10</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgef</defName>
+    <label>The Alignments of Murder</label>
+    <description>These are the arts that ensure an ending.</description>
+    <sourceId>fragmentedgef</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgef</iconPath>
+    <aspects>
+      <li><key>edge</key><value>12</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentedgeg</defName>
+    <label>The Mysteries of Force</label>
+    <description>The Colonel and the Lionsmith are gods-who-were-flesh, but the Wolf-Divided is a god-who-was-blood. Cunning, Strength and Agony are the three roots of victory, and here is their secret doctrine...</description>
+    <sourceId>fragmentedgeg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentedgeg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>edge</key><value>14</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentforge</defName>
+    <label>A Smith's Secret</label>
+    <description>In five continents, smiths have whispered the same words to the iron. Murderers have been known to whisper these words, too. And adepts, of course. These words are spoken in ritual to inspire an unmerciful Change.</description>
+    <sourceId>fragmentforge</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentforge</iconPath>
+    <aspects>
+      <li><key>forge</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentforgeb</defName>
+    <label>An Ardent Orison</label>
+    <description>When we watch a fire, what are we watching for? When we find it, these are the words it will speak: a word that sanctifies the change that comes when the seared skin peels.</description>
+    <sourceId>fragmentforgeb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentforgeb</iconPath>
+    <aspects>
+      <li><key>forge</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentforgec</defName>
+    <label>A Shaping Chant</label>
+    <description>The proper words must be employed when the Change comes. [Use this in a Rite with a Knock influence and a Bone Flute - or other resources of equal power - to summon a Caligine.]</description>
+    <sourceId>fragmentforgec</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentforgec</iconPath>
+    <aspects>
+      <li><key>forge</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentforged</defName>
+    <label>Callidate Invocation</label>
+    <description>The Names of the Forge have all spoken these words. [Use this in a Rite with a Knock influence and a Bone Flute - or other resources of equal power - to summon a Caligine.]</description>
+    <sourceId>fragmentforged</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentforged</iconPath>
+    <aspects>
+      <li><key>forge</key><value>8</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentforgee</defName>
+    <label>Formula Fissive</label>
+    <description>Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and then break what remains. Here is fire. [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]</description>
+    <sourceId>fragmentforgee</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentforgee</iconPath>
+    <aspects>
+      <li><key>forge</key><value>10</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentforgef</defName>
+    <label>Furnace Paean</label>
+    <description>This is the hymn the heat sings to the iron. If we imitate it faithfully enough we will parch our lips and crisp our tongue, but O, the rewards. [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]</description>
+    <sourceId>fragmentforgef</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentforgef</iconPath>
+    <aspects>
+      <li><key>forge</key><value>12</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentforgeg</defName>
+    <label>Mysteries of Making</label>
+    <description>The Forge of Days, the Meniscate and the Madrugad are gods-from-Light. Mercury, silver and gold are the seeds of the Work, and here is their secret doctrine... [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]</description>
+    <sourceId>fragmentforgeg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentforgeg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>forge</key><value>14</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentgrail</defName>
+    <label>A Red Secret</label>
+    <description>Some words are spelt correctly only when the proper ink is used.</description>
+    <sourceId>fragmentgrail</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentgrail</iconPath>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentgrailb</defName>
+    <label>A Megalesian Incantation</label>
+    <description>The Great Mother remembers.</description>
+    <sourceId>fragmentgrailb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentgrailb</iconPath>
+    <aspects>
+      <li><key>grail</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentgrailc</defName>
+    <label>A Delightful Sacrament</label>
+    <description>So pleasant upon the ear. One could listen over and over. These are the words that make sacrifice sweet. [Use this with Byzantine Tinct and a Moth influence - or other resources of equal power - to summon a Raw Prophet.]</description>
+    <sourceId>fragmentgrailc</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentgrailc</iconPath>
+    <aspects>
+      <li><key>grail</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentgraild</defName>
+    <label>Thiatic Invocation</label>
+    <description>Raucous shrieks attend the passage of the Names of the Grail. We reproduce them as best we can, for the pulsing power they lend. [Use this with Byzantine Tinct and a Moth influence - or other resources of equal power - to summon a Raw Prophet.]</description>
+    <sourceId>fragmentgraild</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentgraild</iconPath>
+    <aspects>
+      <li><key>grail</key><value>8</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentgraile</defName>
+    <label>Formulae Voluptuous</label>
+    <description>There exist some pleasures intense enough to corrupt the laws of the physical world. [This formula can be used in a Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]</description>
+    <sourceId>fragmentgraile</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentgraile</iconPath>
+    <aspects>
+      <li><key>grail</key><value>10</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentgrailf</defName>
+    <label>Anthic Elaboration</label>
+    <description>The Flowermaker cannot touch you; he cannot find you; he always has what you desire. Even an elaboration of the properties of his works can draw the attention of Hours. [This formula can be used in a Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]</description>
+    <sourceId>fragmentgrailf</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentgrailf</iconPath>
+    <aspects>
+      <li><key>grail</key><value>12</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentgrailg</defName>
+    <label>Devouring Mysteries</label>
+    <description>The Grail was the first god-who-was-blood. The Flowermaker came from Light. The Beach-Crow was flesh. Hunger and Greed and Yearning are the matrix of appetite, and here is their secret doctrine...  [Use this formula in Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]</description>
+    <sourceId>fragmentgrailg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentgrailg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>grail</key><value>14</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentheart</defName>
+    <label>A Thunderous Secret</label>
+    <description>There are common sentiments in every thunderclap. Let us acknowledge them.</description>
+    <sourceId>fragmentheart</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentheart</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentheartb</defName>
+    <label>Words that Walk</label>
+    <description>The syllables of this formula are compelling. I find myself snapping my fingers to its rhythm. It desires not to cease.</description>
+    <sourceId>fragmentheartb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentheartb</iconPath>
+    <aspects>
+      <li><key>heart</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentheartc</defName>
+    <label>A Waking Chant</label>
+    <description>Who could hear this and remain unmoved? The sleeping? The dead? The earth and the sky? [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <sourceId>fragmentheartc</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentheartc</iconPath>
+    <aspects>
+      <li><key>heart</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentheartd</defName>
+    <label>Geminate Invocation</label>
+    <description>The Sister-and-Witch has always been invoked for protection, at crossroads and at moonrise and where the land shelters the sea. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <sourceId>fragmentheartd</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentheartd</iconPath>
+    <aspects>
+      <li><key>heart</key><value>8</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmenthearte</defName>
+    <label>Formulae Vigilant</label>
+    <description>One who watches does not sleep, one who sleeps watches not. &lt;b&gt;One who watches does not sleep, one who sleeps watches not.&lt;/b&gt; [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <sourceId>fragmenthearte</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmenthearte</iconPath>
+    <aspects>
+      <li><key>heart</key><value>10</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentheartf</defName>
+    <label>Velvet Charm</label>
+    <description>The Velvet always answers 'No', but we can shelter in that 'No' like beasts in the crook of a tree. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <sourceId>fragmentheartf</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentheartf</iconPath>
+    <aspects>
+      <li><key>heart</key><value>12</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentheartg</defName>
+    <label>Unceasing Mysteries</label>
+    <description>The Grail ripped the Thunderskin from flesh. The Sister-and-Witch was born from two wombs. The Velvet woke when the Wood-roots tasted blood. The Heart is Blood's Drum, and here is its secret doctrine... [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]</description>
+    <sourceId>fragmentheartg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentheartg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>heart</key><value>14</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentknock</defName>
+    <label>A Locksmith's Secret</label>
+    <description>Sooner or later, every locksmith has the Dream. Now we recite its seven phases... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <sourceId>fragmentknock</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentknock</iconPath>
+    <aspects>
+      <li><key>knock</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentknockb</defName>
+    <label>An Iguvine Rite</label>
+    <description>Every door in the Mansus requires its sacrifice before it will open. The Iguvine Rites prescribe the manner of the sacrifice. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <sourceId>fragmentknockb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentknockb</iconPath>
+    <aspects>
+      <li><key>knock</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentknockc</defName>
+    <label>A Consent of Wounds</label>
+    <description>To open certain Ways, one must first open oneself. This practice outlines that opening, in the name of the Mother of Ants. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <sourceId>fragmentknockc</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentknockc</iconPath>
+    <aspects>
+      <li><key>knock</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentknockd</defName>
+    <label>Meniscate Invocation</label>
+    <description>When the moon's face was wounded, these words appeared. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <sourceId>fragmentknockd</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentknockd</iconPath>
+    <aspects>
+      <li><key>knock</key><value>8</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentknocke</defName>
+    <label>Formulae Ophidian</label>
+    <description>Serpents are the visitors which may not be denied. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <sourceId>fragmentknocke</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentknocke</iconPath>
+    <aspects>
+      <li><key>knock</key><value>10</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentknockf</defName>
+    <label>Liminal Evocation</label>
+    <description>One god-who-was-stone remains, and she watches all thresholds. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <sourceId>fragmentknockf</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentknockf</iconPath>
+    <aspects>
+      <li><key>knock</key><value>12</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentknockg</defName>
+    <label>Mysteries of Opening</label>
+    <description>The Mother of Ants is the child of two rivers. The Horned-Axe is the last god-from-Stone. The Meniscate was born in the Moon from Light. The Wound and the Threshold and the Revelation are all the Gate's aspects, and here is their secret doctrine... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]</description>
+    <sourceId>fragmentknockg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentknockg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>knock</key><value>14</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentlantern</defName>
+    <label>A Watchman's Secret</label>
+    <description>It has been expressed like this: 'Each Hour has its colour, but colour exists only where there is light.'</description>
+    <sourceId>fragmentlantern</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentlantern</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>2</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentlanternb</defName>
+    <label>A Mansus-Glimpse</label>
+    <description>A snatch of poetry; a single memory of a certain house that all of us visit at least twice in our lives. For one's first visit to the Mansus, this lore is almost essential.</description>
+    <sourceId>fragmentlanternb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentlanternb</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>4</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentlanternc</defName>
+    <label>An Unmerciful Mantra</label>
+    <description>'Mercy', saith the Watchman, 'is found only in shadow.'</description>
+    <sourceId>fragmentlanternc</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentlanternc</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentlanternd</defName>
+    <label>Phanaean Invocation</label>
+    <description>The Door-in-the-Eye navigates; he is not merciful; but first and always, he illuminates. [Use this in a Rite with a Knock tool and a Thrilling Air - or other resources of equal power - to summon a Hint from behind mirrors.]</description>
+    <sourceId>fragmentlanternd</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentlanternd</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>8</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentlanterne</defName>
+    <label>Formulae Concursate</label>
+    <description>The Concursum waits at the Lantern of the Mansus. It has been called the Chamber of Ways and also the Chamber of Endings. Its intricacies are probably beyond human comprehension, but these formulae are a first approximation. [Use this in a Rite with a Knock tool and a Thrilling Air - or other resources of equal power - to summon a Hint from behind mirrors.]</description>
+    <sourceId>fragmentlanterne</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentlanterne</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>10</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentlanternf</defName>
+    <label>Mantra of Ascent</label>
+    <description>The Ascent of Knives is the bloodiest of the Watchman's tests. Those who pass it and are dead enter the service of the Sun-in-Rags. Those living who pass it are a little closer to the Glory. [Use this in a Rite with a Knock tool and a Thrilling Air - or other resources of equal power - to summon a Hint from behind mirrors.]</description>
+    <sourceId>fragmentlanternf</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentlanternf</iconPath>
+    <aspects>
+      <li><key>lantern</key><value>12</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentlanterng</defName>
+    <label>Illuminate Mysteries</label>
+    <description>The Meniscate, the Madrugad, the Flowermaker and the Forge of Days are the gods-from-Light. There is a fifth, but now we know it is not the Watchman. Yet the Watchman shares a secret doctrine with those five, and here is that doctrine... [Use this in a Rite with a Subtle Rupture and a Paradoxical Curio, and someone will come. Speak it to a Hunter, and it might drive them insane on the spot.]</description>
+    <sourceId>fragmentlanterng</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentlanterng</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>lantern</key><value>14</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentmoth</defName>
+    <label>A Barber's Warning</label>
+    <description>A power of the Wood enjoys the separation of the lock from the scalp. For attention, burn it. For opportunity, bury it. [Speak this over a corpse in a Rite, with a Winter influence present, and the corpse will rise.]</description>
+    <sourceId>fragmentmoth</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentmoth</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>moth</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentmothb</defName>
+    <label>A Wood-Whisper</label>
+    <description>Lie awake, and listen. The wind speaks in the branches. The house cries out in its sleep. These are the roads that chaos rides. [Speak this over a corpse in a Rite, with a Winter influence present, and the corpse will rise.]</description>
+    <sourceId>fragmentmothb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentmothb</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>moth</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentmothc</defName>
+    <label>An Ecdysiast's Parable</label>
+    <description>The Ecdysiast's Riddle is 'What may be lost?' Each Ecdysiast's Parable is an attempt to answer the Riddle.</description>
+    <sourceId>fragmentmothc</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentmothc</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>moth</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentmothd</defName>
+    <label>Moldywarp Admonitions</label>
+    <description>Moldywarp keeps her crowns in the moss and her feet in the dirt and the trees locked jaw-tight. Moldywarp has these warnings for you.</description>
+    <sourceId>fragmentmothd</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentmothd</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>moth</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentmothe</defName>
+    <label>Centipede Testament</label>
+    <description>The Centipede came up out of the sands and went in under the roots. She found a new home but now she can't go home. She creeps in everywhere else: keyholes and histories and the channels of birth and sight and hearing. Here's what she has to say.</description>
+    <sourceId>fragmentmothe</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentmothe</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>moth</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentmothf</defName>
+    <label>Thigh-born Thorax-Sweet</label>
+    <description>Vine-crowned moth-king hatched in the thigh of the thunder-king who's dead. Drink up his belly-lymph. These are the sights you'll see.</description>
+    <sourceId>fragmentmothf</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentmothf</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>moth</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentmothg</defName>
+    <label>Mare-in-the-Yew</label>
+    <description>The real Hours don't meet the gods-from-Nowhere, but the Ring-Yew meets the Mare-in-the-Tree in where the Wood grows lush. Their couplings are forbidden, and forbidden things have power, and this is the story of their couplings.</description>
+    <sourceId>fragmentmothg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentmothg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>moth</key><value>14</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentsecrethistories</defName>
+    <label>An Occult Scrap</label>
+    <description>Secret histories are layered beneath the one we know, like the notes in rare wine. This is a detail from one of those histories. [Exploring with this scrap of knowledge may uncover secret locations in the Capital.]</description>
+    <sourceId>fragmentsecrethistories</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentsecrethistories</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>secrethistories</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentsecrethistoriesb</defName>
+    <label>A Furtive Truth</label>
+    <description>A detail smuggled in from an adjacent narrative. Don't speak this where you may be overheard. [Exploring with this scrap of knowledge may uncover secret locations in the Shires.]</description>
+    <sourceId>fragmentsecrethistoriesb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentsecrethistoriesb</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>secrethistories</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentsecrethistoriesc</defName>
+    <label>A Forgotten Chronicle</label>
+    <description>A story of a city without a gate, of a queen who was not born, of a war which was not fought. [Exploring with this scrap of knowledge may uncover secret locations on the Continent.]</description>
+    <sourceId>fragmentsecrethistoriesc</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentsecrethistoriesc</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>secrethistories</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentsecrethistoriesd</defName>
+    <label>Forbidden Epic</label>
+    <description>The attention of the Hours is drawn to the bloodiest wars. Afterwards, the Histories are braided like hair. [Exploring with this scrap of knowledge may uncover secret locations in the Land Beyond the Forest, across the Continent.]</description>
+    <sourceId>fragmentsecrethistoriesd</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentsecrethistoriesd</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>secrethistories</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentsecrethistoriese</defName>
+    <label>Unresolved Ambiguity</label>
+    <description>In the Mansus, the Hours strive one against another. As the struggles are resolved, they iron out the impossible, exalt the possible, tie the fraying braids of what has been into one golden ribbon of future. Everything is resolved. History becomes the past. There are, however, exceptions. [Exploring with this scrap of knowledge may uncover secret locations in the Rending Mountains, three thousand miles away among the wreck of the oldest empires.]</description>
+    <sourceId>fragmentsecrethistoriese</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentsecrethistoriese</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>secrethistories</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentsecrethistoriesf</defName>
+    <label>Vagabond's Map</label>
+    <description>The Vagabond is the one Hour who can never enter the Mansus, but she goes &lt;i&gt;everywhere&lt;/i&gt; else... and, if you believe her boasts, she's the only one who knows all the Histories. Sometimes, she lets someone record her travels. [Exploring with this scrap of knowledge may uncover secret locations in the Lone and Level Sands, far from here.]</description>
+    <sourceId>fragmentsecrethistoriesf</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentsecrethistoriesf</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>secrethistories</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentsecrethistoriesg</defName>
+    <label>Port Noon Anecdote</label>
+    <description>Port Noon is where the Long go to enjoy the sea and the sun, to drink from the Spring that makes them forgotten, and to stay out of trouble. Mostly out of trouble. The stories you can hear in the Hotel Ciervo are golden-dewed, quintuple-distilled toasts to memory, served straight up. [Exploring with this scrap of knowledge may uncover secret locations in the Evening Isles, where Port Noon is located, across the great ocean.]</description>
+    <sourceId>fragmentsecrethistoriesg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentsecrethistoriesg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>secrethistories</key><value>14</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentwinter</defName>
+    <label>A Sexton's Secret</label>
+    <description>Certain knowledge, it is said, can be expressed only through the particular quality of a silence. It has been suggested that one can only read such knowledge with one's eyes closed, but only by mischievous commentators. [Use this in a Rite with a corpse and Edge aspect, and the corpse will rise.]</description>
+    <sourceId>fragmentwinter</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentwinter</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentwinterb</defName>
+    <label>A White Ceremony</label>
+    <description>When I speak it, my lips don't crisp with frost. Each time, this is surprising. [Use this in a Rite with a Heart influence and Byzantine Tinct to summon the Voiceless Dead.]</description>
+    <sourceId>fragmentwinterb</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentwinterb</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentwinterc</defName>
+    <label>An Operation of the Declining Sun</label>
+    <description>This invokes, acknowledges and welcomes the passage to silence. [Use this in a Rite with a Heart influence and Byzantine Tinct to summon the Voiceless Dead.]</description>
+    <sourceId>fragmentwinterc</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentwinterc</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>6</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentwinterd</defName>
+    <label>Invocation of the Ivory Dove</label>
+    <description>There is a power that commemorates and grieves, from whom nothing is taken, but who cannot be deceived. You might expect to be able to crush him in your hand, into bird-bone fragments. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]</description>
+    <sourceId>fragmentwinterd</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentwinterd</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>8</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentwintere</defName>
+    <label>Recitation of Lost Hours</label>
+    <description>Six are gone. Five came from Stone and one from Light. All went to Nowhere. Still their memories have power, and now we call upon it. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]</description>
+    <sourceId>fragmentwintere</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentwintere</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>10</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentwinterf</defName>
+    <label>The Divisions of the Names</label>
+    <description>When the Sun-in-Splendour was divided, its Names fractured too. Here are the shards of their names which once were whole. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]</description>
+    <sourceId>fragmentwinterf</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentwinterf</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentwinterg</defName>
+    <label>Wolf-Word</label>
+    <description>When the Forge is cold and the Glory is dark and the Wood is dust, perhaps the Wolf Divided will rest, but only until it can devour itself. This Word almost expresses the Divided One's hatred. [Speak this to a Hunter, and it might drive them insane on the spot.]</description>
+    <sourceId>fragmentwinterg</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/fragmentwinterg</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+      <li><key>winter</key><value>14</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_fragmentglory</defName>
+    <label>A Recollection of Glory</label>
+    <description>--</description>
+    <sourceId>fragmentglory</sourceId>
+    <category>Lore</category>
+    <aspects>
+      <li><key>forge</key><value>6</value></li>
+      <li><key>lantern</key><value>6</value></li>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_prealzabo</defName>
+    <label>Formula: Elixir Zeboim?</label>
+    <description>I have here a secret - a recipe of honey, asphodel, powdered ivory, and a mottled fungus that grows only where the dead are buried.</description>
+    <sourceId>prealzabo</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/prealzabo</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_alzabo</defName>
+    <label>Formula: Elixir Zeboim</label>
+    <description>That formula which quickens the memories of decaying flesh in the bellies of the living. Such a thing could not exist without the consent of both the Flowermaker and the Elegiast... and with the assistance of one more Hour besides.</description>
+    <sourceId>alzabo</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/alzabo</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_apostlegrail_pillar1</defName>
+    <label>Vitulation Recipe</label>
+    <description>'The Delight shall give life; the Delight shall take life; the Delight shall not be sated. We must purchase the secret savours and infuse them with the Hours' gifts; assemble the Host; at the most auspicious time, raise the resistless cry of the Unceasing Mysteries and share from the Chalice Murmurous.'</description>
+    <sourceId>apostlegrail.pillar1</sourceId>
+    <category>Lore</category>
+    <iconPath>Cultist/Catalog/Lore/apostlegrail.pillar1</iconPath>
+    <aspects>
+      <li><key>lore</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

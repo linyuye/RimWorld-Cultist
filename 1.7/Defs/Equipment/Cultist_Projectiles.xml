@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>Cultist_Hediff_FrostSlow</defName>
+    <label>pale frost chill</label>
+    <description>Briefly chilled by a Winter shard (-15% movement speed).</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>240</disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li><statFactors><MoveSpeed>0.85</MoveSpeed></statFactors></li>
+    </stages>
+  </HediffDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Cultist_Proj_LanternBeam</defName>
+    <label>lantern ray</label>
+    <thingClass>Cultist.Projectile_Occult</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(255, 226, 128)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Beam</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>120</speed>
+    </projectile>
+    <modExtensions>
+      <li Class="Cultist.OccultProjectileProps">
+        <fleckColor>(1.0, 0.90, 0.50)</fleckColor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Cultist_Proj_WinterShard</defName>
+    <label>frost shard</label>
+    <thingClass>Cultist.Projectile_Occult</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Needle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(186, 228, 255)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Frostbite</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>75</speed>
+    </projectile>
+    <modExtensions>
+      <li Class="Cultist.OccultProjectileProps">
+        <applyFrostSlow>true</applyFrostSlow>
+        <fleckColor>(0.72, 0.88, 1.0)</fleckColor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Cultist_Proj_HeartPulse</defName>
+    <label>resonant chime pulse</label>
+    <thingClass>Cultist.Projectile_Occult</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Thump</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(240, 142, 158)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>Thump</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationBase>0.20</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+    <modExtensions>
+      <li Class="Cultist.OccultProjectileProps">
+        <staggerTicks>30</staggerTicks>
+        <allyRestRadius>4.5</allyRestRadius>
+        <fleckColor>(0.94, 0.56, 0.62)</fleckColor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Cultist_Proj_GrailSplash</defName>
+    <label>scalding crimson draught</label>
+    <thingClass>Cultist.Projectile_Occult</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(214, 42, 68)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>AcidBurn</damageDef>
+      <damageAmountBase>7</damageAmountBase>
+      <armorPenetrationBase>0.22</armorPenetrationBase>
+      <stoppingPower>0.5</stoppingPower>
+      <speed>45</speed>
+    </projectile>
+    <modExtensions>
+      <li Class="Cultist.OccultProjectileProps">
+        <fleckColor>(0.84, 0.18, 0.28)</fleckColor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Cultist_Proj_KnockRift</defName>
+    <label>threshold rift shard</label>
+    <thingClass>Cultist.Projectile_Occult</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(192, 118, 242)</color>
+    </graphicData>
+    <projectile>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationBase>0.42</armorPenetrationBase>
+      <stoppingPower>0.9</stoppingPower>
+      <speed>95</speed>
+    </projectile>
+    <modExtensions>
+      <li Class="Cultist.OccultProjectileProps">
+        <fleckColor>(0.75, 0.46, 0.95)</fleckColor>
+      </li>
+    </modExtensions>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locationbookdealer</defName>
+    <label>Morland's Shop</label>
+    <description>The dim premises of Miss Morland, who deals in rare and sometimes dangerous books.</description>
+    <sourceId>locationbookdealer</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/locationbookdealer</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locationbookdealer_exhausted</defName>
+    <label>Morland's Shop (Closed)</label>
+    <description>This used to be the address of Morland's, the book dealer, but I'll have to look elsewhere for knowledge, now.</description>
+    <sourceId>locationbookdealer_exhausted</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/locationbookdealer_exhausted</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locationauctionhouse</defName>
+    <label>Oriflamme's Auction House</label>
+    <description>Oriflamme's specialises in curios, perfumes, taxidermy specimens, and rare texts. It operates from cramped new premises, now, since the destruction of the old by an unexplained fire. [You can buy or sell items at Oriflamme's.]</description>
+    <sourceId>locationauctionhouse</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/locationauctionhouse</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locationcabaret</defName>
+    <label>The Ecdysis Club</label>
+    <description>A cabaret with an occult reputation.</description>
+    <sourceId>locationcabaret</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/locationcabaret</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>grail</key><value>1</value></li>
+      <li><key>heart</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+      <li><key>moth</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_generichq</defName>
+    <label>Headquarters?</label>
+    <description>[Headquarters mechanics have changed.]</description>
+    <sourceId>generichq</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/generichq</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_temporary</defName>
+    <label>Temporary Headquarters</label>
+    <description>Our business is private. We could use somewhere more secret.</description>
+    <sourceId>hq.temporary</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/generichq</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_townhouse</defName>
+    <label>Opulent Townhouse</label>
+    <description>We always close the curtains tight before we roll back the rugs and mark the floor with chalk.</description>
+    <sourceId>hq.townhouse</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.townhouse</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+      <li><key>library</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_church</defName>
+    <label>Heterodox Church</label>
+    <description>Even on Sunday morning, there are quirks in the order of service, but most outsiders don't notice. Outsiders are not invited to the ceremonies we hold at chillier hours.</description>
+    <sourceId>hq.church</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.church</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+      <li><key>sanctuary</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_mithraeum</defName>
+    <label>Candle-lit Mithraeum</label>
+    <description>Initiates have celebrated the Mysteries here for almost two thousand years. The words change, the gods change, but always, eventually, there is blood.</description>
+    <sourceId>hq.mithraeum</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.mithraeum</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+      <li><key>sanctuary</key><value>1</value></li>
+      <li><key>secret</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_hospital</defName>
+    <label>House Violet</label>
+    <description>We've painted the walls within the rich colour of the Violet Chamber. We've cleaned the cobwebs and placed unobtrusive shutters behind all the windows. And we've replaced all the locks.</description>
+    <sourceId>hq.hospital</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.hospital</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+      <li><key>pit</key><value>1</value></li>
+      <li><key>secret</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_bookshop</defName>
+    <label>Rooms Behind a Bookshop</label>
+    <description>The lesser elements of Miss Morland's stock yet remain. Over time, strangers drift in with books to sell, and sometimes we indulge them.</description>
+    <sourceId>hq.bookshop</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.bookshop</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+      <li><key>library</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_warehouse</defName>
+    <label>A Darkened Warehouse</label>
+    <description>The rafters are rank with rats. Their smell is almost lost beneath the reek of the river. It's a long way from anywhere anyone would want to go. All these things are, in their way, advantages.</description>
+    <sourceId>hq.warehouse</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.warehouse</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>hq</key><value>1</value></li>
+      <li><key>location</key><value>1</value></li>
+      <li><key>pit</key><value>1</value></li>
+      <li><key>secret</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_church_potential</defName>
+    <label>Unattended Church</label>
+    <description>The minister disappeared, one night, quite abruptly, with his inner circle and the church's chiefest treasures. He is widely assumed to have gone to a better place: possibly a sunny place beside a shining sea. We could recruit his leaderless flock, and make this our base of operations.</description>
+    <sourceId>hq.church.potential</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.church</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_mithraeum_potential</defName>
+    <label>Empty Mithraeum</label>
+    <description>This was a place of worship, once. We could make it so again.</description>
+    <sourceId>hq.mithraeum.potential</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.mithraeum</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_hospital_potential</defName>
+    <label>Empty Hospital</label>
+    <description>Phantoms - the neighbours say - still walk the echoing halls here. If we take possession, of course, they will leave, or we'll turn them to our use.</description>
+    <sourceId>hq.hospital.potential</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.hospital</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_hq_warehouse_potential</defName>
+    <label>An Abandoned Warehouse</label>
+    <description>A rotting shell beside a rotting river. Who would follow us here?</description>
+    <sourceId>hq.warehouse.potential</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/hq.warehouse</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_locationstreetsstrange</defName>
+    <label>Streets Strange by Moonlight</label>
+    <description>Sometimes, the light of the moon is a key to other spaces. I've found a place where, for a night or two, the streets curve in unfamiliar ways. If I walk here, I might find insight, or I might be touched by madness.</description>
+    <sourceId>locationstreetsstrange</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/locationstreetsstrange</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_location_gallery</defName>
+    <label>The Montmerenzi-McDonald Gallery</label>
+    <description>Alistair Montmerenzi, third and last of the Montmerenzi cartographers, and his enigmatic benefactor Timothy McDonald, collected this small but striking miscellany. After their loss on their final polar expedition, the collection was made available to the public in a blank-faced grey building beside a quiet park... on condition that no piece of art therein was ever to be photographed, nor exposed to daylight.</description>
+    <sourceId>location.gallery</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/location.gallery</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_location_cemetery</defName>
+    <label>Cemetery</label>
+    <description>In the waking world, as in dreams, the dead are most often found below.</description>
+    <sourceId>location.cemetery</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/location.cemetery</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_location_cemetery_closing</defName>
+    <label>Closely Watched Cemetery</label>
+    <description>The authorities have noticed peculiar activity in this place. They have set a watch upon it. Visits will take longer, and very soon they will no longer be possible at all.</description>
+    <sourceId>location.cemetery.closing</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/location.cemetery.closing</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_exile</defName>
+    <label>_vault.exile</label>
+    <sourceId>_vault.exile</sourceId>
+    <category>Location</category>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_nameless</defName>
+    <label>Misty Nook</label>
+    <description>An unremarkable location that's somehow easier to stumble across at night. A nondescript candle has been jammed haphazardly into a crevice in the wall.</description>
+    <sourceId>loc.shrine.nameless</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.nameless</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_colonel_aachen</defName>
+    <label>Chapel of St Andrew Stratelates</label>
+    <description>There's a side chapel in Aachen cathedral to a warrior saint who fought against the Persians. On certain days, a deacon will lock the door and perform unorthodox ceremonies for veterans.</description>
+    <sourceId>loc.shrine.colonel.aachen</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.colonel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_colonel_candia</defName>
+    <label>Roadside Shrine to an Iron Saint</label>
+    <description>Beneath a rocky overhang, an ancient cast-iron statue stands in a whitewashed shelter. Its face has been scarred to unrecognisability, but one hand still holds a spear.</description>
+    <sourceId>loc.shrine.colonel.candia</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.colonel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_colonel_leningrad</defName>
+    <label>Repurposed Datsan</label>
+    <description>Unexpectedly, here's a Buddhist temple with painted doors and stained glass windows. But the paint is peeling and most of the windows have been boarded up. A certain Red Army battalion commander has taken the place over - supposedly for storage, but those of us who know the pass-words are permitted to join in stern ceremonies before the scarred face of the Buddha.</description>
+    <sourceId>loc.shrine.colonel.leningrad</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.colonel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_colonel_munich</defName>
+    <label>Cellar Wotan</label>
+    <description>In the deepest cellar of the Nationaltheater stands a stern image carved of Black Forest oak. Sixty years ago the Swan King staged a grandiose première of his favourite composer's new opera. It didn't go well. The stage-trappings were banished down here and forgotten. Now the image's eye has been scarred out to make him blind, and those who know of the place's power perform their harsh devotions before it.</description>
+    <sourceId>loc.shrine.colonel.munich</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.colonel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_colonel_nizhny</defName>
+    <label>Scarred Lodge</label>
+    <description>In a burnt-out hunting lodge at the edge of town, charred bone has been carved into chess-pieces, and a chess-board scored in the stone of the hearth.</description>
+    <sourceId>loc.shrine.colonel.nizhny</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.colonel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_colonel_stalingrad</defName>
+    <label>Fane of the One-Armed</label>
+    <description>An abandoned grain silo has been adopted by a secret cult honouring an odd hero: the one-armed Briton who stormed the city for the White Russians, alone in a single tank. Perhaps he is now a Name. Perhaps he's only dead. But those who venerate the Colonel remember him.</description>
+    <sourceId>loc.shrine.colonel.stalingrad</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.colonel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_colonel_valletta</defName>
+    <label>Mortal Shrine</label>
+    <description>Malta is the Nurse of the Mediterranean, where soldiers come to be healed, and there are those among the healers who practice the invisible arts. They keep shrines in locked rooms in their hospitals to invoke the healing Hours. No-one prays to the Colonel for healing. They only visit this rotting room under the eaves to invoke him when death would be a mercy.</description>
+    <sourceId>loc.shrine.colonel.valletta</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.colonel</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_lionsmith_alexandria</defName>
+    <label>Anvil of the Bull</label>
+    <description>The 'anvil' here is a bronze altar of Apis, the Bull. Bronze is not a good metal for anvils, but the only material forged on this one is, the priests say, the human spirit.</description>
+    <sourceId>loc.shrine.lionsmith.alexandria</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.lionsmith</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_lionsmith_algiers</defName>
+    <label>Skaptodon Tomb</label>
+    <description>Sometimes a skaptodon becomes greedy, starts eating things they don't find in the earth, and degenerates to something like human shape. I learnt the hard way that it's much more difficult to kill a skaptodon that still has all its old strength. But one fell in battle here, and the shrine honours its bones.</description>
+    <sourceId>loc.shrine.lionsmith.algiers</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.lionsmith</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_lionsmith_marrakech</defName>
+    <label>Hall of Brass Mirrors</label>
+    <description>The marabout Navil spends much of his time here, although he denies being in the service of the Lionsmith. 'The greatest lion is the lion who has overcome &lt;i&gt;himself&lt;/i&gt;,' he helpfully insists.</description>
+    <sourceId>loc.shrine.lionsmith.marrakech</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.lionsmith</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_lionsmith_meshad</defName>
+    <label>Shahrewar Stone</label>
+    <description>My poet friend told me the story of this place: that in the days when the sky was a polished roof of the hardest stone, the Lionsmith struck it with his hammer so that this great rock would fall to earth. It looks to me like a taenite meteorite, but that doesn't mean her story wasn't true. And that's why I try not to think too hard about the Histories.</description>
+    <sourceId>loc.shrine.lionsmith.meshad</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.lionsmith</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_lionsmith_samarkand</defName>
+    <label>Crossroads Ateshgah</label>
+    <description>The Party drove the worshippers out of this fire temple. Now a small cadre of military engineers operates here. But they've put considerable effort into maintaining the gas pipes that fuel the eternal flame, and their practices are notably eccentric.</description>
+    <sourceId>loc.shrine.lionsmith.samarkand</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.lionsmith</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_lionsmith_tripoli</defName>
+    <label>Antaeum</label>
+    <description>The Imazighen - the people the world knows as the Berbers - venerate Antaios as a hero-king. Of course Antaios the Opponent, the Son of Earth, was a great enemy of the Lionsmith, but the Lionsmith has always respected his great enemies - or so say the initiates of the Antaeum.</description>
+    <sourceId>loc.shrine.lionsmith.tripoli</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.lionsmith</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_loc_shrine_lionsmith_venice</defName>
+    <label>Chapel of St Mark of the Hammer</label>
+    <description>The chivalric &lt;i&gt;Ordine di San Marco&lt;/i&gt; was formally dissolved a century or so ago, but that didn't stop their more determined members from meeting in secret, continuing their less Christian rituals, and selling their services to the practitioners of the invisible arts. Their chapel is open to anyone they like enough, and we've always got on.</description>
+    <sourceId>loc.shrine.lionsmith.venice</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/loc.shrine.lionsmith</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_barber_completed</defName>
+    <label>Fluttering Goo</label>
+    <description>When I woke from the Wood, this is what I found in the sealed bottle beside my bed.</description>
+    <sourceId>vault.barber.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/ingredientmothf</iconPath>
+    <aspects>
+      <li><key>moth</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_delver_completed</defName>
+    <label>Hokobald's Alchemical Substance</label>
+    <description>Red as a forgotten sun.</description>
+    <sourceId>vault.delver.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/ingredientforgef</iconPath>
+    <aspects>
+      <li><key>forge</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_fivegoer_completed</defName>
+    <label>A Snoozing Undergoer</label>
+    <description>When active, an undergoer is a flexile, half-formed, horribly alluring thing, eager to consume or be impregnated by mortals. But in its dormant state, it's a friendly knot of tentacled flesh, cawing, dribbling and snoring by turns.</description>
+    <sourceId>vault.fivegoer.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/spirit_grailc_moth</iconPath>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_ghoul_completed</defName>
+    <label>Maggot-Spice?</label>
+    <description>The 'seasoning' Dominykas wanted: a pot of nasty-looking larval remnants. The pot is icy cold to the touch.</description>
+    <sourceId>vault.ghoul.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/ingredientwinterf</iconPath>
+    <aspects>
+      <li><key>winter</key><value>12</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_huntress_completed</defName>
+    <label>The Merry Feaster's Carcass</label>
+    <description>It's dissolving quickly as its internal structures corrode.</description>
+    <sourceId>vault.huntress.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vault.huntress.completed</iconPath>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_smuggler_completed</defName>
+    <label>Tarrasquine Relic</label>
+    <description>I have what I need.</description>
+    <sourceId>vault.smuggler.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/corpse.splendid</iconPath>
+    <aspects>
+      <li><key>grail</key><value>2</value></li>
+      <li><key>winter</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_visionary_completed</defName>
+    <label>Percussigant Pelt!</label>
+    <description>&lt;i&gt;E pur si muove!&lt;/i&gt; [Note: if you present this to Mireya as proof of your success, you'll still be able to keep it afterwards.]</description>
+    <sourceId>vault.visionary.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/spirit_heartc_edge</iconPath>
+    <aspects>
+      <li><key>heart</key><value>4</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_vivisectionist_completed</defName>
+    <label>Mamurren Scar</label>
+    <description>Jannings says that some lessons can only be written on skin. That might be so, but it might be that Jannings just enjoys his work a little too much.</description>
+    <sourceId>vault.vivisectionist.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/scar_winter</iconPath>
+    <aspects>
+      <li><key>heart</key><value>2</value></li>
+      <li><key>winter</key><value>2</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vault_serapeum_completed</defName>
+    <label>Serapeum Peristasis</label>
+    <description>I've entered one of the outer elements of the Invisible Serapeum - a sunny pillared porch of paradoxical size, where a certain Dr Blackwood will offer me a seat and a glass of iced hibiscus tea.</description>
+    <sourceId>vault.serapeum.completed</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultlandbeyondforest5</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcapital1</defName>
+    <label>Strathcoyne's Residence</label>
+    <description>The house of Mr Strathcoyne, a collector of rare objects. Strathcoyne will not sell his treasures. But a sufficiently cunning accomplice might gain entry.</description>
+    <sourceId>vaultcapital1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcapital1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcapital2</defName>
+    <label>Forgotten Mithraeum</label>
+    <description>Curiosity-seekers have picked over this ancient temple, but there may be a Hidden Door here somewhere.</description>
+    <sourceId>vaultcapital2</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcapital2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcapital3</defName>
+    <label>Cater &amp; Hero Limited</label>
+    <description>It's been abandoned since the explosion, when both the owners died. The machines stand silent; the building is a collapsing shell. Mr Cater was known to display peculiar trinkets in his office. Perhaps some yet remain.</description>
+    <sourceId>vaultcapital3</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcapital3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcapital4</defName>
+    <label>St Agnes Hospital</label>
+    <description>They did good work here, once. Certainly there were a few too many amputations, but then there are individuals one would prefer not to walk the city streets.</description>
+    <sourceId>vaultcapital4</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcapital4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcapital5</defName>
+    <label>Congregation of St Felix of Schüren</label>
+    <description>A Nonconformist enclave of a heterodox sect of a Calvinist offshoot, tucked away in an odd corner of the city. They belt out hymns with unsuitable gusto, in a throat-scraping language that is very much not quite Latin.</description>
+    <sourceId>vaultcapital5</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcapital5</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcapitaldefault</defName>
+    <label>The Forsaken Reach</label>
+    <description>Along the grey banks of the rotting river, the warehouses wait. Perhaps I have identified one where an unusual cargo was stored. [You've found all the Expeditions in the Capital, although you can find and visit the Reach several times.]</description>
+    <sourceId>vaultcapitaldefault</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcapitaldefault</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultshires1</defName>
+    <label>Gladwyn Lake</label>
+    <description>Beneath the stark slopes of the fells, the mist-wreathed surface of the lake waits. There was a twin altar here before the Romans came; and a legend of a serpent who was sent to defile that altar.</description>
+    <sourceId>vaultshires1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultshires1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultshires2</defName>
+    <label>Lockwood Fen</label>
+    <description>The reeking murk of the fenlands is ripe with furtive life. Taciturn locals still watch the sacred places of the small and secret gods, the ones that &lt;i&gt;answer&lt;/i&gt; prayers.</description>
+    <sourceId>vaultshires2</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultshires2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultshires3</defName>
+    <label>Crowkiss Hill</label>
+    <description>The ancient tribes reserved this resting place for one who, by the end, in service to a certain merciless Hour, was more scar than man. They sealed the entrance with binding-songs and mortared blood.</description>
+    <sourceId>vaultshires3</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultshires3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultshires4</defName>
+    <label>Keglin's Scratch</label>
+    <description>Here the Romans dug for silver, until they reached the unsanctioned space where the Names hid things not fit for sunlight. Many others have come since then, even as the tunnels crumble. Some have never left.</description>
+    <sourceId>vaultshires4</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultshires4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultshires5</defName>
+    <label>Gwaer Inn</label>
+    <description>On a crumbling cliff above a grey sea, the Gwaer Inn squats, until the day the sea comes for it. It receives few guests - fewer since the owner closed his notorious library to visiting scholars.</description>
+    <sourceId>vaultshires5</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultshires5</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultshiresdefault</defName>
+    <label>Kerisham</label>
+    <description>Drive through the downs to the coast where the grey-green land meets Atlantic grey. Search along the road for signs to Kerisham town. You will rarely find it, even if you have visited before; and its inhabitants guard their secrets with curse and cudgel and fast-bolted door. [You've found all the Expeditions in the Shires, although you can find and visit Kerisham several times.]</description>
+    <sourceId>vaultshiresdefault</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultshiresdefault</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcontinent1</defName>
+    <label>Chateau Raveline</label>
+    <description>The favourite stories of the Comtes de Raveline claim they descend from the &lt;i&gt;first&lt;/i&gt; Sun-King. Other stories have them prowling the forest in wolf-shape. They are long gone. Their rotting chateau remains. Not all its malignities have been uncovered.</description>
+    <sourceId>vaultcontinent1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcontinent1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcontinent2</defName>
+    <label>Fermier Abbey</label>
+    <description>Robert Fermier spent much of his unsavoury fortune on the endowment of this monumental, forest-crowded abbey. The monks dislike visitors. Their ways are not exactly orthodox. They celebrate a certain harvest festival with unsavoury vigour.</description>
+    <sourceId>vaultcontinent2</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcontinent2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcontinent3</defName>
+    <label>Orthos Wood</label>
+    <description>The pines grow thick as hairs on a dog's back. The airs of the inner wood are chokingly thick with resin and dust. The source that brought you here claimed that in the dawn times, the greatest tree, at the wood's black heart, served as perch for a great masked Crow.</description>
+    <sourceId>vaultcontinent3</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcontinent3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcontinent4</defName>
+    <label>The Vanderschaaf Collection</label>
+    <description>A cramped little museum in a provincial town, long closed to the public since an outbreak of peculiar rapture in the room where they keep the pressed flowers. Only the very curious would ever pay attention to the place, and its close-warded store-room of ill-omened treasures.</description>
+    <sourceId>vaultcontinent4</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcontinent4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcontinent5</defName>
+    <label>Forman House</label>
+    <description>Filip Forman, the helminthologist and antiquarian, did all his best work here at the family home, until the day his subjects escaped. The infestation was destroyed, but Forman, they say, walks the halls to this day, guarding his library and his shame.</description>
+    <sourceId>vaultcontinent5</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcontinent5</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcontinent6</defName>
+    <label>Key-Hunter's Garret</label>
+    <description>Vienna is one of those few cities which has the same name in every History, although adepts know it as the White City, or perhaps the City of the White. In a snowy street, in a crooked house, in a high and rattling attic, we have learnt that an eccentric hunter of imaginary keys has established a tiny trove of odd books.</description>
+    <sourceId>vaultcontinent6</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcontinent6</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultcontinentdefault</defName>
+    <label>The Unnumbered Stones</label>
+    <description>Megaliths placed in obsessive, inerrant rows by priest-castes long dead. Time has long erased the original blood-stains, but on moonless nights, the locals supplement what remains. Hidden chambers might guard hidden treasures. [You've found all the Expeditions on the Continent, although you can find and visit the Stones several times.]</description>
+    <sourceId>vaultcontinentdefault</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultcontinentdefault</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultlandbeyondforest1</defName>
+    <label>Cave of Candles</label>
+    <description>Every seventh sunset, the cunning man comes from the village below to renew the candles. The floor of the entrance chamber is a slick of stinking wax. He claims the light keeps the creature below cowed; but more likely the sacrifices he brings keep it too sated to emerge.</description>
+    <sourceId>vaultlandbeyondforest1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultlandbeyondforest1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultlandbeyondforest2</defName>
+    <label>Voivode's Citadel</label>
+    <description>In the days of the great power of the Turks, a man of power ruled here. Over many years he fed many thirsts, until his own thirst overcame him. I have learned that both his treasures, and his victims, may remain in an untouched vault below the castle.</description>
+    <sourceId>vaultlandbeyondforest2</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultlandbeyondforest2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultlandbeyondforest3</defName>
+    <label>Grunewald's Permanent Circus</label>
+    <description>A tiny city of patched tents around a white-washed farm. Hunched performers shiver in the dripping rain. Frau Grunewald has devoted her considerable fortune to the maintenance of this institution: who knows why? The circus performers dislike trespassers behind the scenes.</description>
+    <sourceId>vaultlandbeyondforest3</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultlandbeyondforest3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultlandbeyondforest4</defName>
+    <label>Tower Revek</label>
+    <description>The blasted stump of a building. The air festers. Whatever power destroyed this place still clings. Only one floor remains above ground, but we suspect more space below.</description>
+    <sourceId>vaultlandbeyondforest4</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultlandbeyondforest4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultlandbeyondforest5</defName>
+    <label>The Kusnetsov Endowment</label>
+    <description>Prince Kusnetsov gave one fourth part of his blood-soaked fortune to the establishment of a Department for Eschatology at this provincial university. The staff have grown peculiar, now, and the buildings fester in a freezing swamp, but some of Kusnetsov's bequest, perhaps, was spent on treasures.</description>
+    <sourceId>vaultlandbeyondforest5</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultlandbeyondforest5</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultlandbeyondforestdefault</defName>
+    <label>Foxlily Meadows</label>
+    <description>The scent of foxlilies inspires ferocious appetites. It is probably fortunate that they grow only at this altitude. The peasants have organised to keep treasure-seekers away, but some treasure-seekers fall prey to lily-hungers. Their own treasures lie among their bones; and so the cycle continues. [You've found all the Expeditions in the Land Beyond the Forest, although you can find and visit the Meadows several times.]</description>
+    <sourceId>vaultlandbeyondforestdefault</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultlandbeyondforestdefault</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultrendingmountains1</defName>
+    <label>Hunter's Pits</label>
+    <description>The Tearing Tribes enlarged this cave system, digging shafts, preparing traps. It may have been a place of execution, or a proving ground. In either case it's sacred, and the tribes don't want us here. If we survive them, there is still one more terror in the cramped tunnels.</description>
+    <sourceId>vaultrendingmountains1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultrendingmountains1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultrendingmountains2</defName>
+    <label>Snow's Keeper</label>
+    <description>A mountain-peak temple of ill-omened aspect. Jewel-bright fungus-slicks glow in the snow. None has come here in a generation, but still something moves within.</description>
+    <sourceId>vaultrendingmountains2</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultrendingmountains2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultrendingmountains3</defName>
+    <label>The Eye of Ikirmawi</label>
+    <description>We have read of a sultan who, eight hundred years ago could sleep only beneath the stars. He ordered the construction of this observatory, so that the stars could be accurately depicted on the ceiling of his bedchamber. Regrettably, the stars they saw were not safe for the unprotected human mind. The sultan's successor ordered the observatory sealed.</description>
+    <sourceId>vaultrendingmountains3</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultrendingmountains3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultrendingmountains4</defName>
+    <label>Mausoleum of Wolves</label>
+    <description>This chilly monument was built long before Rome fell. Stone wolves watch the door. A chamber within was carved from rock, to await fragments of the Sun at its prophesied funeral procession. That procession never came, but still the Dead are drawn here.</description>
+    <sourceId>vaultrendingmountains4</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultrendingmountains4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultrendingmountainsdefault</defName>
+    <label>Tombs of the Shadowless Kings</label>
+    <description>In a rearing outcrop of lion-coloured rock, labourers carved tombs for the first kings of this land. Those kings had hoped to be immortal, and perhaps one of them is. The others lie among their trinkets. A hereditary order of guardians watches closely. [You've found all the Expeditions in the Rending Mountains, although you can find and visit the Tombs several times.]</description>
+    <sourceId>vaultrendingmountainsdefault</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultrendingmountainsdefault</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultloneandlevelsands1</defName>
+    <label>Star-Shattered Fane</label>
+    <description>Here was a place sacred to the gods of earth, until a meteor fell on a winter's night. In time, worshippers crept back to the broken ruins. In time, the meteorite itself came to be worshipped as a bringer of dreams. The old altar may yet remain, somewhere beneath the meteorite's lair.</description>
+    <sourceId>vaultloneandlevelsands1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultloneandlevelsands1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultloneandlevelsands2</defName>
+    <label>Lagun's Tomb</label>
+    <description>A low slope-sided rectangle of mud brick, in an obscure fold of the desert. It is not remarkable to look at, but Lagun was counted among the immortal Long, and no robber has ever breached his tomb.</description>
+    <sourceId>vaultloneandlevelsands2</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultloneandlevelsands2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultloneandlevelsands3</defName>
+    <label>Messana</label>
+    <description>A quietly prosperous village rests in the crook of the river: a surprising splash of green against the dusty land behind. The longevity of the villagers surpasses the natural. What are they hiding?</description>
+    <sourceId>vaultloneandlevelsands3</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultloneandlevelsands3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultloneandlevelsands4</defName>
+    <label>Temple of Seven Coils</label>
+    <description>A crumbling temple in a shadowed defile. It was built, it seems, in the Third History, the one where much later the Worms overran Europe, but it exists in all the Histories now.</description>
+    <sourceId>vaultloneandlevelsands4</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultloneandlevelsands4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultloneandlevelsandsdefault</defName>
+    <label>Miah</label>
+    <description>There was a city here. We can pick over its remains like jackals over old bones: palace walls, buried roads, shattered fountains. Sometimes we may find the knowledge of the dead, and sometimes the dead may find us. [You've found all the Expeditions in the Sands, although you can find and visit Miah several times.]</description>
+    <sourceId>vaultloneandlevelsandsdefault</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultloneandlevelsandsdefault</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaulteveningisles1</defName>
+    <label>Raven Isle</label>
+    <description>An extinct volcano lifts its head from a fervid tangle of emerald jungle. Immortals fallen to the vilest crime of their kind are exiled here to roost, guzzling the blood and cracking the bones of unwary travellers. They must have acquired some interesting toys over the years.</description>
+    <sourceId>vaulteveningisles1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaulteveningisles1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaulteveningisles2</defName>
+    <label>Fort Geryk</label>
+    <description>Three hundred years ago, a rapacious empire claimed an island ripe with tourmalines. Neither the empire nor the island are mentioned in any reputable history. But the governor's fortress remains. Perhaps his treasures remain. For that matter, perhaps he does, too.</description>
+    <sourceId>vaulteveningisles2</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaulteveningisles2</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaulteveningisles3</defName>
+    <label>The Wreck of the Christabel</label>
+    <description>A sea-beast came to love this vessel, but when she would not return its affections, the sea-beast crushed it. Even now, the beast will not leave the ship's corpse, bedecked as it is with occult treasures. We must dive carefully.</description>
+    <sourceId>vaulteveningisles3</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaulteveningisles3</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaulteveningisles4</defName>
+    <label>St Tentreto of the Deep Door</label>
+    <description>A monastery hangs grimly to a cliff-edge. It should have fallen into the sea by now, but - we have read - the monks drown victims in a deep pool beneath, to win the Sister-and-Witch's protection from the sea, one more year, one more year.</description>
+    <sourceId>vaulteveningisles4</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaulteveningisles4</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaulteveningislesdefault</defName>
+    <label>Port Noon</label>
+    <description>There is a choice that every immortal must make: enter the service of an Hour, or return to the mortal ranks, or face extinction. The sunny little island-port called Noon is the exile-realm of the immortals who refused all those options. [You've found all the Expeditions in the Evening Isles, although you can find and visit Noon several times.]</description>
+    <sourceId>vaulteveningislesdefault</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaulteveningislesdefault</iconPath>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+  <Cultist.CultistCatalogDef>
+    <defName>Cultist_Card_vaultfloating1</defName>
+    <label>The 'Hebe Stanton'</label>
+    <description>A battered but surprisingly plush steamer, much used by actors fleeing scandal, by shy millionaires, by occult scholars who feel safer with moving water under them; and, just once, by the Ligeia Club, who chartered the whole ship for the use of seven cabins.</description>
+    <sourceId>vaultfloating1</sourceId>
+    <category>Location</category>
+    <iconPath>Cultist/Catalog/Location/vaultfloating1</iconPath>
+    <unique>true</unique>
+    <aspects>
+      <li><key>location</key><value>1</value></li>
+    </aspects>
+  </Cultist.CultistCatalogDef>
+</Defs>

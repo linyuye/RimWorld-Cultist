@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.CharacterTab>教会</Cultist.CharacterTab>
+  <Cultist.PersonalAspect>个人性相：{0}</Cultist.PersonalAspect>
+  <Cultist.SocietyRank>教会阶级：{0}</Cultist.SocietyRank>
+  <Cultist.OutsideChurch>尚未入教</Cultist.OutsideChurch>
+  <Cultist.LeaderTitle>现任教主</Cultist.LeaderTitle>
+  <Cultist.EditChurchRules>编辑教会习俗</Cultist.EditChurchRules>
+  <Cultist.FixedChurchRules>灯相教义和正常研究为固定信条。其他习俗可在下方调整。</Cultist.FixedChurchRules>
+  <Cultist.AppointSuccessor>任命为继任教主</Cultist.AppointSuccessor>
+  <Cultist.ConfirmSuccessor>任命{0}为教主？原教主将交出职务。</Cultist.ConfirmSuccessor>
+  <Cultist.DiscussDoctrine>与{0}讨论灯相教义</Cultist.DiscussDoctrine>
+  <Cultist.DoctrineTalkLater>{0}（请等待下一次谈话）</Cultist.DoctrineTalkLater>
+  <Cultist.DoctrineTalkInterrupted>{0}暂时无法交谈。</Cultist.DoctrineTalkInterrupted>
+</LanguageData>

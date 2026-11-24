@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== DOCTRINE PASSIVE HEDIFFS ==================== -->
+  <HediffDef>
+    <defName>Cultist_Hediff_GrailAppetite</defName>
+    <label>insatiable chalice</label>
+    <description>Bound to the Bloody Cup: hunger grows 15% faster in pursuit of endless feast.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li><hungerRateFactor>1.15</hungerRateFactor></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_EdgeTemper</defName>
+    <label>unyielding edge</label>
+    <description>Bound to the Bright Edge: fierce rivalry increases social fight frequency by 50%.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li><socialFightChanceFactor>1.5</socialFightChanceFactor></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_WinterHush</defName>
+    <label>winter hush</label>
+    <description>Bound to the Children of Silence: social fights occur half as often.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li><socialFightChanceFactor>0.5</socialFightChanceFactor></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_HeartPulse</defName>
+    <label>unceasing pulse</label>
+    <description>Bound to the Temple Unceasing: sustaining the eternal drumbeat raises hunger by 8%.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li><hungerRateFactor>1.08</hungerRateFactor></li>
+    </stages>
+  </HediffDef>
+
+  <!-- ==================== EXALTED & HQ & ENDING HEDIFFS ==================== -->
+  <HediffDef>
+    <defName>Cultist_Hediff_KnockPhase</defName>
+    <label>threshold phase-walk</label>
+    <description>Walking between worlds through a Knock aperture: ignores locked doors, walls, and building obstacles briefly.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1250</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+      <li Class="Cultist.KnockPhaseCompProperties"/>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets><MoveSpeed>0.8</MoveSpeed></statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_AshenSkin</defName>
+    <label>ashen skin</label>
+    <description>Exalted trait: fire damage halved and immune to catching fire.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <statOffsets><ArmorRating_Heat>1.00</ArmorRating_Heat></statOffsets>
+        <statFactors><Flammability>0</Flammability></statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_HoneyedTongue</defName>
+    <label>honeyed tongue</label>
+    <description>Exalted trait: +8% trade price improvement and smoother persuasion.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <statOffsets>
+          <TradePriceImprovement>0.08</TradePriceImprovement>
+          <SocialImpact>0.08</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_Sleepless</defName>
+    <label>sleepless vigil</label>
+    <description>Exalted trait: rest need falls 35% slower.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li><statFactors><RestFallRateFactor>0.65</RestFallRateFactor></statFactors></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_Foresight</defName>
+    <label>Hour's foresight</label>
+    <description>Exalted trait: +6% melee dodge, trap evasion, and incoming fire evasion.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeDodgeChance>6</MeleeDodgeChance>
+          <PawnTrapSpringChance>-0.50</PawnTrapSpringChance>
+        </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.94</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_Hemostasis</defName>
+    <label>pulsing hemostasis</label>
+    <description>Exalted trait: bleeding slowed by 35% and +20% medical tend quality.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <totalBleedFactor>0.65</totalBleedFactor>
+        <statOffsets><MedicalTendQuality>0.20</MedicalTendQuality></statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_NightEyes</defName>
+    <label>nocturnal eyes</label>
+    <description>Exalted trait: immune to darkness mood and movement penalties.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li><statOffsets><MoveSpeed>0.18</MoveSpeed></statOffsets></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_VoraciousGut</defName>
+    <label>voracious iron gut</label>
+    <description>Exalted trait: immune to food poisoning and unbothered by raw or insect meat.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li><statOffsets><ImmunityGainSpeed>0.06</ImmunityGainSpeed></statOffsets></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_BedrockMind</defName>
+    <label>bedrock mind</label>
+    <description>Exalted trait: -25% psychic sensitivity and -8% mental break threshold.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <statOffsets>
+          <PsychicSensitivity>-0.25</PsychicSensitivity>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_SpeedReader</defName>
+    <label>occult speed-reader</label>
+    <description>Exalted trait: +10% research speed and 25% faster manuscript study.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <statOffsets>
+          <ResearchSpeed>0.10</ResearchSpeed>
+          <ReadingSpeed>0.25</ReadingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_LongStrider</defName>
+    <label>expedition strider</label>
+    <description>Exalted trait: +25 kg carrying capacity and +20% caravan foraging.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <statOffsets>
+          <CarryingCapacity>25</CarryingCapacity>
+          <CaravanBonusSpeedFactor>0.10</CaravanBonusSpeedFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Trait_SilentStep</defName>
+    <label>silent shadow-step</label>
+    <description>Exalted trait: +50% hunting stealth and -25% notoriety from rites.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <statOffsets><HuntingStealth>0.50</HuntingStealth></statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_EdgeResolve</defName>
+    <label>assassin's resolve</label>
+    <description>Focused Edge battle trance: heightened melee accuracy, pain tolerance, and stride.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>10000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MeleeHitChance>4</MeleeHitChance>
+          <PainShockThreshold>0.20</PainShockThreshold>
+        </statOffsets>
+        <statFactors>
+          <MoveSpeed>1.10</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_WinterGaze</defName>
+    <label>pale Winter chill</label>
+    <description>Numbed by an Exalted Silent One's gaze: slowed movement and dimmed consciousness.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>1800</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.10</offset></li>
+        </capMods>
+        <statFactors>
+          <MoveSpeed>0.70</MoveSpeed>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_HeartChorus</defName>
+    <label>unceasing chorus</label>
+    <description>Invigorated by a Heart Exalted's rhythm: wounds knit 15% faster.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li><naturalHealingFactor>1.15</naturalHealingFactor></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_MothEscape</defName>
+    <label>molting dash</label>
+    <description>Emergency Moth burst triggered near collapse: +35% movement speed to slip out of danger.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>900</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li><statFactors><MoveSpeed>1.35</MoveSpeed></statFactors></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_HqLibraryClarity</defName>
+    <label>occult library clarity</label>
+    <description>Lingering insight after studying inside a consecrated Library sanctuary (+8% research speed).</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li><statOffsets><ResearchSpeed>0.08</ResearchSpeed></statOffsets></li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_GuardianBlessing</defName>
+    <label>Guardian Name's favour</label>
+    <description>Blessed from across the Tricuspid Gate by the colony's ascended Guardian Name (+15% general work &amp; research speed).</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>300000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+          <ResearchSpeed>0.15</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_NameEnvoy</defName>
+    <label>earthly envoy of the Name</label>
+    <description>An Apostle who completed the Great Work and remained in the waking world as the Guardian Name's mortal envoy.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+      <li>
+        <naturalHealingFactor>1.25</naturalHealingFactor>
+        <painFactor>0.85</painFactor>
+        <statOffsets>
+          <SocialImpact>0.15</SocialImpact>
+          <ResearchSpeed>0.10</ResearchSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- ==================== DOCTRINE & SANCTUARY THOUGHTS ==================== -->
+  <ThoughtDef>
+    <defName>Cultist_Thought_LanternLight</defName>
+    <workerClass>Cultist.ThoughtWorker_DoctrineLantern</workerClass>
+    <stages>
+      <li>
+        <label>merciless illumination</label>
+        <description>Clear light reveals what shadows conceal.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>unlit gloom</label>
+        <description>Working in dim shadow blinds the Watchman's student.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_ForgeCraft</defName>
+    <workerClass>Cultist.ThoughtWorker_DoctrineForge</workerClass>
+    <stages>
+      <li>
+        <label>tempered masterwork</label>
+        <description>My gear is well-forged and worthy of the Unflinching Order.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>shoddy or tattered gear</label>
+        <description>Carrying flawed or half-broken gear insults the Forge of Days.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_GrailFeast</defName>
+    <workerClass>Cultist.ThoughtWorker_DoctrineGrail</workerClass>
+    <stages>
+      <li>
+        <label>sacred banquet</label>
+        <description>Rich flavours honour the Red Grail's unending feast.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>joyless ration</label>
+        <description>Bland paste or raw scraps mock the Order of the Bloody Cup.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_EdgeTriumph</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>3</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>blade proven in battle</label>
+        <description>Conflict sharpened my resolve and proved my strength.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_EdgeRust</defName>
+    <workerClass>Cultist.ThoughtWorker_DoctrineEdgeRust</workerClass>
+    <stages>
+      <li>
+        <label>rusted by long peace</label>
+        <description>Too many quiet days have passed without testing my edge in combat.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_HeartGrief</defName>
+    <workerClass>Cultist.ThoughtWorker_DoctrineHeart</workerClass>
+    <stages>
+      <li>
+        <label>shattered pulse</label>
+        <description>The Temple Unceasing mourns every extinguished life and cruel mutilation.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_MothNight</defName>
+    <workerClass>Cultist.ThoughtWorker_DoctrineMoth</workerClass>
+    <stages>
+      <li>
+        <label>wings in the dark</label>
+        <description>Night has fallen; the Wood whispers freely.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_KnockWounds</defName>
+    <workerClass>Cultist.ThoughtWorker_DoctrineKnock</workerClass>
+    <stages>
+      <li>
+        <label>unopened flesh</label>
+        <description>My body bears neither scar nor consecrated lock; I remain shut outside the Threshold.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>consecrated lock-scar (I)</label>
+        <description>A sacred wound marks me as a student of the Threshold.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>consecrated lock-scars (II)</label>
+        <description>Two sacred lock-scars answer the Knock within my flesh.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>consecrated lock-scars (III)</label>
+        <description>Three sacred lock-scars bring me closer to the Mother of Ants.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>consecrated lock-scars (IV)</label>
+        <description>Four sacred lock-scars resonate at every doorway.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>consecrated lock-scars (V+)</label>
+        <description>My flesh itself has become a ring of sacred keys.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_HqLibraryClarity</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>studied in occult library</label>
+        <description>Quiet shelves and ordered manuscripts cleared my thoughts.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_HqSanctuaryRite</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>solemn sanctuary rite</label>
+        <description>We conducted our rite inside an impressive consecrated sanctuary.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_HeartChorus</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>unceasing encouragement</label>
+        <description>An Exalted dancer's pulse lifted the weariness from our bones.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_LongGrace</defName>
+    <workerClass>Cultist.ThoughtWorker_LongGrace</workerClass>
+    <stages>
+      <li>
+        <label>ascended Long's legacy</label>
+        <description>A former leader of our colony stepped into the Mansus as an immortal Long, watching from beyond.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_GuardianBlessing</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>Guardian Name's blessing</label>
+        <description>Our ascended Guardian Name answered from the Mansus, filling the colony with radiant certainty.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

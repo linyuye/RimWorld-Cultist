@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Hediff_GrailAppetite.label>永飨欲壑</Cultist_Hediff_GrailAppetite.label>
+  <Cultist_Hediff_GrailAppetite.description>血杯修会戒律：饥饿速率提升 15%。</Cultist_Hediff_GrailAppetite.description>
+  <Cultist_Hediff_EdgeTemper.label>锋芒难敛</Cultist_Hediff_EdgeTemper.label>
+  <Cultist_Hediff_EdgeTemper.description>明刃教会戒律：社交打架触发率提高 50%。</Cultist_Hediff_EdgeTemper.description>
+  <Cultist_Hediff_WinterHush.label>霜寒静默</Cultist_Hediff_WinterHush.label>
+  <Cultist_Hediff_WinterHush.description>寂静之子戒律：社交打架触发率降低 50%。</Cultist_Hediff_WinterHush.description>
+  <Cultist_Hediff_HeartPulse.label>不息脉动</Cultist_Hediff_HeartPulse.label>
+  <Cultist_Hediff_HeartPulse.description>不息神庙戒律：维持永续鼓点使饥饿速率提高 8%。</Cultist_Hediff_HeartPulse.description>
+
+  <Cultist_Hediff_KnockPhase.label>越界穿行</Cultist_Hediff_KnockPhase.label>
+  <Cultist_Hediff_KnockPhase.description>启之门扉状态：半小时内无视上锁房门、墙体与建筑障碍自由穿行。</Cultist_Hediff_KnockPhase.description>
+  <Cultist_Hediff_EdgeResolve.label>决死战意</Cultist_Hediff_EdgeResolve.label>
+  <Cultist_Hediff_EdgeResolve.description>刃之专注：近战命中 +4，痛觉休克阈值 +20%，移动速度 +10%。</Cultist_Hediff_EdgeResolve.description>
+  <Cultist_Hediff_WinterGaze.label>苍白冬凝</Cultist_Hediff_WinterGaze.label>
+  <Cultist_Hediff_WinterGaze.description>被冬相崇高门徒凝视迟滞：移速降低 30%，意识 -10%。</Cultist_Hediff_WinterGaze.description>
+  <Cultist_Hediff_FrostSlow.label>寒霜迟滞</Cultist_Hediff_FrostSlow.label>
+  <Cultist_Hediff_FrostSlow.description>被冬相寒霜飞刃击中后的短暂冻滞：移动速度 -15%。</Cultist_Hediff_FrostSlow.description>
+  <Cultist_Hediff_HeartChorus.label>不息鼓舞</Cultist_Hediff_HeartChorus.label>
+  <Cultist_Hediff_HeartChorus.description>受心相崇高门徒鼓舞：自然愈合速度 +15%。</Cultist_Hediff_HeartChorus.description>
+  <Cultist_Hediff_MothEscape.label>蜕壳疾步</Cultist_Hediff_MothEscape.label>
+  <Cultist_Hediff_MothEscape.description>蛾雾脱身状态：移动速度 +35%。</Cultist_Hediff_MothEscape.description>
+  <Cultist_Hediff_HqLibraryClarity.label>藏书清明</Cultist_Hediff_HqLibraryClarity.label>
+  <Cultist_Hediff_HqLibraryClarity.description>在藏书室圣殿研读后的清明余韵：研究速度 +8%。</Cultist_Hediff_HqLibraryClarity.description>
+  <Cultist_Hediff_GuardianBlessing.label>具名者垂青</Cultist_Hediff_GuardianBlessing.label>
+  <Cultist_Hediff_GuardianBlessing.description>受到殖民地守护具名者的庇佑：综合劳作与研究速度 +15%。</Cultist_Hediff_GuardianBlessing.description>
+  <Cultist_Hediff_NameEnvoy.label>具名者地上代言人</Cultist_Hediff_NameEnvoy.label>
+  <Cultist_Hediff_NameEnvoy.description>完成大功业后留驻凡世的使徒，享有自然愈合 +25%、痛觉减弱、社交 +15% 与研究 +10%。</Cultist_Hediff_NameEnvoy.description>
+
+  <Cultist_Trait_AshenSkin.label>崇高词条：灰烬之肤</Cultist_Trait_AshenSkin.label>
+  <Cultist_Trait_AshenSkin.description>火焰伤害大幅减免，且完全免疫身上着火失控。</Cultist_Trait_AshenSkin.description>
+  <Cultist_Trait_HoneyedTongue.label>崇高词条：甘美舌灿</Cultist_Trait_HoneyedTongue.label>
+  <Cultist_Trait_HoneyedTongue.description>交易价格改善 +8%，社交冲击力 +8%。</Cultist_Trait_HoneyedTongue.description>
+  <Cultist_Trait_Sleepless.label>崇高词条：守夜无眠</Cultist_Trait_Sleepless.label>
+  <Cultist_Trait_Sleepless.description>睡眠需求下降速率减缓 35%。</Cultist_Trait_Sleepless.description>
+  <Cultist_Trait_Foresight.label>崇高词条：司辰预感</Cultist_Trait_Foresight.label>
+  <Cultist_Trait_Foresight.description>近战闪避 +6，陷阱触发率 -50%，所受伤害 -6%。</Cultist_Trait_Foresight.description>
+  <Cultist_Trait_Hemostasis.label>崇高词条：脉动止血</Cultist_Trait_Hemostasis.label>
+  <Cultist_Trait_Hemostasis.description>流血速率降低 35%，医疗包扎质量 +20%。</Cultist_Trait_Hemostasis.description>
+  <Cultist_Trait_NightEyes.label>崇高词条：夜行兽瞳</Cultist_Trait_NightEyes.label>
+  <Cultist_Trait_NightEyes.description>免疫黑暗心情惩罚并提升夜间行动敏捷度。</Cultist_Trait_NightEyes.description>
+  <Cultist_Trait_VoraciousGut.label>崇高词条：饕餮铁胃</Cultist_Trait_VoraciousGut.label>
+  <Cultist_Trait_VoraciousGut.description>免疫食物中毒，食用生食与虫肉无负面心情。</Cultist_Trait_VoraciousGut.description>
+  <Cultist_Trait_BedrockMind.label>崇高词条：磐石心智</Cultist_Trait_BedrockMind.label>
+  <Cultist_Trait_BedrockMind.description>心灵敏感度 -25%，精神崩溃阈值 -8%。</Cultist_Trait_BedrockMind.description>
+  <Cultist_Trait_SpeedReader.label>崇高词条：秘传速读</Cultist_Trait_SpeedReader.label>
+  <Cultist_Trait_SpeedReader.description>研究速度 +10%，古籍与秘传研读速度大幅提升。</Cultist_Trait_SpeedReader.description>
+  <Cultist_Trait_LongStrider.label>崇高词条：远征苦旅</Cultist_Trait_LongStrider.label>
+  <Cultist_Trait_LongStrider.description>个人负重上限 +25 kg，远行队行进速度 +10%。</Cultist_Trait_LongStrider.description>
+  <Cultist_Trait_SilentStep.label>崇高词条：无声影步</Cultist_Trait_SilentStep.label>
+  <Cultist_Trait_SilentStep.description>狩猎隐蔽度 +50%，参与祭坛仪式产生的恶名额外 -25%。</Cultist_Trait_SilentStep.description>
+</LanguageData>

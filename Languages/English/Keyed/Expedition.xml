@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist.Altar.Expedition>Trace the survey station</Cultist.Altar.Expedition>
+  <Cultist.NeedHome>Use an altar at a colony settlement.</Cultist.NeedHome>
+  <Cultist.ExpeditionActive>A survey station is already marked on the world map.</Cultist.ExpeditionActive>
+  <Cultist.ExpeditionPlateExists>A recovered plate is already available. Bring it to this settlement.</Cultist.ExpeditionPlateExists>
+  <Cultist.ExpeditionUnavailable>No accessible location was found. The lore page was kept.</Cultist.ExpeditionUnavailable>
+  <Cultist.NeedPlate>Bring an etched survey plate back from the expedition.</Cultist.NeedPlate>
+  <Cultist.ExpeditionTitle>The undelivered survey</Cultist.ExpeditionTitle>
+  <Cultist.ExpeditionBody>A copied dream chart matches a survey station near the settlement. Its last message mentions an etched plate. Send a caravan to recover it and bring it back to the altar. The signal will last about fifteen days.</Cultist.ExpeditionBody>
+  <Cultist.QuietSeason>The leader takes comfort in everyday life and records another lore page.</Cultist.QuietSeason>
+  <Cultist.BrightSeason>A season of bright reflections leaves the leader fascinated.</Cultist.BrightSeason>
+  <Cultist.StudyTranscript>Study the survey transcript</Cultist.StudyTranscript>
+  <Cultist.TranscriptStudied>The society has recorded the useful notes from this copy.</Cultist.TranscriptStudied>
+  <Cultist.TranscriptRead>{0} recorded two lore pages from the survey transcript.</Cultist.TranscriptRead>
+</LanguageData>

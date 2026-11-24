@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>Cultist_EvidenceSite</defName>
+    <label>bureau evidence drop</label>
+    <description>Suppression Bureau informants have stashed damning evidence against your society here. Send a caravan to infiltrate and destroy it directly on the world map without entering combat.</description>
+    <worldObjectClass>Cultist.WorldObject_CultistEvidence</worldObjectClass>
+    <texture>Cultist/Icons/Bureau</texture>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>Cultist/Icons/Bureau</expandingIconTexture>
+    <expandingIconPriority>70</expandingIconPriority>
+    <canBePlayerHome>false</canBePlayerHome>
+    <blockExitGridUntilBattleIsWon>false</blockExitGridUntilBattleIsWon>
+  </WorldObjectDef>
+</Defs>

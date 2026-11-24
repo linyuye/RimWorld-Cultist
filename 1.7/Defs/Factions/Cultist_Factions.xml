@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Cultist_SuppressionBureau</defName>
+    <label>Suppression Bureau</label>
+    <description>An official department tasked with investigating, containing, and eradicating forbidden occult societies. High notoriety draws their armed raids.</description>
+    <pawnSingular>investigator</pawnSingular>
+    <pawnsPlural>investigators</pawnsPlural>
+    <categoryTag>Outlander</categoryTag>
+    <listOrderPriority>45</listOrderPriority>
+    <settlementGenerationWeight>0.4</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>chief inspector</leaderTitle>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <fixedLeaderKinds>
+      <li>Cultist_BureauHunter</li>
+    </fixedLeaderKinds>
+    <factionIconPath>Cultist/Icons/Bureau</factionIconPath>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <techLevel>Industrial</techLevel>
+    <permanentEnemy>true</permanentEnemy>
+    <backstoryFilters>
+      <li>
+        <categories><li>Outlander</li></categories>
+      </li>
+    </backstoryFilters>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35, 15)</li>
+        <li>(100, 120)</li>
+        <li>(1000, 500)</li>
+        <li>(2000, 800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0, 35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <Cultist_BureauInvestigator>10</Cultist_BureauInvestigator>
+          <Cultist_BureauAgent>6</Cultist_BureauAgent>
+          <Cultist_BureauHunter>3</Cultist_BureauHunter>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Cultist_BureauInvestigator>10</Cultist_BureauInvestigator>
+          <Cultist_BureauAgent>6</Cultist_BureauAgent>
+          <Cultist_BureauHunter>3</Cultist_BureauHunter>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+  </FactionDef>
+
+  <FactionDef>
+    <defName>Cultist_RivalLongFaction</defName>
+    <label>Rival Long</label>
+    <description>Immortal rivals who have already ascended and tolerate no newcomers climbing toward the Mansus. Their servants and assassins strike periodically as your society grows.</description>
+    <pawnSingular>servant</pawnSingular>
+    <pawnsPlural>servants</pawnsPlural>
+    <categoryTag>Outlander</categoryTag>
+    <hidden>true</hidden>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>false</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>immortal rival</leaderTitle>
+    <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
+    <fixedLeaderKinds>
+      <li>Cultist_LongAssassin</li>
+    </fixedLeaderKinds>
+    <factionIconPath>Cultist/Icons/Aspect_Edge</factionIconPath>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <techLevel>Industrial</techLevel>
+    <permanentEnemy>true</permanentEnemy>
+    <backstoryFilters>
+      <li>
+        <categories><li>Outlander</li></categories>
+      </li>
+    </backstoryFilters>
+    <allowedArrivalTemperatureRange>-50~50</allowedArrivalTemperatureRange>
+    <raidLootMaker>OutlanderRaidLootMaker</raidLootMaker>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35, 8)</li>
+        <li>(100, 60)</li>
+        <li>(1000, 250)</li>
+        <li>(2000, 400)</li>
+        <li>(4000, 500)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0, 40)</li>
+        <li>(70, 60)</li>
+        <li>(700, 120)</li>
+        <li>(1300, 180)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <Cultist_LongServant>10</Cultist_LongServant>
+          <Cultist_LongAssassin>5</Cultist_LongAssassin>
+        </options>
+      </li>
+    </pawnGroupMakers>
+  </FactionDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Cultist_BureauInvestigator</defName>
+    <label>bureau investigator</label>
+    <combatPower>55</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.7~1.0</gearHealthRange>
+    <apparelTags><li>IndustrialBasic</li><li>IndustrialMilitaryBasic</li></apparelTags>
+    <apparelMoney>300~600</apparelMoney>
+    <weaponMoney>250~450</weaponMoney>
+    <weaponTags><li>SimpleGun</li><li>IndustrialGunAdvanced</li></weaponTags>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>14~22</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Cultist_BureauAgent</defName>
+    <label>bureau field agent</label>
+    <combatPower>85</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.8~1.0</gearHealthRange>
+    <apparelTags><li>IndustrialMilitaryBasic</li><li>IndustrialMilitaryAdvanced</li></apparelTags>
+    <apparelMoney>500~900</apparelMoney>
+    <weaponMoney>400~700</weaponMoney>
+    <weaponTags><li>IndustrialGunAdvanced</li></weaponTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>18~28</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Cultist_BureauHunter</defName>
+    <label>bureau hunter</label>
+    <combatPower>125</combatPower>
+    <factionLeader>true</factionLeader>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.9~1.0</gearHealthRange>
+    <apparelTags><li>IndustrialMilitaryAdvanced</li></apparelTags>
+    <apparelMoney>800~1300</apparelMoney>
+    <weaponMoney>600~1000</weaponMoney>
+    <weaponTags><li>IndustrialGunAdvanced</li><li>SniperRifle</li></weaponTags>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>24~36</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Cultist_LongServant</defName>
+    <label>Long's servant</label>
+    <combatPower>75</combatPower>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.8~1.0</gearHealthRange>
+    <apparelTags><li>IndustrialBasic</li><li>IndustrialMilitaryBasic</li></apparelTags>
+    <apparelMoney>400~800</apparelMoney>
+    <weaponMoney>350~650</weaponMoney>
+    <weaponTags><li>IndustrialGunAdvanced</li><li>MedievalMeleeDecent</li></weaponTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>16~26</initialResistanceRange>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="OutlanderBase">
+    <defName>Cultist_LongAssassin</defName>
+    <label>Long's assassin</label>
+    <combatPower>130</combatPower>
+    <factionLeader>true</factionLeader>
+    <isFighter>true</isFighter>
+    <gearHealthRange>0.9~1.0</gearHealthRange>
+    <apparelTags><li>IndustrialMilitaryAdvanced</li></apparelTags>
+    <apparelMoney>800~1400</apparelMoney>
+    <weaponMoney>600~1100</weaponMoney>
+    <weaponTags><li>MedievalMeleeAdvanced</li><li>IndustrialGunAdvanced</li></weaponTags>
+    <initialWillRange>3~6</initialWillRange>
+    <initialResistanceRange>26~38</initialResistanceRange>
+  </PawnKindDef>
+</Defs>

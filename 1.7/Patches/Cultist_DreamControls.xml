@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Human"]/comps</xpath>
+    <value><li Class="Cultist.DreamControlProperties"/></value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Human"]/inspectorTabs</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Human"]/inspectorTabs</xpath>
+      <value><li>Cultist.ITab_Cultist</li></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Human"]</xpath>
+      <value><inspectorTabs><li>Cultist.ITab_Cultist</li></inspectorTabs></value>
+    </nomatch>
+  </Operation>
+</Patch>

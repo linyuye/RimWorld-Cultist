@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StorytellerDef ParentName="BaseStoryteller">
+    <defName>Cultist_Archivist</defName>
+    <label>The Archivist</label>
+    <description>The Archivist follows the usual rhythm of colony life and takes a closer interest in the activities of your society.</description>
+    <portraitLarge>Cultist/Archivist</portraitLarge>
+    <portraitTiny>Cultist/Archivist</portraitTiny>
+    <listOrder>55</listOrder>
+  </StorytellerDef>
+</Defs>

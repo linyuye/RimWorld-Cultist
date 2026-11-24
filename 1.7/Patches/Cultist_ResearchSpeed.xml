@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="ResearchSpeed"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="ResearchSpeed"]/parts</xpath>
+      <value><li Class="Cultist.StatPart_SocietyResearch"/></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="ResearchSpeed"]</xpath>
+      <value><parts><li Class="Cultist.StatPart_SocietyResearch"/></parts></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="GeneralLaborSpeed"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="GeneralLaborSpeed"]/parts</xpath>
+      <value><li Class="Cultist.StatPart_SocietyResearch"/></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="GeneralLaborSpeed"]</xpath>
+      <value><parts><li Class="Cultist.StatPart_SocietyResearch"/></parts></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="SocialImpact"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="SocialImpact"]/parts</xpath>
+      <value><li Class="Cultist.StatPart_SocietyResearch"/></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="SocialImpact"]</xpath>
+      <value><parts><li Class="Cultist.StatPart_SocietyResearch"/></parts></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="ComfyTemperatureMin"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="ComfyTemperatureMin"]/parts</xpath>
+      <value><li Class="Cultist.StatPart_SocietyResearch"/></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="ComfyTemperatureMin"]</xpath>
+      <value><parts><li Class="Cultist.StatPart_SocietyResearch"/></parts></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="ImmunityGainSpeed"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="ImmunityGainSpeed"]/parts</xpath>
+      <value><li Class="Cultist.StatPart_SocietyResearch"/></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="ImmunityGainSpeed"]</xpath>
+      <value><parts><li Class="Cultist.StatPart_SocietyResearch"/></parts></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="MoveSpeed"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MoveSpeed"]/parts</xpath>
+      <value><li Class="Cultist.StatPart_SocietyResearch"/></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MoveSpeed"]</xpath>
+      <value><parts><li Class="Cultist.StatPart_SocietyResearch"/></parts></value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="MeleeDamageFactor"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MeleeDamageFactor"]/parts</xpath>
+      <value>
+        <li Class="Cultist.StatPart_SocietyResearch"/>
+        <li Class="Cultist.StatPart_CultistMeleeGrowth"/>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MeleeDamageFactor"]</xpath>
+      <value>
+        <parts>
+          <li Class="Cultist.StatPart_SocietyResearch"/>
+          <li Class="Cultist.StatPart_CultistMeleeGrowth"/>
+        </parts>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

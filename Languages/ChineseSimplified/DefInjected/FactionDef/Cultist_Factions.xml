@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_SuppressionBureau.label>防剿局</Cultist_SuppressionBureau.label>
+  <Cultist_SuppressionBureau.description>负责调查、遏制并清剿禁忌密教结社的官方机构。高恶名会招致他们的武装清剿袭击。</Cultist_SuppressionBureau.description>
+  <Cultist_SuppressionBureau.pawnSingular>调查员</Cultist_SuppressionBureau.pawnSingular>
+  <Cultist_SuppressionBureau.pawnsPlural>调查员</Cultist_SuppressionBureau.pawnsPlural>
+  <Cultist_SuppressionBureau.leaderTitle>首席督察</Cultist_SuppressionBureau.leaderTitle>
+
+  <Cultist_RivalLongFaction.label>竞争长生者</Cultist_RivalLongFaction.label>
+  <Cultist_RivalLongFaction.description>早已踏足漫宿的不朽竞争者，容不得后来者威胁其地位。随着教会成长，其仆从与刺客会不时发起突袭。</Cultist_RivalLongFaction.description>
+  <Cultist_RivalLongFaction.pawnSingular>长生者仆从</Cultist_RivalLongFaction.pawnSingular>
+  <Cultist_RivalLongFaction.pawnsPlural>长生者仆从</Cultist_RivalLongFaction.pawnsPlural>
+  <Cultist_RivalLongFaction.leaderTitle>敌对长生者</Cultist_RivalLongFaction.leaderTitle>
+</LanguageData>
