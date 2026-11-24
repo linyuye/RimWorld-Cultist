@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== SITE PART & GENSTEP ==================== -->
+  <SitePartDef>
+    <defName>Cultist_OccultVault</defName>
+    <label>occult ruin complex</label>
+    <description>An ancient fog-shrouded occult complex uncovered from forbidden texts. Guarded by Suppression Bureau agents and unbound spirits; its inner sanctum holds a sealed vault chest.</description>
+    <workerClass>SitePartWorker_AncientComplex</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/AncientComplex</expandingIconTexture>
+    <approachOrderString>Investigate {0}</approachOrderString>
+    <approachingReportString>Investigating {0}.</approachingReportString>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <minMapSize>(250, 1, 250)</minMapSize>
+    <considerEnteringAsAttack>false</considerEnteringAsAttack>
+    <tags>
+      <li>Cultist_OccultVault</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>Cultist_OccultVaultGenStep</defName>
+    <linkWithSite>Cultist_OccultVault</linkWithSite>
+    <order>470</order>
+    <genStep Class="Cultist.GenStep_CultistVaultComplex"/>
+  </GenStepDef>
+
+  <!-- ==================== VAULT CHEST & JOB ==================== -->
+  <JobDef>
+    <defName>Cultist_OpenVaultChest</defName>
+    <driverClass>Cultist.JobDriver_OpenVaultChest</driverClass>
+    <reportString>opening TargetA.</reportString>
+  </JobDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>Cultist_VaultChest</defName>
+    <label>sealed occult vault chest</label>
+    <description>A heavy warded strongbox left inside an occult ruin sanctum. Opening it yields the hidden Aspect Lore recorded in the deciphered text along with Spintriae and salvaged supplies.</description>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientSecurityCrate</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <color>(205,175,118)</color>
+    </graphicData>
+    <size>(2,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>42</pathCost>
+    <fillPercent>0.55</fillPercent>
+    <selectable>true</selectable>
+    <rotatable>true</rotatable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>2</Beauty>
+    </statBases>
+    <comps>
+      <li Class="Cultist.CompProperties_CultistVaultChest">
+        <openWorkTicks>180</openWorkTicks>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== 9 MODULAR LEGAL ROOM DEFS ==================== -->
+  <LayoutRoomDef>
+    <defName>Cultist_Room_VaultSanctum</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistVaultSanctum</roomContentsWorkerType>
+    <minSingleRectWidth>7</minSingleRectWidth>
+    <minSingleRectHeight>7</minSingleRectHeight>
+    <floorTypes Inherit="false">
+      <li>CarpetRed</li>
+      <li>AncientTile</li>
+    </floorTypes>
+    <edgeTerrain>AncientTile</edgeTerrain>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_ArchiveLibrary</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistArchiveLibrary</roomContentsWorkerType>
+    <floorTypes Inherit="false">
+      <li>AncientWoodPlankFloor</li>
+      <li>CarpetSandstone</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_RitualHall</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistRitualHall</roomContentsWorkerType>
+    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>
+    <floorTypes Inherit="false">
+      <li>AncientTile</li>
+      <li>CarpetGreyDark</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_BureauOutpost</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistBureauOutpost</roomContentsWorkerType>
+    <floorTypes Inherit="false">
+      <li>AncientConcrete</li>
+      <li>AncientTile</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_RelicStorage</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistRelicStorage</roomContentsWorkerType>
+    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>
+    <floorTypes Inherit="false">
+      <li>AncientConcrete</li>
+      <li>AncientWoodPlankFloor</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_Courtyard</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistCourtyard</roomContentsWorkerType>
+    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>
+    <floorTypes Inherit="false">
+      <li>AncientTile</li>
+      <li>FlagstoneLimestone</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_OpenPlinth</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistOpenPlinth</roomContentsWorkerType>
+    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>
+    <floorTypes Inherit="false">
+      <li>FlagstoneGranite</li>
+      <li>AncientConcrete</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_AbandonedFarm</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistAbandonedFarm</roomContentsWorkerType>
+    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>
+    <floorTypes Inherit="false">
+      <li>AncientWoodPlankFloor</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <LayoutRoomDef>
+    <defName>Cultist_Room_AbandonedWorkshop</defName>
+    <roomContentsWorkerType>Cultist.RoomContents_CultistAbandonedWorkshop</roomContentsWorkerType>
+    <canMergeWithAdjacentRoom>true</canMergeWithAdjacentRoom>
+    <floorTypes Inherit="false">
+      <li>AncientConcrete</li>
+    </floorTypes>
+  </LayoutRoomDef>
+
+  <!-- ==================== SEEDED COMPLEX LAYOUT DEF ==================== -->
+  <ComplexLayoutDef>
+    <defName>Cultist_OccultVaultLayout</defName>
+    <workerClass>LayoutWorkerComplex_Ancient</workerClass>
+    <clearDoorFaction>false</clearDoorFaction>
+    <minRoomWidth>7</minRoomWidth>
+    <minRoomHeight>7</minRoomHeight>
+    <corridorDef>ComplexCorridor</corridorDef>
+    <importantRoomDef>Cultist_Room_VaultSanctum</importantRoomDef>
+    <canDisconnectRooms>false</canDisconnectRooms>
+    <areaPrunePercent>0.12</areaPrunePercent>
+    <ensureOneDoorUnlocked>true</ensureOneDoorUnlocked>
+    <roomDefs>
+      <Cultist_Room_VaultSanctum>
+        <weight>1</weight>
+        <countRange>1~1</countRange>
+      </Cultist_Room_VaultSanctum>
+      <Cultist_Room_ArchiveLibrary>
+        <weight>2</weight>
+        <countRange>1~2</countRange>
+      </Cultist_Room_ArchiveLibrary>
+      <Cultist_Room_RitualHall>
+        <weight>2</weight>
+        <countRange>1~2</countRange>
+      </Cultist_Room_RitualHall>
+      <Cultist_Room_BureauOutpost>
+        <weight>2</weight>
+        <countRange>1~2</countRange>
+      </Cultist_Room_BureauOutpost>
+      <Cultist_Room_RelicStorage>
+        <weight>1.8</weight>
+        <countRange>1~2</countRange>
+      </Cultist_Room_RelicStorage>
+      <Cultist_Room_Courtyard>
+        <weight>1.4</weight>
+        <countRange>0~2</countRange>
+      </Cultist_Room_Courtyard>
+      <Cultist_Room_OpenPlinth>
+        <weight>1.2</weight>
+        <countRange>0~2</countRange>
+      </Cultist_Room_OpenPlinth>
+      <Cultist_Room_AbandonedFarm>
+        <weight>1.2</weight>
+        <countRange>0~2</countRange>
+      </Cultist_Room_AbandonedFarm>
+      <Cultist_Room_AbandonedWorkshop>
+        <weight>1.3</weight>
+        <countRange>0~2</countRange>
+      </Cultist_Room_AbandonedWorkshop>
+    </roomDefs>
+  </ComplexLayoutDef>
+</Defs>

@@ -91,6 +91,7 @@ public sealed partial class Campaign : GameComponent, IThingHolder
         ExposeDoctrines();
         ExposeExalted();
         ExposeApostleLegacy();
+        ExposeVaultSites();
         Scribe_Collections.Look(ref aspects, "aspects", LookMode.Value, LookMode.Value);
         Scribe_Collections.Look(ref offers, "dreamOffers", LookMode.Value);
         Scribe_Values.Look(ref dreamGate, "dreamGate", -1);

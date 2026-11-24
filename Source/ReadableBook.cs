@@ -44,8 +44,13 @@ public sealed class CultistBookComp : ThingComp
             lines.Add("Cultist.CodexRequiresLang".Translate(BookProps.requiredLanguage.LabelCap));
         if (BookProps.teachesLanguage != null)
             lines.Add("Cultist.Book.TeachesLang".Translate(BookProps.teachesLanguage.LabelCap));
-        if (BookProps.siteTier > 0 && !hasBeenRead)
-            lines.Add("Cultist.Book.RevealsSite".Translate(BookProps.siteTier));
+        if ((BookProps.siteTier > 0 || BookProps.grantsLoreDef != null) && !hasBeenRead)
+        {
+            int previewTier = BookProps.siteTier > 0
+                ? BookProps.siteTier
+                : (BookProps.grantsLoreDef?.GetCompProperties<RitualMaterialProperties>()?.loreTier ?? 1);
+            lines.Add("Cultist.Book.RevealsSite".Translate(previewTier));
+        }
         return lines.Count > 0 ? string.Join("\n", lines) : null;
     }
 
@@ -94,25 +99,32 @@ public sealed class CultistBookComp : ThingComp
         if (BookProps.teachesLanguage != null)
             campaign.GrantLanguage(pawn, BookProps.teachesLanguage);
 
-        // 2. Grant lore tier / physical lore book
+        // 2. Grant lore tier learning & temporary influence
         if (BookProps.grantsLoreTier > 0)
             campaign.LearnLore(pawn, BookProps.grantsLoreTier);
-        if (BookProps.grantsLoreDef != null)
-        {
-            int rewardTier = BookProps.grantsLoreDef.GetCompProperties<RitualMaterialProperties>()?.loreTier ?? 2;
-            Aspect rewardAspect = BookProps.grantsAspect != Aspect.Lantern ? BookProps.grantsAspect : campaign.ChurchAspect;
-            campaign.GrantLore(pawn, 1, rewardTier, rewardAspect);
-        }
-
-        // 3. Grant temporary influence (if reader is leader or dreamer)
         if (BookProps.grantsInfluenceStrength > 0)
             campaign.GrantBookInfluence(pawn, BookProps.grantsAspect, BookProps.grantsInfluenceStrength);
 
-        // 4. Trigger tiered RimWorld exploration site quest
-        if (BookProps.siteTier > 0)
+        // 3. Classic occult books & site books unlock a seeded fog-of-war Occult Ruin Complex
+        //    holding the target Aspect Lore inside its Vault Chest (Option B).
+        bool unlocksVault = BookProps.siteTier > 0 || BookProps.grantsLoreDef != null;
+        if (unlocksVault)
         {
-            if (campaign.SpawnBookExplorationSite(pawn, parent.LabelCap, BookProps.siteTier))
+            int rewardTier = BookProps.grantsLoreDef?.GetCompProperties<RitualMaterialProperties>()?.loreTier
+                ?? (BookProps.siteTier > 0 ? BookProps.siteTier : 1);
+            Aspect rewardAspect = BookProps.grantsLoreDef != null
+                ? BookProps.grantsAspect
+                : campaign.ChurchAspect;
+            if (campaign.SpawnVaultComplexSite(pawn, parent.LabelCap, rewardAspect, rewardTier))
+            {
                 Campaign.PlayCultistSound("Cultist_Sfx_SiteRevealed");
+            }
+            else if (BookProps.grantsLoreDef != null)
+            {
+                // Fallback if no world tile was available
+                campaign.GrantLore(pawn, 1, rewardTier, rewardAspect);
+                Campaign.PlayCultistSound("Cultist_Sfx_BookRead");
+            }
         }
         else
         {

@@ -2,8 +2,9 @@
 <Defs>
   <RecipeDef>
     <defName>Cultist_CompileLore2</defName>
-    <label>compile a sketch of the inner sky</label>
-    <description>Compile a sketch of the inner sky.</description>
+    <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
+    <label>upgrade any Tier 1 lore to Tier 2</label>
+    <description>Combine two Tier 1 lore books of the same aspect with cloth and active matching Influence (strength 2+) to compile a Tier 2 lore book of that aspect.</description>
     <jobString>Compile a sketch of the inner sky.</jobString>
     <workAmount>760</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
@@ -11,6 +12,8 @@
     <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -27,7 +30,7 @@
             <li>Cloth</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>30</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -38,14 +41,23 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <products>
-      <Cultist_Lore2Book>1</Cultist_Lore2Book>
-    </products>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <targetTier>2</targetTier>
+        <requiredInfluence>2</requiredInfluence>
+      </li>
+    </modExtensions>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore3</defName>
-    <label>compile verses on cold light</label>
-    <description>Compile verses on cold light.</description>
+    <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
+    <label>upgrade any Tier 2 lore to Tier 3</label>
+    <description>Combine two Tier 2 lore books of the same aspect with cloth and active matching Influence (strength 2+) to compile a Tier 3 lore book of that aspect.</description>
     <jobString>Compile verses on cold light.</jobString>
     <workAmount>940</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
@@ -53,6 +65,8 @@
     <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -69,7 +83,7 @@
             <li>Cloth</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>40</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -80,14 +94,23 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <products>
-      <Cultist_Lore3Book>1</Cultist_Lore3Book>
-    </products>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <targetTier>3</targetTier>
+        <requiredInfluence>2</requiredInfluence>
+      </li>
+    </modExtensions>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore4</defName>
-    <label>compile the lit threshold</label>
-    <description>Compile the lit threshold.</description>
+    <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
+    <label>upgrade any Tier 3 lore to Tier 4</label>
+    <description>Combine two Tier 3 lore books of the same aspect with cloth and active matching Influence (strength 4+) to compile a Tier 4 lore book of that aspect.</description>
     <jobString>Compile the lit threshold.</jobString>
     <workAmount>1120</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
@@ -95,6 +118,8 @@
     <researchPrerequisite>Cultist_OccultCraft</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -111,7 +136,7 @@
             <li>Cloth</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -122,14 +147,23 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <products>
-      <Cultist_Lore4Book>1</Cultist_Lore4Book>
-    </products>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <targetTier>4</targetTier>
+        <requiredInfluence>4</requiredInfluence>
+      </li>
+    </modExtensions>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore5</defName>
-    <label>compile a treatise on gathered rays</label>
-    <description>Compile a treatise on gathered rays.</description>
+    <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
+    <label>upgrade any Tier 4 lore to Tier 5</label>
+    <description>Combine two Tier 4 lore books of the same aspect with cloth and active matching Influence (strength 6+) to compile a Tier 5 lore book of that aspect.</description>
     <jobString>Compile a treatise on gathered rays.</jobString>
     <workAmount>1300</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
@@ -137,6 +171,8 @@
     <researchPrerequisite>Cultist_OccultCraft</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -153,7 +189,7 @@
             <li>Cloth</li>
           </thingDefs>
         </filter>
-        <count>6</count>
+        <count>60</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -164,14 +200,23 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <products>
-      <Cultist_Lore5Book>1</Cultist_Lore5Book>
-    </products>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <targetTier>5</targetTier>
+        <requiredInfluence>6</requiredInfluence>
+      </li>
+    </modExtensions>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore6</defName>
-    <label>compile the ascent ledger</label>
-    <description>Compile the ascent ledger.</description>
+    <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
+    <label>upgrade any Tier 5 lore to Tier 6</label>
+    <description>Combine two Tier 5 lore books of the same aspect with cloth and active matching Influence (strength 8+) to compile a Tier 6 lore book of that aspect.</description>
     <jobString>Compile the ascent ledger.</jobString>
     <workAmount>1480</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
@@ -179,6 +224,8 @@
     <researchPrerequisite>Cultist_HighMansusRites</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -195,7 +242,7 @@
             <li>Cloth</li>
           </thingDefs>
         </filter>
-        <count>7</count>
+        <count>70</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -206,14 +253,23 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <products>
-      <Cultist_Lore6Book>1</Cultist_Lore6Book>
-    </products>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <targetTier>6</targetTier>
+        <requiredInfluence>8</requiredInfluence>
+      </li>
+    </modExtensions>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_CompileLore7</defName>
-    <label>compile the last key of illumination</label>
-    <description>Compile the last key of illumination.</description>
+    <workerClass>Cultist.RecipeWorker_CompileLore</workerClass>
+    <label>upgrade any Tier 6 lore to Tier 7</label>
+    <description>Combine two Tier 6 lore books of the same aspect with cloth and active matching Influence (strength 10+) to compile a Tier 7 lore book of that aspect.</description>
     <jobString>Compile the last key of illumination.</jobString>
     <workAmount>1660</workAmount>
     <workSpeedStat>ResearchSpeed</workSpeedStat>
@@ -221,6 +277,8 @@
     <researchPrerequisite>Cultist_HighMansusRites</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -237,7 +295,7 @@
             <li>Cloth</li>
           </thingDefs>
         </filter>
-        <count>8</count>
+        <count>80</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -248,9 +306,17 @@
         <li>Cloth</li>
       </thingDefs>
     </fixedIngredientFilter>
-    <products>
-      <Cultist_Lore7Book>1</Cultist_Lore7Book>
-    </products>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <targetTier>7</targetTier>
+        <requiredInfluence>10</requiredInfluence>
+      </li>
+    </modExtensions>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
   </RecipeDef>
   <RecipeDef>
     <defName>Cultist_RiteTool1Prepare</defName>
@@ -263,6 +329,8 @@
     <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -303,6 +371,8 @@
     <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -343,6 +413,8 @@
     <researchPrerequisite>Cultist_OccultCraft</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -383,6 +455,8 @@
     <researchPrerequisite>Cultist_OccultCraft</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -423,6 +497,8 @@
     <researchPrerequisite>Cultist_HighMansusRites</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -463,6 +539,8 @@
     <researchPrerequisite>Cultist_HighMansusRites</researchPrerequisite>
     <recipeUsers>
       <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -491,5 +569,607 @@
     <products>
       <Cultist_RiteTool3Ready>1</Cultist_RiteTool3Ready>
     </products>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_MothToLantern</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert Moth lore into Lantern</label>
+    <description>Shed the restless dark of the Wood to reveal the Watchman's beam. Converts a Moth lore book into a Lantern lore book of the same tier.</description>
+    <jobString>Subverting Moth lore into Lantern.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Lantern</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore_Moth1Book</li>
+            <li>Cultist_Lore_Moth2Book</li>
+            <li>Cultist_Lore_Moth3Book</li>
+            <li>Cultist_Lore_Moth4Book</li>
+            <li>Cultist_Lore_Moth5Book</li>
+            <li>Cultist_Lore_Moth6Book</li>
+            <li>Cultist_Lore_Moth7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore_Moth1Book</li>
+        <li>Cultist_Lore_Moth2Book</li>
+        <li>Cultist_Lore_Moth3Book</li>
+        <li>Cultist_Lore_Moth4Book</li>
+        <li>Cultist_Lore_Moth5Book</li>
+        <li>Cultist_Lore_Moth6Book</li>
+        <li>Cultist_Lore_Moth7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_LanternToForge</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert Lantern lore into Forge</label>
+    <description>What light reveals, fire reshapes. Converts a Lantern lore book into a Forge lore book of the same tier.</description>
+    <jobString>Subverting Lantern lore into Forge.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Forge</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore1Book</li>
+            <li>Cultist_Lore2Book</li>
+            <li>Cultist_Lore3Book</li>
+            <li>Cultist_Lore4Book</li>
+            <li>Cultist_Lore5Book</li>
+            <li>Cultist_Lore6Book</li>
+            <li>Cultist_Lore7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore1Book</li>
+        <li>Cultist_Lore2Book</li>
+        <li>Cultist_Lore3Book</li>
+        <li>Cultist_Lore4Book</li>
+        <li>Cultist_Lore5Book</li>
+        <li>Cultist_Lore6Book</li>
+        <li>Cultist_Lore7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_ForgeToEdge</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert Forge lore into Edge</label>
+    <description>The Lionsmith shattered his sword to break his master's hold. With sufficient force, anything can be overcome. Converts a Forge lore book into an Edge lore book of the same tier.</description>
+    <jobString>Subverting Forge lore into Edge.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Edge</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore_Forge1Book</li>
+            <li>Cultist_Lore_Forge2Book</li>
+            <li>Cultist_Lore_Forge3Book</li>
+            <li>Cultist_Lore_Forge4Book</li>
+            <li>Cultist_Lore_Forge5Book</li>
+            <li>Cultist_Lore_Forge6Book</li>
+            <li>Cultist_Lore_Forge7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore_Forge1Book</li>
+        <li>Cultist_Lore_Forge2Book</li>
+        <li>Cultist_Lore_Forge3Book</li>
+        <li>Cultist_Lore_Forge4Book</li>
+        <li>Cultist_Lore_Forge5Book</li>
+        <li>Cultist_Lore_Forge6Book</li>
+        <li>Cultist_Lore_Forge7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_EdgeToWinter</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert Edge lore into Winter</label>
+    <description>Every conquest ends in silence. Converts an Edge lore book into a Winter lore book of the same tier.</description>
+    <jobString>Subverting Edge lore into Winter.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Winter</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore_Edge1Book</li>
+            <li>Cultist_Lore_Edge2Book</li>
+            <li>Cultist_Lore_Edge3Book</li>
+            <li>Cultist_Lore_Edge4Book</li>
+            <li>Cultist_Lore_Edge5Book</li>
+            <li>Cultist_Lore_Edge6Book</li>
+            <li>Cultist_Lore_Edge7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore_Edge1Book</li>
+        <li>Cultist_Lore_Edge2Book</li>
+        <li>Cultist_Lore_Edge3Book</li>
+        <li>Cultist_Lore_Edge4Book</li>
+        <li>Cultist_Lore_Edge5Book</li>
+        <li>Cultist_Lore_Edge6Book</li>
+        <li>Cultist_Lore_Edge7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_WinterToHeart</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert Winter lore into Heart</label>
+    <description>Beneath the frost, the unceasing drum still beats. Converts a Winter lore book into a Heart lore book of the same tier.</description>
+    <jobString>Subverting Winter lore into Heart.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Heart</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore_Winter1Book</li>
+            <li>Cultist_Lore_Winter2Book</li>
+            <li>Cultist_Lore_Winter3Book</li>
+            <li>Cultist_Lore_Winter4Book</li>
+            <li>Cultist_Lore_Winter5Book</li>
+            <li>Cultist_Lore_Winter6Book</li>
+            <li>Cultist_Lore_Winter7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore_Winter1Book</li>
+        <li>Cultist_Lore_Winter2Book</li>
+        <li>Cultist_Lore_Winter3Book</li>
+        <li>Cultist_Lore_Winter4Book</li>
+        <li>Cultist_Lore_Winter5Book</li>
+        <li>Cultist_Lore_Winter6Book</li>
+        <li>Cultist_Lore_Winter7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_HeartToGrail</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert Heart lore into Grail</label>
+    <description>Pulse becomes appetite; survival becomes thirst. Converts a Heart lore book into a Grail lore book of the same tier.</description>
+    <jobString>Subverting Heart lore into Grail.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Grail</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore_Heart1Book</li>
+            <li>Cultist_Lore_Heart2Book</li>
+            <li>Cultist_Lore_Heart3Book</li>
+            <li>Cultist_Lore_Heart4Book</li>
+            <li>Cultist_Lore_Heart5Book</li>
+            <li>Cultist_Lore_Heart6Book</li>
+            <li>Cultist_Lore_Heart7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore_Heart1Book</li>
+        <li>Cultist_Lore_Heart2Book</li>
+        <li>Cultist_Lore_Heart3Book</li>
+        <li>Cultist_Lore_Heart4Book</li>
+        <li>Cultist_Lore_Heart5Book</li>
+        <li>Cultist_Lore_Heart6Book</li>
+        <li>Cultist_Lore_Heart7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_GrailToMoth</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert Grail lore into Moth</label>
+    <description>Desire moults its skin and wanders into the Wood. Converts a Grail lore book into a Moth lore book of the same tier.</description>
+    <jobString>Subverting Grail lore into Moth.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Moth</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore_Grail1Book</li>
+            <li>Cultist_Lore_Grail2Book</li>
+            <li>Cultist_Lore_Grail3Book</li>
+            <li>Cultist_Lore_Grail4Book</li>
+            <li>Cultist_Lore_Grail5Book</li>
+            <li>Cultist_Lore_Grail6Book</li>
+            <li>Cultist_Lore_Grail7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore_Grail1Book</li>
+        <li>Cultist_Lore_Grail2Book</li>
+        <li>Cultist_Lore_Grail3Book</li>
+        <li>Cultist_Lore_Grail4Book</li>
+        <li>Cultist_Lore_Grail5Book</li>
+        <li>Cultist_Lore_Grail6Book</li>
+        <li>Cultist_Lore_Grail7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Cultist_Subvert_AnyToKnock</defName>
+    <workerClass>Cultist.RecipeWorker_SubvertLore</workerClass>
+    <label>subvert any lore into Knock</label>
+    <description>Every secret is a wound through which the Mansus enters. Converts any non-Knock lore book into a Knock lore book of the same tier.</description>
+    <jobString>Subverting lore into Knock.</jobString>
+    <workAmount>900</workAmount>
+    <workSpeedStat>ResearchSpeed</workSpeedStat>
+    <workSkill>Intellectual</workSkill>
+    <researchPrerequisite>Cultist_StudiesOfLight</researchPrerequisite>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>TableMachining</li>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <modExtensions>
+      <li Class="Cultist.CultistLoreRecipeExt">
+        <isSubversion>true</isSubversion>
+        <targetAspect>Knock</targetAspect>
+      </li>
+    </modExtensions>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cultist_Lore1Book</li>
+            <li>Cultist_Lore2Book</li>
+            <li>Cultist_Lore3Book</li>
+            <li>Cultist_Lore4Book</li>
+            <li>Cultist_Lore5Book</li>
+            <li>Cultist_Lore6Book</li>
+            <li>Cultist_Lore7Book</li>
+            <li>Cultist_Lore_Forge1Book</li>
+            <li>Cultist_Lore_Forge2Book</li>
+            <li>Cultist_Lore_Forge3Book</li>
+            <li>Cultist_Lore_Forge4Book</li>
+            <li>Cultist_Lore_Forge5Book</li>
+            <li>Cultist_Lore_Forge6Book</li>
+            <li>Cultist_Lore_Forge7Book</li>
+            <li>Cultist_Lore_Edge1Book</li>
+            <li>Cultist_Lore_Edge2Book</li>
+            <li>Cultist_Lore_Edge3Book</li>
+            <li>Cultist_Lore_Edge4Book</li>
+            <li>Cultist_Lore_Edge5Book</li>
+            <li>Cultist_Lore_Edge6Book</li>
+            <li>Cultist_Lore_Edge7Book</li>
+            <li>Cultist_Lore_Winter1Book</li>
+            <li>Cultist_Lore_Winter2Book</li>
+            <li>Cultist_Lore_Winter3Book</li>
+            <li>Cultist_Lore_Winter4Book</li>
+            <li>Cultist_Lore_Winter5Book</li>
+            <li>Cultist_Lore_Winter6Book</li>
+            <li>Cultist_Lore_Winter7Book</li>
+            <li>Cultist_Lore_Heart1Book</li>
+            <li>Cultist_Lore_Heart2Book</li>
+            <li>Cultist_Lore_Heart3Book</li>
+            <li>Cultist_Lore_Heart4Book</li>
+            <li>Cultist_Lore_Heart5Book</li>
+            <li>Cultist_Lore_Heart6Book</li>
+            <li>Cultist_Lore_Heart7Book</li>
+            <li>Cultist_Lore_Grail1Book</li>
+            <li>Cultist_Lore_Grail2Book</li>
+            <li>Cultist_Lore_Grail3Book</li>
+            <li>Cultist_Lore_Grail4Book</li>
+            <li>Cultist_Lore_Grail5Book</li>
+            <li>Cultist_Lore_Grail6Book</li>
+            <li>Cultist_Lore_Grail7Book</li>
+            <li>Cultist_Lore_Moth1Book</li>
+            <li>Cultist_Lore_Moth2Book</li>
+            <li>Cultist_Lore_Moth3Book</li>
+            <li>Cultist_Lore_Moth4Book</li>
+            <li>Cultist_Lore_Moth5Book</li>
+            <li>Cultist_Lore_Moth6Book</li>
+            <li>Cultist_Lore_Moth7Book</li>
+            <li>Cultist_Lore_SecretHistories1Book</li>
+            <li>Cultist_Lore_SecretHistories2Book</li>
+            <li>Cultist_Lore_SecretHistories3Book</li>
+            <li>Cultist_Lore_SecretHistories4Book</li>
+            <li>Cultist_Lore_SecretHistories5Book</li>
+            <li>Cultist_Lore_SecretHistories6Book</li>
+            <li>Cultist_Lore_SecretHistories7Book</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cultist_Lore1Book</li>
+        <li>Cultist_Lore2Book</li>
+        <li>Cultist_Lore3Book</li>
+        <li>Cultist_Lore4Book</li>
+        <li>Cultist_Lore5Book</li>
+        <li>Cultist_Lore6Book</li>
+        <li>Cultist_Lore7Book</li>
+        <li>Cultist_Lore_Forge1Book</li>
+        <li>Cultist_Lore_Forge2Book</li>
+        <li>Cultist_Lore_Forge3Book</li>
+        <li>Cultist_Lore_Forge4Book</li>
+        <li>Cultist_Lore_Forge5Book</li>
+        <li>Cultist_Lore_Forge6Book</li>
+        <li>Cultist_Lore_Forge7Book</li>
+        <li>Cultist_Lore_Edge1Book</li>
+        <li>Cultist_Lore_Edge2Book</li>
+        <li>Cultist_Lore_Edge3Book</li>
+        <li>Cultist_Lore_Edge4Book</li>
+        <li>Cultist_Lore_Edge5Book</li>
+        <li>Cultist_Lore_Edge6Book</li>
+        <li>Cultist_Lore_Edge7Book</li>
+        <li>Cultist_Lore_Winter1Book</li>
+        <li>Cultist_Lore_Winter2Book</li>
+        <li>Cultist_Lore_Winter3Book</li>
+        <li>Cultist_Lore_Winter4Book</li>
+        <li>Cultist_Lore_Winter5Book</li>
+        <li>Cultist_Lore_Winter6Book</li>
+        <li>Cultist_Lore_Winter7Book</li>
+        <li>Cultist_Lore_Heart1Book</li>
+        <li>Cultist_Lore_Heart2Book</li>
+        <li>Cultist_Lore_Heart3Book</li>
+        <li>Cultist_Lore_Heart4Book</li>
+        <li>Cultist_Lore_Heart5Book</li>
+        <li>Cultist_Lore_Heart6Book</li>
+        <li>Cultist_Lore_Heart7Book</li>
+        <li>Cultist_Lore_Grail1Book</li>
+        <li>Cultist_Lore_Grail2Book</li>
+        <li>Cultist_Lore_Grail3Book</li>
+        <li>Cultist_Lore_Grail4Book</li>
+        <li>Cultist_Lore_Grail5Book</li>
+        <li>Cultist_Lore_Grail6Book</li>
+        <li>Cultist_Lore_Grail7Book</li>
+        <li>Cultist_Lore_Moth1Book</li>
+        <li>Cultist_Lore_Moth2Book</li>
+        <li>Cultist_Lore_Moth3Book</li>
+        <li>Cultist_Lore_Moth4Book</li>
+        <li>Cultist_Lore_Moth5Book</li>
+        <li>Cultist_Lore_Moth6Book</li>
+        <li>Cultist_Lore_Moth7Book</li>
+        <li>Cultist_Lore_SecretHistories1Book</li>
+        <li>Cultist_Lore_SecretHistories2Book</li>
+        <li>Cultist_Lore_SecretHistories3Book</li>
+        <li>Cultist_Lore_SecretHistories4Book</li>
+        <li>Cultist_Lore_SecretHistories5Book</li>
+        <li>Cultist_Lore_SecretHistories6Book</li>
+        <li>Cultist_Lore_SecretHistories7Book</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </defaultIngredientFilter>
   </RecipeDef>
 </Defs>

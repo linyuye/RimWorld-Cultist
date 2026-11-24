@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Cultist_CompileLore2.label>编纂内庭天图</Cultist_CompileLore2.label>
-  <Cultist_CompileLore2.description>编纂内庭天图。</Cultist_CompileLore2.description>
-  <Cultist_CompileLore2.jobString>编纂内庭天图。</Cultist_CompileLore2.jobString>
-  <Cultist_CompileLore3.label>编纂冷光短章</Cultist_CompileLore3.label>
-  <Cultist_CompileLore3.description>编纂冷光短章。</Cultist_CompileLore3.description>
-  <Cultist_CompileLore3.jobString>编纂冷光短章。</Cultist_CompileLore3.jobString>
-  <Cultist_CompileLore4.label>编纂照门祷文</Cultist_CompileLore4.label>
-  <Cultist_CompileLore4.description>编纂照门祷文。</Cultist_CompileLore4.description>
-  <Cultist_CompileLore4.jobString>编纂照门祷文。</Cultist_CompileLore4.jobString>
-  <Cultist_CompileLore5.label>编纂聚光论</Cultist_CompileLore5.label>
-  <Cultist_CompileLore5.description>编纂聚光论。</Cultist_CompileLore5.description>
-  <Cultist_CompileLore5.jobString>编纂聚光论。</Cultist_CompileLore5.jobString>
-  <Cultist_CompileLore6.label>编纂登阶笔录</Cultist_CompileLore6.label>
-  <Cultist_CompileLore6.description>编纂登阶笔录。</Cultist_CompileLore6.description>
-  <Cultist_CompileLore6.jobString>编纂登阶笔录。</Cultist_CompileLore6.jobString>
-  <Cultist_CompileLore7.label>编纂彻照密钥</Cultist_CompileLore7.label>
-  <Cultist_CompileLore7.description>编纂彻照密钥。</Cultist_CompileLore7.description>
-  <Cultist_CompileLore7.jobString>编纂彻照密钥。</Cultist_CompileLore7.jobString>
+  <Cultist_CompileLore2.label>晋升任意 2 阶密传（需 2 级对应影响）</Cultist_CompileLore2.label>
+  <Cultist_CompileLore2.description>消耗 2 本同相性 1 阶密传、30 布料与 1 份 ≥2 级的对应相性影响，编纂出该相性的 2 阶密传。</Cultist_CompileLore2.description>
+  <Cultist_CompileLore2.jobString>正在晋升 2 阶密传。</Cultist_CompileLore2.jobString>
+  <Cultist_CompileLore3.label>晋升任意 3 阶密传（需 2 级对应影响）</Cultist_CompileLore3.label>
+  <Cultist_CompileLore3.description>消耗 2 本同相性 2 阶密传、40 布料与 1 份 ≥2 级的对应相性影响，编纂出该相性的 3 阶密传。</Cultist_CompileLore3.description>
+  <Cultist_CompileLore3.jobString>正在晋升 3 阶密传。</Cultist_CompileLore3.jobString>
+  <Cultist_CompileLore4.label>晋升任意 4 阶密传（需 4 级对应影响）</Cultist_CompileLore4.label>
+  <Cultist_CompileLore4.description>消耗 2 本同相性 3 阶密传、50 布料与 1 份 ≥4 级的对应相性影响，编纂出该相性的 4 阶密传。</Cultist_CompileLore4.description>
+  <Cultist_CompileLore4.jobString>正在晋升 4 阶密传。</Cultist_CompileLore4.jobString>
+  <Cultist_CompileLore5.label>晋升任意 5 阶密传（需 6 级对应影响）</Cultist_CompileLore5.label>
+  <Cultist_CompileLore5.description>消耗 2 本同相性 4 阶密传、60 布料与 1 份 ≥6 级的对应相性影响，编纂出该相性的 5 阶密传。</Cultist_CompileLore5.description>
+  <Cultist_CompileLore5.jobString>正在晋升 5 阶密传。</Cultist_CompileLore5.jobString>
+  <Cultist_CompileLore6.label>晋升任意 6 阶密传（需 8 级对应影响）</Cultist_CompileLore6.label>
+  <Cultist_CompileLore6.description>消耗 2 本同相性 5 阶密传、70 布料与 1 份 ≥8 级的对应相性影响，编纂出该相性的 6 阶密传。</Cultist_CompileLore6.description>
+  <Cultist_CompileLore6.jobString>正在晋升 6 阶密传。</Cultist_CompileLore6.jobString>
+  <Cultist_CompileLore7.label>晋升任意 7 阶密传（需 10 级对应影响）</Cultist_CompileLore7.label>
+  <Cultist_CompileLore7.description>消耗 2 本同相性 6 阶密传、80 布料与 1 份 ≥10 级的对应相性影响，编纂出该相性的 7 阶最高密传。</Cultist_CompileLore7.description>
+  <Cultist_CompileLore7.jobString>正在晋升 7 阶密传。</Cultist_CompileLore7.jobString>
   <Cultist_RiteTool1Prepare.label>制作裂损午之石</Cultist_RiteTool1Prepare.label>
   <Cultist_RiteTool1Prepare.description>制作裂损午之石。</Cultist_RiteTool1Prepare.description>
   <Cultist_RiteTool1Prepare.jobString>制作裂损午之石。</Cultist_RiteTool1Prepare.jobString>
@@ -36,4 +36,37 @@
   <Cultist_RiteTool3Repair.label>修复守夜人之镜</Cultist_RiteTool3Repair.label>
   <Cultist_RiteTool3Repair.description>修复守夜人之镜。</Cultist_RiteTool3Repair.description>
   <Cultist_RiteTool3Repair.jobString>修复守夜人之镜。</Cultist_RiteTool3Repair.jobString>
+
+  <!-- 8 条同阶密传拗转（Subversion，使用《密教模拟器》原版官方中文文本） -->
+  <Cultist_Subvert_MothToLantern.label>拗转林地的密传（蛾 → 灯）</Cultist_Subvert_MothToLantern.label>
+  <Cultist_Subvert_MothToLantern.description>辉光是一个疑问，飞蛾总以肯定作答。（将任意阶蛾密传拗转为同阶灯密传。）</Cultist_Subvert_MothToLantern.description>
+  <Cultist_Subvert_MothToLantern.jobString>正在拗转林地的密传。</Cultist_Subvert_MothToLantern.jobString>
+
+  <Cultist_Subvert_LanternToForge.label>拗转辉煌的密传（灯 → 铸）</Cultist_Subvert_LanternToForge.label>
+  <Cultist_Subvert_LanternToForge.description>术士朱利安·科赛利声称白日铸炉分裂了太阳。也许他是对的。（将任意阶灯密传拗转为同阶铸密传。）</Cultist_Subvert_LanternToForge.description>
+  <Cultist_Subvert_LanternToForge.jobString>正在拗转辉煌的密传。</Cultist_Subvert_LanternToForge.jobString>
+
+  <Cultist_Subvert_ForgeToEdge.label>拗转燃烧的密传（铸 → 刃）</Cultist_Subvert_ForgeToEdge.label>
+  <Cultist_Subvert_ForgeToEdge.description>名为狮子匠的司辰打碎其剑，以此逃脱其主的支配。只要拥有足够的武力，万事万物皆可被战胜。（将任意阶铸密传拗转为同阶刃密传。）</Cultist_Subvert_ForgeToEdge.description>
+  <Cultist_Subvert_ForgeToEdge.jobString>正在拗转燃烧的密传。</Cultist_Subvert_ForgeToEdge.jobString>
+
+  <Cultist_Subvert_EdgeToWinter.label>拗转利刃的密传（刃 → 冬）</Cultist_Subvert_EdgeToWinter.label>
+  <Cultist_Subvert_EdgeToWinter.description>万事皆有终结。我将思忖耐心胜于蛮力的道理。（将任意阶刃密传拗转为同阶冬密传。）</Cultist_Subvert_EdgeToWinter.description>
+  <Cultist_Subvert_EdgeToWinter.jobString>正在拗转利刃的密传。</Cultist_Subvert_EdgeToWinter.jobString>
+
+  <Cultist_Subvert_WinterToHeart.label>拗转破败的密传（冬 → 心）</Cultist_Subvert_WinterToHeart.label>
+  <Cultist_Subvert_WinterToHeart.description>纵使在雪，在静默中，在没有色彩的纯白中，生命亦不尽休止。（将任意阶冬密传拗转为同阶心密传。）</Cultist_Subvert_WinterToHeart.description>
+  <Cultist_Subvert_WinterToHeart.jobString>正在拗转破败的密传。</Cultist_Subvert_WinterToHeart.jobString>
+
+  <Cultist_Subvert_HeartToGrail.label>拗转不休的密传（心 → 杯）</Cultist_Subvert_HeartToGrail.label>
+  <Cultist_Subvert_HeartToGrail.description>不休之物终将屈从诱惑。（将任意阶心密传拗转为同阶杯密传。）</Cultist_Subvert_HeartToGrail.description>
+  <Cultist_Subvert_HeartToGrail.jobString>正在拗转不休的密传。</Cultist_Subvert_HeartToGrail.jobString>
+
+  <Cultist_Subvert_GrailToMoth.label>拗转甘美的密传（杯 → 蛾）</Cultist_Subvert_GrailToMoth.label>
+  <Cultist_Subvert_GrailToMoth.description>据说杯诞生于第一场献祭。然而蛾知道真相并非如此。（将任意阶杯密传拗转为同阶蛾密传。）</Cultist_Subvert_GrailToMoth.description>
+  <Cultist_Subvert_GrailToMoth.jobString>正在拗转甘美的密传。</Cultist_Subvert_GrailToMoth.jobString>
+
+  <Cultist_Subvert_AnyToKnock.label>拗转开扉的密传（任意相性 → 启）</Cultist_Subvert_AnyToKnock.label>
+  <Cultist_Subvert_AnyToKnock.description>打开某物，便知其本质。我加深了对关于开启的密传的理解，这种密传可据其性相称为启。（将任意非启相密传拗转为同阶启密传。）</Cultist_Subvert_AnyToKnock.description>
+  <Cultist_Subvert_AnyToKnock.jobString>正在拗转开扉的密传。</Cultist_Subvert_AnyToKnock.jobString>
 </LanguageData>

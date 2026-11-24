@@ -124,4 +124,17 @@
   <Cultist.Guardian.AvatarName>{0} Guardian Name · {1}</Cultist.Guardian.AvatarName>
   <Cultist.Guardian.AvatarArrived>{0} has descended from the Mansus to defend the colony for 12 hours!</Cultist.Guardian.AvatarArrived>
   <Cultist.Guardian.BlessingGranted>{0}'s radiant favour washed over the colony (+8 mood, +15% work speed for 5 days, +3 Spintria)!</Cultist.Guardian.BlessingGranted>
+
+  <!-- Occult Ruin Complex & Vault Chest -->
+  <Cultist.VaultSite.Title>Tier {0} Occult Ruin Complex: {1}</Cultist.VaultSite.Title>
+  <Cultist.VaultSite.Desc>Studying {0} revealed the coordinates of a fog-shrouded ancient occult complex!\n\nInside its procedurally stitched corridors, libraries, ritual halls, courtyards, and abandoned workshops lurk Suppression Bureau guards and unbound spirits. Breach the inner sanctum and open the Sealed Occult Vault Chest to claim Tier {2} {1} Lore, Spintriae, and salvaged supplies.</Cultist.VaultSite.Desc>
+  <Cultist.VaultChest.OpenOption>Open sealed occult vault chest</Cultist.VaultChest.OpenOption>
+  <Cultist.VaultChest.SealedInspect>Sealed · Holds Tier {1} {0} Lore &amp; vault treasure</Cultist.VaultChest.SealedInspect>
+  <Cultist.VaultChest.OpenedInspect>Opened (empty)</Cultist.VaultChest.OpenedInspect>
+  <Cultist.VaultChest.OpenedMsg>{0} opened the occult vault chest and recovered Tier {2} {1} Lore along with Spintriae and supplies!</Cultist.VaultChest.OpenedMsg>
+
+  <!-- Lore Compilation & Subversion -->
+  <Cultist.LoreCompile.NeedInfluence>Upgrading to Tier {0} {1} Lore requires active {1} Influence of strength {2}+! Books and cloth have been refunded.</Cultist.LoreCompile.NeedInfluence>
+  <Cultist.LoreCompile.Success>{0} harnessed active Influence to compile {1} ({2}, Tier {3})!</Cultist.LoreCompile.Success>
+  <Cultist.LoreSubvert.Success>{0} subverted Tier {3} {1} Lore into {2}: {4}!</Cultist.LoreSubvert.Success>
 </LanguageData>

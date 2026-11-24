@@ -38,9 +38,9 @@
       <li>ElectricSmithy</li>
     </recipeUsers>
     <ingredients>
-      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>50</count></li>
-      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>8</count></li>
-      <li><filter><thingDefs><li>Cultist_Spintria</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>Plasteel</li></thingDefs></filter><count>250</count></li>
+      <li><filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter><count>40</count></li>
+      <li><filter><thingDefs><li>Cultist_Spintria</li></thingDefs></filter><count>25</count></li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
@@ -84,8 +84,8 @@
       <li>ElectricStove</li>
     </recipeUsers>
     <ingredients>
-      <li><filter><thingDefs><li>MealFine</li><li>MealLavish</li></thingDefs></filter><count>10</count></li>
-      <li><filter><thingDefs><li>Cultist_Spintria</li></thingDefs></filter><count>5</count></li>
+      <li><filter><thingDefs><li>MealFine</li><li>MealLavish</li></thingDefs></filter><count>50</count></li>
+      <li><filter><thingDefs><li>Cultist_Spintria</li></thingDefs></filter><count>25</count></li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>

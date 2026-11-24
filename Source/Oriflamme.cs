@@ -210,7 +210,8 @@ public sealed partial class Campaign
         recruitedNamedFollowers.Add(fDef.defName);
         Pawn pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(
             PawnKindDefOf.Colonist, Faction.OfPlayer, PawnGenerationContext.NonPlayer,
-            forceGenerateNewPawn: true, allowDead: false, allowDowned: false));
+            forceGenerateNewPawn: true, allowDead: false, allowDowned: false,
+            fixedGender: fDef.fixedGender != Gender.None ? fDef.fixedGender : (Gender?)null));
         pawn.Name = new NameSingle(fDef.label);
         if (church != null)
             pawn.ideo?.SetIdeo(church);

@@ -124,4 +124,17 @@
   <Cultist.Guardian.AvatarName>{0}守护具名者 · {1}</Cultist.Guardian.AvatarName>
   <Cultist.Guardian.AvatarArrived>{0} 自漫宿降临凡世，将守护殖民地 12 小时！</Cultist.Guardian.AvatarArrived>
   <Cultist.Guardian.BlessingGranted>守护具名者 {0} 降下恩泽（全员 5 天 +8 心情、+15% 劳作与研究速度，并获赐 3 枚斯宾特里亚古币）！</Cultist.Guardian.BlessingGranted>
+
+  <!-- 秘教古建筑群遗迹与秘藏铁匣 -->
+  <Cultist.VaultSite.Title>{0}阶秘教古建筑群：{1}</Cultist.VaultSite.Title>
+  <Cultist.VaultSite.Desc>研读《{0}》后，你破译出一座隐藏在荒野中的古代秘教建筑群坐标！\n\n建筑群内部笼罩在战争迷雾中，由大走廊、藏书室、仪式厅、防剿局哨室、庭院与废弃工坊拼接而成；击退防剿局与失控灵体，在深处圣室开启「封印的秘藏铁匣」即可取得 {1}（{2}阶）密传、斯宾特里亚古币与大量遗迹物资。</Cultist.VaultSite.Desc>
+  <Cultist.VaultChest.OpenOption>开启封印的秘藏铁匣</Cultist.VaultChest.OpenOption>
+  <Cultist.VaultChest.SealedInspect>封印完好 · 内藏 {0}（{1}阶）密传与遗迹宝藏</Cultist.VaultChest.SealedInspect>
+  <Cultist.VaultChest.OpenedInspect>已开启（内部已清空）</Cultist.VaultChest.OpenedInspect>
+  <Cultist.VaultChest.OpenedMsg>{0} 开启了秘藏铁匣，取得 {1}（{2}阶）密传与大批古币物资！</Cultist.VaultChest.OpenedMsg>
+
+  <!-- 密传晋升与拗转 -->
+  <Cultist.LoreCompile.NeedInfluence>晋升 {0} 阶{1}密传需要至少 {2} 级的激活{1}影响！已全额返还密传书与布料。</Cultist.LoreCompile.NeedInfluence>
+  <Cultist.LoreCompile.Success>{0} 借由相性影响，成功编纂出 {1}（{2} · {3}阶）！</Cultist.LoreCompile.Success>
+  <Cultist.LoreSubvert.Success>{0} 成功将 {3} 阶{1}密传拗转为{2}密传：{4}！</Cultist.LoreSubvert.Success>
 </LanguageData>
