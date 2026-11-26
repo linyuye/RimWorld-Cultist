@@ -137,4 +137,22 @@
   <Cultist.LoreCompile.NeedInfluence>Tier {0} {1} lore needs a matching influence of strength {2} or higher. Materials returned.</Cultist.LoreCompile.NeedInfluence>
   <Cultist.LoreCompile.Success>{0} compiled {1} (tier {3} {2} lore).</Cultist.LoreCompile.Success>
   <Cultist.LoreSubvert.Success>{0} subverted tier {3} {1} lore into {4} ({2}).</Cultist.LoreSubvert.Success>
+
+  <!-- Mod Settings -->
+  <Cultist.Settings.Experimental>Experimental features</Cultist.Settings.Experimental>
+  <Cultist.Settings.ExperimentalDesc>Currently empty.</Cultist.Settings.ExperimentalDesc>
+  <Cultist.Settings.CustomApparel>Custom apparel textures</Cultist.Settings.CustomApparel>
+  <Cultist.Settings.CustomApparelDesc>Turn this off to switch worn Cultist apparel to vanilla visuals immediately.</Cultist.Settings.CustomApparelDesc>
+  <Cultist.Settings.EasterEggs>Anomaly crossover letters</Cultist.Settings.EasterEggs>
+  <Cultist.Settings.EasterEggsDesc>With Anomaly active, some encounters, studies, and rituals can trigger Cultist letters.</Cultist.Settings.EasterEggsDesc>
+
+  <!-- Anomaly Crossover Easter Eggs -->
+  <Cultist.EasterEgg.TwinWitches.Title>Whisper of the Sister-and-Witch</Cultist.EasterEgg.TwinWitches.Title>
+  <Cultist.EasterEgg.TwinWitches.Body>'The Sister-and-Witch were born in two wombs, one poor one rich, across the sea. The Sister was stronger in the aspect of Heart, and so their survival was assured; the Witch was stronger in the aspect of Grail, and so they were not satisfied...'</Cultist.EasterEgg.TwinWitches.Body>
+  <Cultist.EasterEgg.Beachcomber.Title>The Crow-Shadow in the Oak-Shadow</Cultist.EasterEgg.Beachcomber.Title>
+  <Cultist.EasterEgg.Beachcomber.Body>'Behind the Peacock Door, Wormwards of the Chamber of Ways, two roads cross at the shadow of an oak. Here the blue light of the Mansus deepens to almost the blue of the evening sky. The roads stretch into the wall-haze and are forgotten, but here where they cross, the crow-shadow in the oak-shadow remembers.'</Cultist.EasterEgg.Beachcomber.Body>
+  <Cultist.EasterEgg.Elegiast.Title>The Elegiast's Promise</Cultist.EasterEgg.Elegiast.Title>
+  <Cultist.EasterEgg.Elegiast.Body>'The Elegiast is not the kindest of Hours, yet he is never cruel, and he remembers all his promises. He reaches down to lift me up, leaving me trembling to face the world alone; now I cannot end before my appointed hour. I will move among the Long of Noon, watching the struggles of the Long of Grail, the Long of Lantern, and the fierce Long of Fire; I will uphold the borders upheld until now, bearing the colours of the lost Hours like a coal burning with rose-coloured flame.'</Cultist.EasterEgg.Elegiast.Body>
+  <Cultist.EasterEgg.Moth.Title>The Moth's Answer</Cultist.EasterEgg.Moth.Title>
+  <Cultist.EasterEgg.Moth.Body>'The Glory is a question, and the Moth always answers Yes.'</Cultist.EasterEgg.Moth.Body>
 </LanguageData>

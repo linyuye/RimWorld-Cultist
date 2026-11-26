@@ -160,6 +160,7 @@ public sealed partial class Campaign
                 break;
 
             case "Cultist_BureauHunter":
+                TryApplyBureauHunterAppearance(pawn);
                 if (Rand.Chance(0.50f))
                     TryWearOccultApparel(pawn, HunterApparels.RandomElement(), QualityCategory.Good);
                 if (Rand.Chance(0.40f))
@@ -212,6 +213,21 @@ public sealed partial class Campaign
                 }
                 break;
             }
+        }
+    }
+
+    private static void TryApplyBureauHunterAppearance(Pawn pawn)
+    {
+        if (pawn?.health == null)
+            return;
+        string[] pool = pawn.gender == Gender.Female
+            ? new[] { "Cultist_Appearance_Connie", "Cultist_Appearance_Natalia" }
+            : new[] { "Cultist_Appearance_Douglas", "Cultist_Appearance_Spencer", "Cultist_Appearance_Zachary" };
+        HediffDef def = DefDatabase<HediffDef>.GetNamedSilentFail(pool.RandomElement());
+        if (def != null && !pawn.health.hediffSet.HasHediff(def))
+        {
+            pawn.health.AddHediff(def);
+            pawn.Drawer?.renderer?.SetAllGraphicsDirty();
         }
     }
 

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef Name="Cultist_AppearanceBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+    <forceRenderTreeRecache>true</forceRenderTreeRecache>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_AppearanceBase">
+    <defName>Cultist_Appearance_Douglas</defName>
+    <label>Douglas's appearance</label>
+    <description>Distinctive Suppression Bureau uniform and visage of Douglas.</description>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Cultist Douglas 3-View</debugLabel>
+        <parentTagDef>Root</parentTagDef>
+        <texPath>Cultist/Hunters/Douglas</texPath>
+        <colorType>Custom</colorType>
+        <color>(255,255,255)</color>
+        <baseLayer>85</baseLayer>
+        <drawSize>1.55</drawSize>
+        <drawData>
+          <defaultData>
+            <offset>(0, 0, 0.12)</offset>
+          </defaultData>
+        </drawData>
+        <pawnType>HumanlikeOnly</pawnType>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_AppearanceBase">
+    <defName>Cultist_Appearance_Connie</defName>
+    <label>Connie Lee's appearance</label>
+    <description>Distinctive Suppression Bureau attire and visage of Connie Lee.</description>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Cultist Connie 3-View</debugLabel>
+        <parentTagDef>Root</parentTagDef>
+        <texPath>Cultist/Hunters/Connie</texPath>
+        <colorType>Custom</colorType>
+        <color>(255,255,255)</color>
+        <baseLayer>85</baseLayer>
+        <drawSize>1.55</drawSize>
+        <drawData>
+          <defaultData>
+            <offset>(0, 0, 0.12)</offset>
+          </defaultData>
+        </drawData>
+        <pawnType>HumanlikeOnly</pawnType>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_AppearanceBase">
+    <defName>Cultist_Appearance_Natalia</defName>
+    <label>Natalia Brulleau's appearance</label>
+    <description>Distinctive Suppression Bureau attire and visage of Natalia Brulleau.</description>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Cultist Natalia 3-View</debugLabel>
+        <parentTagDef>Root</parentTagDef>
+        <texPath>Cultist/Hunters/Natalia</texPath>
+        <colorType>Custom</colorType>
+        <color>(255,255,255)</color>
+        <baseLayer>85</baseLayer>
+        <drawSize>1.55</drawSize>
+        <drawData>
+          <defaultData>
+            <offset>(0, 0, 0.12)</offset>
+          </defaultData>
+        </drawData>
+        <pawnType>HumanlikeOnly</pawnType>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_AppearanceBase">
+    <defName>Cultist_Appearance_Spencer</defName>
+    <label>Spencer Hobson's appearance</label>
+    <description>Distinctive Suppression Bureau trenchcoat and visage of Spencer Hobson.</description>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Cultist Spencer 3-View</debugLabel>
+        <parentTagDef>Root</parentTagDef>
+        <texPath>Cultist/Hunters/Spencer</texPath>
+        <colorType>Custom</colorType>
+        <color>(255,255,255)</color>
+        <baseLayer>85</baseLayer>
+        <drawSize>1.55</drawSize>
+        <drawData>
+          <defaultData>
+            <offset>(0, 0, 0.12)</offset>
+          </defaultData>
+        </drawData>
+        <pawnType>HumanlikeOnly</pawnType>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+
+  <HediffDef ParentName="Cultist_AppearanceBase">
+    <defName>Cultist_Appearance_Zachary</defName>
+    <label>Zachary Wakefield's appearance</label>
+    <description>Distinctive Suppression Bureau overcoat and visage of Zachary Wakefield.</description>
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Cultist Zachary 3-View</debugLabel>
+        <parentTagDef>Root</parentTagDef>
+        <texPath>Cultist/Hunters/Zachary</texPath>
+        <colorType>Custom</colorType>
+        <color>(255,255,255)</color>
+        <baseLayer>85</baseLayer>
+        <drawSize>1.55</drawSize>
+        <drawData>
+          <defaultData>
+            <offset>(0, 0, 0.12)</offset>
+          </defaultData>
+        </drawData>
+        <pawnType>HumanlikeOnly</pawnType>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+</Defs>

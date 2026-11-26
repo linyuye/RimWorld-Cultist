@@ -55,6 +55,7 @@
     <sourceId>connie</sourceId>
     <affinity>Edge</affinity>
     <fixedGender>Female</fixedGender>
+    <appearanceHediff>Cultist_Appearance_Connie</appearanceHediff>
     <believerLabel>Connie, a Conqueress</believerLabel>
     <discipleLabel>Connie, a disciple</discipleLabel>
     <exaltedLabel>Connie, a Conqueress</exaltedLabel>
@@ -80,6 +81,7 @@
     <sourceId>douglas</sourceId>
     <affinity>Forge</affinity>
     <fixedGender>Male</fixedGender>
+    <appearanceHediff>Cultist_Appearance_Douglas</appearanceHediff>
     <believerLabel>Douglas, a believer</believerLabel>
     <discipleLabel>Douglas, a disciple</discipleLabel>
     <exaltedLabel>Douglas, a Reshaper</exaltedLabel>
@@ -129,6 +131,7 @@
     <sourceId>natalia</sourceId>
     <affinity>Lantern</affinity>
     <fixedGender>Female</fixedGender>
+    <appearanceHediff>Cultist_Appearance_Natalia</appearanceHediff>
     <believerLabel>Natalia, a Sage</believerLabel>
     <discipleLabel>Natalia, a disciple</discipleLabel>
     <exaltedLabel>Natalia, a Sage</exaltedLabel>
@@ -274,6 +277,7 @@
     <sourceId>zachary</sourceId>
     <affinity>Winter</affinity>
     <fixedGender>Male</fixedGender>
+    <appearanceHediff>Cultist_Appearance_Zachary</appearanceHediff>
     <believerLabel>Zachary, a Conclusion</believerLabel>
     <discipleLabel>Zachary, a disciple</discipleLabel>
     <exaltedLabel>Zachary, a Conclusion</exaltedLabel>

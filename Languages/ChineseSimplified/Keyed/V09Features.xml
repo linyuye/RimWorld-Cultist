@@ -137,4 +137,22 @@
   <Cultist.LoreCompile.NeedInfluence>编纂 {0} 阶{1}相秘传需要至少 {2} 点匹配的影响。材料已退回。</Cultist.LoreCompile.NeedInfluence>
   <Cultist.LoreCompile.Success>{0} 编成了「{1}」（{3} 阶{2}相秘传）。</Cultist.LoreCompile.Success>
   <Cultist.LoreSubvert.Success>{0} 将 {3} 阶{1}相秘传拗转为{2}相的「{4}」。</Cultist.LoreSubvert.Success>
+
+  <!-- Mod 设置 -->
+  <Cultist.Settings.Experimental>实验性功能</Cultist.Settings.Experimental>
+  <Cultist.Settings.ExperimentalDesc>当前为空。</Cultist.Settings.ExperimentalDesc>
+  <Cultist.Settings.CustomApparel>自制服装贴图</Cultist.Settings.CustomApparel>
+  <Cultist.Settings.CustomApparelDesc>关闭后，已穿戴的密教服装会立即改用原版外观。</Cultist.Settings.CustomApparelDesc>
+  <Cultist.Settings.EasterEggs>异象联动来信</Cultist.Settings.EasterEggs>
+  <Cultist.Settings.EasterEggsDesc>启用异象 DLC 后，部分遭遇、研读和仪式有机会触发密教来信。</Cultist.Settings.EasterEggsDesc>
+
+  <!-- 异象联动彩蛋（司辰原文摘录） -->
+  <Cultist.EasterEgg.TwinWitches.Title>双生女巫的低语</Cultist.EasterEgg.TwinWitches.Title>
+  <Cultist.EasterEgg.TwinWitches.Body>“双生女巫分别降生自海洋两岸的两个子宫，一个贫穷，一个富有。巫女强于心相，以保她二者存活于世；女巫强于杯相，故而她二者欲壑难填……”</Cultist.EasterEgg.TwinWitches.Body>
+  <Cultist.EasterEgg.Beachcomber.Title>橡树影中的鸦影</Cultist.EasterEgg.Beachcomber.Title>
+  <Cultist.EasterEgg.Beachcomber.Body>“在孔雀之门，道路之室朝向蠕虫的开口后，两条路在一颗橡树的阴影处交汇。漫宿的蓝色光线在这里愈加深重，几至暗如暮空。这两条路延伸进雾墙并遭到遗忘，但于它们相交的此处，橡树影中的鸦影会铭记。”</Cultist.EasterEgg.Beachcomber.Body>
+  <Cultist.EasterEgg.Elegiast.Title>悼歌诗人的诺言</Cultist.EasterEgg.Elegiast.Title>
+  <Cultist.EasterEgg.Elegiast.Body>“悼歌诗人并不是最和善的司辰，但他的性情从不残忍，且他记得他所有的诺言。他伸手将我扶起，让我颤抖着独对世间，现在我已无法在我大限到来前终结。我将在午港的长生者中活动，我将观看杯之长生者、灯之长生者和凶猛的火之长生者共同的抗争，我还将维护被维护至今的边界，且于其间一直背负失落司辰的色彩，仿佛一块身燃玫瑰色火焰的炭。”</Cultist.EasterEgg.Elegiast.Body>
+  <Cultist.EasterEgg.Moth.Title>飞蛾的应答</Cultist.EasterEgg.Moth.Title>
+  <Cultist.EasterEgg.Moth.Body>“辉光是一个疑问，飞蛾总以肯定作答。”</Cultist.EasterEgg.Moth.Body>
 </LanguageData>

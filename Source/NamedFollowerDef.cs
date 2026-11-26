@@ -9,6 +9,7 @@ public sealed class CultistNamedFollowerDef : Def
     public string sourceId;
     public Aspect affinity = Aspect.Lantern;
     public Gender fixedGender = Gender.None;
+    public HediffDef appearanceHediff;
     [MustTranslate] public string believerLabel;
     [MustTranslate] public string discipleLabel;
     [MustTranslate] public string exaltedLabel;

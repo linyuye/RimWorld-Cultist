@@ -213,6 +213,11 @@ public sealed partial class Campaign
             forceGenerateNewPawn: true, allowDead: false, allowDowned: false,
             fixedGender: fDef.fixedGender != Gender.None ? fDef.fixedGender : (Gender?)null));
         pawn.Name = new NameSingle(fDef.label);
+        if (fDef.appearanceHediff != null && pawn.health != null)
+        {
+            pawn.health.AddHediff(fDef.appearanceHediff);
+            pawn.Drawer?.renderer?.SetAllGraphicsDirty();
+        }
         if (church != null)
             pawn.ideo?.SetIdeo(church);
         aspects[pawn.GetUniqueLoadID()] = fDef.affinity;
