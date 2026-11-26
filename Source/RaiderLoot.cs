@@ -144,6 +144,7 @@ public sealed partial class Campaign
                     continue;
 
                 ApplyRaiderOccultLoadout(pawn, kind);
+                ApplyEnemyWealthScaling(pawn);
             }
         }
     }
@@ -201,7 +202,10 @@ public sealed partial class Campaign
                 if (Rand.Chance(0.15f))
                 {
                     if (Rand.Bool)
-                        TryAddInventoryItem(pawn, "Cultist_RiteTool2Cracked", 1);
+                    {
+                        if (CultPathDef.ToolDefFor(set.Aspect, 2, crackedIfLantern: true) is { } toolDef)
+                            TryAddInventoryDef(pawn, toolDef, 1);
+                    }
                     else
                     {
                         ThingDef book = DefDatabase<ThingDef>.AllDefsListForReading

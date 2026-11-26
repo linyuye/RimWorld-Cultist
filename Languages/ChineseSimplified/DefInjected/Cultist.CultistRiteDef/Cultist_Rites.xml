@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Cultist_Rite_Sunset.label>日落仪式</Cultist_Rite_Sunset.label>
+  <Cultist_Rite_Sunset.description>基础初始仪式。可组合秘传、仪式器、影响与教团助手；消耗秘传与影响，保留仪式器与助手。</Cultist_Rite_Sunset.description>
+
+  <Cultist_Rite_WatchmanSorrow.label>守夜人之殇</Cultist_Rite_WatchmanSorrow.label>
+  <Cultist_Rite_WatchmanSorrow.description>精炼的三槽仪式：组合秘传、仪式器与影响。反噬概率降低 8%，仪式后保留仪式器。</Cultist_Rite_WatchmanSorrow.description>
+
+  <Cultist_Rite_CrucibleSoul.label>坩埚魂仪式</Cultist_Rite_CrucibleSoul.label>
+  <Cultist_Rite_CrucibleSoul.description>含献祭槽的强力仪式：组合秘传、仪式器与献祭对象。不消耗秘传与仪式器，献祭角色会自动补满首个未满性相。</Cultist_Rite_CrucibleSoul.description>
+
+  <Cultist_Rite_MotherMercy.label>母蚁仪式</Cultist_Rite_MotherMercy.label>
+  <Cultist_Rite_MotherMercy.description>四槽大仪式：可同时组合秘传、仪式器、影响与献祭对象。保留秘传与仪式器，献祭角色自动补满首个未满性相。</Cultist_Rite_MotherMercy.description>
+
+  <Cultist_Rite_BeastDivision.label>兽皮仪式</Cultist_Rite_BeastDivision.label>
+  <Cultist_Rite_BeastDivision.description>无需秘传书的野性仪式：组合仪式器、影响与献祭对象。保留仪式器，献祭角色自动补满首个未满性相。</Cultist_Rite_BeastDivision.description>
+</LanguageData>

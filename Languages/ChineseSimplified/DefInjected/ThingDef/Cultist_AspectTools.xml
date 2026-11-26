@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 铸相仪式器 -->
+  <Cultist_RiteTool_Forge1Ready.label>朱砂护身符</Cultist_RiteTool_Forge1Ready.label>
+  <Cultist_RiteTool_Forge1Ready.description>猩红乃高热之色，而水银则是通往终极融解的钥匙。在祭坛守夜中提供 4 点铸相强度，仪式后不会消耗。</Cultist_RiteTool_Forge1Ready.description>
+  <Cultist_RiteTool_Forge2Ready.label>蛮横锤骨</Cultist_RiteTool_Forge2Ready.label>
+  <Cultist_RiteTool_Forge2Ready.description>一块微小的耳骨，已被高热熏黑。使用得当的话，可以击裂石头。在祭坛守夜中提供 8 点铸相强度，仪式后不会消耗。</Cultist_RiteTool_Forge2Ready.description>
+  <Cultist_RiteTool_Forge3Ready.label>尸骸火花</Cultist_RiteTool_Forge3Ready.label>
+  <Cultist_RiteTool_Forge3Ready.description>一团更大光线源的残留，随衰变发出柔和的光。它可能是裂分之阳的微粒，只是可能。在祭坛守夜中提供 12 点铸相强度，仪式后不会消耗。</Cultist_RiteTool_Forge3Ready.description>
+
+  <!-- 刃相仪式器 -->
+  <Cultist_RiteTool_Edge1Ready.label>陨铁子弹</Cultist_RiteTool_Edge1Ready.label>
+  <Cultist_RiteTool_Edge1Ready.description>偶然从罕见野兽的骸骨中挖出的镍铁子弹，有人曾经猎杀过怪兽。在祭坛守夜中提供 4 点刃相强度，仪式后不会消耗。</Cultist_RiteTool_Edge1Ready.description>
+  <Cultist_RiteTool_Edge2Ready.label>比德之刃</Cultist_RiteTool_Edge2Ready.label>
+  <Cultist_RiteTool_Edge2Ready.description>这把刀刃割出的伤口会在愈合前不停流血。在祭坛守夜中提供 8 点刃相强度，仪式后不会消耗。</Cultist_RiteTool_Edge2Ready.description>
+  <Cultist_RiteTool_Edge3Ready.label>狂怒银片</Cultist_RiteTool_Edge3Ready.label>
+  <Cultist_RiteTool_Edge3Ready.description>狮子匠背离上校时，用拳心碾碎了自己的配剑。此剑的每一小片至今都在因愤怒而颤动。在祭坛守夜中提供 12 点刃相强度，仪式后不会消耗。</Cultist_RiteTool_Edge3Ready.description>
+
+  <!-- 杯相仪式器 -->
+  <Cultist_RiteTool_Grail1Ready.label>污迹手套</Cultist_RiteTool_Grail1Ready.label>
+  <Cultist_RiteTool_Grail1Ready.description>它们以前用作何用呢？能教会我的双手何事呢？在祭坛守夜中提供 4 点杯相强度，仪式后不会消耗。</Cultist_RiteTool_Grail1Ready.description>
+  <Cultist_RiteTool_Grail2Ready.label>封圣高冠</Cultist_RiteTool_Grail2Ready.label>
+  <Cultist_RiteTool_Grail2Ready.description>这是一顶属于野人母亲的环冕，上染着萃取液，以零碎毛发编织，并以皮肤残片祝福。在祭坛守夜中提供 8 点杯相强度，仪式后不会消耗。</Cultist_RiteTool_Grail2Ready.description>
+  <Cultist_RiteTool_Grail3Ready.label>低语之觚</Cultist_RiteTool_Grail3Ready.label>
+  <Cultist_RiteTool_Grail3Ready.description>对于那些我们用此杯饮酒的夜晚，我们后来并不确定我们做了什么。在祭坛守夜中提供 12 点杯相强度，仪式后不会消耗。</Cultist_RiteTool_Grail3Ready.description>
+
+  <!-- 心相仪式器 -->
+  <Cultist_RiteTool_Heart1Ready.label>马尔鲁维姆人偶</Cultist_RiteTool_Heart1Ready.label>
+  <Cultist_RiteTool_Heart1Ready.description>马尔鲁维姆人制作木头小人偶以安抚湖中孪生女巫，被心之性相所荫蔽。在祭坛守夜中提供 4 点心相强度，仪式后不会消耗。</Cultist_RiteTool_Heart1Ready.description>
+  <Cultist_RiteTool_Heart2Ready.label>醒觉鼓膜</Cultist_RiteTool_Heart2Ready.label>
+  <Cultist_RiteTool_Heart2Ready.description>在他们将雷鸣剥皮的小林子里，他们狂敲手上的器具来激起暴怒之情。在祭坛守夜中提供 8 点心相强度，仪式后不会消耗。</Cultist_RiteTool_Heart2Ready.description>
+  <Cultist_RiteTool_Heart3Ready.label>王皮框鼓</Cultist_RiteTool_Heart3Ready.label>
+  <Cultist_RiteTool_Heart3Ready.description>密林中，那位君主交出了他不得不交出的最后一样东西，以之造出此永庇疆土之器。在祭坛守夜中提供 12 点心相强度，仪式后不会消耗。</Cultist_RiteTool_Heart3Ready.description>
+
+  <!-- 冬相仪式器 -->
+  <Cultist_RiteTool_Winter1Ready.label>骨笛</Cultist_RiteTool_Winter1Ready.label>
+  <Cultist_RiteTool_Winter1Ready.description>此物的声响将会停歇。在祭坛守夜中提供 4 点冬相强度，仪式后不会消耗。</Cultist_RiteTool_Winter1Ready.description>
+  <Cultist_RiteTool_Winter2Ready.label>埃拉伽巴路斯的镣铐</Cultist_RiteTool_Winter2Ready.label>
+  <Cultist_RiteTool_Winter2Ready.description>此物不会放松钳制。在祭坛守夜中提供 8 点冬相强度，仪式后不会消耗。</Cultist_RiteTool_Winter2Ready.description>
+  <Cultist_RiteTool_Winter3Ready.label>分裂之铃</Cultist_RiteTool_Winter3Ready.label>
+  <Cultist_RiteTool_Winter3Ready.description>先由此铃发声，而后一无所响。在祭坛守夜中提供 12 点冬相强度，仪式后不会消耗。</Cultist_RiteTool_Winter3Ready.description>
+
+  <!-- 蛾相仪式器 -->
+  <Cultist_RiteTool_Moth1Ready.label>有翼人偶</Cultist_RiteTool_Moth1Ready.label>
+  <Cultist_RiteTool_Moth1Ready.description>白骨屋上的阁楼里，乱发中缠着一只人偶，因为窗户从未打开过。在祭坛守夜中提供 4 点蛾相强度，仪式后不会消耗。</Cultist_RiteTool_Moth1Ready.description>
+  <Cultist_RiteTool_Moth2Ready.label>斑驳面具</Cultist_RiteTool_Moth2Ready.label>
+  <Cultist_RiteTool_Moth2Ready.description>我们携剪子斩断树枝，直到月光和鲜血斑驳地撒在树底的腐叶上。在祭坛守夜中提供 8 点蛾相强度，仪式后不会消耗。</Cultist_RiteTool_Moth2Ready.description>
+  <Cultist_RiteTool_Moth3Ready.label>阿拉卡城的剪刀</Cultist_RiteTool_Moth3Ready.label>
+  <Cultist_RiteTool_Moth3Ready.description>这把剪刀曾被用来先剪去北方守护者的头发，再剪他的手指，然后剪剩下的一切。在祭坛守夜中提供 12 点蛾相强度，仪式后不会消耗。</Cultist_RiteTool_Moth3Ready.description>
+
+  <!-- 启相仪式器 -->
+  <Cultist_RiteTool_Knock1Ready.label>圣亚割妮徽记</Cultist_RiteTool_Knock1Ready.label>
+  <Cultist_RiteTool_Knock1Ready.description>波希米亚的圣亚割妮因虔诚地追求苦修肉身而闻名。该徽记形状可怖。在祭坛守夜中提供 4 点启相强度，仪式后不会消耗。</Cultist_RiteTool_Knock1Ready.description>
+  <Cultist_RiteTool_Knock2Ready.label>祝圣门楣</Cultist_RiteTool_Knock2Ready.label>
+  <Cultist_RiteTool_Knock2Ready.description>这是一扇神灵曾穿过的门的颅骨。在祭坛守夜中提供 8 点启相强度，仪式后不会消耗。</Cultist_RiteTool_Knock2Ready.description>
+  <Cultist_RiteTool_Knock3Ready.label>碎门之钥</Cultist_RiteTool_Knock3Ready.label>
+  <Cultist_RiteTool_Knock3Ready.description>有用来开门的钥匙，也有用来毁门的钥匙。在祭坛守夜中提供 12 点启相强度，仪式后不会消耗。</Cultist_RiteTool_Knock3Ready.description>
+
+  <!-- 秘史仪式器 -->
+  <Cultist_RiteTool_SecretHistories1Ready.label>矛盾的古董</Cultist_RiteTool_SecretHistories1Ready.label>
+  <Cultist_RiteTool_SecretHistories1Ready.description>一只镀金钟有可能既在维也纳遭洗劫时被盗，也在罗马的藏宝地里安放着。在祭坛守夜中提供 4 点秘史强度，仪式后不会消耗。</Cultist_RiteTool_SecretHistories1Ready.description>
+  <Cultist_RiteTool_SecretHistories2Ready.label>梦境地图集</Cultist_RiteTool_SecretHistories2Ready.label>
+  <Cultist_RiteTool_SecretHistories2Ready.description>人虽不能为漫宿绘制地图，却可以尝试绘制它的倒影。在祭坛守夜中提供 8 点秘史强度，仪式后不会消耗。</Cultist_RiteTool_SecretHistories2Ready.description>
+  <Cultist_RiteTool_SecretHistories3Ready.label>“特蕾莎与克里斯托弗”</Cultist_RiteTool_SecretHistories3Ready.label>
+  <Cultist_RiteTool_SecretHistories3Ready.description>漫宿无墙，爱亦无疆。在祭坛守夜中提供 12 点秘史强度，仪式后不会消耗。</Cultist_RiteTool_SecretHistories3Ready.description>
+</LanguageData>

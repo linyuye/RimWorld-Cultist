@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== FORGE TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Forge1Ready</defName>
+    <label>cinnabar amulet</label>
+    <description>Scarlet is the colour of heat. Mercury holds one key to an ultimate dissolution. Contributes 4 Forge to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolforgeb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Forge2Ready</defName>
+    <label>malleus imperative</label>
+    <description>A tiny ear-bone, blackened by intense heat. Applied correctly, it can crack stone. Contributes 8 Forge to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolforged</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Forge3Ready</defName>
+    <label>carcass spark</label>
+    <description>A remnant of a greater radiance, glowing softly as decay. Just possibly, a mote of the divided Sun. Contributes 12 Forge to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolforgef</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Forge</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== EDGE TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Edge1Ready</defName>
+    <label>meteoric bullet</label>
+    <description>Taenite-iron bullets are occasionally dug from the skeletons of unusual beasts. Someone has been hunting monsters. Contributes 4 Edge to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/tooledgeb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Edge2Ready</defName>
+    <label>Biedde's blade</label>
+    <description>A cut from this blade will not cease bleeding until the wound is healed. Contributes 8 Edge to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/tooledged</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Edge3Ready</defName>
+    <label>furious sliver</label>
+    <description>When the Lionsmith turned against the Colonel, he crushed his own sword in his fist. Each tiniest fragment still thrills with rage. Contributes 12 Edge to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/tooledgef</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Edge</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== GRAIL TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Grail1Ready</defName>
+    <label>stained gloves</label>
+    <description>What uses have these known? What lessons might they teach my hands? Contributes 4 Grail to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolgrailb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Grail2Ready</defName>
+    <label>hallowed polos</label>
+    <description>The ring-crown of a savage mother, stained with essence, woven with scraps of hair and blessed with flecks of skin. Contributes 8 Grail to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolgraild</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Grail3Ready</defName>
+    <label>chalice murmurous</label>
+    <description>On those nights when we drink from the chalice, we are not certain afterwards what we have done. Contributes 12 Grail to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolgrailf</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Grail</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== HEART TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Heart1Ready</defName>
+    <label>Marruvine idol</label>
+    <description>The Marruvii carved wooden idols to placate the witch-twins of their lake, shadowed with the aspect of the Heart. Contributes 4 Heart to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolheartb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Heart2Ready</defName>
+    <label>wakeful tympanum</label>
+    <description>In the grove where they flayed the thunder, they rattled their instruments to rouse the frenzy. Contributes 8 Heart to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolheartd</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Heart3Ready</defName>
+    <label>kingskin bodhran</label>
+    <description>In the deep forests, the monarch gave up the last thing they had to give, shaping this drum to keep their land safe. Contributes 12 Heart to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolheartf</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Heart</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== WINTER TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Winter1Ready</defName>
+    <label>bone flute</label>
+    <description>Its sound will cease. Contributes 4 Winter to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolwinterb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Winter2Ready</defName>
+    <label>Elagabaline manacle</label>
+    <description>It does not relinquish its grip. Contributes 8 Winter to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolwinterd</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Winter3Ready</defName>
+    <label>division bell</label>
+    <description>First, its voice, and after, nothing. Contributes 12 Winter to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolwinterf</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Winter</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== MOTH TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Moth1Ready</defName>
+    <label>winged doll</label>
+    <description>In an attic above a skeleton house, wound in clotted hair, waited a doll because the window had never been opened. Contributes 4 Moth to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolmothb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Moth2Ready</defName>
+    <label>dappled mask</label>
+    <description>Severed boughs let the moon and the blood dapple the rotting leaves on the forest floor. Contributes 8 Moth to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolmothd</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Moth3Ready</defName>
+    <label>Alakapurine shears</label>
+    <description>In a wealthy northern city, these shears were used to take from its silent protector first his hair, then his fingers, and then what remained. Contributes 12 Moth to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolmothf</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Moth</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== KNOCK TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Knock1Ready</defName>
+    <label>icon of St Agnes</label>
+    <description>St Agnes of Bohemia was renowned for her pious dedication to the mortification of the flesh. Contributes 4 Knock to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolknockb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Knock2Ready</defName>
+    <label>consecrated lintel</label>
+    <description>This is the skull of a door through which power has passed. Contributes 8 Knock to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolknockd</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_Knock3Ready</defName>
+    <label>frangiclave</label>
+    <description>There are keys that open doors; then there are keys that destroy them. Contributes 12 Knock to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolknockf</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>Knock</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+
+  <!-- ==================== SECRET HISTORIES TOOLS ==================== -->
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_SecretHistories1Ready</defName>
+    <label>paradoxical curio</label>
+    <description>An ormolu clock stolen in the sack of Vienna even as it rested safe in the vaults of Rome. Contributes 4 Secret Histories to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolsecrethistoriesb</texPath></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><toolLight>4</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_SecretHistories2Ready</defName>
+    <label>atlas of dreams</label>
+    <description>One cannot map the Mansus, but one can make an attempt to map its reflections. Contributes 8 Secret Histories to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/toolsecrethistoriesd</texPath></graphicData>
+    <statBases><MarketValue>220</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><toolLight>8</toolLight></li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Cultist_RiteToolBase">
+    <defName>Cultist_RiteTool_SecretHistories3Ready</defName>
+    <label>painting: Teresa and Christopher</label>
+    <description>Love, like the Mansus, defies boundaries. Contributes 12 Secret Histories to an altar vigil; stays intact after the rite.</description>
+    <graphicData><texPath>Cultist/Catalog/Tool/paintingmastersecrethistories</texPath></graphicData>
+    <statBases><MarketValue>330</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.RitualMaterialProperties"><aspect>SecretHistories</aspect><toolLight>12</toolLight></li>
+    </comps>
+  </ThingDef>
+</Defs>

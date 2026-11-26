@@ -38,6 +38,8 @@ public sealed partial class Campaign
         if (amount <= 0f)
             return;
         float multiplier = site != null && EvaluateHqTraits(site).HasFlag(HqTrait.Secret) ? 0.6f : 1f;
+        if (BureauNetworkCrippled)
+            multiplier *= 0.5f;
         if (actor != null && HasExaltedTrait(actor, ExaltedTraitId.SilentStep))
             multiplier *= 0.75f;
         notoriety = System.Math.Min(100f, notoriety + amount * multiplier);
@@ -123,8 +125,8 @@ public sealed partial class Campaign
             }
         }
 
-        // 2. Rival Long periodic competition raids during normal progression
-        if (marks >= 1)
+        // 2. Rival Long periodic competition raids during normal progression (stops once Rival Long is defeated)
+        if (marks >= 1 && !RivalLongDefeated)
         {
             if (nextRivalLongRaidTick < 0)
                 nextRivalLongRaidTick = now + Rand.RangeInclusive(GenDate.TicksPerDay * 10, GenDate.TicksPerDay * 16);

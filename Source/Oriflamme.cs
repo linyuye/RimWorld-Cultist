@@ -100,14 +100,18 @@ public sealed partial class Campaign
             });
         }
 
-        // 1 random ritual tool
-        string[] tools = { "Cultist_RiteTool1Ready", "Cultist_RiteTool2Cracked", "Cultist_RiteTool3Cracked" };
-        string pickedTool = tools.RandomElement();
-        oriflammeOffers.Add(new OriflammeOffer
+        // 1 ritual tool from any of the 9 aspects (keeps exploration & market diverse)
+        int toolTier = Rand.RangeInclusive(1, 3);
+        Aspect toolAspect = (Aspect)Rand.Range(0, 9);
+        ThingDef pickedToolDef = CultPathDef.ToolDefFor(toolAspect, toolTier, crackedIfLantern: toolTier >= 2);
+        if (pickedToolDef != null)
         {
-            DefName = pickedTool,
-            CostSpintria = pickedTool == "Cultist_RiteTool3Cracked" ? 4 : 3
-        });
+            oriflammeOffers.Add(new OriflammeOffer
+            {
+                DefName = pickedToolDef.defName,
+                CostSpintria = toolTier == 3 ? 4 : 3
+            });
+        }
 
         // 1 untranslated codex
         oriflammeOffers.Add(new OriflammeOffer
@@ -115,6 +119,16 @@ public sealed partial class Campaign
             DefName = "Cultist_AncientCodex",
             CostSpintria = 2
         });
+
+        // 1 exploration rite script if any remain locked
+        if (RandomLockedRiteScriptDef() is { } scriptDef)
+        {
+            oriflammeOffers.Add(new OriflammeOffer
+            {
+                DefName = scriptDef.defName,
+                CostSpintria = 5
+            });
+        }
 
         // 1 Named Follower recruitment lead (if any remain unrecruited)
         CultistNamedFollowerDef lead = PickUnrecruitedNamedFollower();

@@ -8,6 +8,12 @@ using Verse.Sound;
 
 namespace Cultist;
 
+public sealed class AspectRequirement
+{
+    public Aspect aspect = Aspect.Lantern;
+    public int amount = 2;
+}
+
 public sealed class SummonSpiritDef : Def
 {
     public string catalogSourceId;
@@ -15,10 +21,25 @@ public sealed class SummonSpiritDef : Def
     public Aspect requiredAspect = Aspect.Lantern;
     public int requiredLoreTier = 1;
     public int requiredInfluence;
+    public List<AspectRequirement> requiredAspects = new();
     public float durationDays = 2f;
     public float baseBacklashChance = 0.15f;
     public float notorietyGain = 12f;
     public AncientLanguageDef taughtLanguage;
+
+    public IReadOnlyList<AspectRequirement> EffectiveRequirements
+    {
+        get
+        {
+            if (requiredAspects is { Count: > 0 })
+                return requiredAspects;
+            return new[]
+            {
+                new AspectRequirement { aspect = requiredAspect, amount = System.Math.Max(2, requiredLoreTier * 2) },
+                new AspectRequirement { aspect = Aspect.Knock, amount = 2 }
+            };
+        }
+    }
 }
 
 public sealed class SummonedSpiritRecord : IExposable
@@ -342,39 +363,97 @@ public sealed partial class Campaign
         return true;
     }
 
-    public bool TrySummonSpirit(Pawn summoner, Thing altar, SummonSpiritDef spirit)
+    public sealed class RiteEvaluation
     {
-        if (summoner == null || altar is not { Spawned: true } || spirit?.pawnKindDef == null)
-            return false;
-        if (learnedLoreTier < spirit.requiredLoreTier)
+        public Dictionary<Aspect, int> Totals = new();
+        public Aspect? SacrificeFilledAspect;
+        public int SacrificeFilledAmount;
+        public bool AllMet;
+    }
+
+    public RiteEvaluation EvaluateRiteSummon(SummonSpiritDef spirit, CultistRiteDef rite,
+        Thing loreBook, Thing tool, DreamInfluence influence, Pawn assistant, Pawn sacrifice)
+    {
+        var eval = new RiteEvaluation();
+        if (spirit == null || rite == null)
+            return eval;
+
+        void Add(Aspect asp, int amt)
         {
-            Messages.Message("Cultist.Summon.NeedLoreTier".Translate(spirit.requiredLoreTier),
-                altar, MessageTypeDefOf.RejectInput);
-            return false;
+            if (amt <= 0)
+                return;
+            eval.Totals[asp] = eval.Totals.GetValueOrDefault(asp) + amt;
         }
-        int availInfluence = System.Math.Max(MaxInfluence(spirit.requiredAspect), Influence);
-        if (spirit.requiredInfluence > 0 && availInfluence < spirit.requiredInfluence)
+
+        if (rite.allowLore && loreBook?.TryGetComp<RitualMaterial>() is { LoreTier: > 0 } loreMat)
+            Add(loreMat.Aspect, loreMat.LoreTier * 2);
+        if (rite.allowTool && tool?.TryGetComp<RitualMaterial>() is { ToolLight: > 0 } toolMat)
+            Add(toolMat.Aspect, toolMat.ToolLight);
+        if (rite.allowInfluence && influence != null)
+            Add(influence.Affinity, influence.Strength);
+        if (rite.allowAssistant && assistant != null && !assistant.Dead)
+            Add(GetAspect(assistant), System.Math.Max(2, Rank(assistant) * 3));
+
+        var reqs = spirit.EffectiveRequirements;
+        // Sacrifice auto-fills the FIRST unmet aspect requirement completely to its needed threshold
+        if (rite.allowSacrifice && sacrifice != null && !sacrifice.Dead)
         {
-            Messages.Message("Cultist.Summon.NeedInfluence".Translate(spirit.requiredInfluence),
-                altar, MessageTypeDefOf.RejectInput);
+            for (int i = 0; i < reqs.Count; i++)
+            {
+                AspectRequirement req = reqs[i];
+                int have = eval.Totals.GetValueOrDefault(req.aspect);
+                if (have < req.amount)
+                {
+                    int fill = req.amount - have;
+                    Add(req.aspect, fill);
+                    eval.SacrificeFilledAspect = req.aspect;
+                    eval.SacrificeFilledAmount = fill;
+                    break;
+                }
+            }
+        }
+
+        eval.AllMet = true;
+        for (int i = 0; i < reqs.Count; i++)
+        {
+            AspectRequirement req = reqs[i];
+            if (eval.Totals.GetValueOrDefault(req.aspect) < req.amount)
+            {
+                eval.AllMet = false;
+                break;
+            }
+        }
+        return eval;
+    }
+
+    public bool TrySummonSpiritWithRite(Pawn summoner, Thing altar, SummonSpiritDef spirit, CultistRiteDef rite,
+        Thing loreBook, Thing tool, DreamInfluence influence, Pawn assistant, Pawn sacrifice)
+    {
+        if (summoner == null || altar is not { Spawned: true } || spirit?.pawnKindDef == null || rite == null)
+            return false;
+
+        RiteEvaluation eval = EvaluateRiteSummon(spirit, rite, loreBook, tool, influence, assistant, sacrifice);
+        if (!eval.AllMet)
+        {
+            Messages.Message("Cultist.Rite.AspectsNotMet".Translate(), altar, MessageTypeDefOf.RejectInput);
             return false;
         }
 
-        Thing loreBook = NearbyMaterials(summoner, altar)
-            .FirstOrDefault(t => t.TryGetComp<RitualMaterial>()?.LoreTier > 0);
-        if (loreBook == null)
+        if (rite.allowLore && rite.consumeLore && loreBook is { Destroyed: false })
+            loreBook.Destroy();
+        if (rite.allowInfluence && rite.consumeInfluence && influence != null)
+            LeaderDream?.Influences?.Remove(influence);
+        if (rite.allowSacrifice && sacrifice != null && !sacrifice.Dead)
         {
-            Messages.Message("Cultist.NeedRiteBooks".Translate(1, RiteRadius),
-                altar, MessageTypeDefOf.RejectInput);
-            return false;
+            string victimName = sacrifice.LabelShortCap;
+            sacrifice.Kill(null);
+            AddNotoriety(12f, altar, summoner);
+            Messages.Message("Cultist.Rite.Sacrificed".Translate(victimName), altar, MessageTypeDefOf.NeutralEvent);
         }
 
-        loreBook.Destroy();
-        if (spirit.requiredInfluence > 0)
-            ConsumeInfluence(spirit.requiredInfluence);
-        AddNotoriety(spirit.notorietyGain, altar);
+        AddNotoriety(spirit.notorietyGain, altar, summoner);
 
-        float backlash = CalculateBacklashChance(summoner, altar, spirit);
+        float backlash = System.Math.Clamp(CalculateBacklashChance(summoner, altar, spirit) + rite.backlashModifier, 0.02f, 0.85f);
         bool hostile = Rand.Chance(backlash);
 
         Pawn spawned = PawnGenerator.GeneratePawn(new PawnGenerationRequest(
@@ -413,6 +492,9 @@ public sealed partial class Campaign
         return true;
     }
 
+    internal IReadOnlyList<DreamInfluence> ActiveLeaderInfluences =>
+        LeaderDream?.Influences ?? (IReadOnlyList<DreamInfluence>)System.Array.Empty<DreamInfluence>();
+
     internal static void PlayCultistSound(string soundDefName)
     {
         if (DefDatabase<SoundDef>.GetNamedSilentFail(soundDefName) is { } sound)
@@ -425,82 +507,344 @@ public sealed class SummonWindow : Window
     private readonly Campaign campaign;
     private readonly Pawn summoner;
     private readonly Thing altar;
-    private Vector2 scroll;
+    private Vector2 leftScroll;
+
+    private SummonSpiritDef selectedSpirit;
+    private CultistRiteDef selectedRite;
+    private Thing selectedLore;
+    private Thing selectedTool;
+    private DreamInfluence selectedInfluence;
+    private Pawn selectedAssistant;
+    private Pawn selectedSacrifice;
 
     public SummonWindow(Campaign campaign, Pawn summoner, Thing altar)
     {
         this.campaign = campaign;
         this.summoner = summoner;
         this.altar = altar;
+        selectedSpirit = DefDatabase<SummonSpiritDef>.AllDefsListForReading.FirstOrDefault();
+        selectedRite = campaign.UnlockedRites.FirstOrDefault();
         forcePause = true;
         doCloseButton = true;
         absorbInputAroundWindow = true;
     }
 
-    public override Vector2 InitialSize => new(680, 580);
+    public override Vector2 InitialSize => new(860f, 600f);
 
     public override void DoWindowContents(Rect inRect)
     {
+        Text.Font = GameFont.Medium;
         Widgets.Label(inRect.TopPartPixels(30f), "Cultist.Summon.WindowTitle".Translate());
-        var listRect = new Rect(inRect.x, inRect.y + 36f, inRect.width, inRect.height - 92f);
+        Text.Font = GameFont.Small;
+
+        Rect content = new(inRect.x, inRect.y + 36f, inRect.width, inRect.height - 86f);
+        float leftW = content.width * 0.47f;
+        Rect leftRect = new(content.x, content.y, leftW, content.height);
+        Rect rightRect = new(leftRect.xMax + 14f, content.y, content.width - leftW - 14f, content.height);
+
+        DrawSpiritListColumn(leftRect);
+        DrawRiteComposerColumn(rightRect);
+    }
+
+    private void DrawSpiritListColumn(Rect rect)
+    {
         var spirits = DefDatabase<SummonSpiritDef>.AllDefsListForReading;
-        var active = campaign.ActiveSummons.Where(s => s?.Spirit != null && !s.Spirit.Dead).ToList();
-        float totalHeight = active.Count * 66f + spirits.Count * 116f + 40f;
-        var viewRect = new Rect(0f, 0f, listRect.width - 18f, totalHeight);
-
-        Widgets.BeginScrollView(listRect, ref scroll, viewRect);
-        float y = 0f;
+        float viewWidth = rect.width - 16f;
         int now = Find.TickManager.TicksGame;
-
-        foreach (SummonedSpiritRecord rec in active)
-        {
-            var card = new Rect(0f, y, viewRect.width, 58f);
-            Widgets.DrawBoxSolid(card, rec.Hostile ? new Color(0.32f, 0.12f, 0.12f, 0.85f) : new Color(0.12f, 0.24f, 0.22f, 0.85f));
-            Rect inner = card.ContractedBy(8f);
-            float hours = System.Math.Max(0f, (rec.ExpiresTick - now) / (float)GenDate.TicksPerHour);
-            Widgets.Label(new Rect(inner.x, inner.y, inner.width * 0.52f, 24f),
-                "Cultist.Summon.ActiveRow".Translate(rec.Def.LabelCap, hours.ToString("0.0")));
-
-            if (!rec.Hostile && rec.Def.taughtLanguage != null && !campaign.KnowsLanguage(summoner, rec.Def.taughtLanguage))
+        var activeRows = campaign.ActiveSummons
+            .Where(rec => rec?.Spirit != null && !rec.Spirit.Dead)
+            .Select(rec =>
             {
-                if (Widgets.ButtonText(new Rect(inner.x + inner.width * 0.54f, inner.y, inner.width * 0.26f, 28f),
+                float hours = System.Math.Max(0f, (rec.ExpiresTick - now) / (float)GenDate.TicksPerHour);
+                string label = "Cultist.Summon.ActiveRow".Translate(
+                    rec.Def?.LabelCap ?? rec.Spirit.LabelShortCap, hours.ToString("0.0"));
+                float labelHeight = Text.CalcHeight(label, viewWidth - 12f);
+                float cardHeight = labelHeight + (rec.Hostile ? 12f : 42f);
+                return (Record: rec, Label: label, LabelHeight: labelHeight, CardHeight: cardHeight);
+            }).ToList();
+        float totalH = activeRows.Sum(row => row.CardHeight + 6f) + spirits.Count * 76f + 24f;
+        Rect viewRect = new(0f, 0f, viewWidth, System.Math.Max(totalH, rect.height));
+
+        Widgets.BeginScrollView(rect, ref leftScroll, viewRect);
+        float y = 0f;
+
+        foreach (var row in activeRows)
+        {
+            SummonedSpiritRecord rec = row.Record;
+            Rect card = new(0f, y, viewRect.width, row.CardHeight);
+            Widgets.DrawBoxSolid(card, rec.Hostile ? new Color(0.32f, 0.12f, 0.12f, 0.85f) : new Color(0.12f, 0.24f, 0.22f, 0.85f));
+            Rect inner = card.ContractedBy(6f);
+            Widgets.Label(new Rect(inner.x, inner.y, inner.width, row.LabelHeight), row.Label);
+            float buttonY = inner.y + row.LabelHeight + 4f;
+
+            if (!rec.Hostile && rec.Def?.taughtLanguage != null && !campaign.KnowsLanguage(summoner, rec.Def.taughtLanguage))
+            {
+                if (Widgets.ButtonText(new Rect(inner.x, buttonY, inner.width * 0.74f, 26f),
                         "Cultist.Summon.LearnLang".Translate(rec.Def.taughtLanguage.LabelCap)))
                     campaign.GrantLanguage(summoner, rec.Def.taughtLanguage);
             }
-            if (!rec.Hostile && Widgets.ButtonText(new Rect(inner.x + inner.width * 0.82f, inner.y, inner.width * 0.18f, 28f),
+            if (!rec.Hostile && Widgets.ButtonText(new Rect(inner.x + inner.width * 0.76f, buttonY, inner.width * 0.24f, 26f),
                     "Cultist.Summon.Dismiss".Translate()))
             {
                 campaign.DismissSpirit(rec);
                 break;
             }
-            y += 66f;
+            y += row.CardHeight + 6f;
         }
 
         foreach (SummonSpiritDef spirit in spirits)
         {
-            var card = new Rect(0f, y, viewRect.width, 108f);
-            Widgets.DrawBoxSolid(card, new Color(0.14f, 0.15f, 0.18f, 0.85f));
-            Rect inner = card.ContractedBy(8f);
-            float backlash = campaign.CalculateBacklashChance(summoner, altar, spirit);
-            string header = $"{spirit.LabelCap}  ({("Cultist.Aspect." + spirit.requiredAspect).Translate()})";
-            if (spirit.taughtLanguage != null)
-                header += "  [" + "Cultist.Book.TeachesLang".Translate(spirit.taughtLanguage.LabelCap) + "]";
-            Widgets.Label(new Rect(inner.x, inner.y, inner.width, 24f), header);
-            Widgets.Label(new Rect(inner.x, inner.y + 24f, inner.width, 36f), spirit.description);
-
-            string reqText = "Cultist.Summon.ReqSummary".Translate(
-                spirit.requiredLoreTier, spirit.requiredInfluence, backlash.ToStringPercent(), spirit.durationDays.ToString("0.0"));
-            Widgets.Label(new Rect(inner.x, inner.y + 64f, inner.width * 0.68f, 28f), reqText);
-
-            if (Widgets.ButtonText(new Rect(inner.x + inner.width * 0.70f, inner.y + 62f, inner.width * 0.30f, 30f),
-                    "Cultist.Summon.Button".Translate()))
+            bool selected = spirit == selectedSpirit;
+            Rect card = new(0f, y, viewRect.width, 70f);
+            Widgets.DrawBoxSolid(card, selected ? new Color(0.22f, 0.24f, 0.30f, 0.95f) : new Color(0.13f, 0.14f, 0.17f, 0.88f));
+            if (selected)
             {
-                if (campaign.TrySummonSpirit(summoner, altar, spirit))
-                    Close();
+                GUI.color = new Color(0.88f, 0.74f, 0.38f);
+                Widgets.DrawBox(card, 1);
+                GUI.color = Color.white;
             }
-            y += 116f;
+
+            Rect inner = card.ContractedBy(7f);
+            string title = spirit.LabelCap;
+            if (spirit.taughtLanguage != null)
+                title += " · " + spirit.taughtLanguage.LabelCap;
+            Widgets.Label(new Rect(inner.x, inner.y, inner.width, 22f), title);
+
+            // Pure-color aspect requirement swatches with hover tooltips
+            float sx = inner.x;
+            float sy = inner.y + 26f;
+            var reqs = spirit.EffectiveRequirements;
+            for (int i = 0; i < reqs.Count; i++)
+            {
+                AspectRequirement req = reqs[i];
+                string tip = AspectBadgeUI.DefaultTooltip(req.aspect, req.amount.ToString());
+                sx += AspectBadgeUI.DrawSwatchWithValue(sx, sy, req.aspect, req.amount.ToString(), tip);
+            }
+
+            if (Widgets.ButtonInvisible(card))
+                selectedSpirit = spirit;
+            y += 76f;
         }
 
         Widgets.EndScrollView();
+    }
+
+    private void DrawRiteComposerColumn(Rect rect)
+    {
+        Widgets.DrawBoxSolid(rect, new Color(0.11f, 0.12f, 0.15f, 0.92f));
+        GUI.color = new Color(0.32f, 0.30f, 0.25f, 0.9f);
+        Widgets.DrawBox(rect, 1);
+        GUI.color = Color.white;
+
+        Rect inner = rect.ContractedBy(12f);
+        if (selectedSpirit == null || selectedRite == null)
+            return;
+
+        float y = inner.y;
+        Text.Font = GameFont.Medium;
+        Widgets.Label(new Rect(inner.x, y, inner.width, 28f), selectedSpirit.LabelCap);
+        y += 30f;
+
+        Text.Font = GameFont.Tiny;
+        GUI.color = new Color(0.78f, 0.76f, 0.72f);
+        Widgets.Label(new Rect(inner.x, y, inner.width, 36f), selectedSpirit.description);
+        GUI.color = Color.white;
+        Text.Font = GameFont.Small;
+        y += 40f;
+
+        // 1. Rite selector
+        var unlockedRites = campaign.UnlockedRites.ToList();
+        if (Widgets.ButtonText(new Rect(inner.x, y, inner.width, 30f),
+                "Cultist.Rite.SelectButton".Translate(selectedRite.LabelCap)))
+        {
+            var opts = unlockedRites.Select(r => new FloatMenuOption(r.LabelCap, () =>
+            {
+                selectedRite = r;
+                if (!r.allowLore) selectedLore = null;
+                if (!r.allowTool) selectedTool = null;
+                if (!r.allowInfluence) selectedInfluence = null;
+                if (!r.allowAssistant) selectedAssistant = null;
+                if (!r.allowSacrifice) selectedSacrifice = null;
+            })).ToList();
+            Find.WindowStack.Add(new FloatMenu(opts));
+        }
+        y += 34f;
+        Text.Font = GameFont.Tiny;
+        GUI.color = new Color(0.74f, 0.72f, 0.68f);
+        Widgets.Label(new Rect(inner.x, y, inner.width, 34f), selectedRite.description);
+        GUI.color = Color.white;
+        Text.Font = GameFont.Small;
+        y += 38f;
+
+        // 2. Material & Pawn slots
+        var nearby = Campaign.NearbyMaterials(summoner, altar).ToList();
+
+        if (selectedRite.allowLore)
+        {
+            if (selectedLore != null && !nearby.Contains(selectedLore))
+                selectedLore = null;
+            string loreLabel = selectedLore != null
+                ? $"{selectedLore.LabelCap} ({("Cultist.Aspect." + selectedLore.TryGetComp<RitualMaterial>().Aspect).Translate()} {selectedLore.TryGetComp<RitualMaterial>().AspectValue})"
+                : "Cultist.Rite.SlotEmpty".Translate();
+            if (Widgets.ButtonText(new Rect(inner.x, y, inner.width, 30f), "Cultist.Rite.SlotLore".Translate(loreLabel)))
+            {
+                var opts = new List<FloatMenuOption> { new("Cultist.Rite.ClearSlot".Translate(), () => selectedLore = null) };
+                foreach (Thing t in nearby.Where(m => m.TryGetComp<RitualMaterial>()?.LoreTier > 0))
+                {
+                    RitualMaterial mat = t.TryGetComp<RitualMaterial>();
+                    Thing captured = t;
+                    opts.Add(new FloatMenuOption($"{t.LabelCap} ({("Cultist.Aspect." + mat.Aspect).Translate()} {mat.AspectValue})", () => selectedLore = captured));
+                }
+                Find.WindowStack.Add(new FloatMenu(opts));
+            }
+            y += 36f;
+        }
+
+        if (selectedRite.allowTool)
+        {
+            if (selectedTool != null && !nearby.Contains(selectedTool))
+                selectedTool = null;
+            string toolLabel = selectedTool != null
+                ? $"{selectedTool.LabelCap} ({("Cultist.Aspect." + selectedTool.TryGetComp<RitualMaterial>().Aspect).Translate()} {selectedTool.TryGetComp<RitualMaterial>().ToolLight})"
+                : "Cultist.Rite.SlotEmpty".Translate();
+            if (Widgets.ButtonText(new Rect(inner.x, y, inner.width, 30f), "Cultist.Rite.SlotTool".Translate(toolLabel)))
+            {
+                var opts = new List<FloatMenuOption> { new("Cultist.Rite.ClearSlot".Translate(), () => selectedTool = null) };
+                foreach (Thing t in nearby.Where(m => m.TryGetComp<RitualMaterial>()?.ToolLight > 0))
+                {
+                    RitualMaterial mat = t.TryGetComp<RitualMaterial>();
+                    Thing captured = t;
+                    opts.Add(new FloatMenuOption($"{t.LabelCap} ({("Cultist.Aspect." + mat.Aspect).Translate()} {mat.ToolLight})", () => selectedTool = captured));
+                }
+                Find.WindowStack.Add(new FloatMenu(opts));
+            }
+            y += 36f;
+        }
+
+        if (selectedRite.allowInfluence)
+        {
+            var influences = campaign.ActiveLeaderInfluences;
+            if (selectedInfluence != null && !influences.Contains(selectedInfluence))
+                selectedInfluence = null;
+            string infLabel = selectedInfluence != null
+                ? $"{("Cultist.Aspect." + selectedInfluence.Affinity).Translate()} {selectedInfluence.Strength}"
+                : "Cultist.Rite.SlotEmpty".Translate();
+            if (Widgets.ButtonText(new Rect(inner.x, y, inner.width, 30f), "Cultist.Rite.SlotInfluence".Translate(infLabel)))
+            {
+                var opts = new List<FloatMenuOption> { new("Cultist.Rite.ClearSlot".Translate(), () => selectedInfluence = null) };
+                foreach (DreamInfluence inf in influences)
+                {
+                    DreamInfluence captured = inf;
+                    opts.Add(new FloatMenuOption($"{("Cultist.Aspect." + inf.Affinity).Translate()} {inf.Strength}", () => selectedInfluence = captured));
+                }
+                Find.WindowStack.Add(new FloatMenu(opts));
+            }
+            y += 36f;
+        }
+
+        if (selectedRite.allowAssistant)
+        {
+            var helpers = altar.Map.mapPawns.FreeColonistsSpawned
+                .Where(p => p != summoner && !p.Dead && !p.Downed && campaign.IsMember(p)).ToList();
+            if (selectedAssistant != null && !helpers.Contains(selectedAssistant))
+                selectedAssistant = null;
+            string asstLabel = selectedAssistant != null
+                ? $"{selectedAssistant.LabelShortCap} ({("Cultist.Aspect." + campaign.GetAspect(selectedAssistant)).Translate()} {System.Math.Max(2, campaign.Rank(selectedAssistant) * 3)})"
+                : "Cultist.Rite.SlotEmpty".Translate();
+            if (Widgets.ButtonText(new Rect(inner.x, y, inner.width, 30f), "Cultist.Rite.SlotAssistant".Translate(asstLabel)))
+            {
+                var opts = new List<FloatMenuOption> { new("Cultist.Rite.ClearSlot".Translate(), () => selectedAssistant = null) };
+                foreach (Pawn p in helpers)
+                {
+                    Pawn captured = p;
+                    int val = System.Math.Max(2, campaign.Rank(p) * 3);
+                    opts.Add(new FloatMenuOption($"{p.LabelShortCap} ({("Cultist.Aspect." + campaign.GetAspect(p)).Translate()} {val})", () => selectedAssistant = captured));
+                }
+                Find.WindowStack.Add(new FloatMenu(opts));
+            }
+            y += 36f;
+        }
+
+        if (selectedRite.allowSacrifice)
+        {
+            var victims = altar.Map.mapPawns.AllPawnsSpawned
+                .Where(p => p != summoner && !p.Dead && p.RaceProps.Humanlike && (p.IsPrisonerOfColony || p.IsSlaveOfColony || p.IsColonist))
+                .ToList();
+            if (selectedSacrifice != null && !victims.Contains(selectedSacrifice))
+                selectedSacrifice = null;
+            string sacLabel = selectedSacrifice != null
+                ? selectedSacrifice.LabelShortCap
+                : "Cultist.Rite.SlotEmpty".Translate();
+            if (Widgets.ButtonText(new Rect(inner.x, y, inner.width, 30f), "Cultist.Rite.SlotSacrifice".Translate(sacLabel)))
+            {
+                var opts = new List<FloatMenuOption> { new("Cultist.Rite.ClearSlot".Translate(), () => selectedSacrifice = null) };
+                foreach (Pawn p in victims)
+                {
+                    Pawn captured = p;
+                    opts.Add(new FloatMenuOption(p.LabelShortCap, () => selectedSacrifice = captured));
+                }
+                Find.WindowStack.Add(new FloatMenu(opts));
+            }
+            y += 36f;
+        }
+
+        // 3. Live Aspect Progress with Pure-Color Swatches & Sacrifice Auto-Fill indicator
+        y += 8f;
+        var eval = campaign.EvaluateRiteSummon(selectedSpirit, selectedRite,
+            selectedLore, selectedTool, selectedInfluence, selectedAssistant, selectedSacrifice);
+
+        Widgets.Label(new Rect(inner.x, y, inner.width, 22f), "Cultist.Rite.AspectProgress".Translate());
+        y += 24f;
+        float px = inner.x;
+        var reqs = selectedSpirit.EffectiveRequirements;
+        for (int i = 0; i < reqs.Count; i++)
+        {
+            AspectRequirement req = reqs[i];
+            int have = eval.Totals.GetValueOrDefault(req.aspect);
+            bool met = have >= req.amount;
+            string val = $"{have}/{req.amount}";
+            string tip = AspectBadgeUI.DefaultTooltip(req.aspect, val);
+            px += AspectBadgeUI.DrawSwatchWithValue(px, y, req.aspect, val, tip,
+                met ? new Color(0.45f, 0.92f, 0.52f) : new Color(0.95f, 0.55f, 0.48f));
+        }
+        y += 28f;
+
+        if (eval.SacrificeFilledAspect.HasValue)
+        {
+            GUI.color = new Color(0.92f, 0.78f, 0.42f);
+            Text.Font = GameFont.Tiny;
+            Widgets.Label(new Rect(inner.x, y, inner.width, 22f),
+                "Cultist.Rite.SacrificeAutoFill".Translate(
+                    eval.SacrificeFilledAmount,
+                    ("Cultist.Aspect." + eval.SacrificeFilledAspect.Value).Translate()));
+            GUI.color = Color.white;
+            Text.Font = GameFont.Small;
+            y += 24f;
+        }
+
+        float backlash = System.Math.Clamp(campaign.CalculateBacklashChance(summoner, altar, selectedSpirit) + selectedRite.backlashModifier, 0.02f, 0.85f);
+        GUI.color = new Color(0.75f, 0.73f, 0.70f);
+        Text.Font = GameFont.Tiny;
+        Widgets.Label(new Rect(inner.x, inner.yMax - 60f, inner.width, 22f),
+            "Cultist.Rite.BacklashSummary".Translate(backlash.ToStringPercent(), selectedSpirit.durationDays.ToString("0.0")));
+        GUI.color = Color.white;
+        Text.Font = GameFont.Small;
+
+        Rect btnRect = new(inner.x, inner.yMax - 34f, inner.width, 34f);
+        if (eval.AllMet)
+        {
+            if (Widgets.ButtonText(btnRect, "Cultist.Summon.Button".Translate()))
+            {
+                if (campaign.TrySummonSpiritWithRite(summoner, altar, selectedSpirit, selectedRite,
+                        selectedLore, selectedTool, selectedInfluence, selectedAssistant, selectedSacrifice))
+                    Close();
+            }
+        }
+        else
+        {
+            GUI.color = new Color(0.55f, 0.55f, 0.55f);
+            Widgets.ButtonText(btnRect, "Cultist.Rite.AspectsNotMet".Translate(), active: false);
+            GUI.color = Color.white;
+        }
     }
 }

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>Cultist_LearnRiteScript</defName>
+    <driverClass>Cultist.JobDriver_LearnRiteScript</driverClass>
+    <reportString>studying rite script TargetA.</reportString>
+  </JobDef>
+
+  <!-- ==================== RITE DEFS ==================== -->
+  <!-- Starter Rite: always unlocked -->
+  <Cultist.CultistRiteDef>
+    <defName>Cultist_Rite_Sunset</defName>
+    <label>Sunset Rite</label>
+    <description>The standard starter rite. Combines Lore, an optional Ritual Tool, Influence, and a society Assistant. Consumes Lore and Influence; keeps the Tool and Assistant.</description>
+    <starterUnlocked>true</starterUnlocked>
+    <allowLore>true</allowLore>
+    <allowTool>true</allowTool>
+    <allowInfluence>true</allowInfluence>
+    <allowAssistant>true</allowAssistant>
+    <allowSacrifice>false</allowSacrifice>
+    <consumeLore>true</consumeLore>
+    <consumeInfluence>true</consumeInfluence>
+    <backlashModifier>0</backlashModifier>
+  </Cultist.CultistRiteDef>
+
+  <!-- Exploration-unlocked Rites -->
+  <Cultist.CultistRiteDef>
+    <defName>Cultist_Rite_WatchmanSorrow</defName>
+    <label>Rite of the Watchman's Sorrow</label>
+    <description>A refined ceremony of Lore, Ritual Tool, and Influence. Lowers backlash risk by 8% and preserves the Tool.</description>
+    <starterUnlocked>false</starterUnlocked>
+    <allowLore>true</allowLore>
+    <allowTool>true</allowTool>
+    <allowInfluence>true</allowInfluence>
+    <allowAssistant>false</allowAssistant>
+    <allowSacrifice>false</allowSacrifice>
+    <consumeLore>true</consumeLore>
+    <consumeInfluence>true</consumeInfluence>
+    <backlashModifier>-0.08</backlashModifier>
+  </Cultist.CultistRiteDef>
+
+  <Cultist.CultistRiteDef>
+    <defName>Cultist_Rite_CrucibleSoul</defName>
+    <label>Rite of the Crucible Soul</label>
+    <description>A fierce rite of Lore, Ritual Tool, and Sacrifice. Preserves both Lore and Tool; the sacrificed captive automatically fills the first unmet aspect requirement.</description>
+    <starterUnlocked>false</starterUnlocked>
+    <allowLore>true</allowLore>
+    <allowTool>true</allowTool>
+    <allowInfluence>false</allowInfluence>
+    <allowAssistant>false</allowAssistant>
+    <allowSacrifice>true</allowSacrifice>
+    <consumeLore>false</consumeLore>
+    <consumeInfluence>false</consumeInfluence>
+    <backlashModifier>-0.04</backlashModifier>
+  </Cultist.CultistRiteDef>
+
+  <Cultist.CultistRiteDef>
+    <defName>Cultist_Rite_MotherMercy</defName>
+    <label>Rite of the Mother's Mercy</label>
+    <description>A four-slot grand summoning combining Lore, Ritual Tool, Influence, and Sacrifice. Preserves Lore and Tool while the sacrifice fills the first unmet aspect.</description>
+    <starterUnlocked>false</starterUnlocked>
+    <allowLore>true</allowLore>
+    <allowTool>true</allowTool>
+    <allowInfluence>true</allowInfluence>
+    <allowAssistant>false</allowAssistant>
+    <allowSacrifice>true</allowSacrifice>
+    <consumeLore>false</consumeLore>
+    <consumeInfluence>true</consumeInfluence>
+    <backlashModifier>-0.06</backlashModifier>
+  </Cultist.CultistRiteDef>
+
+  <Cultist.CultistRiteDef>
+    <defName>Cultist_Rite_BeastDivision</defName>
+    <label>Rite of the Beast's Division</label>
+    <description>A savage rite requiring no Lore book: combines Ritual Tool, Influence, and Sacrifice. Preserves the Tool while the sacrifice fills the first unmet aspect.</description>
+    <starterUnlocked>false</starterUnlocked>
+    <allowLore>false</allowLore>
+    <allowTool>true</allowTool>
+    <allowInfluence>true</allowInfluence>
+    <allowAssistant>false</allowAssistant>
+    <allowSacrifice>true</allowSacrifice>
+    <consumeLore>false</consumeLore>
+    <consumeInfluence>true</consumeInfluence>
+    <backlashModifier>0.03</backlashModifier>
+  </Cultist.CultistRiteDef>
+
+  <!-- ==================== EXPLORATION RITE SCRIPT ITEMS ==================== -->
+  <ThingDef Name="Cultist_RiteScriptBase" ParentName="Cultist_RiteMaterialBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_RiteScriptBase">
+    <defName>Cultist_RiteScript_WatchmanSorrow</defName>
+    <label>rite script: Watchman's Sorrow</label>
+    <description>A recovered ceremonial folio detailing the Rite of the Watchman's Sorrow. Study it to unlock this rite permanently for your society.</description>
+    <graphicData><texPath>Cultist/Items/Lore_Lantern4</texPath></graphicData>
+    <statBases><MarketValue>280</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CompProperties_RiteScript"><riteDef>Cultist_Rite_WatchmanSorrow</riteDef></li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_RiteScriptBase">
+    <defName>Cultist_RiteScript_CrucibleSoul</defName>
+    <label>rite script: Crucible Soul</label>
+    <description>A scorched vellum detailing the Rite of the Crucible Soul. Study it to unlock this sacrifice-enabled rite permanently for your society.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentforged</texPath></graphicData>
+    <statBases><MarketValue>320</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CompProperties_RiteScript"><riteDef>Cultist_Rite_CrucibleSoul</riteDef></li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_RiteScriptBase">
+    <defName>Cultist_RiteScript_MotherMercy</defName>
+    <label>rite script: Mother's Mercy</label>
+    <description>An ancient Knock scroll detailing the Rite of the Mother's Mercy. Study it to unlock this four-slot grand rite permanently for your society.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentknockd</texPath></graphicData>
+    <statBases><MarketValue>360</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CompProperties_RiteScript"><riteDef>Cultist_Rite_MotherMercy</riteDef></li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Cultist_RiteScriptBase">
+    <defName>Cultist_RiteScript_BeastDivision</defName>
+    <label>rite script: Beast's Division</label>
+    <description>A blood-stained parchment detailing the Rite of the Beast's Division. Study it to unlock this lore-free sacrifice rite permanently for your society.</description>
+    <graphicData><texPath>Cultist/Catalog/Lore/fragmentedged</texPath></graphicData>
+    <statBases><MarketValue>300</MarketValue></statBases>
+    <comps>
+      <li Class="Cultist.CompProperties_RiteScript"><riteDef>Cultist_Rite_BeastDivision</riteDef></li>
+    </comps>
+  </ThingDef>
+</Defs>

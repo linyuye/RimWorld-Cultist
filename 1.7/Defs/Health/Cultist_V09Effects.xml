@@ -379,6 +379,91 @@
     </stages>
   </HediffDef>
 
+  <HediffDef>
+    <defName>Cultist_EnemyWealthScaling</defName>
+    <label>occult combat readiness</label>
+    <description>Hidden enemy-only combat scaling driven by the colony's threat points curve.</description>
+    <hediffClass>Cultist.Hediff_EnemyWealthScaling</hediffClass>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <initialSeverity>0.10</initialSeverity>
+    <maxSeverity>1.0</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+        <statOffsets>
+          <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.10</ArmorRating_Heat>
+          <PainShockThreshold>0.05</PainShockThreshold>
+        </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.95</IncomingDamageFactor>
+          <MeleeDamageFactor>1.05</MeleeDamageFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <statOffsets>
+          <ArmorRating_Sharp>0.22</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.20</ArmorRating_Heat>
+          <PainShockThreshold>0.10</PainShockThreshold>
+        </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.85</IncomingDamageFactor>
+          <MeleeDamageFactor>1.15</MeleeDamageFactor>
+          <AimingDelayFactor>0.92</AimingDelayFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>0.50</minSeverity>
+        <statOffsets>
+          <ArmorRating_Sharp>0.36</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.36</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.32</ArmorRating_Heat>
+          <MoveSpeed>0.15</MoveSpeed>
+          <PainShockThreshold>0.18</PainShockThreshold>
+        </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.72</IncomingDamageFactor>
+          <MeleeDamageFactor>1.28</MeleeDamageFactor>
+          <AimingDelayFactor>0.85</AimingDelayFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <statOffsets>
+          <ArmorRating_Sharp>0.52</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.46</ArmorRating_Heat>
+          <MoveSpeed>0.25</MoveSpeed>
+          <PainShockThreshold>0.25</PainShockThreshold>
+        </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.60</IncomingDamageFactor>
+          <MeleeDamageFactor>1.42</MeleeDamageFactor>
+          <AimingDelayFactor>0.78</AimingDelayFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>0.95</minSeverity>
+        <statOffsets>
+          <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.60</ArmorRating_Heat>
+          <MoveSpeed>0.35</MoveSpeed>
+          <PainShockThreshold>0.35</PainShockThreshold>
+        </statOffsets>
+        <statFactors>
+          <IncomingDamageFactor>0.50</IncomingDamageFactor>
+          <MeleeDamageFactor>1.60</MeleeDamageFactor>
+          <AimingDelayFactor>0.72</AimingDelayFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
   <!-- ==================== DOCTRINE & SANCTUARY THOUGHTS ==================== -->
   <ThoughtDef>
     <defName>Cultist_Thought_LanternLight</defName>
@@ -582,6 +667,58 @@
         <label>Guardian Name's blessing</label>
         <description>Our ascended Guardian Name answered from the Mansus, filling the colony with radiant certainty.</description>
         <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <HediffDef>
+    <defName>Cultist_Hediff_UpkeepArrears</defName>
+    <label>unpaid society arrears</label>
+    <description>Overdue post-office and society living expenses weigh on the leader for 15 days (-15% research and work speed, -10% social impact).</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>true</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>900000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ResearchSpeed>-0.15</ResearchSpeed>
+          <GeneralLaborSpeed>-0.15</GeneralLaborSpeed>
+          <SocialImpact>-0.10</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_RivalVanquished</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>10</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>rival Long vanquished</label>
+        <description>Our immortal adversary has fallen; the road toward the Mansus lies open.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Cultist_Thought_UpkeepArrears</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>15</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>society upkeep arrears</label>
+        <description>Unpaid post-office bills and mundane debts distract me from the Mansus.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

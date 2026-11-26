@@ -7,14 +7,12 @@ namespace Cultist;
 
 public sealed class CultistSettings : ModSettings
 {
-    public bool enableExperimental;
     public bool useCustomApparelTextures = true;
     public bool enableEasterEggs = true;
 
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref enableExperimental, "enableExperimental", false);
         Scribe_Values.Look(ref useCustomApparelTextures, "useCustomApparelTextures", true);
         Scribe_Values.Look(ref enableEasterEggs, "enableEasterEggs", true);
     }
@@ -47,7 +45,6 @@ public sealed class CultistMod : Mod
             return;
         }
 
-        Log.Message("[Cultist] Assembly loaded. Ideology is active.");
         LongEventHandler.ExecuteWhenFinished(() =>
         {
             var archivist = DefDatabase<StorytellerDef>.GetNamed("Cultist_Archivist");
@@ -55,21 +52,8 @@ public sealed class CultistMod : Mod
             archivist.comps = new List<StorytellerCompProperties>(cassandra.comps);
 
             ApplyApparelTextureSetting(refreshPawns: false);
-
-            var research = DefDatabase<ResearchProjectDef>.GetNamed("Cultist_StudiesOfLight");
-            var coat = DefDatabase<ThingDef>.GetNamed("Cultist_FieldCoat");
-            var engraver = DefDatabase<ThingDef>.GetNamed("Cultist_Engraver");
-            var station = DefDatabase<SitePartDef>.GetNamed("Cultist_AbandonedObservatory");
-            Log.Message($"[Cultist] Content loaded: {research.label}, {coat.label}, {engraver.label}, {station.label}.");
-            bool soundtrack = ContentFinder<AudioClip>.Get("Cultist/ObservatoryAfterDusk", false) != null;
-            bool sting = ContentFinder<AudioClip>.Get("Cultist/DreamSting", false) != null;
-            bool portrait = ContentFinder<Texture2D>.Get("Cultist/Archivist", false) != null;
-            Log.Message($"[Cultist] Asset lookup: soundtrack={soundtrack}, dream sound={sting}, portrait={portrait}.");
         });
     }
-
-    private static bool CanOfferJournal => ModsConfig.IdeologyActive && Prefs.DevMode
-        && Campaign.Current?.Stage == CampaignStage.Waiting;
 
     public override string SettingsCategory() => "Cultist.SettingsCategory".Translate();
 
@@ -87,11 +71,6 @@ public sealed class CultistMod : Mod
         bool prevApparel = Settings.useCustomApparelTextures;
 
         listing.CheckboxLabeled(
-            "Cultist.Settings.Experimental".Translate(),
-            ref Settings.enableExperimental,
-            "Cultist.Settings.ExperimentalDesc".Translate());
-
-        listing.CheckboxLabeled(
             "Cultist.Settings.CustomApparel".Translate(),
             ref Settings.useCustomApparelTextures,
             "Cultist.Settings.CustomApparelDesc".Translate());
@@ -103,13 +82,6 @@ public sealed class CultistMod : Mod
 
         if (prevApparel != Settings.useCustomApparelTextures)
             ApplyApparelTextureSetting(refreshPawns: true);
-
-        if (CanOfferJournal)
-        {
-            listing.GapLine();
-            if (listing.ButtonText("Cultist.OfferTitle".Translate()))
-                Campaign.DebugOfferJournal();
-        }
 
         listing.End();
     }

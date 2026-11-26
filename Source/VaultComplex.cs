@@ -9,6 +9,8 @@ using Verse.AI.Group;
 
 namespace Cultist;
 
+public enum VaultMissionKind { ClassicBook, BureauAct, Bounty, RivalFortress }
+
 public sealed class VaultSiteRecord : IExposable
 {
     public int SiteId;
@@ -16,6 +18,8 @@ public sealed class VaultSiteRecord : IExposable
     public int Tier = 1;
     public int Seed;
     public string BookLabel = string.Empty;
+    public VaultMissionKind MissionKind = VaultMissionKind.ClassicBook;
+    public int MissionIndex;
 
     public void ExposeData()
     {
@@ -24,6 +28,8 @@ public sealed class VaultSiteRecord : IExposable
         Scribe_Values.Look(ref Tier, "tier", 1);
         Scribe_Values.Look(ref Seed, "seed");
         Scribe_Values.Look(ref BookLabel, "bookLabel", string.Empty);
+        Scribe_Values.Look(ref MissionKind, "missionKind", VaultMissionKind.ClassicBook);
+        Scribe_Values.Look(ref MissionIndex, "missionIndex");
     }
 }
 
@@ -178,25 +184,40 @@ public sealed class CompCultistVaultChest : ThingComp
         if (Rand.Chance(0.70f))
             DropResource(ThingDefOf.MedicineIndustrial, Rand.RangeInclusive(2, 3 + tier), pos, map);
 
-        // 4. Optional cracked ritual tool or dossier
-        if (Rand.Chance(0.55f))
+        // 4. Aspect-matched ritual tool scaled by vault tier (1/2/3)
+        if (Rand.Chance(0.65f))
         {
-            string toolName = tier switch
-            {
-                1 => "Cultist_RiteTool1Cracked",
-                2 => "Cultist_RiteTool2Cracked",
-                3 => "Cultist_RiteTool3Cracked",
-                _ => "Cultist_RiteTool3Ready"
-            };
-            if (DefDatabase<ThingDef>.GetNamedSilentFail(toolName) is { } toolDef)
+            ThingDef toolDef = CultPathDef.ToolDefFor(targetAspect, Math.Clamp(tier, 1, 3), crackedIfLantern: tier < 4);
+            if (toolDef != null)
                 GenPlace.TryPlaceThing(ThingMaker.MakeThing(toolDef), pos, map, ThingPlaceMode.Near);
         }
+
+        // 5. Exploration-unlocked Rite Script (Tier 2+ vaults)
+        if (tier >= 2 && Rand.Chance(0.55f) && Campaign.RandomLockedRiteScriptDef() is { } riteScriptDef)
+            GenPlace.TryPlaceThing(ThingMaker.MakeThing(riteScriptDef), pos, map, ThingPlaceMode.Near);
 
         Campaign.PlayCultistSound("Cultist_Sfx_RiteComplete");
         FleckMaker.ThrowMicroSparks(pos.ToVector3Shifted(), map);
         string aspectLabel = ("Cultist.Aspect." + targetAspect).Translate();
         Messages.Message("Cultist.VaultChest.OpenedMsg".Translate(pawn.LabelShortCap, aspectLabel, tier),
             new LookTargets(pos, map), MessageTypeDefOf.PositiveEvent);
+
+        VaultSiteRecord rec = Campaign.Current?.GetVaultRecord(map.Parent?.ID ?? -1);
+        if (rec != null)
+        {
+            switch (rec.MissionKind)
+            {
+                case VaultMissionKind.BureauAct:
+                    Campaign.Current?.OnBureauActCompleted(rec.MissionIndex, pawn, map, pos);
+                    break;
+                case VaultMissionKind.Bounty:
+                    Campaign.Current?.OnBountyCompleted(rec.MissionIndex, map, pos);
+                    break;
+                case VaultMissionKind.RivalFortress:
+                    Campaign.Current?.OnRivalFortressDefeated(pawn, map, pos);
+                    break;
+            }
+        }
 
         foreach (Quest quest in Find.QuestManager.QuestsListForReading.Where(quest =>
             quest.State == QuestState.Ongoing && quest.PartsListForReading
@@ -270,6 +291,10 @@ public sealed class GenStep_CultistVaultComplex : GenStep_AncientComplex
                 LayoutDef.Worker.GenerateStructureSketch(new StructureGenParams { size = new IntVec2(size, size) });
             base.Generate(map, parms);
             EnsureVaultChestPlaced(map, rect, record);
+            if (record.MissionKind == VaultMissionKind.BureauAct)
+                Campaign.SpawnBureauActBosses(map, rect.CenterCell, record.MissionIndex);
+            else if (record.MissionKind == VaultMissionKind.RivalFortress)
+                Campaign.SpawnRivalFortressBoss(map, rect.CenterCell);
         }
         finally
         {
@@ -321,7 +346,9 @@ public abstract class RoomContents_CultistBase : RoomContentsWorker
         if (def == null)
             return;
         stuff = def.MadeFromStuff ? stuff ?? GenStuff.DefaultStuffFor(def) : null;
-        if (!room.TryGetRandomCellInRoom(def, map, out IntVec3 cell, null, contractedBy: 1))
+        if (!room.TryGetRandomCellInRoom(def, map, out IntVec3 cell, null, contractedBy: 1, validator: cell =>
+                !def.saveCompressible || !map.thingGrid.ThingsListAtFast(cell)
+                    .Any(thing => thing.def.saveCompressible)))
             return;
         Thing t = ThingMaker.MakeThing(def, stuff);
         if (count > 1 && def.stackLimit > 1)

@@ -54,4 +54,10 @@
 
   <Cultist_Thought_GuardianBlessing.stages.0.label>守护具名者庇佑</Cultist_Thought_GuardianBlessing.stages.0.label>
   <Cultist_Thought_GuardianBlessing.stages.0.description>殖民地的守护具名者回应了祈祷，令全员充满坚定信念。</Cultist_Thought_GuardianBlessing.stages.0.description>
+
+  <Cultist_Thought_RivalVanquished.stages.0.label>宿敌陨落</Cultist_Thought_RivalVanquished.stages.0.label>
+  <Cultist_Thought_RivalVanquished.stages.0.description>敌对长生者已被彻底击溃，通往漫宿的道路再无阻碍。</Cultist_Thought_RivalVanquished.stages.0.description>
+
+  <Cultist_Thought_UpkeepArrears.stages.0.label>结社开销窘迫</Cultist_Thought_UpkeepArrears.stages.0.label>
+  <Cultist_Thought_UpkeepArrears.stages.0.description>未结清的邮局账单与日常欠款不断侵扰着我对漫宿的专注。</Cultist_Thought_UpkeepArrears.stages.0.description>
 </LanguageData>

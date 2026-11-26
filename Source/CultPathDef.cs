@@ -42,6 +42,16 @@ public sealed class CultPathDef : Def
     public static ThingDef LoreDefFor(Aspect aspect, int tier) =>
         ForAspect(aspect).GetLoreDef(tier);
 
+    public static ThingDef ToolDefFor(Aspect aspect, int tier, bool crackedIfLantern = false)
+    {
+        int clamped = System.Math.Clamp(tier, 1, 3);
+        string defName = aspect == Aspect.Lantern
+            ? (crackedIfLantern ? $"Cultist_RiteTool{clamped}Cracked" : $"Cultist_RiteTool{clamped}Ready")
+            : $"Cultist_RiteTool_{aspect}{clamped}Ready";
+        return DefDatabase<ThingDef>.GetNamedSilentFail(defName)
+            ?? DefDatabase<ThingDef>.GetNamedSilentFail($"Cultist_RiteTool{clamped}Ready");
+    }
+
     public static CultPathDef ForAspect(Aspect aspect) =>
         DefDatabase<CultPathDef>.AllDefsListForReading.FirstOrDefault(path => path.aspect == aspect)
         ?? DefDatabase<CultPathDef>.GetNamed("Cultist_Path_Lantern");

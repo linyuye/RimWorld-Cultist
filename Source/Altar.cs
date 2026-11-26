@@ -71,6 +71,14 @@ public sealed class AltarComp : ThingComp
             yield return Option(pawn, AltarAction.AnswerInquiry);
         yield return new FloatMenuOption("Cultist.Altar.Summon".Translate(),
             () => Find.WindowStack.Add(new SummonWindow(campaign, pawn, parent)));
+        if (campaign.CanOpenBureauCounterOffensive())
+            yield return new FloatMenuOption("Cultist.Altar.BureauCounter".Translate(campaign.NextBureauActNumber),
+                () => campaign.OpenBureauActDialog(pawn));
+        yield return new FloatMenuOption("Cultist.Altar.BountyHub".Translate(),
+            () => campaign.OpenBountyAndSupportHub(pawn));
+        if (campaign.CanReopenRivalFortress())
+            yield return new FloatMenuOption("Cultist.Altar.RivalFortress".Translate(),
+                () => campaign.OpenRivalStage4Dialog(pawn.Map));
         if (campaign.ChurchAspect == Aspect.Knock && !campaign.Completed)
         {
             TaggedString req = campaign.KnockVictoryRequirement();

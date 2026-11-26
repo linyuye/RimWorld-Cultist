@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Common Dialog & Altar Entries -->
+  <Cultist.TabAspect>Aspect</Cultist.TabAspect>
+  <Cultist.AspectStatLabel>Occult Aspect</Cultist.AspectStatLabel>
+  <Cultist.AspectStrength>Power {0}</Cultist.AspectStrength>
+  <Cultist.AspectTierPower>Tier {0} · Power {1}</Cultist.AspectTierPower>
+  <Cultist.AspectDesc.Lantern>The aspect of the Glory and merciless illumination.</Cultist.AspectDesc.Lantern>
+  <Cultist.AspectDesc.Forge>The aspect of transformation, fire, and artifice.</Cultist.AspectDesc.Forge>
+  <Cultist.AspectDesc.Edge>The aspect of battle, cunning, and struggle.</Cultist.AspectDesc.Edge>
+  <Cultist.AspectDesc.Winter>The aspect of silence, endings, and pale cold.</Cultist.AspectDesc.Winter>
+  <Cultist.AspectDesc.Heart>The aspect of ceaseless rhythm, protection, and life.</Cultist.AspectDesc.Heart>
+  <Cultist.AspectDesc.Grail>The aspect of hunger, delight, and blood.</Cultist.AspectDesc.Grail>
+  <Cultist.AspectDesc.Moth>The aspect of the Wood, change, and unreason.</Cultist.AspectDesc.Moth>
+  <Cultist.AspectDesc.Knock>The aspect of doors, apertures, and wounds.</Cultist.AspectDesc.Knock>
+  <Cultist.AspectDesc.SecretHistories>The aspect of hidden pasts and forgotten vaults.</Cultist.AspectDesc.SecretHistories>
+
+  <!-- Rites & Canonical Multi-Aspect Summoning -->
+  <Cultist.Rite.LearnOption>Study to unlock {0}</Cultist.Rite.LearnOption>
+  <Cultist.Rite.AlreadyKnown>Already unlocked: {0}</Cultist.Rite.AlreadyKnown>
+  <Cultist.Rite.Learned>{0} studied the folio and permanently unlocked {1}!</Cultist.Rite.Learned>
+  <Cultist.Rite.SelectButton>Active Rite: {0} (Click to switch)</Cultist.Rite.SelectButton>
+  <Cultist.Rite.SlotEmpty>Empty</Cultist.Rite.SlotEmpty>
+  <Cultist.Rite.ClearSlot>Clear slot</Cultist.Rite.ClearSlot>
+  <Cultist.Rite.SlotLore>Lore: {0}</Cultist.Rite.SlotLore>
+  <Cultist.Rite.SlotTool>Tool: {0}</Cultist.Rite.SlotTool>
+  <Cultist.Rite.SlotInfluence>Influence: {0}</Cultist.Rite.SlotInfluence>
+  <Cultist.Rite.SlotAssistant>Assistant: {0}</Cultist.Rite.SlotAssistant>
+  <Cultist.Rite.SlotSacrifice>Sacrifice: {0}</Cultist.Rite.SlotSacrifice>
+  <Cultist.Rite.AspectProgress>Rite aspect totals (hover swatches for details):</Cultist.Rite.AspectProgress>
+  <Cultist.Rite.SacrificeAutoFill>Sacrifice auto-fill: +{0} {1} (fills first unmet aspect)</Cultist.Rite.SacrificeAutoFill>
+  <Cultist.Rite.BacklashSummary>Backlash {0} · Duration {1}d</Cultist.Rite.BacklashSummary>
+  <Cultist.Rite.AspectsNotMet>Required aspects not met</Cultist.Rite.AspectsNotMet>
+  <Cultist.Rite.Sacrificed>{0} was sacrificed at the altar to open the way.</Cultist.Rite.Sacrificed>
+  <Cultist.Dialog.Later>Later</Cultist.Dialog.Later>
+  <Cultist.Altar.BureauCounter>Strike the Suppression Bureau (Act {0})</Cultist.Altar.BureauCounter>
+  <Cultist.Altar.BountyHub>Occult bounties &amp; Spintria support</Cultist.Altar.BountyHub>
+  <Cultist.Altar.RivalFortress>Assault rival Long's sanctum</Cultist.Altar.RivalFortress>
+
+  <!-- Scheme 1: 5-Act Suppression Bureau Counter-Offensive -->
+  <Cultist.BureauAct.Launch>Mark Act {0} outpost</Cultist.BureauAct.Launch>
+  <Cultist.BureauAct.AlreadyActive>Act {0} outpost is already marked</Cultist.BureauAct.AlreadyActive>
+  <Cultist.BureauAct.AlreadyActiveReason>Clear the current world-map site first</Cultist.BureauAct.AlreadyActiveReason>
+  <Cultist.BureauAct.SiteMarked>Suppression Bureau Act {0} outpost has been marked on the world map.</Cultist.BureauAct.SiteMarked>
+  <Cultist.BureauAct.RescuedHeretic>Rescued heretic {0} (Rank 2 {1} disciple) joined the colony.</Cultist.BureauAct.RescuedHeretic>
+
+  <Cultist.BureauAct.Title1>Act I · Listening Post</Cultist.BureauAct.Title1>
+  <Cultist.BureauAct.Boss1>Douglas</Cultist.BureauAct.Boss1>
+  <Cultist.BureauAct.Sub1>Suppression Bureau · Weary Detective</Cultist.BureauAct.Sub1>
+  <Cultist.BureauAct.RewardTag1>Dossier ×2 · Spintria ×4</Cultist.BureauAct.RewardTag1>
+  <Cultist.BureauAct.Brief1>Veteran hunter Douglas has set up a field listening post compiling files on your society. Strike first to seize his dossiers and cut notoriety.</Cultist.BureauAct.Brief1>
+  <Cultist.BureauAct.QuestDesc1>Assault Douglas's listening post and open the inner vault chest.</Cultist.BureauAct.QuestDesc1>
+  <Cultist.BureauAct.DoneTitle1>Listening Post Burned</Cultist.BureauAct.DoneTitle1>
+  <Cultist.BureauAct.DoneBody1>The post lies in ash; Douglas's ciphers and dossiers are yours. Half the Bureau's ears in this sector just went deaf.</Cultist.BureauAct.DoneBody1>
+
+  <Cultist.BureauAct.Title2>Act II · Evidence Vault</Cultist.BureauAct.Title2>
+  <Cultist.BureauAct.Boss2>Spencer Hobson</Cultist.BureauAct.Boss2>
+  <Cultist.BureauAct.Sub2>Suppression Bureau · Mystic</Cultist.BureauAct.Sub2>
+  <Cultist.BureauAct.RewardTag2>Classic Books ×2 · Spintria ×6</Cultist.BureauAct.RewardTag2>
+  <Cultist.BureauAct.Brief2>Spencer guards an underground evidence vault packed with confiscated occult manuscripts. Break the seals and reclaim forbidden knowledge.</Cultist.BureauAct.Brief2>
+  <Cultist.BureauAct.QuestDesc2>Breach Spencer's evidence vault and open the sanctum chest to recover confiscated tomes.</Cultist.BureauAct.QuestDesc2>
+  <Cultist.BureauAct.DoneTitle2>Seals Shattered</Cultist.BureauAct.DoneTitle2>
+  <Cultist.BureauAct.DoneBody2>Confiscated editions return to the light. The Bureau now realizes you are no longer hiding in the dark.</Cultist.BureauAct.DoneBody2>
+
+  <Cultist.BureauAct.Title3>Act III · Occult Interrogation House</Cultist.BureauAct.Title3>
+  <Cultist.BureauAct.Boss3>Natalia Brulleau</Cultist.BureauAct.Boss3>
+  <Cultist.BureauAct.Sub3>Suppression Bureau · Idealist</Cultist.BureauAct.Sub3>
+  <Cultist.BureauAct.RewardTag3>Free Rank 2 Disciple · Spintria ×6</Cultist.BureauAct.RewardTag3>
+  <Cultist.BureauAct.Brief3>Natalia holds captured heretics inside a fortified interrogation house. Break in to cripple their intelligence and recruit a Rank 2 disciple.</Cultist.BureauAct.Brief3>
+  <Cultist.BureauAct.QuestDesc3>Storm Natalia's interrogation house and open the vault chest to free the captive disciple.</Cultist.BureauAct.QuestDesc3>
+  <Cultist.BureauAct.DoneTitle3>Chains Broken</Cultist.BureauAct.DoneTitle3>
+  <Cultist.BureauAct.DoneBody3>The iron cells stand open and the rescued heretic swears loyalty to your society. The Bureau's regional net is tearing apart.</Cultist.BureauAct.DoneBody3>
+
+  <Cultist.BureauAct.Title4>Act IV · Hunter Command</Cultist.BureauAct.Title4>
+  <Cultist.BureauAct.Boss4>Connie Lee &amp; Zachary</Cultist.BureauAct.Boss4>
+  <Cultist.BureauAct.Sub4>Suppression Bureau · Senior Hunters</Cultist.BureauAct.Sub4>
+  <Cultist.BureauAct.RewardTag4>Spintria ×10 · Classic Book</Cultist.BureauAct.RewardTag4>
+  <Cultist.BureauAct.Brief4>The Bureau's two deadliest hunters now command the forward headquarters together. Defeating them exposes the regional Directorate itself.</Cultist.BureauAct.Brief4>
+  <Cultist.BureauAct.QuestDesc4>Defeat Connie Lee and Zachary at Hunter Command and seize the vault chest.</Cultist.BureauAct.QuestDesc4>
+  <Cultist.BureauAct.DoneTitle4>Command Routed</Cultist.BureauAct.DoneTitle4>
+  <Cultist.BureauAct.DoneBody4>Hunter Command has fallen. Only the regional Directorate remains standing.</Cultist.BureauAct.DoneBody4>
+
+  <Cultist.BureauAct.Title5>Act V · Regional Directorate</Cultist.BureauAct.Title5>
+  <Cultist.BureauAct.Boss5>Zachary Wakefield</Cultist.BureauAct.Boss5>
+  <Cultist.BureauAct.Sub5>Suppression Bureau · Final Bastion</Cultist.BureauAct.Sub5>
+  <Cultist.BureauAct.RewardTag5>Permanent −50% Notoriety Gain · Tier 5 Lore</Cultist.BureauAct.RewardTag5>
+  <Cultist.BureauAct.Brief5>Burn the Directorate's master archives to permanently cripple the Bureau's chain of command on this world, halving all future notoriety gain.</Cultist.BureauAct.Brief5>
+  <Cultist.BureauAct.QuestDesc5>Assault the Suppression Bureau Regional Directorate and open the final vault chest.</Cultist.BureauAct.QuestDesc5>
+  <Cultist.BureauAct.DoneTitle5>The Shadows Are Yours</Cultist.BureauAct.DoneTitle5>
+  <Cultist.BureauAct.DoneBody5>The archive tower collapses in flame. The Suppression Bureau's regional network is broken—all future notoriety gain is permanently halved.</Cultist.BureauAct.DoneBody5>
+
+  <!-- Scheme 2: Hidden Visitors of the Rim -->
+  <Cultist.Visitor.Heretic.Title>A Fugitive at the Gate</Cultist.Visitor.Heretic.Title>
+  <Cultist.Visitor.Heretic.Speaker>Fugitive Heretic</Cultist.Visitor.Heretic.Speaker>
+  <Cultist.Visitor.Heretic.Sub>Hidden Visitor · Midnight Plea</Cultist.Visitor.Heretic.Sub>
+  <Cultist.Visitor.Heretic.Body>A bloodied stranger clutching a wrapped manuscript stumbles to your gate, pursued by Suppression Bureau hounds.</Cultist.Visitor.Heretic.Body>
+  <Cultist.Visitor.Heretic.OptShelter>Grant sanctuary in the society</Cultist.Visitor.Heretic.OptShelter>
+  <Cultist.Visitor.Heretic.TagShelter>+1 Colonist &amp; Tier 2 Lore · Notoriety +15</Cultist.Visitor.Heretic.TagShelter>
+  <Cultist.Visitor.Heretic.OptTurnIn>Hand over to the Bureau</Cultist.Visitor.Heretic.OptTurnIn>
+  <Cultist.Visitor.Heretic.TagTurnIn>Notoriety −20 · Silver +400</Cultist.Visitor.Heretic.TagTurnIn>
+  <Cultist.Visitor.Heretic.OptSacrifice>Offer to the society's Hour</Cultist.Visitor.Heretic.OptSacrifice>
+  <Cultist.Visitor.Heretic.TagSacrifice>Influence 10 · Cracked Rite Tool</Cultist.Visitor.Heretic.TagSacrifice>
+  <Cultist.Visitor.Heretic.SacrificeReason>Grail, Winter, or Edge societies only</Cultist.Visitor.Heretic.SacrificeReason>
+  <Cultist.Visitor.Heretic.Sheltered>Fugitive heretic {0} joined the colony with a tier 2 lore book.</Cultist.Visitor.Heretic.Sheltered>
+  <Cultist.Visitor.Heretic.TurnedIn>The Bureau collected the fugitive (−20 notoriety, +400 silver).</Cultist.Visitor.Heretic.TurnedIn>
+  <Cultist.Visitor.Heretic.Sacrificed>The altar answered: gained strength 10 influence and a cracked rite tool.</Cultist.Visitor.Heretic.Sacrificed>
+
+  <Cultist.Visitor.Poppy.Title>Poppy Lascelles's Midnight Visit</Cultist.Visitor.Poppy.Title>
+  <Cultist.Visitor.Poppy.Speaker>Poppy Lascelles</Cultist.Visitor.Poppy.Speaker>
+  <Cultist.Visitor.Poppy.Sub>Patron · Crimson Benefactress</Cultist.Visitor.Poppy.Sub>
+  <Cultist.Visitor.Poppy.Body>A crimson lantern pauses outside your door. "Two civil bargains tonight—sell me one of your treatises, or accept my generous advance."</Cultist.Visitor.Poppy.Body>
+  <Cultist.Visitor.Poppy.OptTrade>Sell a tier 2+ lore book</Cultist.Visitor.Poppy.OptTrade>
+  <Cultist.Visitor.Poppy.TagTrade>Spintria +6 · Silver +350 · Notoriety −15</Cultist.Visitor.Poppy.TagTrade>
+  <Cultist.Visitor.Poppy.NeedLore2>Requires a tier 2+ lore book on the map</Cultist.Visitor.Poppy.NeedLore2>
+  <Cultist.Visitor.Poppy.OptPatronage>Accept Poppy's crimson advance</Cultist.Visitor.Poppy.OptPatronage>
+  <Cultist.Visitor.Poppy.TagPatronage>Silver +600 · Spintria +5 (10d debt)</Cultist.Visitor.Poppy.TagPatronage>
+  <Cultist.Visitor.Poppy.PatronageDone>Already accepted or settled</Cultist.Visitor.Poppy.PatronageDone>
+  <Cultist.Visitor.Poppy.OptDecline>See her out politely</Cultist.Visitor.Poppy.OptDecline>
+  <Cultist.Visitor.Poppy.Traded>Poppy departed with the book, leaving coin, silver, and quieter streets.</Cultist.Visitor.Poppy.Traded>
+
+  <Cultist.Visitor.Mole.Title>A Bureau Mole in the Society</Cultist.Visitor.Mole.Title>
+  <Cultist.Visitor.Mole.Speaker>Altar Omen</Cultist.Visitor.Mole.Speaker>
+  <Cultist.Visitor.Mole.Sub>Internal Crisis · Leaked Intel</Cultist.Visitor.Mole.Sub>
+  <Cultist.Visitor.Mole.Body>Rising notoriety has drawn infiltration. Someone inside the settlement is passing ritual schedules to the Suppression Bureau.</Cultist.Visitor.Mole.Body>
+  <Cultist.Visitor.Mole.OptLantern>Expose with Lantern clarity</Cultist.Visitor.Mole.OptLantern>
+  <Cultist.Visitor.Mole.TagLantern>Notoriety −18</Cultist.Visitor.Mole.TagLantern>
+  <Cultist.Visitor.Mole.NeedLantern>Requires Lantern society or Influence 6</Cultist.Visitor.Mole.NeedLantern>
+  <Cultist.Visitor.Mole.OptMoth>Feed false intelligence</Cultist.Visitor.Mole.OptMoth>
+  <Cultist.Visitor.Mole.TagMoth>2 Spintria · Notoriety −25 · Delay raid 20d</Cultist.Visitor.Mole.TagMoth>
+  <Cultist.Visitor.Mole.OptPurge>Purge immediately</Cultist.Visitor.Mole.OptPurge>
+  <Cultist.Visitor.Mole.TagPurge>Notoriety −12 · Dossier ×1 · Dread +1</Cultist.Visitor.Mole.TagPurge>
+  <Cultist.Visitor.Mole.Cleared>The mole was quietly removed (−18 notoriety).</Cultist.Visitor.Mole.Cleared>
+  <Cultist.Visitor.Mole.Misled>False dossiers misled the Bureau (−25 notoriety, next raid delayed 20 days).</Cultist.Visitor.Mole.Misled>
+  <Cultist.Visitor.Mole.Purged>The informant was purged and a Bureau dossier recovered, leaving a chill behind.</Cultist.Visitor.Mole.Purged>
+
+  <Cultist.Visitor.Auction.Title>Oriflamme's Underground Lot</Cultist.Visitor.Auction.Title>
+  <Cultist.Visitor.Auction.Speaker>Oriflamme's Auction House</Cultist.Visitor.Auction.Speaker>
+  <Cultist.Visitor.Auction.Sub>Black Market · Timed Bidding</Cultist.Visitor.Auction.Sub>
+  <Cultist.Visitor.Auction.Body>Tonight's private gavel opens only to Spintriae. Available Spintriae on map: {0}.</Cultist.Visitor.Auction.Body>
+  <Cultist.Visitor.Auction.OptLore4>Bid on a Tier 4 lore treatise</Cultist.Visitor.Auction.OptLore4>
+  <Cultist.Visitor.Auction.TagLore4>6 Spintria</Cultist.Visitor.Auction.TagLore4>
+  <Cultist.Visitor.Auction.OptMirror>Bid on Tier 3 tool: {0}</Cultist.Visitor.Auction.OptMirror>
+  <Cultist.Visitor.Auction.TagMirror>8 Spintria</Cultist.Visitor.Auction.TagMirror>
+  <Cultist.Visitor.Auction.OptBooks>Bid on two classic occult books</Cultist.Visitor.Auction.OptBooks>
+  <Cultist.Visitor.Auction.TagBooks>4 Spintria</Cultist.Visitor.Auction.TagBooks>
+  <Cultist.Visitor.Auction.Bought>Sold! Your lot has been drop-podded to the colony.</Cultist.Visitor.Auction.Bought>
+
+  <!-- Scheme 3: 3-Tier Repeatable Bounties & Spintria Sinks -->
+  <Cultist.Bounty.HubTitle>Occult Bounty Board</Cultist.Bounty.HubTitle>
+  <Cultist.Bounty.HubSpeaker>Clandestine Broker</Cultist.Bounty.HubSpeaker>
+  <Cultist.Bounty.HubSub>Repeatable Field Contracts · 3d Cooldown</Cultist.Bounty.HubSub>
+  <Cultist.Bounty.HubBody>Accept a field contract or switch to Spintria emergency support. Available Spintriae: {0}.</Cultist.Bounty.HubBody>
+  <Cultist.Bounty.AlreadyActive>A bounty site is already active</Cultist.Bounty.AlreadyActive>
+  <Cultist.Bounty.Cooldown>Cooldown ({0}d remaining)</Cultist.Bounty.Cooldown>
+  <Cultist.Bounty.OptTier1>Tier I · Contain Rogue Spirits</Cultist.Bounty.OptTier1>
+  <Cultist.Bounty.TagTier1>Bonus: Spintria ×4</Cultist.Bounty.TagTier1>
+  <Cultist.Bounty.OptTier2>Tier II · Ambush Bureau Convoy</Cultist.Bounty.OptTier2>
+  <Cultist.Bounty.TagTier2>Bonus: Spintria ×8 · Book · Rite Tool</Cultist.Bounty.TagTier2>
+  <Cultist.Bounty.OptTier3>Tier III · Slay Rampant Name-Avatar</Cultist.Bounty.OptTier3>
+  <Cultist.Bounty.TagTier3>Bonus: Spintria ×14 · Tier 4 Lore</Cultist.Bounty.TagTier3>
+  <Cultist.Bounty.SwitchSupport>Switch: High-tier Spintria support</Cultist.Bounty.SwitchSupport>
+  <Cultist.Bounty.SpintriaCount>Spintria: {0}</Cultist.Bounty.SpintriaCount>
+  <Cultist.Bounty.SiteTitle1>Tier I Bounty · Rogue Spirit Nest</Cultist.Bounty.SiteTitle1>
+  <Cultist.Bounty.SiteDesc1>Clear the rogue spirits and open the vault chest to claim your Tier I bounty.</Cultist.Bounty.SiteDesc1>
+  <Cultist.Bounty.SiteTitle2>Tier II Bounty · Bureau Convoy Post</Cultist.Bounty.SiteTitle2>
+  <Cultist.Bounty.SiteDesc2>Raid the Suppression Bureau convoy post and open the vault chest.</Cultist.Bounty.SiteDesc2>
+  <Cultist.Bounty.SiteTitle3>Tier III Bounty · Rampant Spirit Sanctum</Cultist.Bounty.SiteTitle3>
+  <Cultist.Bounty.SiteDesc3>Defeat the rampant elite spirits and open the inner sanctum chest.</Cultist.Bounty.SiteDesc3>
+  <Cultist.Bounty.Accepted>Accepted Tier {0} occult bounty. The target is marked on the world map.</Cultist.Bounty.Accepted>
+  <Cultist.Bounty.Completed>Tier {0} occult bounty completed! Bonus rewards dropped beside the chest.</Cultist.Bounty.Completed>
+
+  <Cultist.Support.Title>Spintria Emergency Support</Cultist.Support.Title>
+  <Cultist.Support.Speaker>Pacts of the Mansus</Cultist.Support.Speaker>
+  <Cultist.Support.Sub>Spintria Sinks · Immediate Effect</Cultist.Support.Sub>
+  <Cultist.Support.Body>Spend Spintriae to call immediate spirit reinforcements or erase notoriety. Available Spintriae: {0}.</Cultist.Support.Body>
+  <Cultist.Support.OptSpiritSquad>Summon spirit guard squad (12h)</Cultist.Support.OptSpiritSquad>
+  <Cultist.Support.TagSpiritSquad>5 Spintria · Hint + Percussigant</Cultist.Support.TagSpiritSquad>
+  <Cultist.Support.OptEliteSpirit>Summon elite Name-guard (12h)</Cultist.Support.OptEliteSpirit>
+  <Cultist.Support.TagEliteSpirit>10 Spintria · King Crucible + 2 Percussigants</Cultist.Support.TagEliteSpirit>
+  <Cultist.Support.OptCleanseNotoriety>Erase records via underground brokers</Cultist.Support.OptCleanseNotoriety>
+  <Cultist.Support.TagCleanseNotoriety>12 Spintria · Notoriety −45 · Dossier ×1</Cultist.Support.TagCleanseNotoriety>
+  <Cultist.Support.BackToBounties>Back: Occult bounties</Cultist.Support.BackToBounties>
+  <Cultist.Support.SpiritsArrived>{0} contracted spirit reinforcements arrived for 12 hours!</Cultist.Support.SpiritsArrived>
+  <Cultist.Support.Cleansed>Underground brokers scrubbed your files (−45 notoriety) and delivered a dossier.</Cultist.Support.Cleansed>
+
+  <!-- Scheme 4: Rival Long 4-Stage Nemesis Arc -->
+  <Cultist.RivalArc.Sub>Rival Long · Immortal Nemesis</Cultist.RivalArc.Sub>
+  <Cultist.RivalArc.Countered>You thwarted {0}'s scheme.</Cultist.RivalArc.Countered>
+  <Cultist.RivalArc.Title1>Nemesis I · Rumors &amp; Warning</Cultist.RivalArc.Title1>
+  <Cultist.RivalArc.Body1>The immortal {0} has taken notice of your rising marks and is feeding leads about your society to mortal authorities.</Cultist.RivalArc.Body1>
+  <Cultist.RivalArc.Opt1Counter>Silence the rumors with Spintriae</Cultist.RivalArc.Opt1Counter>
+  <Cultist.RivalArc.Tag1Counter>4 Spintria · No notoriety</Cultist.RivalArc.Tag1Counter>
+  <Cultist.RivalArc.Opt1Endure>Let them talk</Cultist.RivalArc.Opt1Endure>
+  <Cultist.RivalArc.Tag1Endure>Notoriety +18</Cultist.RivalArc.Tag1Endure>
+
+  <Cultist.RivalArc.Title2>Nemesis II · Shadow Assassins</Cultist.RivalArc.Title2>
+  <Cultist.RivalArc.Body2>{0} has dispatched seasoned assassins to sever your society's leadership under cover of night.</Cultist.RivalArc.Body2>
+  <Cultist.RivalArc.Opt2Bribe>Bribe informants to divert them</Cultist.RivalArc.Opt2Bribe>
+  <Cultist.RivalArc.Tag2Bribe>6 Spintria · Prevent raid</Cultist.RivalArc.Tag2Bribe>
+  <Cultist.RivalArc.Opt2Fight>Meet the assassins in battle</Cultist.RivalArc.Opt2Fight>
+  <Cultist.RivalArc.Tag2Fight>Triggers immediate Rival Long raid</Cultist.RivalArc.Tag2Fight>
+  <Cultist.RivalArc.RaidTitle>{0}'s Assassins Strike</Cultist.RivalArc.RaidTitle>
+  <Cultist.RivalArc.RaidBody>Assassins loyal to the rival Long {0} have breached the perimeter!</Cultist.RivalArc.RaidBody>
+
+  <Cultist.RivalArc.Title3>Nemesis III · Curse of the Mansus</Cultist.RivalArc.Title3>
+  <Cultist.RivalArc.Body3>{0} channels a bitter curse across the Threshold, threatening your leader with fascination and dread.</Cultist.RivalArc.Body3>
+  <Cultist.RivalArc.Opt3Ward>Shatter the curse with Influence 8</Cultist.RivalArc.Opt3Ward>
+  <Cultist.RivalArc.Tag3Ward>Gain Spintria ×3 &amp; Tier 3 Lore</Cultist.RivalArc.Tag3Ward>
+  <Cultist.RivalArc.NeedInf8>Requires Influence 8</Cultist.RivalArc.NeedInf8>
+  <Cultist.RivalArc.Opt3Endure>Weather the curse</Cultist.RivalArc.Opt3Endure>
+  <Cultist.RivalArc.Tag3Endure>Fascination/Dread +1 · Notoriety +12</Cultist.RivalArc.Tag3Endure>
+
+  <Cultist.RivalArc.Title4>Nemesis IV · Sanctum Revealed</Cultist.RivalArc.Title4>
+  <Cultist.RivalArc.Body4>Tracing the backwash of the curse reveals {0}'s earthly fortress. Storm the sanctum and open its vault to end their interference forever.</Cultist.RivalArc.Body4>
+  <Cultist.RivalArc.Opt4Launch>Mark rival Long's sanctum</Cultist.RivalArc.Opt4Launch>
+  <Cultist.RivalArc.Tag4Launch>Final battle · Stops Rival Long raids + Tier 5 Lore</Cultist.RivalArc.Tag4Launch>
+  <Cultist.RivalArc.FortressTitle>Rival Sanctum · {0}</Cultist.RivalArc.FortressTitle>
+  <Cultist.RivalArc.FortressDesc>Assault {0}'s hidden fortress, defeat the rival Long, and open the final vault chest.</Cultist.RivalArc.FortressDesc>
+  <Cultist.RivalArc.FortressMarked>{0}'s hidden sanctum has been marked on the world map!</Cultist.RivalArc.FortressMarked>
+  <Cultist.RivalArc.DoneTitle>Rival Long Vanquished</Cultist.RivalArc.DoneTitle>
+  <Cultist.RivalArc.DoneSub>The Road Lies Open</Cultist.RivalArc.DoneSub>
+  <Cultist.RivalArc.DoneBody>{0}'s sanctum lies in ruin. Your immortal rival will trouble your ascension no more.</Cultist.RivalArc.DoneBody>
+
+  <!-- Post Office & Living Expenses -->
+  <Cultist.PostOffice.Speaker>Clandestine Post</Cultist.PostOffice.Speaker>
+  <Cultist.PostOffice.Sub>Society Upkeep · Periodic Ledger</Cultist.PostOffice.Sub>
+  <Cultist.PostOffice.FirstTitle>The First Wax-Sealed Ledger</Cultist.PostOffice.FirstTitle>
+  <Cultist.PostOffice.FirstBody>A courier leaves a stamped brown-paper invoice on your threshold: post-box rental, coded dispatches, and mundane society upkeep totaling {0} silver.\n\nAvailable silver: {1}.</Cultist.PostOffice.FirstBody>
+  <Cultist.PostOffice.RecurringTitle>Post Office Upkeep Due</Cultist.PostOffice.RecurringTitle>
+  <Cultist.PostOffice.RecurringBody>Fifteen days have passed. Another stamped notice slips beneath the door: maintaining your society's aliases, dispatches, and daily living requires {0} silver.\n\nAvailable silver: {1}.</Cultist.PostOffice.RecurringBody>
+  <Cultist.PostOffice.OptPay>Pay {0} silver</Cultist.PostOffice.OptPay>
+  <Cultist.PostOffice.TagPay>Silver −{0} · Keep appearances</Cultist.PostOffice.TagPay>
+  <Cultist.PostOffice.NeedSilver>Requires {0} silver</Cultist.PostOffice.NeedSilver>
+  <Cultist.PostOffice.OptDeferFirst>Leave it unpaid for now</Cultist.PostOffice.OptDeferFirst>
+  <Cultist.PostOffice.TagDeferFirst>Check the counter receipt</Cultist.PostOffice.TagDeferFirst>
+  <Cultist.PostOffice.OptDefault>Fall into arrears</Cultist.PostOffice.OptDefault>
+  <Cultist.PostOffice.TagDefault>Leader 15d debuff (−8 mood · −15% speed)</Cultist.PostOffice.TagDefault>
+  <Cultist.PostOffice.Paid>Settled the post-office ledger (−{0} silver).</Cultist.PostOffice.Paid>
+  <Cultist.PostOffice.DefaultedMsg>{0} defaulted on society upkeep and suffers arrears penalties for 15 days.</Cultist.PostOffice.DefaultedMsg>
+
+  <Cultist.PostOffice.PoppyTitle>A Receipt Already Settled</Cultist.PostOffice.PoppyTitle>
+  <Cultist.PostOffice.PoppySpeaker>Poppy Lascelles</Cultist.PostOffice.PoppySpeaker>
+  <Cultist.PostOffice.PoppySub>Patron · Crimson Benefactress</Cultist.PostOffice.PoppySub>
+  <Cultist.PostOffice.PoppyBody>Before you can turn the invoice away, the clerk quietly slides across a velvet calling card sealed in crimson wax—your 500-silver account was settled in full last night.\n\nOn the reverse, in Poppy Lascelles's crisp hand:\n"My dear {0}, consider your first postage and lodging taken care of. I despise watching promising newcomers stumble over petty silver. Do not fret over gratitude—when winter draws closer, we shall have ample time to discuss a far more civilized return."</Cultist.PostOffice.PoppyBody>
+  <Cultist.PostOffice.PoppyAck>Pocket the velvet receipt</Cultist.PostOffice.PoppyAck>
+  <Cultist.PostOffice.PoppySettledMsg>Poppy Lascelles quietly settled your first 500-silver post-office bill.</Cultist.PostOffice.PoppySettledMsg>
+</LanguageData>

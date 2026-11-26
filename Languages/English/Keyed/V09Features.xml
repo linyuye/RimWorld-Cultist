@@ -139,8 +139,6 @@
   <Cultist.LoreSubvert.Success>{0} subverted tier {3} {1} lore into {4} ({2}).</Cultist.LoreSubvert.Success>
 
   <!-- Mod Settings -->
-  <Cultist.Settings.Experimental>Experimental features</Cultist.Settings.Experimental>
-  <Cultist.Settings.ExperimentalDesc>Currently empty.</Cultist.Settings.ExperimentalDesc>
   <Cultist.Settings.CustomApparel>Custom apparel textures</Cultist.Settings.CustomApparel>
   <Cultist.Settings.CustomApparelDesc>Turn this off to switch worn Cultist apparel to vanilla visuals immediately.</Cultist.Settings.CustomApparelDesc>
   <Cultist.Settings.EasterEggs>Anomaly crossover letters</Cultist.Settings.EasterEggs>
@@ -155,4 +153,5 @@
   <Cultist.EasterEgg.Elegiast.Body>'The Elegiast is not the kindest of Hours, yet he is never cruel, and he remembers all his promises. He reaches down to lift me up, leaving me trembling to face the world alone; now I cannot end before my appointed hour. I will move among the Long of Noon, watching the struggles of the Long of Grail, the Long of Lantern, and the fierce Long of Fire; I will uphold the borders upheld until now, bearing the colours of the lost Hours like a coal burning with rose-coloured flame.'</Cultist.EasterEgg.Elegiast.Body>
   <Cultist.EasterEgg.Moth.Title>The Moth's Answer</Cultist.EasterEgg.Moth.Title>
   <Cultist.EasterEgg.Moth.Body>'The Glory is a question, and the Moth always answers Yes.'</Cultist.EasterEgg.Moth.Body>
+
 </LanguageData>

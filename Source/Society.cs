@@ -264,8 +264,9 @@ public sealed partial class Campaign
 
     internal bool CanPairVigilMaterials(Thing book, Thing tool) =>
         book.TryGetComp<RitualMaterial>()?.LoreTier is > 0 and var tier
-        && tool.TryGetComp<RitualMaterial>()?.ToolLight is > 0 and var light
-        && (2 * tier + light) >= VigilThreshold;
+        && tool.TryGetComp<RitualMaterial>() is { ToolLight: > 0 } toolMat
+        && (ChurchAspect == Aspect.SecretHistories || toolMat.Aspect == ChurchAspect)
+        && (2 * tier + toolMat.ToolLight) >= VigilThreshold;
 
     private void TickVigil(int now)
     {

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 通用对话框按钮与祭坛入口 -->
+  <Cultist.TabAspect>性相</Cultist.TabAspect>
+  <Cultist.AspectStatLabel>密教性相</Cultist.AspectStatLabel>
+  <Cultist.AspectStrength>强度 {0}</Cultist.AspectStrength>
+  <Cultist.AspectTierPower>{0} 阶 · 强度 {1}</Cultist.AspectTierPower>
+  <Cultist.AspectDesc.Lantern>辉光与启明之相，昭示理智与无情之光。</Cultist.AspectDesc.Lantern>
+  <Cultist.AspectDesc.Forge>变革与重塑之相，以烈焰锻造并摧毁旧形。</Cultist.AspectDesc.Forge>
+  <Cultist.AspectDesc.Edge>争斗与征服之相，崇尚狡黠与血刃相争。</Cultist.AspectDesc.Edge>
+  <Cultist.AspectDesc.Winter>寂静与终末之相，带来寒霜与不可逆的停歇。</Cultist.AspectDesc.Winter>
+  <Cultist.AspectDesc.Heart>不息与守护之相，维系脉动、生机与狂舞。</Cultist.AspectDesc.Heart>
+  <Cultist.AspectDesc.Grail>欲望与欢愉之相，主宰渴求、诞育与吞噬。</Cultist.AspectDesc.Grail>
+  <Cultist.AspectDesc.Moth>迷乱与蜕变之相，穿行林地与不可测之变。</Cultist.AspectDesc.Moth>
+  <Cultist.AspectDesc.Knock>门扉与裂隙之相，开启一切通道与创口。</Cultist.AspectDesc.Knock>
+  <Cultist.AspectDesc.SecretHistories>多重过去之相，指引被遗忘的遗迹与秘藏。</Cultist.AspectDesc.SecretHistories>
+
+  <!-- 仪式与原版多相性召唤 -->
+  <Cultist.Rite.LearnOption>研读并习得「{0}」</Cultist.Rite.LearnOption>
+  <Cultist.Rite.AlreadyKnown>已习得「{0}」</Cultist.Rite.AlreadyKnown>
+  <Cultist.Rite.Learned>{0} 研读了仪式法典，结社永久解锁了「{1}」！</Cultist.Rite.Learned>
+  <Cultist.Rite.SelectButton>当前仪式：{0}（点击切换）</Cultist.Rite.SelectButton>
+  <Cultist.Rite.SlotEmpty>未选择</Cultist.Rite.SlotEmpty>
+  <Cultist.Rite.ClearSlot>清空此槽位</Cultist.Rite.ClearSlot>
+  <Cultist.Rite.SlotLore>秘传：{0}</Cultist.Rite.SlotLore>
+  <Cultist.Rite.SlotTool>仪式器：{0}</Cultist.Rite.SlotTool>
+  <Cultist.Rite.SlotInfluence>影响：{0}</Cultist.Rite.SlotInfluence>
+  <Cultist.Rite.SlotAssistant>助手：{0}</Cultist.Rite.SlotAssistant>
+  <Cultist.Rite.SlotSacrifice>献祭对象：{0}</Cultist.Rite.SlotSacrifice>
+  <Cultist.Rite.AspectProgress>当前仪式性相凑齐进度（悬停色块查看说明）：</Cultist.Rite.AspectProgress>
+  <Cultist.Rite.SacrificeAutoFill>献祭自动补足：+{0} {1}（优先补满首个未满性相）</Cultist.Rite.SacrificeAutoFill>
+  <Cultist.Rite.BacklashSummary>反噬概率 {0} · 持续 {1} 天</Cultist.Rite.BacklashSummary>
+  <Cultist.Rite.AspectsNotMet>性相尚未满足召唤条件</Cultist.Rite.AspectsNotMet>
+  <Cultist.Rite.Sacrificed>{0} 在祭坛仪式中被献祭予门扉彼端。</Cultist.Rite.Sacrificed>
+  <Cultist.Dialog.Later>暂缓</Cultist.Dialog.Later>
+  <Cultist.Altar.BureauCounter>反击防剿局（第 {0} 幕）</Cultist.Altar.BureauCounter>
+  <Cultist.Altar.BountyHub>秘教悬赏与古币支援</Cultist.Altar.BountyHub>
+  <Cultist.Altar.RivalFortress>追击敌对长生者秘所</Cultist.Altar.RivalFortress>
+
+  <!-- 方案 1：防剿局五幕反击战线 -->
+  <Cultist.BureauAct.Launch>标记第 {0} 幕据点</Cultist.BureauAct.Launch>
+  <Cultist.BureauAct.AlreadyActive>第 {0} 幕据点已标记</Cultist.BureauAct.AlreadyActive>
+  <Cultist.BureauAct.AlreadyActiveReason>请先清理大地图上的当前目标</Cultist.BureauAct.AlreadyActiveReason>
+  <Cultist.BureauAct.SiteMarked>防剿局第 {0} 幕据点已在大地图上标出。</Cultist.BureauAct.SiteMarked>
+  <Cultist.BureauAct.RescuedHeretic>获救的异端 {0}（{1}相二阶门徒）加入了殖民地。</Cultist.BureauAct.RescuedHeretic>
+
+  <Cultist.BureauAct.Title1>第一幕 · 外勤监听站</Cultist.BureauAct.Title1>
+  <Cultist.BureauAct.Boss1>道格拉斯</Cultist.BureauAct.Boss1>
+  <Cultist.BureauAct.Sub1>防剿局 · 老练猎人</Cultist.BureauAct.Sub1>
+  <Cultist.BureauAct.RewardTag1>卷宗 ×2 · 古币 ×4</Cultist.BureauAct.RewardTag1>
+  <Cultist.BureauAct.Brief1>老猎人道格拉斯在城郊设立了监听站，正逐条整理结社的踪迹。先发制人端掉据点，能截获机密卷宗并大幅压低恶名。</Cultist.BureauAct.Brief1>
+  <Cultist.BureauAct.QuestDesc1>攻破道格拉斯驻守的防剿局外勤监听站，开启内部秘藏铁匣。</Cultist.BureauAct.QuestDesc1>
+  <Cultist.BureauAct.DoneTitle1>监听站已焚毁</Cultist.BureauAct.DoneTitle1>
+  <Cultist.BureauAct.DoneBody1>监听站化为灰烬，道格拉斯留下的卷宗与联络暗码落入我们手中。防剿局的耳目暂时聋了一半。</Cultist.BureauAct.DoneBody1>
+
+  <Cultist.BureauAct.Title2>第二幕 · 证物封存室</Cultist.BureauAct.Title2>
+  <Cultist.BureauAct.Boss2>斯宾塞·霍布森</Cultist.BureauAct.Boss2>
+  <Cultist.BureauAct.Sub2>防剿局 · 神秘学家</Cultist.BureauAct.Sub2>
+  <Cultist.BureauAct.RewardTag2>经典典籍 ×2 · 古币 ×6</Cultist.BureauAct.RewardTag2>
+  <Cultist.BureauAct.Brief2>斯宾塞将近年来查没的秘典与异端证物集中封存在这座地下库房。破开封条，便能把被夺走的知识重新带回祭坛。</Cultist.BureauAct.Brief2>
+  <Cultist.BureauAct.QuestDesc2>突破斯宾塞守卫的证物封存室，开启圣室铁匣取回被没收的典籍。</Cultist.BureauAct.QuestDesc2>
+  <Cultist.BureauAct.DoneTitle2>封存室失守</Cultist.BureauAct.DoneTitle2>
+  <Cultist.BureauAct.DoneBody2>封条尽数扯碎，尘封的孤本重见天日。防剿局已意识到你们不再只是被动藏匿的猎物。</Cultist.BureauAct.DoneBody2>
+
+  <Cultist.BureauAct.Title3>第三幕 · 神秘学审讯所</Cultist.BureauAct.Title3>
+  <Cultist.BureauAct.Boss3>娜塔莉亚·布吕洛</Cultist.BureauAct.Boss3>
+  <Cultist.BureauAct.Sub3>防剿局 · 理想主义者</Cultist.BureauAct.Sub3>
+  <Cultist.BureauAct.RewardTag3>解救二阶门徒 · 古币 ×6</Cultist.BureauAct.RewardTag3>
+  <Cultist.BureauAct.Brief3>娜塔莉亚在此审讯落网的秘教徒。攻破审讯所不仅能重创防剿局情报网，还能救出一名已觉醒相性的二阶门徒加入结社。</Cultist.BureauAct.Brief3>
+  <Cultist.BureauAct.QuestDesc3>攻克娜塔莉亚坐镇的神秘学审讯所，开启铁匣并解救被囚的密教徒。</Cultist.BureauAct.QuestDesc3>
+  <Cultist.BureauAct.DoneTitle3>铁门洞开</Cultist.BureauAct.DoneTitle3>
+  <Cultist.BureauAct.DoneBody3>审讯室的铁链断裂，获救的同行誓言追随你的结社。防剿局的地区防线正逐层崩塌。</Cultist.BureauAct.DoneBody3>
+
+  <Cultist.BureauAct.Title4>第四幕 · 猎人指挥部</Cultist.BureauAct.Title4>
+  <Cultist.BureauAct.Boss4>康妮·李与扎卡里</Cultist.BureauAct.Boss4>
+  <Cultist.BureauAct.Sub4>防剿局 · 精锐猎人双首</Cultist.BureauAct.Sub4>
+  <Cultist.BureauAct.RewardTag4>古币 ×10 · 经典典籍</Cultist.BureauAct.RewardTag4>
+  <Cultist.BureauAct.Brief4>防剿局最危险的两名猎人已联手坐镇前线指挥部。这是一场硬仗——但只要击溃他们，地区总局的坐标将彻底暴露。</Cultist.BureauAct.Brief4>
+  <Cultist.BureauAct.QuestDesc4>迎战康妮·李与扎卡里联合守卫的猎人指挥部，夺取秘藏铁匣。</Cultist.BureauAct.QuestDesc4>
+  <Cultist.BureauAct.DoneTitle4>指挥部溃散</Cultist.BureauAct.DoneTitle4>
+  <Cultist.BureauAct.DoneBody4>猎人指挥部陷落，通往防剿局地区总局的最后一道屏障已被扯下。</Cultist.BureauAct.DoneBody4>
+
+  <Cultist.BureauAct.Title5>第五幕 · 防剿局地区总局</Cultist.BureauAct.Title5>
+  <Cultist.BureauAct.Boss5>扎卡里·韦克菲尔德</Cultist.BureauAct.Boss5>
+  <Cultist.BureauAct.Sub5>防剿局 · 地区终局防线</Cultist.BureauAct.Sub5>
+  <Cultist.BureauAct.RewardTag5>永久恶名增速 −50% · 5阶秘传</Cultist.BureauAct.RewardTag5>
+  <Cultist.BureauAct.Brief5>地区总局就在前方。彻底焚毁总卷宗后，防剿局在这颗星球上的指挥链将永久瘫痪，你今后的恶名增长速率将永久减半。</Cultist.BureauAct.Brief5>
+  <Cultist.BureauAct.QuestDesc5>攻破防剿局地区总局，开启最终铁匣以永久瘫痪该地区的防剿局指挥链。</Cultist.BureauAct.QuestDesc5>
+  <Cultist.BureauAct.DoneTitle5>暗影归于结社</Cultist.BureauAct.DoneTitle5>
+  <Cultist.BureauAct.DoneBody5>地区总局的档案塔在火光中坍塌。此后这颗星球上的防剿局再难组织起严密追查——你的恶名增长速率已永久降低 50%。</Cultist.BureauAct.DoneBody5>
+
+  <!-- 方案 2：边缘星球的隐秘访客 -->
+  <Cultist.Visitor.Heretic.Title>叩门的无名异端</Cultist.Visitor.Heretic.Title>
+  <Cultist.Visitor.Heretic.Speaker>逃亡秘教徒</Cultist.Visitor.Heretic.Speaker>
+  <Cultist.Visitor.Heretic.Sub>隐秘访客 · 深夜求庇</Cultist.Visitor.Heretic.Sub>
+  <Cultist.Visitor.Heretic.Body>一名衣衫浸血、怀抱残卷的陌生人踉跄敲响了殖民地大门。防剿局的猎犬仍在数里外搜寻他的踪迹。</Cultist.Visitor.Heretic.Body>
+  <Cultist.Visitor.Heretic.OptShelter>接纳其加入结社</Cultist.Visitor.Heretic.OptShelter>
+  <Cultist.Visitor.Heretic.TagShelter>+1 殖民者与 2 阶秘传 · 恶名 +15</Cultist.Visitor.Heretic.TagShelter>
+  <Cultist.Visitor.Heretic.OptTurnIn>移交防剿局换取赏金</Cultist.Visitor.Heretic.OptTurnIn>
+  <Cultist.Visitor.Heretic.TagTurnIn>恶名 −20 · 白银 +400</Cultist.Visitor.Heretic.TagTurnIn>
+  <Cultist.Visitor.Heretic.OptSacrifice>献祭予教团司辰</Cultist.Visitor.Heretic.OptSacrifice>
+  <Cultist.Visitor.Heretic.TagSacrifice>10 级本相影响 · 破损仪式器</Cultist.Visitor.Heretic.TagSacrifice>
+  <Cultist.Visitor.Heretic.SacrificeReason>仅杯 / 冬 / 刃教团可选</Cultist.Visitor.Heretic.SacrificeReason>
+  <Cultist.Visitor.Heretic.Sheltered>逃亡秘教徒 {0} 加入了殖民地，并献上一册 2 阶秘传。</Cultist.Visitor.Heretic.Sheltered>
+  <Cultist.Visitor.Heretic.TurnedIn>防剿局收押了逃亡者，恶名降低 20，赏金 400 白银已送达。</Cultist.Visitor.Heretic.TurnedIn>
+  <Cultist.Visitor.Heretic.Sacrificed>祭坛回应了献祭：获得 10 级本相影响与一件破损仪式器。</Cultist.Visitor.Heretic.Sacrificed>
+
+  <Cultist.Visitor.Poppy.Title>波比·拉塞尔斯的午夜造访</Cultist.Visitor.Poppy.Title>
+  <Cultist.Visitor.Poppy.Speaker>波比·拉塞尔斯</Cultist.Visitor.Poppy.Speaker>
+  <Cultist.Visitor.Poppy.Sub>资助人 · 猩红赞助者</Cultist.Visitor.Poppy.Sub>
+  <Cultist.Visitor.Poppy.Body>一盏猩红提灯停在门槛外。波比轻叩手杖：“今晚我只谈两笔体面的交易——要么让我收藏一册你们的秘传，要么接受我的慷慨预支。”</Cultist.Visitor.Poppy.Body>
+  <Cultist.Visitor.Poppy.OptTrade>出售一册 2 阶以上秘传</Cultist.Visitor.Poppy.OptTrade>
+  <Cultist.Visitor.Poppy.TagTrade>古币 +6 · 白银 +350 · 恶名 −15</Cultist.Visitor.Poppy.TagTrade>
+  <Cultist.Visitor.Poppy.NeedLore2>地图上需要一册 2 阶及以上秘传</Cultist.Visitor.Poppy.NeedLore2>
+  <Cultist.Visitor.Poppy.OptPatronage>接受波比的猩红预支</Cultist.Visitor.Poppy.OptPatronage>
+  <Cultist.Visitor.Poppy.TagPatronage>白银 +600 · 古币 +5（10 天后偿债）</Cultist.Visitor.Poppy.TagPatronage>
+  <Cultist.Visitor.Poppy.PatronageDone>已接受或已结清</Cultist.Visitor.Poppy.PatronageDone>
+  <Cultist.Visitor.Poppy.OptDecline>礼貌送客</Cultist.Visitor.Poppy.OptDecline>
+  <Cultist.Visitor.Poppy.Traded>波比满意地收下秘传，留下古币、白银并替你们抹平了部分风声。</Cultist.Visitor.Poppy.Traded>
+
+  <Cultist.Visitor.Mole.Title>教团内的防剿局暗线</Cultist.Visitor.Mole.Title>
+  <Cultist.Visitor.Mole.Speaker>祭坛警兆</Cultist.Visitor.Mole.Speaker>
+  <Cultist.Visitor.Mole.Sub>内部危机 · 情报外泄</Cultist.Visitor.Mole.Sub>
+  <Cultist.Visitor.Mole.Body>高涨的恶名引来了渗透。有迹象表明，有人正把圣所的作息与仪式时间抄送给防剿局。</Cultist.Visitor.Mole.Body>
+  <Cultist.Visitor.Mole.OptLantern>以灯相辉光清查暗线</Cultist.Visitor.Mole.OptLantern>
+  <Cultist.Visitor.Mole.TagLantern>恶名 −18</Cultist.Visitor.Mole.TagLantern>
+  <Cultist.Visitor.Mole.NeedLantern>需灯教团或 6 点影响</Cultist.Visitor.Mole.NeedLantern>
+  <Cultist.Visitor.Mole.OptMoth>以假情报反向误导防剿局</Cultist.Visitor.Mole.OptMoth>
+  <Cultist.Visitor.Mole.TagMoth>2 古币 · 恶名 −25 · 袭击延后 20 天</Cultist.Visitor.Mole.TagMoth>
+  <Cultist.Visitor.Mole.OptPurge>立刻清洗并缴获密件</Cultist.Visitor.Mole.OptPurge>
+  <Cultist.Visitor.Mole.TagPurge>恶名 −12 · 卷宗 ×1 · 畏惧 +1</Cultist.Visitor.Mole.TagPurge>
+  <Cultist.Visitor.Mole.Cleared>暗线被无声拔除，恶名降低 18。</Cultist.Visitor.Mole.Cleared>
+  <Cultist.Visitor.Mole.Misled>假情报成功误导了防剿局，恶名降低 25 且下次袭击延后 20 天。</Cultist.Visitor.Mole.Misled>
+  <Cultist.Visitor.Mole.Purged>暗线已清除，缴获一份防剿局卷宗，但恐慌在阴影里蔓延了一瞬。</Cultist.Visitor.Mole.Purged>
+
+  <Cultist.Visitor.Auction.Title>奥里弗莱姆地下特拍会</Cultist.Visitor.Auction.Title>
+  <Cultist.Visitor.Auction.Speaker>奥里弗莱姆拍卖行</Cultist.Visitor.Auction.Speaker>
+  <Cultist.Visitor.Auction.Sub>地下黑市 · 限时孤品</Cultist.Visitor.Auction.Sub>
+  <Cultist.Visitor.Auction.Body>今夜的秘密拍场只对持古币者开放。当前可用斯宾特里亚古币：{0} 枚。</Cultist.Visitor.Auction.Body>
+  <Cultist.Visitor.Auction.OptLore4>拍下 4 阶本相秘传</Cultist.Visitor.Auction.OptLore4>
+  <Cultist.Visitor.Auction.TagLore4>6 枚古币</Cultist.Visitor.Auction.TagLore4>
+  <Cultist.Visitor.Auction.OptMirror>拍下 3 阶仪式器「{0}」</Cultist.Visitor.Auction.OptMirror>
+  <Cultist.Visitor.Auction.TagMirror>8 枚古币</Cultist.Visitor.Auction.TagMirror>
+  <Cultist.Visitor.Auction.OptBooks>拍下两册经典秘典</Cultist.Visitor.Auction.OptBooks>
+  <Cultist.Visitor.Auction.TagBooks>4 枚古币</Cultist.Visitor.Auction.TagBooks>
+  <Cultist.Visitor.Auction.Bought>落槌成交，拍品已空投送达殖民地。</Cultist.Visitor.Auction.Bought>
+
+  <!-- 方案 3：三阶可重复悬赏与高阶古币支援 -->
+  <Cultist.Bounty.HubTitle>秘教悬赏委托板</Cultist.Bounty.HubTitle>
+  <Cultist.Bounty.HubSpeaker>地下委托人</Cultist.Bounty.HubSpeaker>
+  <Cultist.Bounty.HubSub>可重复外勤 · 冷却 3 天</Cultist.Bounty.HubSub>
+  <Cultist.Bounty.HubBody>选择一阶外勤悬赏，或切换至古币紧急支援页面。当前可用古币：{0} 枚。</Cultist.Bounty.HubBody>
+  <Cultist.Bounty.AlreadyActive>已有进行中的悬赏目标</Cultist.Bounty.AlreadyActive>
+  <Cultist.Bounty.Cooldown>冷却中（剩余 {0} 天）</Cultist.Bounty.Cooldown>
+  <Cultist.Bounty.OptTier1>一阶悬赏 · 收容失控灵体</Cultist.Bounty.OptTier1>
+  <Cultist.Bounty.TagTier1>额外奖励：古币 ×4</Cultist.Bounty.TagTier1>
+  <Cultist.Bounty.OptTier2>二阶悬赏 · 截击防剿局押运</Cultist.Bounty.OptTier2>
+  <Cultist.Bounty.TagTier2>额外奖励：古币 ×8 · 经典书 · 仪式器</Cultist.Bounty.TagTier2>
+  <Cultist.Bounty.OptTier3>三阶悬赏 · 讨伐狂暴具名化身</Cultist.Bounty.OptTier3>
+  <Cultist.Bounty.TagTier3>额外奖励：古币 ×14 · 4 阶秘传</Cultist.Bounty.TagTier3>
+  <Cultist.Bounty.SwitchSupport>切换：高阶古币紧急支援</Cultist.Bounty.SwitchSupport>
+  <Cultist.Bounty.SpintriaCount>古币：{0}</Cultist.Bounty.SpintriaCount>
+  <Cultist.Bounty.SiteTitle1>一阶悬赏 · 失控灵体巢穴</Cultist.Bounty.SiteTitle1>
+  <Cultist.Bounty.SiteDesc1>前往遗迹清理失控灵体并开启秘藏铁匣，领取一阶悬赏报酬。</Cultist.Bounty.SiteDesc1>
+  <Cultist.Bounty.SiteTitle2>二阶悬赏 · 防剿局押运据点</Cultist.Bounty.SiteTitle2>
+  <Cultist.Bounty.SiteDesc2>突袭防剿局押运据点并开启铁匣，夺取经典典籍与古币。</Cultist.Bounty.SiteDesc2>
+  <Cultist.Bounty.SiteTitle3>三阶悬赏 · 狂暴具名者祭场</Cultist.Bounty.SiteTitle3>
+  <Cultist.Bounty.SiteDesc3>讨伐高危狂暴灵体并开启圣室铁匣，获取 4 阶秘传与丰厚古币。</Cultist.Bounty.SiteDesc3>
+  <Cultist.Bounty.Accepted>已接取 {0} 阶秘教悬赏，目标已在大地图标出。</Cultist.Bounty.Accepted>
+  <Cultist.Bounty.Completed>{0} 阶秘教悬赏已完成，额外报酬已散落在铁匣旁。</Cultist.Bounty.Completed>
+
+  <Cultist.Support.Title>高阶古币紧急支援</Cultist.Support.Title>
+  <Cultist.Support.Speaker>漫宿契约</Cultist.Support.Speaker>
+  <Cultist.Support.Sub>古币消耗 · 即时响应</Cultist.Support.Sub>
+  <Cultist.Support.Body>以斯宾特里亚古币换取即时战力或彻底洗清恶名。当前可用古币：{0} 枚。</Cultist.Support.Body>
+  <Cultist.Support.OptSpiritSquad>召请灵体护卫队（12 小时）</Cultist.Support.OptSpiritSquad>
+  <Cultist.Support.TagSpiritSquad>5 枚古币 · 迹形 + 敲击者</Cultist.Support.TagSpiritSquad>
+  <Cultist.Support.OptEliteSpirit>召请具名精锐援军（12 小时）</Cultist.Support.OptEliteSpirit>
+  <Cultist.Support.TagEliteSpirit>10 枚古币 · 坩埚王 + 2 敲击者</Cultist.Support.TagEliteSpirit>
+  <Cultist.Support.OptCleanseNotoriety>通过地下渠道洗清恶名</Cultist.Support.OptCleanseNotoriety>
+  <Cultist.Support.TagCleanseNotoriety>12 枚古币 · 恶名 −45 · 卷宗 ×1</Cultist.Support.TagCleanseNotoriety>
+  <Cultist.Support.BackToBounties>返回：三阶秘教悬赏</Cultist.Support.BackToBounties>
+  <Cultist.Support.SpiritsArrived>{0} 名受契约召请的灵体援军已抵达战场（持续 12 小时）！</Cultist.Support.SpiritsArrived>
+  <Cultist.Support.Cleansed>地下渠道抹平了大部分追查记录（恶名 −45），并附送一份卷宗。</Cultist.Support.Cleansed>
+
+  <!-- 方案 4：敌对长生者四阶段宿敌线 -->
+  <Cultist.RivalArc.Sub>敌对长生者 · 宿敌博弈</Cultist.RivalArc.Sub>
+  <Cultist.RivalArc.Countered>你成功挫败了 {0} 的阴谋。</Cultist.RivalArc.Countered>
+  <Cultist.RivalArc.Title1>宿敌第一幕 · 流言与警告</Cultist.RivalArc.Title1>
+  <Cultist.RivalArc.Body1>不朽者 {0} 注意到了你们渐成的印记，正暗中向世俗当局散播结社的踪迹。</Cultist.RivalArc.Body1>
+  <Cultist.RivalArc.Opt1Counter>以古币截断流言</Cultist.RivalArc.Opt1Counter>
+  <Cultist.RivalArc.Tag1Counter>4 枚古币 · 无恶名</Cultist.RivalArc.Tag1Counter>
+  <Cultist.RivalArc.Opt1Endure>任其散播</Cultist.RivalArc.Opt1Endure>
+  <Cultist.RivalArc.Tag1Endure>恶名 +18</Cultist.RivalArc.Tag1Endure>
+
+  <Cultist.RivalArc.Title2>宿敌第二幕 · 暗影刺杀</Cultist.RivalArc.Title2>
+  <Cultist.RivalArc.Body2>{0} 派出了精锐仆从与刺客，企图在夜色中斩首你的教团。</Cultist.RivalArc.Body2>
+  <Cultist.RivalArc.Opt2Bribe>重金收买暗线引开刺客</Cultist.RivalArc.Opt2Bribe>
+  <Cultist.RivalArc.Tag2Bribe>6 枚古币 · 免除袭击</Cultist.RivalArc.Tag2Bribe>
+  <Cultist.RivalArc.Opt2Fight>迎战宿敌刺客</Cultist.RivalArc.Opt2Fight>
+  <Cultist.RivalArc.Tag2Fight>立即触发长生者突袭</Cultist.RivalArc.Tag2Fight>
+  <Cultist.RivalArc.RaidTitle>{0} 的刺客来袭</Cultist.RivalArc.RaidTitle>
+  <Cultist.RivalArc.RaidBody>敌对长生者 {0} 麾下的刺客已潜入殖民地边界！</Cultist.RivalArc.RaidBody>
+
+  <Cultist.RivalArc.Title3>宿敌第三幕 · 漫宿咒诅</Cultist.RivalArc.Title3>
+  <Cultist.RivalArc.Body3>{0} 从门扉彼端投来恶意凝视，企图以幻魅与畏惧撕裂教主的心智。</Cultist.RivalArc.Body3>
+  <Cultist.RivalArc.Opt3Ward>以 8 级影响反向击碎咒诅</Cultist.RivalArc.Opt3Ward>
+  <Cultist.RivalArc.Tag3Ward>反获古币 ×3 与 3 阶秘传</Cultist.RivalArc.Tag3Ward>
+  <Cultist.RivalArc.NeedInf8>需要至少 8 级影响</Cultist.RivalArc.NeedInf8>
+  <Cultist.RivalArc.Opt3Endure>硬抗咒诅冲击</Cultist.RivalArc.Opt3Endure>
+  <Cultist.RivalArc.Tag3Endure>幻魅/畏惧 +1 · 恶名 +12</Cultist.RivalArc.Tag3Endure>
+
+  <Cultist.RivalArc.Title4>宿敌终幕 · 秘所坐标现世</Cultist.RivalArc.Title4>
+  <Cultist.RivalArc.Body4>你顺着咒诅的逆流锁定了 {0} 在尘世的隐秘堡垒。攻破秘所、开启圣匣，便可彻底终结这名长生者的骚扰。</Cultist.RivalArc.Body4>
+  <Cultist.RivalArc.Opt4Launch>标记宿敌秘所坐标</Cultist.RivalArc.Opt4Launch>
+  <Cultist.RivalArc.Tag4Launch>终战：永久停止宿敌袭击 + 5 阶秘传</Cultist.RivalArc.Tag4Launch>
+  <Cultist.RivalArc.FortressTitle>宿敌秘所 · {0}</Cultist.RivalArc.FortressTitle>
+  <Cultist.RivalArc.FortressDesc>攻破敌对长生者 {0} 盘踞的隐秘堡垒，击败宿敌并开启最终秘藏铁匣。</Cultist.RivalArc.FortressDesc>
+  <Cultist.RivalArc.FortressMarked>敌对长生者 {0} 的秘所已在大地图标出！</Cultist.RivalArc.FortressMarked>
+  <Cultist.RivalArc.DoneTitle>宿敌陨落</Cultist.RivalArc.DoneTitle>
+  <Cultist.RivalArc.DoneSub>漫宿之路 · 畅通无阻</Cultist.RivalArc.DoneSub>
+  <Cultist.RivalArc.DoneBody>{0} 的秘所化为断壁残垣。这名竞争长生者再也不会干扰你们的飞升之路，全员士气大振。</Cultist.RivalArc.DoneBody>
+
+  <!-- 邮局账单与日常开销 -->
+  <Cultist.PostOffice.Speaker>隐秘邮局</Cultist.PostOffice.Speaker>
+  <Cultist.PostOffice.Sub>结社开销 · 定期账单</Cultist.PostOffice.Sub>
+  <Cultist.PostOffice.FirstTitle>第一封火漆账单</Cultist.PostOffice.FirstTitle>
+  <Cultist.PostOffice.FirstBody>信使在门廊下留下一份盖着邮戳的牛皮纸账单：隐秘信箱租赁、暗语转寄与结社日常打点，总计需要 {0} 白银。\n\n当前可用白银：{1}。</Cultist.PostOffice.FirstBody>
+  <Cultist.PostOffice.RecurringTitle>邮局定期账单</Cultist.PostOffice.RecurringTitle>
+  <Cultist.PostOffice.RecurringBody>又过了十五天。邮局的催款函准时塞进了门缝：维持结社的隐秘通讯、假身份与日常生计需要支付 {0} 白银。\n\n当前可用白银：{1}。</Cultist.PostOffice.RecurringBody>
+  <Cultist.PostOffice.OptPay>支付 {0} 白银</Cultist.PostOffice.OptPay>
+  <Cultist.PostOffice.TagPay>白银 −{0} · 维持体面</Cultist.PostOffice.TagPay>
+  <Cultist.PostOffice.NeedSilver>需要 {0} 白银</Cultist.PostOffice.NeedSilver>
+  <Cultist.PostOffice.OptDeferFirst>暂不支付</Cultist.PostOffice.OptDeferFirst>
+  <Cultist.PostOffice.TagDeferFirst>查看柜台回执</Cultist.PostOffice.TagDeferFirst>
+  <Cultist.PostOffice.OptDefault>拖欠这笔开销</Cultist.PostOffice.OptDefault>
+  <Cultist.PostOffice.TagDefault>教主 15 天减益（心情 −8 · 效率 −15%）</Cultist.PostOffice.TagDefault>
+  <Cultist.PostOffice.Paid>已结清邮局账单（−{0} 白银）。</Cultist.PostOffice.Paid>
+  <Cultist.PostOffice.DefaultedMsg>{0} 未能结清结社开销，接下来 15 天将承受俗务窘迫减益。</Cultist.PostOffice.DefaultedMsg>
+
+  <Cultist.PostOffice.PoppyTitle>早已结清的回执</Cultist.PostOffice.PoppyTitle>
+  <Cultist.PostOffice.PoppySpeaker>波比·拉塞尔斯</Cultist.PostOffice.PoppySpeaker>
+  <Cultist.PostOffice.PoppySub>资助人 · 猩红赞助者</Cultist.PostOffice.PoppySub>
+  <Cultist.PostOffice.PoppyBody>你正要将账单推回窗口，邮局职员却低声递出一张散发着雪松与暗红火漆气味的丝绒回执——这笔 500 白银的账单，昨晚就已被人提前结清了。\n\n卡片背面是波比·拉塞尔斯优雅而锋利的手写花体字：\n“亲爱的 {0}，第一笔房租与邮费我替你垫付了。我向来欣赏有前途的新人，可舍不得看你在区区银钱上折腰。不必急着谢我——等冬天临近时，我们有的是时间慢慢谈一笔更体面的回礼。”</Cultist.PostOffice.PoppyBody>
+  <Cultist.PostOffice.PoppyAck>收下丝绒回执</Cultist.PostOffice.PoppyAck>
+  <Cultist.PostOffice.PoppySettledMsg>波比·拉塞尔斯替你结清了首期 500 白银的邮局账单。</Cultist.PostOffice.PoppySettledMsg>
+</LanguageData>

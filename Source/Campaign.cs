@@ -92,6 +92,12 @@ public sealed partial class Campaign : GameComponent, IThingHolder
         ExposeExalted();
         ExposeApostleLegacy();
         ExposeVaultSites();
+        ExposeRites();
+        ExposeBureauCounterOffensive();
+        ExposeDailyOccultEvents();
+        ExposeOccultBounties();
+        ExposeRivalLongArc();
+        ExposePostOffice();
         Scribe_Collections.Look(ref aspects, "aspects", LookMode.Value, LookMode.Value);
         Scribe_Collections.Look(ref offers, "dreamOffers", LookMode.Value);
         Scribe_Values.Look(ref dreamGate, "dreamGate", -1);
@@ -123,9 +129,13 @@ public sealed partial class Campaign : GameComponent, IThingHolder
         TickSummons(now);
         TickAnomalyEasterEgg(now);
         TickRaiderLoadouts();
+        TickEnemyWealthScaling();
         TickDoctrineEffects(now);
         TickExaltedTraits(now);
         TickApostleLegacy(now);
+        TickDailyOccultEvents(now);
+        TickRivalLongArc(now);
+        TickPostOffice(now);
         DeliverLore();
 
         if (now % 2500 == 0)
@@ -157,6 +167,9 @@ public sealed partial class Campaign : GameComponent, IThingHolder
         CheckEndingParticipant();
         if (awaitingEnding && !Find.WindowStack.IsOpen(typeof(EndingWindow)))
             Find.WindowStack.Add(new EndingWindow(this));
+        if (!awaitingEnding && offers == null && nextOccultVisitorTick >= 0
+            && Find.TickManager.TicksGame >= nextOccultVisitorTick)
+            TickDailyOccultEvents(Find.TickManager.TicksGame);
         if (offers == null)
             return;
         if (leader == null || leader.Dead || !IsMember(leader))
@@ -202,13 +215,6 @@ public sealed partial class Campaign : GameComponent, IThingHolder
     private static bool CarriesJournal(Pawn pawn) =>
         pawn.inventory?.innerContainer.Any(thing => thing.def == CultistDefs.Cultist_NightJournal) == true
         || pawn.carryTracker?.CarriedThing?.def == CultistDefs.Cultist_NightJournal;
-
-    internal static void DebugOfferJournal()
-    {
-        Campaign campaign = Current;
-        if (ModsConfig.IdeologyActive && campaign?.stage == CampaignStage.Waiting)
-            campaign.OfferJournal();
-    }
 
     private void OfferJournal()
     {

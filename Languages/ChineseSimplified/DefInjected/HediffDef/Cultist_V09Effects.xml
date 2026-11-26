@@ -50,4 +50,9 @@
   <Cultist_Trait_LongStrider.description>个人负重上限 +25 kg，远行队行进速度 +10%。</Cultist_Trait_LongStrider.description>
   <Cultist_Trait_SilentStep.label>崇高词条：无声影步</Cultist_Trait_SilentStep.label>
   <Cultist_Trait_SilentStep.description>狩猎隐蔽度 +50%，参与祭坛仪式产生的恶名额外 -25%。</Cultist_Trait_SilentStep.description>
+  <Cultist_EnemyWealthScaling.label>敌方战力修正</Cultist_EnemyWealthScaling.label>
+  <Cultist_EnemyWealthScaling.description>仅对敌对目标生效的隐藏财富曲线战力修正。</Cultist_EnemyWealthScaling.description>
+
+  <Cultist_Hediff_UpkeepArrears.label>结社开销欠款</Cultist_Hediff_UpkeepArrears.label>
+  <Cultist_Hediff_UpkeepArrears.description>拖欠邮局与结社日常开销令教主疲于应付俗务，持续 15 天（研究与劳作速度 −15%，社交影响 −10%）。</Cultist_Hediff_UpkeepArrears.description>
 </LanguageData>

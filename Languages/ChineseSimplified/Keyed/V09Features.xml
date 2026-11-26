@@ -139,8 +139,6 @@
   <Cultist.LoreSubvert.Success>{0} 将 {3} 阶{1}相秘传拗转为{2}相的「{4}」。</Cultist.LoreSubvert.Success>
 
   <!-- Mod 设置 -->
-  <Cultist.Settings.Experimental>实验性功能</Cultist.Settings.Experimental>
-  <Cultist.Settings.ExperimentalDesc>当前为空。</Cultist.Settings.ExperimentalDesc>
   <Cultist.Settings.CustomApparel>自制服装贴图</Cultist.Settings.CustomApparel>
   <Cultist.Settings.CustomApparelDesc>关闭后，已穿戴的密教服装会立即改用原版外观。</Cultist.Settings.CustomApparelDesc>
   <Cultist.Settings.EasterEggs>异象联动来信</Cultist.Settings.EasterEggs>
@@ -155,4 +153,5 @@
   <Cultist.EasterEgg.Elegiast.Body>“悼歌诗人并不是最和善的司辰，但他的性情从不残忍，且他记得他所有的诺言。他伸手将我扶起，让我颤抖着独对世间，现在我已无法在我大限到来前终结。我将在午港的长生者中活动，我将观看杯之长生者、灯之长生者和凶猛的火之长生者共同的抗争，我还将维护被维护至今的边界，且于其间一直背负失落司辰的色彩，仿佛一块身燃玫瑰色火焰的炭。”</Cultist.EasterEgg.Elegiast.Body>
   <Cultist.EasterEgg.Moth.Title>飞蛾的应答</Cultist.EasterEgg.Moth.Title>
   <Cultist.EasterEgg.Moth.Body>“辉光是一个疑问，飞蛾总以肯定作答。”</Cultist.EasterEgg.Moth.Body>
+
 </LanguageData>

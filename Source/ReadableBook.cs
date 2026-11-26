@@ -112,9 +112,7 @@ public sealed class CultistBookComp : ThingComp
         {
             int rewardTier = BookProps.grantsLoreDef?.GetCompProperties<RitualMaterialProperties>()?.loreTier
                 ?? (BookProps.siteTier > 0 ? BookProps.siteTier : 1);
-            Aspect rewardAspect = BookProps.grantsLoreDef != null
-                ? BookProps.grantsAspect
-                : campaign.ChurchAspect;
+            Aspect rewardAspect = BookProps.grantsAspect;
             if (campaign.SpawnVaultComplexSite(pawn, parent.LabelCap, rewardAspect, rewardTier))
             {
                 Campaign.PlayCultistSound("Cultist_Sfx_SiteRevealed");
@@ -266,15 +264,9 @@ public sealed partial class Campaign
         if (GetLoreDef(System.Math.Clamp(tier, 1, 7)) is { } loreDef)
             container.TryAdd(ThingMaker.MakeThing(loreDef));
 
-        // 2. Cracked ritual tool scaled by tier
-        string toolDefName = tier switch
-        {
-            1 => "Cultist_RiteTool1Cracked",
-            2 => "Cultist_RiteTool2Cracked",
-            3 => "Cultist_RiteTool3Cracked",
-            _ => "Cultist_RiteTool3Ready"
-        };
-        if (DefDatabase<ThingDef>.GetNamedSilentFail(toolDefName) is { } toolDef)
+        // 2. Society-matched ritual tool scaled by tier
+        ThingDef toolDef = CultPathDef.ToolDefFor(ChurchAspect, System.Math.Clamp(tier, 1, 3), crackedIfLantern: tier < 4);
+        if (toolDef != null)
             container.TryAdd(ThingMaker.MakeThing(toolDef));
 
         // 3. Spintriae & optional untranslated codex for Tier 2+

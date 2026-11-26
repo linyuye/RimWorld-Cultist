@@ -22,6 +22,25 @@ public sealed class RitualMaterial : ThingComp
     public int LoreTier => Material.loreTier;
     public int ToolLight => Material.toolLight;
     public int AspectValue => LoreTier > 0 ? LoreTier * 2 : ToolLight;
+    public int DisplayTier => LoreTier > 0 ? LoreTier : (ToolLight > 0 ? System.Math.Max(1, ToolLight / 4) : 0);
+
+    public override IEnumerable<StatDrawEntry> SpecialDisplayStats()
+    {
+        int tier = DisplayTier;
+        if (tier <= 0)
+            yield break;
+
+        string aspectName = ("Cultist.Aspect." + Aspect).Translate();
+        string val = $"{aspectName} {tier}（{"Cultist.AspectStrength".Translate(AspectValue)}）";
+        string report = $"{aspectName} · {"Cultist.AspectTierPower".Translate(tier, AspectValue)}\n\n{("Cultist.AspectDesc." + Aspect).Translate()}";
+
+        yield return new StatDrawEntry(
+            StatCategoryDefOf.BasicsImportant,
+            "Cultist.AspectStatLabel".Translate(),
+            val,
+            report,
+            4050);
+    }
 
     public override string CompInspectStringExtra() => LoreTier > 0
         ? "Cultist.LoreInspect".Translate(LoreTier, LoreTier * 2, ("Cultist.Aspect." + Aspect).Translate()).ToString()

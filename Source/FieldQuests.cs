@@ -155,8 +155,9 @@ public sealed partial class Campaign
         Site site = SiteMaker.MakeSite(partDef, tile, null, true);
         SitePart part = site.parts[0];
         part.things ??= new ThingOwner<Thing>(part);
-        foreach (string id in new[] { "Cultist_ScholarNotebook", "Cultist_RiteTool2Cracked" })
-            part.things.TryAdd(ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed(id)));
+        part.things.TryAdd(ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("Cultist_ScholarNotebook")));
+        if (CultPathDef.ToolDefFor(ChurchAspect, 2, crackedIfLantern: true) is { } scholarTool)
+            part.things.TryAdd(ThingMaker.MakeThing(scholarTool));
 
         Find.WorldObjects.Add(site);
         scholarSite = site;
